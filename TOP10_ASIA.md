@@ -1,6 +1,6 @@
 # 🌏 TOP 10 GitHub Certifications - Asia
 
-> Last updated: December 30, 2025 at 01:11 UTC
+> Last updated: December 30, 2025 at 01:19 UTC
 
 ## 🏆 Top 10 GitHub Certifications Leaders
 
@@ -15,7 +15,7 @@
 |    #7 | Santhosh NC | 6 | India |
 |    #8 | Yuki Hattori | 6 | Japan |
 |    #9 | Akitaka Shinba | 6 | Japan |
-|    #10 | Richard Abraham | 5 | India |
+|    #10 | Vijay . | 5 | India |
 
 ---
 

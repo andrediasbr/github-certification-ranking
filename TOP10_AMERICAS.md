@@ -1,6 +1,6 @@
 # 🌎 TOP 10 GitHub Certifications - Americas
 
-> Last updated: December 30, 2025 at 01:11 UTC
+> Last updated: December 30, 2025 at 01:19 UTC
 
 ## 🏆 Top 10 GitHub Certifications Leaders
 
@@ -13,8 +13,8 @@
 |    #5 | Benjamin Marsteau | 9 | Canada |
 |    #6 | Parker Johnston | 8 | United States |
 |    #7 | Bill Schneider | 8 | United States |
-|    #8 | Felipe Augusto | 7 | Brazil |
-|    #9 | Joao Pedro Alexandre Vieira | 7 | Brazil |
+|    #8 | Joao Pedro Alexandre Vieira | 7 | Brazil |
+|    #9 | Felipe Augusto | 7 | Brazil |
 |    #10 | Danilo Perez | 7 | Brazil |
 
 ---
