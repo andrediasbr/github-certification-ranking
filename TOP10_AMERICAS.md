@@ -1,6 +1,6 @@
 # 🌎 TOP 10 GitHub Certifications - Americas
 
-> Last updated: January 06, 2026 at 21:15 UTC
+> Last updated: January 06, 2026 at 21:25 UTC
 
 ## 🏆 Top 10 GitHub Certifications Leaders
 
@@ -9,13 +9,13 @@
 | 🥇 #1 | Andre Dias | 13 | Brazil |
 | 🥈 #2 | Daniel Koch | 12 | United States |
 | 🥉 #3 | John Wildes | 11 | United States |
-|    #4 | Benjamin Marsteau | 9 | Canada |
-|        | Bill Schneider | 9 | United States |
-|        | Erol Kavas | 9 | Canada |
-|    #7 | Felipe Augusto | 8 | Brazil |
-|        | Parker Johnston | 8 | United States |
-|    #9 | Danilo Perez | 7 | Brazil |
-|        | Joao Pedro Alexandre Vieira | 7 | Brazil |
+| #4 | Benjamin Marsteau | 9 | Canada |
+|  | Bill Schneider | 9 | United States |
+|  | Erol Kavas | 9 | Canada |
+| #7 | Felipe Augusto | 8 | Brazil |
+|  | Parker Johnston | 8 | United States |
+| #9 | Danilo Perez | 7 | Brazil |
+|  | Joao Pedro Alexandre Vieira | 7 | Brazil |
 
 ---
 
