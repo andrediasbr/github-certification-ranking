@@ -1,4 +1,4 @@
-# 🌍 TOP 10 GitHub Certifications - World
+# 🌍 TOP 10 GitHub Certifications - Global
 
 > Last updated: January 08, 2026 at 01:43 UTC
 

@@ -24,7 +24,7 @@
 
 | Scope | Ranking | Description |
 |-------|---------|-------------|
-| 🌍 | [**TOP 10 World**](TOP10_WORLD.md) | Global top 10 across all countries |
+| 🌍 | [**TOP 10 Global**](TOP10_WORLD.md) | Global top 10 across all countries |
 
 
 ## 🔄 How It Works

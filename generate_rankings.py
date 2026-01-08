@@ -346,10 +346,10 @@ def main():
         lambda u: u['continent'] == 'Oceania'
     )
     
-    # Generate TOP 10 World
+    # Generate TOP 10 Global
     generate_markdown_top10(
         users,
-        "🌍 TOP 10 GitHub Certifications - World",
+        "🌍 TOP 10 GitHub Certifications - Global",
         "TOP10_WORLD.md",
         None  # No filter, all users
     )
