@@ -1,6 +1,6 @@
 # 🌏 TOP 10 GitHub Certifications - Asia
 
-> Last updated: January 09, 2026 at 01:44 UTC
+> Last updated: January 09, 2026 at 19:51 UTC
 
 ## 🏆 Top 10 GitHub Certifications Leaders
 
@@ -12,6 +12,7 @@
 | #4 | Niranjana K | 7 | India |
 | #5 | Akitaka Shinba | 6 | Japan |
 |  | Hoysala Garudanagiri | 6 | India |
+|  | Nagaraj Bhairaji | 6 | India |
 |  | NIKHIL GOWDA N | 6 | India |
 |  | Rajesh C N | 6 | India |
 |  | Santhosh NC | 6 | India |
@@ -22,7 +23,7 @@
 ## 📊 Statistics
 
 - **Total Certified Users**: 12,186
-- **Total Badges Earned**: 14,282
+- **Total Badges Earned**: 14,280
 - **Average Badges per User**: 1.17
 - **Highest Badge Count**: 12
 

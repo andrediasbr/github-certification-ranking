@@ -1,6 +1,6 @@
 # 🇪🇺 TOP 10 GitHub Certifications - Europe
 
-> Last updated: January 09, 2026 at 01:44 UTC
+> Last updated: January 09, 2026 at 19:51 UTC
 
 ## 🏆 Top 10 GitHub Certifications Leaders
 
@@ -15,15 +15,17 @@
 | #7 | Konrad Dunikowski | 11 | Poland |
 | #8 | Hendrik Bruinsma | 9 | Netherlands |
 |  | Till Spindler | 9 | Germany |
-| #10 | Vincent Marchal | 8 | France |
+| #10 | Madis Kõosaar | 8 | Estonia |
+|  | Samuel Henrique van Lenthe | 8 | Netherlands |
+|  | Vincent Marchal | 8 | France |
 
 ---
 
 ## 📊 Statistics
 
-- **Total Certified Users**: 4,176
-- **Total Badges Earned**: 5,865
-- **Average Badges per User**: 1.40
+- **Total Certified Users**: 4,178
+- **Total Badges Earned**: 5,877
+- **Average Badges per User**: 1.41
 - **Highest Badge Count**: 14
 
 ---
