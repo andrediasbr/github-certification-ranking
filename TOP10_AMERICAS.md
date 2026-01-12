@@ -1,12 +1,12 @@
 # 🌎 TOP 10 GitHub Certifications - Americas
 
-> Last updated: January 12, 2026 at 01:48 UTC
+> Last updated: January 12, 2026 at 18:43 UTC
 
 ## 🏆 Top 10 GitHub Certifications Leaders
 
 | Rank | Name | Badges | Country |
 |------|------|--------|---------|
-| 🥇 #1 | Andre Dias | 13 | Brazil |
+| 🥇 #1 | Andre Dias | 14 | Brazil |
 | 🥈 #2 | Daniel Koch | 12 | United States |
 | 🥉 #3 | John Wildes | 11 | United States |
 | #4 | Benjamin Marsteau | 9 | Canada |
@@ -21,10 +21,10 @@
 
 ## 📊 Statistics
 
-- **Total Certified Users**: 6,769
-- **Total Badges Earned**: 8,489
+- **Total Certified Users**: 6,770
+- **Total Badges Earned**: 8,491
 - **Average Badges per User**: 1.25
-- **Highest Badge Count**: 13
+- **Highest Badge Count**: 14
 
 ---
 

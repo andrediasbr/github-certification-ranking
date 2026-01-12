@@ -1,12 +1,12 @@
 # 🇧🇷 TOP 10 GitHub Certifications - Brazil
 
-> Last updated: January 12, 2026 at 01:48 UTC
+> Last updated: January 12, 2026 at 18:43 UTC
 
 ## 🏆 Top 10 GitHub Certifications Leaders
 
 | Rank | Name | Badges | Country |
 |------|------|--------|---------|
-| 🥇 #1 | Andre Dias | 13 | Brazil |
+| 🥇 #1 | Andre Dias | 14 | Brazil |
 | 🥈 #2 | Felipe Augusto | 8 | Brazil |
 | 🥉 #3 | Danilo Perez | 7 | Brazil |
 |  | Joao Pedro Alexandre Vieira | 7 | Brazil |
@@ -28,9 +28,9 @@
 ## 📊 Statistics
 
 - **Total Certified Users**: 1,490
-- **Total Badges Earned**: 1,719
+- **Total Badges Earned**: 1,720
 - **Average Badges per User**: 1.15
-- **Highest Badge Count**: 13
+- **Highest Badge Count**: 14
 
 ---
 
