@@ -1,6 +1,6 @@
 # 🌊 TOP 10 GitHub Certifications - Oceania
 
-> Last updated: January 15, 2026 at 01:47 UTC
+> Last updated: January 15, 2026 at 19:06 UTC
 
 ## 🏆 Top 10 GitHub Certifications Leaders
 
@@ -24,7 +24,7 @@
 |  | [Jolan Hu](https://www.credly.com/users/jolan-hu/badges) | 4 |  | Australia |
 |  | [Khurram Shahzad](https://www.credly.com/users/khurram-shahzad.7a11d163/badges) | 4 | Commonwealth Bank of Australia | Australia |
 |  | [Kitty Chiu](https://www.credly.com/users/kittychiu/badges) | 4 |  | Australia |
-|  | [Madhav Lakshminarayanan](https://www.credly.com/users/madhav-lakshminarayanan/badges) | 4 | Microsoft | Australia |
+|  | [Madhav Lakshminarayanan](https://www.credly.com/users/madhav-lakshminarayanan/badges) | 4 |  | Australia |
 |  | [Matt Duguid](https://www.credly.com/users/mattduguid/badges) | 4 | Self | New Zealand |
 |  | [Ronald Pai](https://www.credly.com/users/ronald-pai.e3e25b98/badges) | 4 |  | Australia |
 |  | [Sayali Chavan](https://www.credly.com/users/sayali-chavan.46e2379d/badges) | 4 |  | Australia |
