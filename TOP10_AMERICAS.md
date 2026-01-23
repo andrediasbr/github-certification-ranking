@@ -1,15 +1,15 @@
 # 🌎 TOP 10 GitHub Certifications - Americas
 
-> Last updated: January 23, 2026 at 01:49 UTC
+> Last updated: January 23, 2026 at 15:44 UTC
 
 ## 🏆 Top 10 GitHub Certifications Leaders
 
 | Rank | Name | Badges | Company | Country |
 |------|------|--------|---------|---------|
-| 🥇 #1 | [Felipe Augusto](https://www.credly.com/users/felipementel/badges) | 15 | Avanade | Brazil |
-| 🥈 #2 | [Andre Dias](https://www.credly.com/users/andredias/badges) | 14 | Avanade | Brazil |
-| 🥉 #3 | [Daniel Koch](https://www.credly.com/users/daniel-koch.dc5d8183/badges) | 13 | CodeCargo | United States |
-| #4 | [Andre Nunes](https://www.credly.com/users/andre-nunes.0d03ef9b/badges) | 12 | Avanade | Brazil |
+| 🥇 #1 | [Andre Dias](https://www.credly.com/users/andredias/badges) | 15 | Avanade | Brazil |
+|  | [Felipe Augusto](https://www.credly.com/users/felipementel/badges) | 15 | Avanade | Brazil |
+| 🥉 #3 | [Andre Nunes](https://www.credly.com/users/andre-nunes.0d03ef9b/badges) | 13 | Avanade | Brazil |
+|  | [Daniel Koch](https://www.credly.com/users/daniel-koch.dc5d8183/badges) | 13 | CodeCargo | United States |
 | #5 | [John Wildes](https://www.credly.com/users/john-wildes/badges) | 11 |  | United States |
 | #6 | [Benjamin Marsteau](https://www.credly.com/users/bmarsteau/badges) | 10 | Onepoint | Canada |
 |  | [Francisco Nascimento](https://www.credly.com/users/francisco-nascimento.f7a5a9f3/badges) | 10 | Avanade | Brazil |
@@ -22,7 +22,7 @@
 ## 📊 Statistics
 
 - **Total Certified Users**: 6,788
-- **Total Badges Earned**: 8,600
+- **Total Badges Earned**: 8,606
 - **Average Badges per User**: 1.27
 - **Highest Badge Count**: 15
 

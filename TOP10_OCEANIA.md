@@ -1,12 +1,12 @@
 # 🌊 TOP 10 GitHub Certifications - Oceania
 
-> Last updated: January 23, 2026 at 01:49 UTC
+> Last updated: January 23, 2026 at 15:45 UTC
 
 ## 🏆 Top 10 GitHub Certifications Leaders
 
 | Rank | Name | Badges | Company | Country |
 |------|------|--------|---------|---------|
-| 🥇 #1 | [Marco Celon](https://www.credly.com/users/marco-celon.53bc8019/badges) | 12 | GitHub | Australia |
+| 🥇 #1 | [Marco Celon](https://www.credly.com/users/marco-celon.53bc8019/badges) | 13 | GitHub | Australia |
 | 🥈 #2 | [Andre Kolodochka](https://www.credly.com/users/andre-kolodochka/badges) | 5 |  | Australia |
 |  | [Ben Hollamby](https://www.credly.com/users/ben-hollamby/badges) | 5 |  | New Zealand |
 |  | [Felix Gozali](https://www.credly.com/users/felix-gozali.891b4473/badges) | 5 |  | Australia |
@@ -38,9 +38,9 @@
 ## 📊 Statistics
 
 - **Total Certified Users**: 586
-- **Total Badges Earned**: 827
+- **Total Badges Earned**: 828
 - **Average Badges per User**: 1.41
-- **Highest Badge Count**: 12
+- **Highest Badge Count**: 13
 
 ---
 
