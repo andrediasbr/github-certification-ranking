@@ -54,31 +54,43 @@ def fetch_github_external_badges(user_id):
 
 def fetch_github_org_badges(user_id):
     """Fetch GitHub badges issued directly by GitHub org, excluding expired ones"""
-    url = f"https://www.credly.com/users/{user_id}/badges.json?page=1&per_page=100"
+    valid_badges = 0
+    page = 1
     
     try:
-        response = requests.get(url, timeout=10)
-        response.raise_for_status()
-        data = response.json()
-        
-        # Count only non-expired badges from GitHub organization
-        valid_badges = 0
-        for badge in data.get('data', []):
-            # Check if badge is from GitHub organization
-            issuer = badge.get('issuer', {})
-            entities = issuer.get('entities', [])
-            is_github_org = False
+        while True:
+            url = f"https://www.credly.com/users/{user_id}/badges.json?page={page}&per_page=100"
+            response = requests.get(url, timeout=10)
+            response.raise_for_status()
+            data = response.json()
             
-            for entity in entities:
-                org_data = entity.get('entity', {})
-                if org_data.get('id') == '63074953-290b-4dce-86ce-ea04b4187219':  # GitHub org ID
-                    is_github_org = True
-                    break
+            badges = data.get('data', [])
+            if not badges:
+                break
             
-            if is_github_org:
-                expires_at_date = badge.get('expires_at_date')
-                if not is_badge_expired(expires_at_date):
-                    valid_badges += 1
+            # Count only non-expired badges from GitHub organization
+            for badge in badges:
+                # Check if badge is from GitHub organization
+                issuer = badge.get('issuer', {})
+                entities = issuer.get('entities', [])
+                is_github_org = False
+                
+                for entity in entities:
+                    org_data = entity.get('entity', {})
+                    if org_data.get('id') == '63074953-290b-4dce-86ce-ea04b4187219':  # GitHub org ID
+                        is_github_org = True
+                        break
+                
+                if is_github_org:
+                    expires_at_date = badge.get('expires_at_date')
+                    if not is_badge_expired(expires_at_date):
+                        valid_badges += 1
+            
+            page += 1
+            
+            # Safety limit to avoid infinite loops
+            if page > 10:
+                break
         
         return valid_badges
     except Exception:
