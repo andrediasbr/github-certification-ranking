@@ -56,6 +56,69 @@ def fetch_github_external_badges(user_id):
         print(f"    ⚠️  Warning: Failed to fetch external badges for user {user_id}: {str(e)}")
         return 0
 
+# DevOps badge patterns (from Microsoft org in Credly)
+DEVOPS_BADGE_PATTERNS = {
+    'az-400': 'AZ-400: Designing and Implementing Microsoft DevOps Solutions',
+    'devops engineer expert': 'Microsoft Certified: DevOps Engineer Expert',
+}
+
+def fetch_devops_badges(user_id):
+    """Fetch Microsoft DevOps badges from regular badges API, excluding expired ones"""
+    unique_badge_names = set()
+    page = 1
+    
+    try:
+        while True:
+            url = f"https://www.credly.com/users/{user_id}/badges.json?page={page}&per_page=100"
+            response = requests.get(url, timeout=10)
+            response.raise_for_status()
+            data = response.json()
+            
+            badges = data.get('data', [])
+            if not badges:
+                break
+            
+            for badge in badges:
+                # Check if badge is from Microsoft organization
+                issuer = badge.get('issuer', {})
+                entities = issuer.get('entities', [])
+                is_microsoft_org = False
+                
+                for entity in entities:
+                    org_data = entity.get('entity', {})
+                    org_name = org_data.get('name', '').lower()
+                    if org_name == 'microsoft':
+                        is_microsoft_org = True
+                        break
+                
+                if is_microsoft_org:
+                    badge_template = badge.get('badge_template', {})
+                    badge_name = badge_template.get('name', '')
+                    badge_name_lower = badge_name.lower()
+                    
+                    # Check if it's a DevOps badge
+                    is_devops_badge = False
+                    for pattern in DEVOPS_BADGE_PATTERNS.keys():
+                        if pattern in badge_name_lower:
+                            is_devops_badge = True
+                            break
+                    
+                    if is_devops_badge:
+                        expires_at_date = badge.get('expires_at_date')
+                        if not is_badge_expired(expires_at_date):
+                            unique_badge_names.add(badge_name)
+            
+            page += 1
+            
+            # Safety limit to avoid infinite loops
+            if page > 10:
+                break
+        
+        return len(unique_badge_names)
+    except Exception as e:
+        print(f"    ⚠️  Warning: Failed to fetch DevOps badges for user {user_id}: {str(e)}")
+        return 0
+
 def fetch_github_org_badges(user_id):
     """Fetch GitHub badges issued directly by GitHub org, excluding expired ones and duplicates"""
     # Use set to track unique badge names and avoid duplicates
@@ -150,10 +213,11 @@ def fetch_country_data(country):
         user_badge_counts = {}
         
         def fetch_all_badges(user_id):
-            """Fetch both org badges and external badges"""
+            """Fetch org badges, external badges, and DevOps badges"""
             org_count = fetch_github_org_badges(user_id)
             external_count = fetch_github_external_badges(user_id)
-            return org_count + external_count
+            devops_count = fetch_devops_badges(user_id)
+            return org_count + external_count + devops_count
         
         with ThreadPoolExecutor(max_workers=10) as executor:
             future_to_user = {

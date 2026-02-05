@@ -22,6 +22,19 @@ GITHUB_EXAM_MAPPINGS = {
 GITHUB_APPLIED_SKILLS_EXAM_MAPPINGS = {
     'az-2006': 'Automate Azure Load Testing by using GitHub Actions',
     'az-2007': 'Accelerate app development by using GitHub Copilot',
+    'az-2008': 'DevOps Foundations: The Core Principles and Practices',
+    'az-2010': 'Design and Implement Platform Engineering',
+}
+
+# DevOps exam codes (AZ-400)
+DEVOPS_EXAM_MAPPINGS = {
+    'az-400': 'Designing and Implementing Microsoft DevOps Solutions',
+}
+
+# DevOps certification names
+DEVOPS_CERT_MAPPINGS = {
+    'devops engineer expert': 'DevOps Engineer Expert',
+    'microsoft certified: devops engineer expert': 'DevOps Engineer Expert',
 }
 
 # GitHub certification names in MS Learn (active certifications)
@@ -38,7 +51,37 @@ GITHUB_CERT_MAPPINGS = {
 GITHUB_APPLIED_SKILLS = {
     'accelerate app development by using github copilot': 'Accelerate app development by using GitHub Copilot',
     'automate azure load testing by using github actions': 'Automate Azure Load Testing by using GitHub Actions',
+    'devops foundations: the core principles and practices': 'DevOps Foundations: The Core Principles and Practices',
+    'design and implement platform engineering': 'Design and Implement Platform Engineering',
 }
+
+def is_mslearn_expired(expiration):
+    """Check if an MS Learn certification/badge is expired based on expiration date.
+    
+    Args:
+        expiration: Expiration date string in ISO format (e.g., "2026-06-08T23:59:59+00:00") or None
+        
+    Returns:
+        bool: True if expired, False if not expired or no expiration
+    """
+    if not expiration:
+        return False
+    
+    try:
+        # Parse ISO format datetime string
+        # Handle both formats: "2026-06-08T23:59:59+00:00" and "2026-06-08"
+        if 'T' in expiration:
+            # Remove timezone info for simple comparison
+            exp_str = expiration.split('T')[0]
+        else:
+            exp_str = expiration
+        
+        expiration_date = datetime.strptime(exp_str, "%Y-%m-%d").date()
+        current_date = datetime.now().date()
+        return expiration_date < current_date
+    except Exception:
+        # If we can't parse the date, assume not expired to avoid false positives
+        return False
 
 def extract_share_id(mslearn_url):
     """Extract share ID from MS Learn transcript share URL.
@@ -99,6 +142,8 @@ def fetch_mslearn_github_badges(mslearn_url, verbose=False):
         'badge_count': 0,
         'certifications': [],
         'applied_skills': [],
+        'devops_exams': [],
+        'devops_certs': [],
         'is_mvp': False,
         'error': None
     }
@@ -144,9 +189,16 @@ def fetch_mslearn_github_badges(mslearn_url, verbose=False):
         # Track unique certifications to avoid duplicates
         unique_certs = set()
         
-        # 1. Check active certifications
+        # 1. Check active certifications (only non-expired ones)
         for cert in cert_data.get('activeCertifications', []):
             cert_name = cert.get('name', '').lower().strip()
+            expiration = cert.get('expiration')
+            
+            # Skip if expired
+            if is_mslearn_expired(expiration):
+                if verbose:
+                    print(f"    Skipping expired cert: {cert.get('name')}")
+                continue
             
             # Check if it's a GitHub certification
             for pattern, display_name in GITHUB_CERT_MAPPINGS.items():
@@ -154,6 +206,14 @@ def fetch_mslearn_github_badges(mslearn_url, verbose=False):
                     if display_name not in unique_certs:
                         unique_certs.add(display_name)
                         result['certifications'].append(display_name)
+                    break
+            
+            # Check if it's a DevOps certification
+            for pattern, display_name in DEVOPS_CERT_MAPPINGS.items():
+                if pattern in cert_name:
+                    if display_name not in unique_certs:
+                        unique_certs.add(display_name)
+                        result['devops_certs'].append(display_name)
                     break
         
         # 2. Check passed exams
@@ -173,6 +233,12 @@ def fetch_mslearn_github_badges(mslearn_url, verbose=False):
                 if display_name not in unique_certs:
                     unique_certs.add(display_name)
                     result['applied_skills'].append(display_name)
+            # Check for DevOps exam codes (e.g., AZ-400)
+            elif exam_number in DEVOPS_EXAM_MAPPINGS:
+                display_name = DEVOPS_EXAM_MAPPINGS[exam_number]
+                if display_name not in unique_certs:
+                    unique_certs.add(display_name)
+                    result['devops_exams'].append(display_name)
             # Also check by title
             elif 'github' in exam_title:
                 for pattern, display_name in GITHUB_CERT_MAPPINGS.items():
@@ -195,11 +261,13 @@ def fetch_mslearn_github_badges(mslearn_url, verbose=False):
                         result['applied_skills'].append(display_name)
                     break
         
-        result['badge_count'] = len(result['certifications']) + len(result['applied_skills'])
+        result['badge_count'] = len(result['certifications']) + len(result['applied_skills']) + len(result['devops_exams']) + len(result['devops_certs'])
         
         if verbose:
             print(f"    MS Learn certificates found: {result['certifications']}")
             print(f"    MS Learn applied skills found: {result['applied_skills']}")
+            print(f"    MS Learn DevOps exams found: {result['devops_exams']}")
+            print(f"    MS Learn DevOps certs found: {result['devops_certs']}")
         
     except requests.exceptions.Timeout:
         result['error'] = 'Request timeout'
@@ -259,6 +327,8 @@ def test_mslearn_api():
     print(f"  Badge count: {result['badge_count']}")
     print(f"  Certifications: {result['certifications']}")
     print(f"  Applied Skills: {result['applied_skills']}")
+    print(f"  DevOps Exams: {result['devops_exams']}")
+    print(f"  DevOps Certs: {result['devops_certs']}")
     if result['error']:
         print(f"  Error: {result['error']}")
 

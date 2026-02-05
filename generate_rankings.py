@@ -37,19 +37,23 @@ def is_badge_expired(expires_at_date):
 
 
 def fetch_credly_badges(profile_url):
-    """Fetch all non-expired GitHub badge names from Credly for a user.
-    Returns a set of badge names."""
-    badges = set()
+    """Fetch all non-expired GitHub and DevOps badge names from Credly for a user.
+    Returns a tuple of (github_badges, devops_badges) as sets."""
+    github_badges = set()
+    devops_badges = set()
+    
+    # DevOps badge patterns (from Microsoft org in Credly)
+    devops_patterns = ['az-400', 'devops engineer expert']
     
     if not profile_url:
-        return badges
+        return github_badges, devops_badges
     
     try:
         # Extract username from profile_url (/users/username/badges)
         parts = profile_url.split('/')
         username = parts[2] if len(parts) > 2 and parts[1] == 'users' else None
         if not username:
-            return badges
+            return github_badges, devops_badges
         
         page = 1
         while True:
@@ -64,21 +68,39 @@ def fetch_credly_badges(profile_url):
                 break
             
             for badge in badge_list:
-                # Check if badge is from GitHub organization
                 issuer = badge.get('issuer', {})
                 entities = issuer.get('entities', [])
+                badge_template = badge.get('badge_template', {})
+                badge_name = badge_template.get('name', '')
+                expires_at_date = badge.get('expires_at_date')
+                
+                # Skip expired badges
+                if is_badge_expired(expires_at_date):
+                    continue
+                
+                # Check if badge is from GitHub organization
                 is_github_org = any(
                     entity.get('entity', {}).get('id') == '63074953-290b-4dce-86ce-ea04b4187219'
                     for entity in entities
                 )
                 
-                if is_github_org:
-                    expires_at_date = badge.get('expires_at_date')
-                    if not is_badge_expired(expires_at_date):
-                        badge_template = badge.get('badge_template', {})
-                        badge_name = badge_template.get('name', '')
-                        if badge_name:
-                            badges.add(badge_name)
+                if is_github_org and badge_name:
+                    github_badges.add(badge_name)
+                    continue
+                
+                # Check if badge is from Microsoft organization (for DevOps badges)
+                is_microsoft_org = any(
+                    entity.get('entity', {}).get('name', '').lower() == 'microsoft'
+                    for entity in entities
+                )
+                
+                if is_microsoft_org and badge_name:
+                    badge_name_lower = badge_name.lower()
+                    # Check if it's a DevOps badge
+                    for pattern in devops_patterns:
+                        if pattern in badge_name_lower:
+                            devops_badges.add(badge_name)
+                            break
             
             page += 1
             if page > 10:  # Safety limit
@@ -87,42 +109,74 @@ def fetch_credly_badges(profile_url):
     except Exception as e:
         pass  # Return whatever we got
     
-    return badges
+    return github_badges, devops_badges
 
 
 def get_merged_badge_count(profile_url, mslearn_url):
-    """Get total badge count by merging Credly and MS Learn badges.
+    """Get total badge count by merging Credly and MS Learn badges with deduplication.
     
-    Returns: (total_count, credly_badges, mslearn_certs, mslearn_skills, is_mvp)
+    Returns: (total_count, credly_github_badges, credly_devops_badges, mslearn_certs, mslearn_skills, mslearn_devops_exams, mslearn_devops_certs, is_mvp)
     """
     # Get Credly badges (non-expired)
-    credly_badges = fetch_credly_badges(profile_url)
+    credly_github_badges, credly_devops_badges = fetch_credly_badges(profile_url)
     
     # Get MS Learn badges
     mslearn_certs = []
     mslearn_skills = []
+    mslearn_devops_exams = []
+    mslearn_devops_certs = []
     is_mvp = False
     
     if mslearn_url and MSLEARN_AVAILABLE:
         mslearn_result = fetch_mslearn_github_badges(mslearn_url)
         mslearn_certs = mslearn_result.get('certifications', [])
         mslearn_skills = mslearn_result.get('applied_skills', [])
+        mslearn_devops_exams = mslearn_result.get('devops_exams', [])
+        mslearn_devops_certs = mslearn_result.get('devops_certs', [])
         is_mvp = mslearn_result.get('is_mvp', False)
     
-    # Create a unified set of all badges
-    # Credly badge names: "GitHub Administration", "GitHub Copilot", etc.
-    # MS Learn cert names: "GitHub Administration", "GitHub Copilot", etc. (normalized to match)
-    all_badges = set(credly_badges)
-    
-    # Add MS Learn certifications (these should have matching names)
+    # Create unified sets for deduplication
+    # GitHub badges: combine Credly GitHub badges with MS Learn GitHub certifications
+    all_github_badges = set(credly_github_badges)
     for cert in mslearn_certs:
-        all_badges.add(cert)
+        all_github_badges.add(cert)
+    
+    # DevOps badges: combine Credly DevOps badges with MS Learn DevOps exams/certs
+    # Normalize names for deduplication:
+    # - Credly: "AZ-400: Designing and Implementing Microsoft DevOps Solutions"
+    # - MS Learn exam: "Designing and Implementing Microsoft DevOps Solutions"
+    # - Credly cert: "Microsoft Certified: DevOps Engineer Expert"
+    # - MS Learn cert: "DevOps Engineer Expert"
+    all_devops_badges = set()
+    
+    # Add Credly DevOps badges (they have full names)
+    for badge in credly_devops_badges:
+        all_devops_badges.add(badge.lower())  # Normalize to lowercase for comparison
+    
+    # Add MS Learn DevOps exams if not already present (check for partial match)
+    for exam in mslearn_devops_exams:
+        exam_lower = exam.lower()
+        # Check if this exam is already in Credly (may have "AZ-400:" prefix in Credly)
+        already_present = any(exam_lower in credly_badge.lower() for credly_badge in credly_devops_badges)
+        if not already_present:
+            all_devops_badges.add(exam_lower)
+    
+    # Add MS Learn DevOps certs if not already present
+    for cert in mslearn_devops_certs:
+        cert_lower = cert.lower()
+        # Check if this cert is already in Credly
+        already_present = any(cert_lower in credly_badge.lower() for credly_badge in credly_devops_badges)
+        if not already_present:
+            all_devops_badges.add(cert_lower)
     
     # Applied skills are always additional (not duplicates of Credly badges)
+    all_applied_skills = set()
     for skill in mslearn_skills:
-        all_badges.add(skill)
+        all_applied_skills.add(skill)
     
-    return len(all_badges), credly_badges, mslearn_certs, mslearn_skills, is_mvp
+    total_count = len(all_github_badges) + len(all_devops_badges) + len(all_applied_skills)
+    
+    return total_count, credly_github_badges, credly_devops_badges, mslearn_certs, mslearn_skills, mslearn_devops_exams, mslearn_devops_certs, is_mvp
 
 
 # Continent mapping
@@ -326,7 +380,7 @@ def update_csv_badge_counts(base_path):
                     
                     if mslearn_url:
                         # Get merged badge count and MVP status
-                        merged_count, _, _, _, is_mvp = get_merged_badge_count(profile_url, mslearn_url)
+                        merged_count, _, _, _, _, _, _, is_mvp = get_merged_badge_count(profile_url, mslearn_url)
                         old_count = int(row.get('badge_count', 0))
                         old_mvp = row.get('is_mvp', '').lower() == 'true'
                         
