@@ -270,25 +270,53 @@ def fetch_country_parallel(country, max_workers=20):
     return all_users
 
 def save_to_csv(country, users, output_dir='datasource'):
-    """Save users to CSV file"""
+    """Save users to CSV file, preserving existing mslearn_url and is_mvp values"""
     import os
     os.makedirs(output_dir, exist_ok=True)
     
     file_suffix = country.lower().replace(' ', '-')
     output_file = f"{output_dir}/github-certs-{file_suffix}.csv"
     
+    # Load existing mslearn_url and is_mvp values to preserve them
+    existing_mslearn_urls = {}
+    existing_mvp_status = {}
+    if os.path.exists(output_file):
+        try:
+            with open(output_file, 'r', encoding='utf-8') as f:
+                reader = csv.DictReader(f)
+                for row in reader:
+                    profile_url = row.get('profile_url', '').strip()
+                    mslearn_url = row.get('mslearn_url', '').strip()
+                    is_mvp = row.get('is_mvp', '').strip()
+                    if profile_url:
+                        if mslearn_url:
+                            existing_mslearn_urls[profile_url] = mslearn_url
+                        if is_mvp:
+                            existing_mvp_status[profile_url] = is_mvp
+            preserved_count = len(existing_mslearn_urls) + len(existing_mvp_status)
+            if preserved_count > 0:
+                print(f"  Preserving {len(existing_mslearn_urls)} MS Learn URLs and {len(existing_mvp_status)} MVP statuses")
+        except Exception as e:
+            print(f"  Warning: Could not read existing CSV for data preservation: {e}")
+    
     with open(output_file, 'w', newline='', encoding='utf-8') as f:
         writer = csv.writer(f)
-        writer.writerow(['first_name', 'middle_name', 'last_name', 'badge_count', 'profile_url', 'mslearn_url'])
+        writer.writerow(['first_name', 'middle_name', 'last_name', 'badge_count', 'profile_url', 'mslearn_url', 'is_mvp'])
         
         for user in users:
+            profile_url = user.get('url', '')
+            # Preserve existing mslearn_url and is_mvp if available
+            mslearn_url = existing_mslearn_urls.get(profile_url, user.get('mslearn_url', ''))
+            is_mvp = existing_mvp_status.get(profile_url, user.get('is_mvp', ''))
+            
             writer.writerow([
                 user.get('first_name', ''),
                 user.get('middle_name', ''),
                 user.get('last_name', ''),
                 user.get('badge_count', 0),
-                user.get('url', ''),
-                user.get('mslearn_url', '')
+                profile_url,
+                mslearn_url,
+                is_mvp
             ])
     
     print(f"Saved to {output_file}")
