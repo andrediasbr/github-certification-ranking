@@ -1,6 +1,6 @@
 # 🌏 TOP 10 GitHub Certifications - Asia
 
-> Last updated: February 05, 2026 at 16:54 UTC
+> Last updated: February 05, 2026 at 18:16 UTC
 
 ## 🏆 Top 10 GitHub Certifications Leaders
 
@@ -15,17 +15,21 @@
 | #7 | [Abededeen Asra](https://www.credly.com/users/abededeen-asra/badges) | 6 |  | India |
 |  | [Adithya MS](https://www.credly.com/users/adithya-ms.f90708a6/badges) | 6 |  | India |
 |  | [Akitaka Shinba](https://www.credly.com/users/akitaka-shinba/badges) | 6 | オルターブース | Japan |
+|  | [Hiroto Mitsuzono](https://www.credly.com/users/hiroto-mitsuzono/badges) | 6 | Alterbooth | Japan |
 |  | [Karthick Manikandan](https://www.credly.com/users/karthick-manikandan.ac216814/badges) | 6 |  | India |
 |  | [Nagaraj Bhairaji](https://www.credly.com/users/nagaraj-bhairaji/badges) | 6 |  | India |
 |  | [NIKHIL GOWDA N](https://www.credly.com/users/nikhil-gowda-n/badges) | 6 |  | India |
 |  | [Shiva Sagar M](https://www.credly.com/users/shiva-sagar-m.9963b9a5/badges) | 6 |  | India |
+|  | [Shunsuke Yoshikawa](https://www.credly.com/users/shunsuke-yoshikawa.34e788fb/badges) | 6 |  | Japan |
+|  | [yutaka osada](https://www.credly.com/users/yutaka-osada/badges) | 6 |  | Japan |
+|  | [健一郎 木村](https://www.credly.com/users/username.ee24de9e/badges) | 6 | Alterbooth, Inc. | Japan |
 
 ---
 
 ## 📊 Statistics
 
-- **Total Certified Users**: 12,191
-- **Total Badges Earned**: 14,328
+- **Total Certified Users**: 12,188
+- **Total Badges Earned**: 14,353
 - **Average Badges per User**: 1.18
 - **Highest Badge Count**: 14
 
