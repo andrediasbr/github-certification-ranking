@@ -1,20 +1,21 @@
 # 🌊 TOP 10 GitHub Certifications - Oceania
 
-> Last updated: February 05, 2026 at 19:17 UTC
+> Last updated: February 06, 2026 at 00:20 UTC
 
 ## 🏆 Top 10 GitHub Certifications Leaders
 
 | Rank | Name | Badges | Company | Country |
 |------|------|--------|---------|---------|
-| 🥇 #1 | [Hao Chen](https://www.credly.com/users/hao-chen.c4b252a3/badges) | 6 |  | New Zealand |
+| 🥇 #1 | [Marco Celon](https://www.credly.com/users/marco-celon.53bc8019/badges) | 14 | GitHub | Australia |
+| 🥈 #2 | [Hao Chen](https://www.credly.com/users/hao-chen.c4b252a3/badges) | 6 |  | New Zealand |
 |  | [Stuart Eggerton](https://www.credly.com/users/stuart-eggerton/badges) | 6 |  | Australia |
-| 🥉 #3 | [Ben Hollamby](https://www.credly.com/users/ben-hollamby/badges) | 5 |  | New Zealand |
+| #4 | [Ben Hollamby](https://www.credly.com/users/ben-hollamby/badges) | 5 |  | New Zealand |
 |  | [Jerome Brown](https://www.credly.com/users/owretch/badges) | 5 | Mantel Group | New Zealand |
 |  | [Jesse Loudon](https://www.credly.com/users/jesseloudon/badges) | 5 |  | Australia |
 |  | [Madhav Lakshminarayanan](https://www.credly.com/users/madhav-lakshminarayanan/badges) | 5 | Microsoft | Australia |
 |  | [Maxim Mazurok](https://www.credly.com/users/maxim-mazurok/badges) | 5 | WiseTech Global | Australia |
 |  | [Sebastian Peter](https://www.credly.com/users/sebastian-peter/badges) | 5 | Tata Consultancy Services | Australia |
-| #9 | [Aaron Co Hee](https://www.credly.com/users/aaron-co-hee/badges) | 4 |  | Australia |
+| #10 | [Aaron Co Hee](https://www.credly.com/users/aaron-co-hee/badges) | 4 |  | Australia |
 |  | [Andre Kolodochka](https://www.credly.com/users/andre-kolodochka/badges) | 4 |  | Australia |
 |  | [Ayodeji Ayodele](https://www.credly.com/users/ayodejiayodele/badges) | 4 |  | Australia |
 |  | [Jiayi Qin](https://www.credly.com/users/jiayi-qin.b8b33e2c/badges) | 4 |  | Australia |
@@ -32,10 +33,10 @@
 
 ## 📊 Statistics
 
-- **Total Certified Users**: 583
-- **Total Badges Earned**: 797
-- **Average Badges per User**: 1.37
-- **Highest Badge Count**: 6
+- **Total Certified Users**: 584
+- **Total Badges Earned**: 812
+- **Average Badges per User**: 1.39
+- **Highest Badge Count**: 14
 
 ---
 

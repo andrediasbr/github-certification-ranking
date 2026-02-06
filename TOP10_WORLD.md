@@ -1,6 +1,6 @@
 # 🌍 TOP 10 GitHub Certifications - Global
 
-> Last updated: February 05, 2026 at 19:17 UTC
+> Last updated: February 06, 2026 at 00:20 UTC
 
 ## 🏆 Top 10 GitHub Certifications Leaders
 
@@ -13,23 +13,19 @@
 |  | [Hidde de Smet](https://www.credly.com/users/hidde-de-smet/badges) | 15 | Xebia | Netherlands |
 |  | [Joao Pedro Alexandre Vieira](https://www.credly.com/users/joao-pedro-alexandre-vieira/badges) | 15 | Avanade | Brazil |
 |  | [Madis Kõosaar](https://www.credly.com/users/madis-koosaar/badges) | 15 | Solidify AB | Estonia |
-| #8 | [stephie Mercy](https://www.credly.com/users/stephie-mercy/badges) | 14 | Ivalue Infosolutions Limited | India |
+|  | [Nico Orschel](https://www.credly.com/users/nico-orschel/badges) | 15 | Xpirit Germany GmbH | Germany |
+| #9 | [Marco Celon](https://www.credly.com/users/marco-celon.53bc8019/badges) | 14 | GitHub | Australia |
+|  | [stephie Mercy](https://www.credly.com/users/stephie-mercy/badges) | 14 | Ivalue Infosolutions Limited | India |
+|  | [Till Spindler](https://www.credly.com/users/till-spindler/badges) | 14 | Eficode | Germany |
 |  | [Vincent Marchal](https://www.credly.com/users/vincent-marchal.87a05753/badges) | 14 | Avanade | France |
-| #10 | [Andre Nunes](https://www.credly.com/users/andre-nunes.0d03ef9b/badges) | 13 | Avanade | Brazil |
-|  | [Christos Galanopoulos](https://www.credly.com/users/christos-galanopoulos/badges) | 13 |  | Greece |
-|  | [Daniel Koch](https://www.credly.com/users/daniel-koch.dc5d8183/badges) | 13 | CodeCargo | United States |
-|  | [Diego Giglioli](https://www.credly.com/users/diego-giglioli.bb64eaa5/badges) | 13 | Avanade | Brazil |
-|  | [John Wildes](https://www.credly.com/users/john-wildes/badges) | 13 |  | United States |
-|  | [Olivier Delmotte](https://www.credly.com/users/o.delmotte/badges) | 13 | Avanade | France |
-|  | [Sujith Quintelier](https://www.credly.com/users/sujith/badges) | 13 | Xebia | Belgium |
 
 ---
 
 ## 📊 Statistics
 
-- **Total Certified Users**: 23,885
-- **Total Badges Earned**: 29,688
-- **Average Badges per User**: 1.24
+- **Total Certified Users**: 24,905
+- **Total Badges Earned**: 31,202
+- **Average Badges per User**: 1.25
 - **Highest Badge Count**: 17
 
 ---
