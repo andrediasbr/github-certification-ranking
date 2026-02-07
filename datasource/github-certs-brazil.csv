@@ -1,12 +1,20 @@
 first_name,middle_name,last_name,badge_count,profile_url
-Henrique,,AFFONSO,1,/users/henrique-affonso.d0a60f49/badges
-JEAN,Cleber de oliveira,ALVES,1,/users/jean-alves.b288cf8c/badges
-ROBERTA,,AQUILA,2,/users/roberta-aquila/badges
-GABRIEL,,ARAÚJO DE SOUSA,1,/users/gabriel-araujo-de-sousa/badges
-Igor,,Abade,1,/users/igor-abade/badges
-Diego,,Abreu,1,/users/diego-abreu/badges
-Eduardo,,Acacio Silva,1,/users/eduardo-acacio/badges
-Diego,,Adalberto,2,/users/diego-adalberto/badges
+Alessandro,,Antunes,1,/users/alessandro-antunes.19fedc59/badges
+Aline,,Antunes,1,/users/aline-antunes.276941b7/badges
+Guilherme,,Antunes,1,/users/guilherme-antunes/badges
+Paulo Henrique,,Antunes,1,/users/paulo-henrique-antunes/badges
+Rafael,,Antunes,1,/users/rafael-antunes.34b3f3ab/badges
+Alisson,,Aoki,1,/users/alisson-aoki/badges
+Alex,,Aparecido Evangelista Bignardi,1,/users/alex-bignardi/badges
+Walter,,Aragão,1,/users/walter-aragao/badges
+Fábio,,Albuquerque,1,/users/albuquerquefabio/badges
+Gabriela,,Alcantara Libero,1,/users/gabriela-alcantara-libero/badges
+Mariana,,Alcantara,1,/users/mariana-alcantara.9d813749/badges
+Lucas,,Alejandro,1,/users/lucas-alejandro/badges
+Mayara,,Alencar,1,/users/mayara-alencar/badges
+Joao Pedro,,Alexandre Vieira,15,/users/joao-pedro-alexandre-vieira/badges
+Danilo,,Alexandre,1,/users/danilo-alexandre/badges
+Vinicius,,Alexandre,1,/users/vinicius-alexandre.26197aad/badges
 Gabriel,,Agostini,2,/users/gabriel-agostini.ba1cb838/badges
 Juan Tardelly,,Aguiar Murta,1,/users/juan-murta/badges
 Alison,,Aguiar,2,/users/alison-aguiar/badges
@@ -15,14 +23,6 @@ Lucas Lima,,Aires,1,/users/lucas-lima-aires/badges
 Marcos,Henrique Esteves Barbosa,Alano,1,/users/marcos-alano/badges
 Thiago,,Alberici Roberto,1,/users/thiago-alberici-roberto/badges
 Railson,,Albino de Oliveira Vieira,1,/users/railson-albino-de-oliveira-vieira/badges
-Gabriel,,Alves Sousa,1,/users/gabriel-alves-sousa/badges
-Gilleady,,Alves da Silva,1,/users/gilleady-alves-da-silva/badges
-Bruna,,Alves de Mello,1,/users/bruna-alves-de-mello/badges
-Kamila,,Alves de Miranda da Silva,1,/users/kamila-alves-de-miranda-da-silva/badges
-João Vitor,,Alves de Oliveira,1,/users/joao-vitor-alves-de-oliveira/badges
-João Vitor,,Alves dos Reis,1,/users/joao-vitor-alves-dos-reis/badges
-Carlos,,Alves,1,/users/carlos-alves.aef9e3b1/badges
-Gabriel,,Alves,1,/users/gabriel-alves.835c47cc/badges
 Julia,,Aranha,1,/users/julia-aranha/badges
 Gustavo,,Arantes,1,/users/gustavo-arantes.c22beef7/badges
 Guilherme,,Araujo da Silva,1,/users/guilherme-araujo-da-silva/badges
@@ -39,62 +39,6 @@ Lucas,,Alves,1,/users/lucas-alves.f4983d05/badges
 Maria,Carolina,Alves,1,/users/oblipix/badges
 Nathana,,Alves,1,/users/nathana-alves/badges
 Thiago Pereira,,Alves,1,/users/thiago-pereira-alves.b6d1150d/badges
-Alessandro,,Antunes,1,/users/alessandro-antunes.19fedc59/badges
-Aline,,Antunes,1,/users/aline-antunes.276941b7/badges
-Guilherme,,Antunes,1,/users/guilherme-antunes/badges
-Paulo Henrique,,Antunes,1,/users/paulo-henrique-antunes/badges
-Rafael,,Antunes,1,/users/rafael-antunes.34b3f3ab/badges
-Alisson,,Aoki,1,/users/alisson-aoki/badges
-Alex,,Aparecido Evangelista Bignardi,1,/users/alex-bignardi/badges
-Walter,,Aragão,1,/users/walter-aragao/badges
-Julio,,Barbosa da Silva,3,/users/julio-barbosa-da-silva/badges
-Diogines Augusto,,Barbosa de Melo,1,/users/diogines-augusto-barbosa-de-melo/badges
-Julianne,,Barbosa,1,/users/julianne-barbosa/badges
-Matheus,,Barbosa,1,/users/matheus-barbosa.744ab5cb/badges
-Renan,,Barbosa,2,/users/renan-barbosa.298b6fa2/badges
-Monalisa,,Barcelos Delpino Jardim,1,/users/monalisa-barcelos-delpino-jardim/badges
-Fabiana,,Barreto,1,/users/fabiana-barreto2/badges
-Decio,,Barros Jr,1,/users/decio-barros-jr/badges
-Gabriel,,Andrade,1,/users/gabriel-andrade.ec3d5d8d/badges
-Maria Eduarda,,Andrade,1,/users/maria-eduarda-andrade.b15e04f4/badges
-Thiago,,Andrade,1,/users/thiago-andrade.8cfaf69c/badges
-Leanderson,,André,1,/users/leanderson-andre/badges
-Guilherme Fernando,,Angelico,1,/users/guilherme-fernando-angelico/badges
-Leonam,,Anjos,1,/users/leonam-anjos/badges
-Maysa,,Anjos,1,/users/maysa-anjos/badges
-Nicolas,,Antonoff,1,/users/nicolas-antonoff/badges
-Felipe,,Augusto,15,/users/felipementel/badges
-Thiago,Rider,Augusto,1,/users/thiagorider/badges
-Diana,,Avila,1,/users/diana-avila.3f0a188d/badges
-Fernanda,,Avila,1,/users/fernanda-avila-b/badges
-Rodrigo,,Avino,1,/users/rodrigo-dos-santos-avino/badges
-Paulo Eduardo,,Azevedo da Costa,1,/users/paulo-eduardo-da-costa/badges
-Ludgero,,Azevedo,2,/users/ludgero-azevedo/badges
-Mário,,Azevedo,1,/users/mario-azevedo.513702dd/badges
-Yan,,Alexandre,2,/users/yan-alexandre/badges
-Ivan,,Alexandrino,1,/users/ivanalexandrino/badges
-Bruno,,Alexandro,1,/users/bruno-alexandro/badges
-Angelo Gabriel,,Almeida Pereira,1,/users/angelogabrieeel/badges
-Douglas,,Almeida dos Santos,1,/users/douglas-almeida-dos-santos/badges
-Ana Beatriz,,Almeida,1,/users/ana-beatriz-santos-de-almeida/badges
-Andre,,Almeida,1,/users/andre-almeida.d62ea557/badges
-André,,Almeida,1,/users/andre-almeida.bc7bdf53/badges
-Fabio Miguel,,Bartoli,1,/users/fabio-miguel-bartoli/badges
-Matheus,,Barucho,1,/users/matheus-barucho/badges
-Kledson,,Basso,1,/users/kledson-basso/badges
-Dhiego,,Bastelli,1,/users/dhiego-bastelli/badges
-Lorena,,Bastos,1,/users/lorena-bastos.8dee289d/badges
-Maria Vitória,,Batista Durazzo,1,/users/maria-vitoria-batista-durazzo/badges
-Clara,,Batista de Oliveira,1,/users/clara-batista-de-oliveira/badges
-Milena,,Batista,1,/users/milena-batista.aaeede59/badges
-Keoma,,Baudin,1,/users/keoma-baudin/badges
-Alex,,Bauruel,2,/users/alex-bauruel/badges
-Eduardo,,Behling,2,/users/eduardo-behling/badges
-Matheus,,Belluzzo,1,/users/matheus-belluzzo/badges
-Rodrigo,,Benedetti,1,/users/rodrigo-benedetti/badges
-Jaqueline,,Beneduzzi Esteves,1,/users/jaqueline-beneduzzi-esteves/badges
-Lucas,,Bento,1,/users/lucas-bento.e95ded69/badges
-Lucas,,Benvenuti Antunes,1,/users/lucas-benvenuti-antunes/badges
 Christiano,Martins Milfont,Almeida,5,/users/cmilfont/badges
 Dailton,,Almeida,1,/users/dailton-almeida/badges
 Edgar,,Almeida,1,/users/edgar-almeida.449d0e6d/badges
@@ -103,6 +47,14 @@ Samyra Lara Ferreira de,,Almeida,1,/users/samyra-lara-ferreira-de-almeida/badges
 Thaís,,Almeida,1,/users/thais-almeida.3e32f4ec/badges
 Tomas,de Andrade,Alric,3,/users/tomas-alric/badges
 William,,Alves Coelho,1,/users/william-alves-coelho/badges
+Gabriel,,Andrade,1,/users/gabriel-andrade.ec3d5d8d/badges
+Maria Eduarda,,Andrade,1,/users/maria-eduarda-andrade.b15e04f4/badges
+Thiago,,Andrade,1,/users/thiago-andrade.8cfaf69c/badges
+Leanderson,,André,1,/users/leanderson-andre/badges
+Guilherme Fernando,,Angelico,1,/users/guilherme-fernando-angelico/badges
+Leonam,,Anjos,1,/users/leonam-anjos/badges
+Maysa,,Anjos,1,/users/maysa-anjos/badges
+Nicolas,,Antonoff,1,/users/nicolas-antonoff/badges
 Marcus Vinicius,,Amaral,1,/users/marcus-vinicius-amaral.327e43dc/badges
 Roberta,,Amaro,1,/users/roberta-amaro/badges
 Lucas,,Amorim Brusco,1,/users/lucas-amorim-brusco/badges
@@ -111,38 +63,6 @@ Rod,,Anami,1,/users/rod-anami/badges
 João Victor de,,Andrade Mesquita,1,/users/joao-victor-de-andrade-mesquita/badges
 Allan,,Andrade,1,/users/allanandrade/badges
 Derecky,,Andrade,1,/users/derecky-andrade/badges
-Jaelcio,,Araujo,1,/users/jaelcio-araujo/badges
-Luiz,,Araujo,1,/users/luiz-araujo.e5cbb69f/badges
-Davi José,,Araújo Filho,1,/users/davi-jose-araujo-filho.42083701/badges
-Diego,,Araújo,1,/users/diego-araujo.dfd5ebee/badges
-Ewerson,,Araújo,1,/users/ewerson-araujo/badges
-Yuji,,Arima,1,/users/yuji-arima.42885fa9/badges
-Luccas,,Arruda Portela Galdino,1,/users/luccas-arruda-portela-galdino.f5da4044/badges
-Julio,,Arruda,2,/users/julio-arruda/badges
-Afonso,,Bertoncini,1,/users/afonso-bertoncini.ec42d57b/badges
-Irvin,,Bezerra,1,/users/irvin-bezerra.1a22cbed/badges
-Raphael,Frazao,Bianchi,1,/users/raphael-bianchi/badges
-Arthur,,Bianchini,1,/users/arthur-bianchini/badges
-Luis Ferando,,Bianconi,1,/users/luisbianconi/badges
-Matheus,,Biasi,1,/users/matheus-biasi/badges
-Mario,,Bignami,2,/users/mario-bignami/badges
-Victor,,Binda Santos,3,/users/victor-binda-santos/badges
-Wagner,,Azevedo,1,/users/wagnerazevedo/badges
-Bruna,,B M,1,/users/bruna-b-m/badges
-SAMIR,,BORTOLOZI,1,/users/samir-bortolozi/badges
-Paulo,,Baima,1,/users/paulobaima/badges
-Thiago,,Baptista,1,/users/thiagob1981/badges
-Vinicius,,Baptista,1,/users/vinicius-baptista.cec9ea04/badges
-Wesley,,Barbosa Silva,1,/users/wesley-barbosa.a8b65f10/badges
-Iara,,Barbosa da Rocha,1,/users/iara-barbosa-da-rocha/badges
-Guilherme,,Bergamim dos Santos,1,/users/guilherme-bergamim-dos-santos/badges
-Leonardo,,Berlatto,1,/users/leonardo-s-berlatto/badges
-Laysa,,Bernardes,1,/users/laysa-bernardes/badges
-Diego Gabriel,,Bernardi,1,/users/diego-gabriel-bernardi/badges
-Luiz,,Bernardo,1,/users/brbernardo/badges
-Rodrigo,,Bernardo,1,/users/rodrigo-bernardo.ab5f20b8/badges
-Flávia,,Bernava,1,/users/flavia-bernava/badges
-Atilio,,Bertoldi,1,/users/atilio-bertoldi/badges
 Vinicius,,Assis,1,/users/vinicius-assis.cd215305/badges
 Fabricio,,Assumpção,2,/users/fabricio-assumpcao.5e1ecfa4/badges
 João,Lucas,Assunção Fonseca Ferreira,1,/users/joao-assuncao-fonseca-ferreira/badges
@@ -151,22 +71,70 @@ Clebson,,Augusto Fonseca,1,/users/whoisclebs/badges
 Thiago,,Augusto Praxedes Cancissú,1,/users/thiago-augusto-praxedes-cancissu/badges
 Breno,,Augusto,1,/users/breno-augusto.92cd502a/badges
 Cesar,,Augusto,1,/users/cesar-augusto.84624280/badges
-Euler,,Bombonato,1,/users/euler-bombonato.46806825/badges
-Claudio,,Bonel,1,/users/claudio-bonel/badges
-Diego,Machado,Borges Tavares,1,/users/diego-machado.7da47bd6/badges
-Leandro,,Borges de Carvalho,2,/users/leandro-borges-de-carvalho/badges
-Daniel,,Borges,1,/users/daniel-borges.be7aee07/badges
-Jessica,,Borges,1,/users/jessica-borges.63b599b4/badges
-Juan,,Borges,1,/users/juanbsoares/badges
-Willian,,Borges,1,/users/willian-borges.cd30e1f3/badges
-Fábio,,Albuquerque,1,/users/albuquerquefabio/badges
-Gabriela,,Alcantara Libero,1,/users/gabriela-alcantara-libero/badges
-Mariana,,Alcantara,1,/users/mariana-alcantara.9d813749/badges
-Lucas,,Alejandro,1,/users/lucas-alejandro/badges
-Mayara,,Alencar,1,/users/mayara-alencar/badges
-Joao Pedro,,Alexandre Vieira,15,/users/joao-pedro-alexandre-vieira/badges
-Danilo,,Alexandre,1,/users/danilo-alexandre/badges
-Vinicius,,Alexandre,1,/users/vinicius-alexandre.26197aad/badges
+Julio,,Barbosa da Silva,3,/users/julio-barbosa-da-silva/badges
+Diogines Augusto,,Barbosa de Melo,1,/users/diogines-augusto-barbosa-de-melo/badges
+Julianne,,Barbosa,1,/users/julianne-barbosa/badges
+Matheus,,Barbosa,1,/users/matheus-barbosa.744ab5cb/badges
+Renan,,Barbosa,2,/users/renan-barbosa.298b6fa2/badges
+Monalisa,,Barcelos Delpino Jardim,1,/users/monalisa-barcelos-delpino-jardim/badges
+Fabiana,,Barreto,1,/users/fabiana-barreto2/badges
+Decio,,Barros Jr,1,/users/decio-barros-jr/badges
+Guilherme,,Bergamim dos Santos,1,/users/guilherme-bergamim-dos-santos/badges
+Leonardo,,Berlatto,1,/users/leonardo-s-berlatto/badges
+Laysa,,Bernardes,1,/users/laysa-bernardes/badges
+Diego Gabriel,,Bernardi,1,/users/diego-gabriel-bernardi/badges
+Luiz,,Bernardo,1,/users/brbernardo/badges
+Rodrigo,,Bernardo,1,/users/rodrigo-bernardo.ab5f20b8/badges
+Flávia,,Bernava,1,/users/flavia-bernava/badges
+Atilio,,Bertoldi,1,/users/atilio-bertoldi/badges
+Yan,,Alexandre,2,/users/yan-alexandre/badges
+Ivan,,Alexandrino,1,/users/ivanalexandrino/badges
+Bruno,,Alexandro,1,/users/bruno-alexandro/badges
+Angelo Gabriel,,Almeida Pereira,1,/users/angelogabrieeel/badges
+Douglas,,Almeida dos Santos,1,/users/douglas-almeida-dos-santos/badges
+Ana Beatriz,,Almeida,1,/users/ana-beatriz-santos-de-almeida/badges
+Andre,,Almeida,1,/users/andre-almeida.d62ea557/badges
+André,,Almeida,1,/users/andre-almeida.bc7bdf53/badges
+Keoma,,Baudin,1,/users/keoma-baudin/badges
+Alex,,Bauruel,2,/users/alex-bauruel/badges
+Eduardo,,Behling,2,/users/eduardo-behling/badges
+Matheus,,Belluzzo,1,/users/matheus-belluzzo/badges
+Rodrigo,,Benedetti,1,/users/rodrigo-benedetti/badges
+Jaqueline,,Beneduzzi Esteves,1,/users/jaqueline-beneduzzi-esteves/badges
+Lucas,,Bento,1,/users/lucas-bento.e95ded69/badges
+Lucas,,Benvenuti Antunes,1,/users/lucas-benvenuti-antunes/badges
+Fabio Miguel,,Bartoli,1,/users/fabio-miguel-bartoli/badges
+Matheus,,Barucho,1,/users/matheus-barucho/badges
+Kledson,,Basso,1,/users/kledson-basso/badges
+Dhiego,,Bastelli,1,/users/dhiego-bastelli/badges
+Lorena,,Bastos,1,/users/lorena-bastos.8dee289d/badges
+Maria Vitória,,Batista Durazzo,1,/users/maria-vitoria-batista-durazzo/badges
+Clara,,Batista de Oliveira,1,/users/clara-batista-de-oliveira/badges
+Milena,,Batista,1,/users/milena-batista.aaeede59/badges
+João Vitor,,Barros de Campos,1,/users/joao-vitor-barros-de-campos/badges
+Matheus,,Barros,10,/users/matheus-barros.1892a132/badges
+Rafael,,Barros,2,/users/rbarros/badges
+Rafael,,Barros,1,/users/rafael-barros.86bf1eaf/badges
+Raffael,De Oliveira,Barros,1,/users/raffaelbarros/badges
+Francisco das Chagas,,Barroso de Sousa Filho,1,/users/francisco-das-chagas-barroso-de-sousa-filho/badges
+Renan,,Barsaglini,1,/users/renan-barsaglini/badges
+João Carlos,,Barsanelli,1,/users/joao-carlos-barsanelli/badges
+Wagner,,Azevedo,1,/users/wagnerazevedo/badges
+Bruna,,B M,1,/users/bruna-b-m/badges
+SAMIR,,BORTOLOZI,1,/users/samir-bortolozi/badges
+Paulo,,Baima,1,/users/paulobaima/badges
+Thiago,,Baptista,1,/users/thiagob1981/badges
+Vinicius,,Baptista,1,/users/vinicius-baptista.cec9ea04/badges
+Wesley,,Barbosa Silva,1,/users/wesley-barbosa.a8b65f10/badges
+Iara,,Barbosa da Rocha,1,/users/iara-barbosa-da-rocha/badges
+Afonso,,Bertoncini,1,/users/afonso-bertoncini.ec42d57b/badges
+Irvin,,Bezerra,1,/users/irvin-bezerra.1a22cbed/badges
+Raphael,Frazao,Bianchi,1,/users/raphael-bianchi/badges
+Arthur,,Bianchini,1,/users/arthur-bianchini/badges
+Luis Ferando,,Bianconi,1,/users/luisbianconi/badges
+Matheus,,Biasi,1,/users/matheus-biasi/badges
+Mario,,Bignami,2,/users/mario-bignami/badges
+Victor,,Binda Santos,3,/users/victor-binda-santos/badges
 Alessandro,,Bispo,1,/users/alessandro-bispo.366a21a5/badges
 Jhonatan,,Bispo,1,/users/jhonatan-bispo/badges
 Mauricio,,Bittar,1,/users/mauricio-bittar/badges
@@ -175,6 +143,14 @@ Renato,,Bittencourt,1,/users/renato-bittencourt/badges
 Nicholas,,Boari,1,/users/nicholas-boari/badges
 Marcos,,Boger,2,/users/marcos-boger/badges
 Guilherme,,Bohnstedt,1,/users/guilherme-bohnstedt/badges
+Euler,,Bombonato,1,/users/euler-bombonato.46806825/badges
+Claudio,,Bonel,1,/users/claudio-bonel/badges
+Diego,Machado,Borges Tavares,1,/users/diego-machado.7da47bd6/badges
+Leandro,,Borges de Carvalho,2,/users/leandro-borges-de-carvalho/badges
+Daniel,,Borges,1,/users/daniel-borges.be7aee07/badges
+Jessica,,Borges,1,/users/jessica-borges.63b599b4/badges
+Juan,,Borges,1,/users/juanbsoares/badges
+Willian,,Borges,1,/users/willian-borges.cd30e1f3/badges
 Eros Vitor,,Bornatowski,1,/users/eros-vitor-bornatowski/badges
 Yan,,Borowski Machado,2,/users/yan-borowski-machado/badges
 Rafael,,Bosco,1,/users/rafael-bosco/badges
@@ -183,6 +159,22 @@ Thiago,,Bovo,1,/users/thiago-bovo.d4ad1105/badges
 Gustavo,,Braga,1,/users/gustavo-braga.e011f1a6/badges
 Pedro,,Braga,1,/users/pedro-braga.0afd12b2/badges
 Ian,,Brant,2,/users/ian-brant/badges
+Gabriel,,Alves Sousa,1,/users/gabriel-alves-sousa/badges
+Gilleady,,Alves da Silva,1,/users/gilleady-alves-da-silva/badges
+Bruna,,Alves de Mello,1,/users/bruna-alves-de-mello/badges
+Kamila,,Alves de Miranda da Silva,1,/users/kamila-alves-de-miranda-da-silva/badges
+João Vitor,,Alves de Oliveira,1,/users/joao-vitor-alves-de-oliveira/badges
+João Vitor,,Alves dos Reis,1,/users/joao-vitor-alves-dos-reis/badges
+Carlos,,Alves,1,/users/carlos-alves.aef9e3b1/badges
+Gabriel,,Alves,1,/users/gabriel-alves.835c47cc/badges
+Janderson,,Campelo,1,/users/janderson-campelo.f552ce5a/badges
+Marcus Vinicius,,Campos Soares,1,/users/marcus-vinicius-campos-soares/badges
+Douglas,,Campos,1,/users/douglas-campos.c2f11b53/badges
+Leidjane,,Campos,1,/users/leidjane-campos/badges
+Tamiris,,Campos,1,/users/tamiris-campos/badges
+Luiz,,Canassa,1,/users/luiz-canassa/badges
+Guilherme,,Candido,1,/users/guilherme-candido.00bd3cdd/badges
+Jeferson,,Candido,1,/users/jeferson-candido/badges
 Karen,,Cano,1,/users/karen-cano.3f07d30e/badges
 Carlos Paulo,,Cantanhede de Paula,1,/users/carlos-paulo-cantanhede-de-paula/badges
 João,,Caparroz,1,/users/joao-caparroz.70fe1877/badges
@@ -215,6 +207,14 @@ Thalison,,Cardoso,1,/users/thalison-cardoso/badges
 Juliana,,Cardozo,1,/users/juliana-cardozo.6c423140/badges
 Bruno,,Carmena,1,/users/bruno-carmena/badges
 Otávio,,Carmo,2,/users/otavio-carmo.b1959780/badges
+Henrique,,AFFONSO,1,/users/henrique-affonso.d0a60f49/badges
+JEAN,Cleber de oliveira,ALVES,1,/users/jean-alves.b288cf8c/badges
+ROBERTA,,AQUILA,2,/users/roberta-aquila/badges
+GABRIEL,,ARAÚJO DE SOUSA,1,/users/gabriel-araujo-de-sousa/badges
+Igor,,Abade,1,/users/igor-abade/badges
+Diego,,Abreu,1,/users/diego-abreu/badges
+Eduardo,,Acacio Silva,1,/users/eduardo-acacio/badges
+Diego,,Adalberto,2,/users/diego-adalberto/badges
 Marcos,,Carneiro Lima,1,/users/marcos-carneiro-lima/badges
 Camila,,Carneiro,1,/users/camila-carneiro.1cbd1dff/badges
 Otávio,,Carneiro,2,/users/otavio-carneiro/badges
@@ -223,22 +223,6 @@ Ana,,Carvalho,1,/users/ana-carvalho.337e76fe/badges
 Ariane,,Carvalho,1,/users/ariane-carvalho.704cd297/badges
 Dumas,,Carvalho,1,/users/dumasmcarvalho/badges
 Laíse,,Carvalho,1,/users/laisecrv/badges
-Lucas,,Colonna,1,/users/lucas-colonna/badges
-Marcos,,Conceicação,1,/users/marcos-conceicacao/badges
-Fernando,,Conceição,1,/users/fernando-conceicao.af6ebe14/badges
-Juliana,,Conde Alvarez,1,/users/juliana-conde-alvarez/badges
-Eduardo,,Cordeiro,1,/users/eduardo-cordeiro.fc1c1d6e/badges
-Marcello Henrique,,Cordeiro,1,/users/marcello-henrique-cordeiro/badges
-Matheus,,Cordeiro,1,/users/matheus-cordeiro.ebfaad81/badges
-Renato,,Cordeiro,2,/users/renato-cordeiro.714f1fd8/badges
-Lavinya,,Correia e Silva,2,/users/lavinya-correia-e-silva/badges
-Hilton Junio,,Costa Cabral,1,/users/hilton-junio-costa-cabral.ccc6b247/badges
-Eduarda,,Costa da Silva,6,/users/eduarda-costa-da-silva/badges
-Lucas,,Costa de Arruda,2,/users/lucas-costa-de-arruda/badges
-Jair,,Costa dos Santos,1,/users/jair-costa-dos-santos/badges
-Arthur,,Costa,1,/users/arthur-costa.5a2e277d/badges
-Arthur,,Costa,2,/users/arthur90costa/badges
-Denise,,Costa,1,/users/denise-costa.8318aa9f/badges
 Alberto,,Cavalcante,1,/users/alberto-cavalcante/badges
 Julius,,Cavalcante,1,/users/julius-cavalcante/badges
 Felipe,,Cavalcanti,1,/users/felipe-cavalcanti.73e9651c/badges
@@ -247,94 +231,6 @@ Willow,,Cavalheiro Chung,3,/users/willow-cavalheiro-chung/badges
 Gleydson,,Celerino,1,/users/gleydson-celerino/badges
 Igor,,Ceron,1,/users/igor-ceron/badges
 Junio,,Cesar,1,/users/junio-cesar/badges
-Erick,,De Oliveira dos Reis Coimbra,2,/users/erick-de-oliveira-dos-reis-coimbra/badges
-Bryan Gustavo,,De Oliveira,1,/users/bryan-gustavo-de-oliveira/badges
-Karina,Ariga,De Oliveira,1,/users/karina-de-oliveira.5d6ba303/badges
-Giovani,,Decusati,1,/users/giovani-decusati/badges
-Sabrina,,Delpache,1,/users/sabrina-delpache/badges
-Thiago,,Demeterko,1,/users/thiago-demeterko/badges
-Gabriel,,Deon,1,/users/gabriel-deon/badges
-Flavia,,Deus,1,/users/flavia-deus/badges
-FABIANO,,DE SOUSA LIMA,1,/users/fabiano-de-sousa-lima/badges
-STEFANE,,DIAS,1,/users/stefane-dias/badges
-Ricardo,,Da Silva Lima,1,/users/ricardo-da-silva-lima/badges
-Victor,Alexsander Cordeiro,Da Silva,1,/users/victor-alexsander/badges
-Vitor,,Da Silveira Coelho,1,/users/vitor-da-silveira-coelho/badges
-Igor,,Daflon,1,/users/igor-daflon/badges
-Mayara,,Daher,1,/users/mayara-daher/badges
-Marcelo,,Daltin Longhitano,1,/users/marcelo-daltin-longhitano/badges
-André,,Cristiani,1,/users/andre-cristiani.33721eda/badges
-André,,Cristiani,1,/users/andre-cristiani/badges
-Adriano,,Cruvinel,1,/users/adriano-cruvinel/badges
-Lucas,,Cruz Macedo Souza,1,/users/lucas-cruz-macedo-souza/badges
-Alessandra,,Cruz,1,/users/alessandracruz/badges
-Erick,,Cruz,1,/users/erick-willian-alves-da-cruz/badges
-Bruno,,Cubiaco,1,/users/bruno-cubiaco/badges
-Ronaldo,,Cunda,1,/users/rcunda/badges
-Tércio,,Cunha Mendes Rocha Pinto,1,/users/tercio-cunha-mendes-rocha-pinto/badges
-Cristiano,Raffi,Cunha,1,/users/cristiano-raffi-cunha/badges
-Daniela,,Cury,1,/users/daniela-cury/badges
-Marcelo,,Cyreno,1,/users/marcelo-cyreno/badges
-Clivison,,César,1,/users/clivison/badges
-MAX,,DA SILVA,1,/users/max-da-silva/badges
-RAFAEL,SANTOS,DA SILVA,1,/users/rafael-santos-silva.6c8d6427/badges
-MARCOS,,DANTAS GUIMARAES FILHO,1,/users/marcos-dantas-guimaraes-filho.c60b4b92/badges
-Leonardo,,Carvalho,1,/users/leonardo-carvalho.93013bcd/badges
-Yurik,,Carvalho,1,/users/yurik-carvalho/badges
-Fabrizzio,,Casamento,3,/users/fabrizzio-casamento/badges
-Darlan,Vinícius,Cascaes,1,/users/darlan-vinicius-cascaes/badges
-Luiz Claudio,,Cassio Mendes,1,/users/luiz-claudio-cassio-mendes/badges
-Filipe,,Castro,1,/users/filipe-castro.ac7175b0/badges
-Rodrigo,Zavalik,Castro,1,/users/zavalik/badges
-Marcos Antonio,,Catelani Francischini,1,/users/marcos-antonio-catelani-francischini/badges
-Higor,,Dornelas,1,/users/higor-dornelas/badges
-Gabriel,,Dos Reis Costa Bullo,1,/users/gabriel-dos-reis-costa-bullo/badges
-Tiago,,Dos Santos Alves da Silva,1,/users/tiago-dos-santos-alves-da-silva/badges
-Deuseval,,Dos Santos Brito Junior,1,/users/deuseval-dos-santos-brito-junior/badges
-Tamara,,Dos Santos Costa,1,/users/tamara-dos-santos-costa/badges
-Aldrige,,Dos Santos Junior,1,/users/aldrige-dos-santos-junior/badges
-Cauã,,Drefahl,1,/users/caua-drefahl/badges
-Jaqueline,,Dreyer,1,/users/jaqueline-dreyer/badges
-João Vitor,,Barros de Campos,1,/users/joao-vitor-barros-de-campos/badges
-Matheus,,Barros,10,/users/matheus-barros.1892a132/badges
-Rafael,,Barros,2,/users/rbarros/badges
-Rafael,,Barros,1,/users/rafael-barros.86bf1eaf/badges
-Raffael,De Oliveira,Barros,1,/users/raffaelbarros/badges
-Francisco das Chagas,,Barroso de Sousa Filho,1,/users/francisco-das-chagas-barroso-de-sousa-filho/badges
-Renan,,Barsaglini,1,/users/renan-barsaglini/badges
-João Carlos,,Barsanelli,1,/users/joao-carlos-barsanelli/badges
-Horácio,,Dias Baptista Neto,1,/users/nenodias/badges
-Andre,,Dias,15,/users/andredias/badges
-André,,Dias,1,/users/andre-dias.0f5a82ff/badges
-Emerson,,Dias,1,/users/emerson-dias/badges
-Joshua,,Dias,1,/users/joshua-dias.d146baa2/badges
-Marlon,,Dias,1,/users/marlon-dias.e50713e6/badges
-Miguel,,Dias,1,/users/miguel-dias.b6c19d9a/badges
-Pilar,,Dib,1,/users/pilar-dib/badges
-Marcelo,Almeida,Eugênio,1,/users/marceloeugenio/badges
-Fábio Alexandre,,Evangelista Melo,2,/users/fabio-alexandre-evangelista-melo/badges
-Giovanna,,Evangelista,1,/users/giovanna-evangelista.175852fb/badges
-Rafael,,Evangelista,1,/users/rafaelguerra/badges
-Tobias,,Evangelista,1,/users/tobias-evangelista/badges
-LUCAS,,FERREIRA,1,/users/lucas-ferreira.83dde431/badges
-LEANDRO,,FRANKLIN,1,/users/leandrofranklin/badges
-Fabricio,,Fabricio Silva,1,/users/fabricio-fabricio-silva/badges
-Lucas,,Damasceno,1,/users/lucas-damasceno.d321a859/badges
-Marcelo,,Daniel,1,/users/marcelo-daniel.0214ada7/badges
-Nayara,,Dantas,3,/users/nayara-dantas.1586dc73/badges
-Weber,,Dantas,1,/users/weber-dantas/badges
-Caique,,De Brito,1,/users/caique-de-brito/badges
-Deivid,,De Foggi,3,/users/deivid-de-foggi/badges
-John Willian,,De Jesus Soares,1,/users/john-willian-de-jesus-soares/badges
-Bruno Kaique,,De Lima,1,/users/bruno-kaique-de-lima/badges
-Walter,Silvestre,Coan,1,/users/waltercoan/badges
-João Vitor,,Coelho Nunes da Mata,1,/users/joao-vitor-coelho-nunes-da-mata/badges
-Emerson,,Coelho,1,/users/emerson-coelho.cc99816b/badges
-Nikolas,,Coelho,1,/users/nikolas-coelho/badges
-Paulo,,Coelho,1,/users/paulo--coelho/badges
-Vinicius,,Coelho,1,/users/vinicius-coelho.3f9bf8de/badges
-William,,Coelho,1,/users/william-coelho.7bef32e5/badges
-Guilherme,,Coleta,2,/users/guilherme-coleta/badges
 Yan,,Corintima,1,/users/yan-corintima.6479796a/badges
 Lucas,,Coronel,2,/users/lucas-coronel.6b8a2202/badges
 Priscilla,,Correa Delfino,1,/users/priscilla-correa-delfino.21b0c5ba/badges
@@ -343,350 +239,14 @@ Gustavo,,Correa,1,/users/gustavo-correa.bfe53c8d/badges
 Miguel,,Correa,1,/users/miguel-correa.3da3013b/badges
 Renato,,Correa,1,/users/renato-correa.68bd018f/badges
 Andréa,,Correia da Costa Souza,1,/users/andrea-correia.0f615262/badges
-Guilherme,,Cezar Menezes Siqueira,1,/users/guilherme-cezar-menezes-siqueira/badges
-Carla Rafaela,,Chagas de Paiva,1,/users/carla-rafaela-chagas-de-paiva/badges
-Geuel,,Chaves Paiva,1,/users/geuel-chaves-paiva/badges
-Danilo,,Chaves,1,/users/danilo-chaves.85170122/badges
-Luan,Fernando da Silva,Chaves,1,/users/luan-fernando/badges
-Matheus Richard,,Chignolli,2,/users/matheus-richard-chignolli/badges
-David,,Christian,1,/users/david-christian.55be5386/badges
-Fabio,,Christiano,1,/users/fabio-christiano.fc2f7c0c/badges
-Luiz Guilherme,,Duarte Bisco,1,/users/luiz-guilherme-duarte-bisco/badges
-Samela Micaelly,,Duarte Menezes,1,/users/samela-micaelly-duarte-menezes/badges
-Gustavo,,Duarte de Oliveira,1,/users/gustavo-duarte-de-oliveira/badges
-Deivid,Amancio,Duarte,1,/users/deivid-duarte/badges
-Filipe,,Duarte,3,/users/filipe-duarte.3c29541f/badges
-Julio,Cesar Ribeiro,Duarte,1,/users/julio-duarte.958cdd89/badges
-Marcelo,,Duarte,1,/users/marcelo-duarte.223b0d24/badges
-Dafne,,Duda,1,/users/dafne-duda/badges
-Wagner,,Costa,1,/users/wagner-costa.b1abe43f/badges
-Caio,Guilherme,Coutinho dos Santos,2,/users/caio-guilherme-coutinho-dos-santos/badges
-Eduardo,,Coutinho,1,/users/eduardo-coutinho.19d5f9d6/badges
-Gustavo,,Coutinho,1,/users/gustavo-potenza-coutinho/badges
-Ilana,,Coutinho,1,/users/ilana-coutinho/badges
-Rodrigo,,Couto,1,/users/rodrigo-couto.373ba254/badges
-Luis Antonio,,Coêlho,1,/users/luis-antonio-coelho/badges
-Vinicius,,Crepschi,1,/users/vinicius-crepschi.63fe887f/badges
-Emerson Vasconcelos,,Costa,1,/users/emerson-vasconcelos-costa/badges
-Joberth,,Costa,1,/users/joberth-costa/badges
-Lucas,,Costa,1,/users/lucas-costa.e3782a83/badges
-Priscila Lacerda,,Costa,1,/users/priscila-lacerda-costa/badges
-Ricardo,,Costa,1,/users/ricardo-costa.74bea3df/badges
-Rodrigo,,Costa,1,/users/rodrigo-costa.37b0204e/badges
-Tiago,,Costa,1,/users/tiago-costa.ff8da369/badges
-Vitor,,Costa,1,/users/vitor-costa.d0bb3fdf/badges
-Roberto,,Filho,1,/users/roberto-filho.4238e019/badges
-Thiago,,Finardi,1,/users/tfinardi/badges
-Vinicius,,Finger,1,/users/vinicius-finger/badges
-Igor,,Fiori,1,/users/igor-fiori/badges
-Caio Haruo,,Flauzino Hatai,1,/users/caio-haruo-flauzino-hatai/badges
-Rodrigo,,Florindo,1,/users/rodrigo-florindo.77d32dd9/badges
-Marco Tulio,,Fonseca Moreira,1,/users/marco-tulio-fonseca-moreira/badges
-Everton,,Fonseca,1,/users/everton-fonseca/badges
-José Luan,,Fernandes da Silva,1,/users/jose-luan-fernandes-da-silva/badges
-Gabriel,,Fernandes de Jesus,1,/users/gabrielfernandesj/badges
-Alexandre,Lopes,Fernandes,1,/users/alexlofern/badges
-Jéssica,,Fernandes,1,/users/jessica-fernandes.336e2d9a/badges
-Leandro,,Fernandes,1,/users/leandro-fernandes.98e23049/badges
-Luan,,Fernandes,1,/users/souluanf/badges
-Marcus,Vinicius Barbosa,Fernandes,1,/users/marcus-fernandes.f5b5381a/badges
-Robério,,Fernandes,1,/users/roberio-fernandes/badges
-José Fernando,,Ferreira Araujo,1,/users/jose-fernando-ferreira-araujo/badges
-Vítor,,Ferreira Bem Silva,1,/users/vitor-ferreira-bem-silva/badges
-Luiz Felipe,,Ferreira Monteiro,1,/users/luiz-felipe-ferreira-monteiro.4045338e/badges
-Cauã,Emanuel,Ferreira de Araújo,1,/users/caua-emanuell/badges
-Alex,Rabelo,Ferreira,1,/users/alexferreiradev/badges
-Alexandre Henrique,,Ferreira,2,/users/alexandre-henrique-ferreira/badges
-Daniel,,Ferreira,1,/users/dferreira/badges
-Ely,,Ferreira,1,/users/ely-ferreira.e62b407b/badges
-Gabriel Cezar,,Ferreira,1,/users/gabriel-cezar-ferreira.344797d3/badges
-Ivan,,Ferreira,1,/users/ivan-ferreira.112c99cb/badges
-João,,Ferreira,1,/users/joao-ferreira.50489570/badges
-Julia Karine,,Ferreira,1,/users/julia-karine-ferreira/badges
-Juliano,,Ferreira,1,/users/juliano-ferreira.bfaf47f2/badges
-Julio,,Ferreira,1,/users/julio-ferreira.254a45b0/badges
-Luiza,,Ferreira,1,/users/luiza-ferreira.49158fb0/badges
-Pedro Paulo,Lopes,Ferreira,1,/users/pedro-paulo-lopes-ferreira/badges
-Juan,,Diniz,1,/users/juan-diniz.2f6f36c1/badges
-Roberto,,Diniz,1,/users/s33ding/badges
-Wantruil,,Do Carmo,1,/users/wantruil-do-carmo/badges
-Mauricio Kaan,,Do Lago Barros,1,/users/mauricio-kaan-barros/badges
-Higor Coelho,,Do Nascimento,1,/users/higor-coelho-do-nascimento/badges
-Mateus,,Domiciano,1,/users/mateus-domiciano/badges
-Mateus,,Domiciano,2,/users/mateus-domiciano.4b505ba7/badges
-Geovane,,Donizete,1,/users/geovane-donizete/badges
-Lorenzo,,Ganzella,1,/users/lorenzo-ganzella/badges
-Aldren,,Garcia Cosmo da Silva,1,/users/aldren-garcia-cosmo-da-silva/badges
-Carlos Henrique,Carlos-CGS,Garcia Soares,1,/users/carlos-garcia-cgs/badges
-Bruno,Vinicius,Garcia,6,/users/ifgarcia/badges
-Mario,,Gavidia Calderón,1,/users/mario-gavidia-calderon/badges
-Alejandro,,Gemin Rosales,1,/users/alejandro-gemin-rosales/badges
-Lucas,,Gervasoni,1,/users/lucas-gervasoni/badges
-Mateus,,Gervazioni,1,/users/mateus-gervazioni/badges
-Julio Cesar,,Freitas Marciano,1,/users/julio-cesar-freitas-marciano/badges
-Solange Brasileiro de,,Freitas Neto,1,/users/solange-brasileiro-de-freitas-neto/badges
-Brunno,,Freitas,1,/users/brunnofreitas/badges
-Carolina,,Freitas,1,/users/carolina-s-freitas/badges
-Pedro,,Freitas,3,/users/pedro-freitas.f14cb2b9/badges
-Raphael,,Freitas,1,/users/raphael-a-s-de-freitas/badges
-Lais,,Frigério,1,/users/lais-frigerio/badges
-Beatriz,,Friso de Paula,1,/users/beatriz-friso-de-paula/badges
-Stefferson,Thallys,Fernandes,1,/users/stefferson-thallys/badges
-Tainá,,Fernandes,2,/users/taina-fernandes/badges
-Tiago,,Fernandes,1,/users/tiago-fernandes.b738cb1a/badges
-Mayara,,Ferneda Mottin,1,/users/mayara-ferneda-mottin/badges
-Rafael,,Ferraz Rodrigues,1,/users/rafael-ferraz-rodrigues/badges
-Marcela,Petra,Ferraz de Novaes,2,/users/marcela-petra-novaes/badges
-Guilherme,,Ferraz,1,/users/guilherme-ferraz.c40573cf/badges
-Mateus,,Ferraz,2,/users/mateus-ferraz.824c5909/badges
-Jonathan,,Ghellere,2,/users/jonathan-ghellere.55c358de/badges
-Bruno,,Gianini,1,/users/bruno-gianini.dd28dd27/badges
-Loys,,Gibertoni,1,/users/loys-gibertoni/badges
-Diego,,Giglioli,14,/users/diego-giglioli.bb64eaa5/badges
-Arthur,,Gini,1,/users/arthur-gini/badges
-Douglas,Montanha,Giordano,1,/users/douglas-giordano.2ae583a4/badges
-Pablo Nicolás,,Girone,1,/users/pablo.girone/badges
-Gabriel,,Glatz,1,/users/gabriel-glatz.d3118fb9/badges
-Rafael,,Ferreira,1,/users/rafaelmaferreira/badges
-Saulo,,Ferreira,1,/users/saulo-ferreira.2d251208/badges
-Wallyson,,Ferreira,1,/users/wallyson-ferreira/badges
-Deusimar,,Ferreria dos Anjos,1,/users/deusimar-ferreria/badges
-Elaine,,Fidalgo,1,/users/elaine-fidalgo/badges
-Lucas,,Fieri Pedroso,1,/users/lucas-fieri-pedroso/badges
-Hamilton,,Filho,1,/users/hamilton-filho.a68140d5/badges
-Leomax,,Filho,1,/users/leomax-filho/badges
-Luiz,,Glatz,1,/users/luiz-glatz/badges
-Ryan,,Gois,1,/users/ryan-gois/badges
-Tiago,,Gomes Cesar,1,/users/tiago-gomes-cesar/badges
-Juciele Maiara,,Gomes da Silva,1,/users/juciele-maiara-gomes-da-silva/badges
-Emily,,Gomes,1,/users/emily-gomes.e729ded2/badges
-Francisco,,Gomes,1,/users/francisco-gomes.caf47710/badges
-Glaucivania,,Gomes,1,/users/glaucivania-gomes/badges
-Marina,,Gomes,1,/users/marina-gomes.68453fa0/badges
-Jefferson,,Francisco dos Santos,1,/users/jefferson-francisco-dos-santos/badges
-Matheus,,Francisco,1,/users/matheus-francisco.05216ab4/badges
-Augusto,,Franco,1,/users/augusto-franco.033a66ec/badges
-Willian,Roberto,Franco,1,/users/willian-roberto-franco/badges
-Guilherme,,Franzoni,1,/users/guilherme-franzoni.ce4a7070/badges
-Cleiton,,França Lima,1,/users/cleiton-franca-lima/badges
-Renato,,França Ramos,1,/users/renato-franca-ramos/badges
-Carol,,Freire,1,/users/carol-freire/badges
-Plinio,,Galisteu,1,/users/plinio-galisteu/badges
-Olesya,,Galkina,1,/users/olesya-galkina/badges
-Paulo,,Galleazzo,1,/users/paulo-galleazzo/badges
-Klaus,,Galm,1,/users/klaus-galm/badges
-Alef,Costa,Galvão,1,/users/alef-costa-galvao/badges
-Ricardo,,Galvão,8,/users/ricardo-galvao.52cfc0ae/badges
-Sávio,,Gama,1,/users/savio-gama/badges
-Alexandre,,Gammaro,1,/users/alexandre_gammaro/badges
-Bruno,,Gomez,1,/users/bruno-gomez.342ae7ed/badges
-Juliana,Wisniewski,Goncalves,1,/users/juliana-goncalves.48590d6d/badges
-Thiago,,Goncalves,3,/users/thiago-goncalves.54430b0e/badges
-Tiago,,Gontijo,1,/users/tiago-gontijo/badges
-Maria,,Gonzales Guarneri,1,/users/maria-gonzales-guarneri/badges
-Carlos Eduardo,,Gonçalves Borges,1,/users/carlos-eduardo-goncalves-borges/badges
-Luiz Gustavo,,Gonçalves Brito,1,/users/luiz-gustavo-goncalves-brito/badges
-Bruna,,Gonçalves de Jesus,1,/users/bruna-goncalves-de-jesus/badges
-Paula,,Gonçalves dos Santos Barros,1,/users/paula-goncalves-dos-santos-barros/badges
-Aires,,Gonçalves,1,/users/airesvsg/badges
-Anderson,,Gonçalves,1,/users/anderson-goncalves-de-sousa-junior/badges
-Edson,,Gonçalves,1,/users/biboy/badges
-Flávio Dantas,,Gonçalves,1,/users/flavio-dantas-goncalves/badges
-Marcos,,Gonçalves,1,/users/coppolaop/badges
-Nathalia,,Gonçalves,1,/users/nathalia-goncalves.def54d6c/badges
-Renan,Lopes,Gonçalves,1,/users/renan.goncalves/badges
-João Vinícius,,Guerber de Souza,1,/users/joao-vinicius-guerber-de-souza/badges
-Carlos Eduardo,,Guergolet da Silva,1,/users/carlos-eduardo-guergolet-da-silva/badges
-Vitor Hugo,,Guerra,2,/users/vitor-hugo-guerra/badges
-Richard,,Guilherme,1,/users/richard-guilherme/badges
-Ernesto,,Guimaraes,1,/users/ernesto-guimaraes/badges
-Marcelino Kennedy,,Guimaraes,1,/users/marcelino-kennedy-guimaraes.361f1bdd/badges
-Henrique,,Guimarães,1,/users/henrique-guimaraes.07a7aa79/badges
-Vitória,,Guimarães,1,/users/vitoria-guimaraes.9f46dac0/badges
-Maria Carolina,,Frota,1,/users/maria-carolina-frota/badges
-Victor,,Fuctuoso,2,/users/victor-fuctuoso/badges
-Ederson,,Furlan,1,/users/ederson-furlan/badges
-ROMULO,,GOMES DELLA LIBERA,1,/users/romulo-gomes-della-libera.6655014b/badges
-MATHEUS,,GONÇALVES,1,/users/g0nc/badges
-Diego,,Gabriel,1,/users/diego-gabriel.3fb5fe2e/badges
-Ângelo,,Gaio,1,/users/angelo-gaio/badges
-Gabriel,,Galeazzi,1,/users/gabriel-galeazzi/badges
-Pedro,,Henauth,1,/users/pedro-henauth/badges
-Rodrigo,Garcez,Hermann,1,/users/rodrigo-garcez-hermann/badges
-Renato,,Hirooka,1,/users/renato-hirooka/badges
-Laura,,Holanda,1,/users/laura-holanda/badges
-Luís,Gustavo,Hoshino,1,/users/luis-hoshino/badges
-Daniel,,Huanca Gutierrez,1,/users/daniel-huanca-gutierrez/badges
-Thiago Henrique,,Hupner,1,/users/thiago-henrique-hupner/badges
-Frank,Osasere,Idugboe,1,/users/kloudmaster/badges
-Paulo Jorge,,Jimenez Junior,1,/users/paulo-jorge-jimenez-junior.c100b43c/badges
-Gustavo,,Jobstraibizer,1,/users/gustavo-jobstraibizer/badges
-Rodrigo,,Jordão,1,/users/rodrigo-alexandre-de-sousa-pacheco-jordao/badges
-Jean,,Jose Ferreira Dornelas,1,/users/dornelasfr/badges
-Éverton,,José da Costa,1,/users/everton-jose-da-costa/badges
-Flávio,,José,2,/users/flaviojcf/badges
-Marcos,,Julio Zanelli,1,/users/marcos-julio-zanelli/badges
-Guilherme,,Junior,1,/users/guilherme-junior.a6d050c0/badges
-Mateus Gustavo,,Ignácio,1,/users/mateus-gustavo-ignacio/badges
-Nilton,,Iinuma,1,/users/nilton-iinuma/badges
-Jonathan Rodrigo,,Inacio,1,/users/jonathan-rodrigo-inacio/badges
-Eduardo,Kinishi,Inoue,1,/users/eduinoue/badges
-Tiago,Henrique,Iwamoto,1,/users/tiago-iwamoto/badges
-Lucas,,Izaias,1,/users/lucas-izaias.ec9d7f30/badges
-JOSE,,JANIO DOS SANTOS SILVA,1,/users/jose-janio-dos-santos-silva/badges
-DERVANIL,,JUNIOR,1,/users/dervanil-junior/badges
-Janderson,,Campelo,1,/users/janderson-campelo.f552ce5a/badges
-Marcus Vinicius,,Campos Soares,1,/users/marcus-vinicius-campos-soares/badges
-Douglas,,Campos,1,/users/douglas-campos.c2f11b53/badges
-Leidjane,,Campos,1,/users/leidjane-campos/badges
-Tamiris,,Campos,1,/users/tamiris-campos/badges
-Luiz,,Canassa,1,/users/luiz-canassa/badges
-Guilherme,,Candido,1,/users/guilherme-candido.00bd3cdd/badges
-Jeferson,,Candido,1,/users/jeferson-candido/badges
-Chinmay,,Khadkhad,1,/users/chinmay-khadkhad/badges
-Kerven,,Kildhery Silva,1,/users/kerven-kildhery-silva/badges
-Mathias,,Klein,1,/users/mathias-klein/badges
-Leonardo,,Knight,1,/users/leonardo-knight/badges
-Eduardo Felipe,,Knop Coelho,3,/users/eduardo-felipe-knop-coelho/badges
-Jhonnathan,,Kohlschreiber Dias Sabino,1,/users/jhonnathan-kohlschreiber-dias-sabino/badges
-Violeta,,Kondo da Silva,1,/users/violeta-kondo-da-silva/badges
-Stephan,,Kotarski,1,/users/stephan-kotarski/badges
-Francisco Luis,,Dunaiski Bruginski,1,/users/francisco-luis-dunaiski-bruginski/badges
-João Vitor,,Dutra Pacheco Gois,1,/users/joao-vitor-dutra-pacheco-gois/badges
-Lucas Eduardo,,Dutra Q. Nunes,1,/users/lucas-eduardo-dutra-q-nunes/badges
-Juliano,,Dziadzio,5,/users/juliano-dziadzio.5cdefb9f/badges
-BRUNO,GLAUCO,ELES,2,/users/bruno-eles/badges
-Bruno,,Eiji,1,/users/bruno-eiji/badges
-Ítalo,,Epifânio,1,/users/italo-epifanio/badges
-Luiz Eduardo,,Espindola Madeira,1,/users/luiz-eduardo-espindola-madeira/badges
-Guilherme,,Kai,1,/users/guilherme-kai/badges
-Gabriel Felipe,,Kalb,1,/users/gabriel-kalb/badges
-Bruno,,Kalel,1,/users/bruno-kalel/badges
-Patrick,,Karnopp Robetti,1,/users/patrick-karnopp-robetti/badges
-Kevin,,Katzer,1,/users/kevin-katzer/badges
-Lazaro,,Kayky,1,/users/lazaro-kayky.56d55bf9/badges
-Willians,,Keiichi,1,/users/willians-keiichi/badges
-Joao,,Kestering,3,/users/joao-kestering/badges
-andre Luiz,,Kovalski,1,/users/andre-luiz-kovalski/badges
-Rhayssa,,Kramer Bezerra de Melo,1,/users/rhayssa-kramer-bezerra-de-melo/badges
-Lucas,,Kraus Monteiro Alves,1,/users/lucas-kraus-monteiro-alves/badges
-João Heytor,Heytor,Kreitlow Pereira,1,/users/joao-heytor-kreitlow-pereira/badges
-Rafael,,Kruger,1,/users/rafael-kruger.ba8f8a59/badges
-Fabrício Veronez,,KubeDev,1,/users/fabricio-veronez-kubedev/badges
-Rodrigo,,Kumabe,4,/users/rodrigo-kumabe/badges
-Klaus Dieter,,Kupper,1,/users/klaus-dieter-kupper/badges
-Guilherme,,Guirro,1,/users/guilherme-guirro/badges
-Cleicy,,Guião de Oliveira,1,/users/cleicy-guiao-de-oliveira/badges
-Fernando,,Gurgel,1,/users/fernando-gurgel/badges
-Patrick,,Handres,1,/users/patrickhandres/badges
-Pedro,,Harutunian,1,/users/pedro-harutunian/badges
-Bruno,,Hashimoto,1,/users/bruno-hashimoto.86b9b0a0/badges
-Mateus,,Hechenblaichner,1,/users/mateus-hechenblaichner/badges
-Frederico,,Henauth,1,/users/frederico-henauth.4a4faa4e/badges
-Raylan,,Lopes,1,/users/raylan-lopes/badges
-Clara,,Loris de Sales Gomes,1,/users/clara-loris-de-sales-gomes/badges
-Felipe,,Lourenço,1,/users/felipe-lourenco.dd2aaacf/badges
-Julia,,Lourenço,1,/users/lourencojulia/badges
-Diogo,,Lucas De Oliveira,1,/users/diogo-lucas-de-oliveira/badges
-Mateus,,Lucena Sabino,1,/users/mateus-lucena-sabino/badges
-Kate,,Lucena dos Santos,1,/users/kate-lucena-dos-santos/badges
-Lucas,,Ludicsa,11,/users/lucas-ludicsa/badges
-Pedro,,Lacerda,2,/users/pedro-lacerda.4fe63591/badges
-Gabriel,,Lagrota,1,/users/gabriel-lagrota/badges
-Arthur,,Lamberti,1,/users/arthur-lamberti/badges
-Paloma,,Lataliza,1,/users/paloma-lataliza/badges
-Rubens,,Lavor,1,/users/rubens-lavor/badges
-Henrique,,Leal,1,/users/henrique-leal.62a5b1d2/badges
-Nicolas,,Leal,1,/users/nicolas-leal/badges
-Jean,,Leandro,1,/users/jean-leandro/badges
-Helio,,Junior,1,/users/helio-junior.c48dd4bc/badges
-Marcos,,Junior,1,/users/marcos-junior.2432317c/badges
-Moises,Paiva de Abreu,Junior,1,/users/moises-junior/badges
-Newton,,Junior,1,/users/newton-junior/badges
-seilor,,Junior,2,/users/seilor-bonancio-junior/badges
-Cleber,,Júnior,1,/users/cleber-junior/badges
-Hugo,,Júnior,1,/users/hugojunior/badges
-Jose Arimateia Rodrigues,Rodrigues,Júnior,1,/users/jose-arimateia-r-junior/badges
-Francisco,,Lima,1,/users/francisco-lima.622cbc48/badges
-Iana Monique da Silva Rodrigues,,Lima,1,/users/iana-monique-da-silva-rodrigues-lima/badges
-Luana,,Lima,1,/users/luana-lima.f06d3dbb/badges
-Luís,,Lima,1,/users/luis-lima.1ba10bc1/badges
-Matheus,,Lima,1,/users/matheusliima/badges
-Victor,,Lima,1,/users/victor-lima.e5c5de92/badges
-Wesley,Batista Santos,Lima,1,/users/wesley-lima.a6a889ad/badges
-Keila,,Linhares,1,/users/keila-linhares/badges
-Clemente,,Machado,1,/users/clemente-machado/badges
-Diego,,Machado,1,/users/diego-machado.cbec4a46/badges
-Hudson,,Machado,1,/users/hudson-machado/badges
-James,,Maclean,1,/users/james-maclean.02a5739a/badges
-Gilberto,,Macorin,1,/users/gilberto-macorin/badges
-Guilherme,,Magalhães,1,/users/guilherme-magalhaes.b47fc829/badges
-Josiane,de Cássia,Magalhães,1,/users/josiane-magalhaes/badges
-Victor,,Magdalene,1,/users/victor-magdalene/badges
-Pedro,,Lins,1,/users/pedro-lins.090b531e/badges
-Arthur,,Lisboa,1,/users/arthur-lisboa.28a629b1/badges
-Gustavo,Teixeira,Lisboa,1,/users/glisboa/badges
-Igor,,Lobo,1,/users/igor-lobo/badges
-Lorrane,,Lobo,1,/users/lorrane-lobo/badges
-Sofia,,Lopes Munaro,1,/users/sofia-lopes-munaro/badges
-Yan,,Lopes Rodrigues,1,/users/yan-lopes-rodrigues/badges
-Jeferson,,Lopes de Oliveira Mendes,1,/users/jeferson-lopes-de-oliveira-mendes/badges
-DANIEL,,MARQUES,3,/users/danielmarques/badges
-FELIPE,,MELLO,1,/users/felipe-mello.44b39330/badges
-LETICIA,,MURAKAWA,1,/users/leticia-murakawa.9c51a826/badges
-Felipe Xavier,,Macedo Silva,1,/users/felipe-xavier-macedo-silva/badges
-Gabriel,,Macedo,1,/users/gabriel-macedo.b67c4828/badges
-Mikaelson,,Macena,1,/users/mikaelson-macena/badges
-Cesar Augusto,,Machado Cadoná,1,/users/cesar-augusto-machado-cadona/badges
-Alex,,Machado,2,/users/alexmachadodev/badges
-Felipe,,Maia,1,/users/felipe-ma1a/badges
-Fernando,,Maia,1,/users/fernando-maia.8656de37/badges
-Fernando,,Maia,1,/users/fernando-maia.8165f29a/badges
-Jorge,,Maia,1,/users/jorge-maia/badges
-João Pedro,,Maia,1,/users/joao-pedro-maia.92d4c291/badges
-Michel,,Maia,1,/users/michel-maia.a336061e/badges
-Rachel,,Maia,1,/users/rachel-maia/badges
-Alexandre,,Malaquias,1,/users/alexandre-malaquias.e9e9c41a/badges
-Marcel,,Manfio,1,/users/marcel-manfio/badges
-Lennon,,Manholeto,1,/users/lennon-manholeto/badges
-Marcellus,,Manhães,1,/users/marcellus-manhaes/badges
-Joao Otavio Rodrigues de Castro,,Manieri,2,/users/joao-otavio-rodrigues-de-castro-manieri.33ae545e/badges
-Patrick,,Manzo,1,/users/patrick-manzo/badges
-Glauber,Marcelino,Marcelino da Silva,1,/users/glauber-marcelino-silva/badges
-Bhrenner,,Marcelino,1,/users/bhrenner/badges
-Joao,,Marcelo Domingos Bruno,2,/users/joao-marcelo-domingos-bruno/badges
-Jaicon,,Marmitt,1,/users/jaicon-marmitt/badges
-Joao Lucas,,Marques Guimaraes,1,/users/joao-guimaraes.fc990a56/badges
-Luiz Fernando,,Marques de Oliveira,1,/users/luiz-fernando-marques-de-oliveira/badges
-Solange Aparecida,,Marques,1,/users/solange-aparecida-marques/badges
-Sérgio,,Marques,1,/users/sergio-marques.999412a6/badges
-Luis,,Martin Ghiglia,1,/users/luis-martin-ghiglia.9fa13cfe/badges
-Marcus,,Martins Leite,1,/users/marcus-martins-leite/badges
-Anderson,Toledo,Martins Moreira,1,/users/anderson-martins.d8eb7253/badges
-Bruno,,Mattos,1,/users/bruno-mattos.542e1ffc/badges
-Gabriela,,Mattos,1,/users/gabriela-mattos.5f8ebe22/badges
-Jean,,Medeiros,1,/users/jean-medeiros/badges
-Lucas,,Mello,1,/users/lucas-mello.a50b31af/badges
-Camila,,Melo Machado,1,/users/camila-melo-machado/badges
-Adriana,,Melo,1,/users/adriana-melo.f0f8e67b/badges
-Carolina,Maria de Paiva,Melo,1,/users/carolina-melo.19540326/badges
-Celio,,Melo,1,/users/celio-melo/badges
-Eduardo,,Martins Ramalho,1,/users/eduardo-martins-ramalho/badges
-Caio,,Martins,1,/users/caio-martins.5874f27e/badges
-Daniel,,Martins,1,/users/daniel-martins.65605309/badges
-Gabriel,,Martins,1,/users/gabrieldlm/badges
-Henrique,,Martins,1,/users/henrique-martins/badges
-Marlena,,Martins,1,/users/marlena-martins/badges
-Thiago,,Martins,1,/users/thiago-martins.1106c99f/badges
-Valter,,Martins,1,/users/valter-martins/badges
-Mayumi,,Kusunoki Griebler,1,/users/mayumi-kusunoki-griebler/badges
-Esdras,,Kutomi,2,/users/esdras-kutomi.024e6bbe/badges
-Esdras,,Kutomi,1,/users/esdras-kutomi.58729e29/badges
-Luiza,,Kuze,1,/users/luiza-kuze/badges
-PEDRO,,LOPES,1,/users/pedro-lopes.f79ab519/badges
-GUILHERME,,LUCAS,1,/users/guilherme-lucas.8cd03734/badges
-Izabelly,,Labegalini,1,/users/izabelly-labegalini/badges
-Ana luiza,,Lacerda,1,/users/ana-luiza-lacerda/badges
+Lavinya,,Correia e Silva,2,/users/lavinya-correia-e-silva/badges
+Hilton Junio,,Costa Cabral,1,/users/hilton-junio-costa-cabral.ccc6b247/badges
+Eduarda,,Costa da Silva,6,/users/eduarda-costa-da-silva/badges
+Lucas,,Costa de Arruda,2,/users/lucas-costa-de-arruda/badges
+Jair,,Costa dos Santos,1,/users/jair-costa-dos-santos/badges
+Arthur,,Costa,1,/users/arthur-costa.5a2e277d/badges
+Arthur,,Costa,2,/users/arthur90costa/badges
+Denise,,Costa,1,/users/denise-costa.8318aa9f/badges
 Belmiro,,Christo Neto,1,/users/belmiro-christo-neto/badges
 Daniel,,Cicotti,1,/users/daniel-cicotti/badges
 Mateus,,Cintra,1,/users/mateus-cintra/badges
@@ -695,6 +255,406 @@ Jéssica,,Cisne,1,/users/jessica-cisne/badges
 Felipe,,Clarindo,1,/users/felipeclarindo/badges
 Guilherme,,Claudino,1,/users/guilherme-claudino/badges
 Luan Roger Santos,,Clementino,1,/users/luan-roger-santos-clementino/badges
+Guilherme,,Cezar Menezes Siqueira,1,/users/guilherme-cezar-menezes-siqueira/badges
+Carla Rafaela,,Chagas de Paiva,1,/users/carla-rafaela-chagas-de-paiva/badges
+Geuel,,Chaves Paiva,1,/users/geuel-chaves-paiva/badges
+Danilo,,Chaves,1,/users/danilo-chaves.85170122/badges
+Luan,Fernando da Silva,Chaves,1,/users/luan-fernando/badges
+Matheus Richard,,Chignolli,2,/users/matheus-richard-chignolli/badges
+David,,Christian,1,/users/david-christian.55be5386/badges
+Fabio,,Christiano,1,/users/fabio-christiano.fc2f7c0c/badges
+Lucas,,Colonna,1,/users/lucas-colonna/badges
+Marcos,,Conceicação,1,/users/marcos-conceicacao/badges
+Fernando,,Conceição,1,/users/fernando-conceicao.af6ebe14/badges
+Juliana,,Conde Alvarez,1,/users/juliana-conde-alvarez/badges
+Eduardo,,Cordeiro,1,/users/eduardo-cordeiro.fc1c1d6e/badges
+Marcello Henrique,,Cordeiro,1,/users/marcello-henrique-cordeiro/badges
+Matheus,,Cordeiro,1,/users/matheus-cordeiro.ebfaad81/badges
+Renato,,Cordeiro,2,/users/renato-cordeiro.714f1fd8/badges
+Emerson Vasconcelos,,Costa,1,/users/emerson-vasconcelos-costa/badges
+Joberth,,Costa,1,/users/joberth-costa/badges
+Lucas,,Costa,1,/users/lucas-costa.e3782a83/badges
+Priscila Lacerda,,Costa,1,/users/priscila-lacerda-costa/badges
+Ricardo,,Costa,1,/users/ricardo-costa.74bea3df/badges
+Rodrigo,,Costa,1,/users/rodrigo-costa.37b0204e/badges
+Tiago,,Costa,1,/users/tiago-costa.ff8da369/badges
+Vitor,,Costa,1,/users/vitor-costa.d0bb3fdf/badges
+Leonardo,,Carvalho,1,/users/leonardo-carvalho.93013bcd/badges
+Yurik,,Carvalho,1,/users/yurik-carvalho/badges
+Fabrizzio,,Casamento,3,/users/fabrizzio-casamento/badges
+Darlan,Vinícius,Cascaes,1,/users/darlan-vinicius-cascaes/badges
+Luiz Claudio,,Cassio Mendes,1,/users/luiz-claudio-cassio-mendes/badges
+Filipe,,Castro,1,/users/filipe-castro.ac7175b0/badges
+Rodrigo,Zavalik,Castro,1,/users/zavalik/badges
+Marcos Antonio,,Catelani Francischini,1,/users/marcos-antonio-catelani-francischini/badges
+Tércio,,Cunha Mendes Rocha Pinto,1,/users/tercio-cunha-mendes-rocha-pinto/badges
+Cristiano,Raffi,Cunha,1,/users/cristiano-raffi-cunha/badges
+Daniela,,Cury,1,/users/daniela-cury/badges
+Marcelo,,Cyreno,1,/users/marcelo-cyreno/badges
+Clivison,,César,1,/users/clivison/badges
+MAX,,DA SILVA,1,/users/max-da-silva/badges
+RAFAEL,SANTOS,DA SILVA,1,/users/rafael-santos-silva.6c8d6427/badges
+MARCOS,,DANTAS GUIMARAES FILHO,1,/users/marcos-dantas-guimaraes-filho.c60b4b92/badges
+André,,Cristiani,1,/users/andre-cristiani.33721eda/badges
+André,,Cristiani,1,/users/andre-cristiani/badges
+Adriano,,Cruvinel,1,/users/adriano-cruvinel/badges
+Lucas,,Cruz Macedo Souza,1,/users/lucas-cruz-macedo-souza/badges
+Alessandra,,Cruz,1,/users/alessandracruz/badges
+Erick,,Cruz,1,/users/erick-willian-alves-da-cruz/badges
+Bruno,,Cubiaco,1,/users/bruno-cubiaco/badges
+Ronaldo,,Cunda,1,/users/rcunda/badges
+FABIANO,,DE SOUSA LIMA,1,/users/fabiano-de-sousa-lima/badges
+STEFANE,,DIAS,1,/users/stefane-dias/badges
+Ricardo,,Da Silva Lima,1,/users/ricardo-da-silva-lima/badges
+Victor,Alexsander Cordeiro,Da Silva,1,/users/victor-alexsander/badges
+Vitor,,Da Silveira Coelho,1,/users/vitor-da-silveira-coelho/badges
+Igor,,Daflon,1,/users/igor-daflon/badges
+Mayara,,Daher,1,/users/mayara-daher/badges
+Marcelo,,Daltin Longhitano,1,/users/marcelo-daltin-longhitano/badges
+Lucas,,Damasceno,1,/users/lucas-damasceno.d321a859/badges
+Marcelo,,Daniel,1,/users/marcelo-daniel.0214ada7/badges
+Nayara,,Dantas,3,/users/nayara-dantas.1586dc73/badges
+Weber,,Dantas,1,/users/weber-dantas/badges
+Caique,,De Brito,1,/users/caique-de-brito/badges
+Deivid,,De Foggi,3,/users/deivid-de-foggi/badges
+John Willian,,De Jesus Soares,1,/users/john-willian-de-jesus-soares/badges
+Bruno Kaique,,De Lima,1,/users/bruno-kaique-de-lima/badges
+Luiz Guilherme,,Duarte Bisco,1,/users/luiz-guilherme-duarte-bisco/badges
+Samela Micaelly,,Duarte Menezes,1,/users/samela-micaelly-duarte-menezes/badges
+Gustavo,,Duarte de Oliveira,1,/users/gustavo-duarte-de-oliveira/badges
+Deivid,Amancio,Duarte,1,/users/deivid-duarte/badges
+Filipe,,Duarte,3,/users/filipe-duarte.3c29541f/badges
+Julio,Cesar Ribeiro,Duarte,1,/users/julio-duarte.958cdd89/badges
+Marcelo,,Duarte,1,/users/marcelo-duarte.223b0d24/badges
+Dafne,,Duda,1,/users/dafne-duda/badges
+Francisco Luis,,Dunaiski Bruginski,1,/users/francisco-luis-dunaiski-bruginski/badges
+João Vitor,,Dutra Pacheco Gois,1,/users/joao-vitor-dutra-pacheco-gois/badges
+Lucas Eduardo,,Dutra Q. Nunes,1,/users/lucas-eduardo-dutra-q-nunes/badges
+Juliano,,Dziadzio,5,/users/juliano-dziadzio.5cdefb9f/badges
+BRUNO,GLAUCO,ELES,2,/users/bruno-eles/badges
+Bruno,,Eiji,1,/users/bruno-eiji/badges
+Ítalo,,Epifânio,1,/users/italo-epifanio/badges
+Luiz Eduardo,,Espindola Madeira,1,/users/luiz-eduardo-espindola-madeira/badges
+Felipe,,Augusto,15,/users/felipementel/badges
+Thiago,Rider,Augusto,1,/users/thiagorider/badges
+Diana,,Avila,1,/users/diana-avila.3f0a188d/badges
+Fernanda,,Avila,1,/users/fernanda-avila-b/badges
+Rodrigo,,Avino,1,/users/rodrigo-dos-santos-avino/badges
+Paulo Eduardo,,Azevedo da Costa,1,/users/paulo-eduardo-da-costa/badges
+Ludgero,,Azevedo,2,/users/ludgero-azevedo/badges
+Mário,,Azevedo,1,/users/mario-azevedo.513702dd/badges
+Luis,,Fabrício De Llamas,1,/users/luis-fabricio-de-llamas/badges
+José Luiz,,Fagundes,1,/users/jose-luiz-fagundes/badges
+Aline,,Fank Maciel Viana,2,/users/aline-fank-maciel-viana/badges
+João Pedro,,Faria e Souza,1,/users/joao-pedro-faria-e-souza/badges
+Josemir,,Farias de Brito,1,/users/josemir-farias-de-brito/badges
+João Antônio,,Farnesi Pereira,1,/users/joao-antonio-farnesi-pereira/badges
+Edgar Peixoto,,Farrapo,2,/users/edgarpf/badges
+André,,Farzat,1,/users/andre-farzat/badges
+Walter,Silvestre,Coan,1,/users/waltercoan/badges
+João Vitor,,Coelho Nunes da Mata,1,/users/joao-vitor-coelho-nunes-da-mata/badges
+Emerson,,Coelho,1,/users/emerson-coelho.cc99816b/badges
+Nikolas,,Coelho,1,/users/nikolas-coelho/badges
+Paulo,,Coelho,1,/users/paulo--coelho/badges
+Vinicius,,Coelho,1,/users/vinicius-coelho.3f9bf8de/badges
+William,,Coelho,1,/users/william-coelho.7bef32e5/badges
+Guilherme,,Coleta,2,/users/guilherme-coleta/badges
+Juan,,Diniz,1,/users/juan-diniz.2f6f36c1/badges
+Roberto,,Diniz,1,/users/s33ding/badges
+Wantruil,,Do Carmo,1,/users/wantruil-do-carmo/badges
+Mauricio Kaan,,Do Lago Barros,1,/users/mauricio-kaan-barros/badges
+Higor Coelho,,Do Nascimento,1,/users/higor-coelho-do-nascimento/badges
+Mateus,,Domiciano,1,/users/mateus-domiciano/badges
+Mateus,,Domiciano,2,/users/mateus-domiciano.4b505ba7/badges
+Geovane,,Donizete,1,/users/geovane-donizete/badges
+Higor,,Dornelas,1,/users/higor-dornelas/badges
+Gabriel,,Dos Reis Costa Bullo,1,/users/gabriel-dos-reis-costa-bullo/badges
+Tiago,,Dos Santos Alves da Silva,1,/users/tiago-dos-santos-alves-da-silva/badges
+Deuseval,,Dos Santos Brito Junior,1,/users/deuseval-dos-santos-brito-junior/badges
+Tamara,,Dos Santos Costa,1,/users/tamara-dos-santos-costa/badges
+Aldrige,,Dos Santos Junior,1,/users/aldrige-dos-santos-junior/badges
+Cauã,,Drefahl,1,/users/caua-drefahl/badges
+Jaqueline,,Dreyer,1,/users/jaqueline-dreyer/badges
+Stefferson,Thallys,Fernandes,1,/users/stefferson-thallys/badges
+Tainá,,Fernandes,2,/users/taina-fernandes/badges
+Tiago,,Fernandes,1,/users/tiago-fernandes.b738cb1a/badges
+Mayara,,Ferneda Mottin,1,/users/mayara-ferneda-mottin/badges
+Rafael,,Ferraz Rodrigues,1,/users/rafael-ferraz-rodrigues/badges
+Marcela,Petra,Ferraz de Novaes,2,/users/marcela-petra-novaes/badges
+Guilherme,,Ferraz,1,/users/guilherme-ferraz.c40573cf/badges
+Mateus,,Ferraz,2,/users/mateus-ferraz.824c5909/badges
+José Fernando,,Ferreira Araujo,1,/users/jose-fernando-ferreira-araujo/badges
+Vítor,,Ferreira Bem Silva,1,/users/vitor-ferreira-bem-silva/badges
+Luiz Felipe,,Ferreira Monteiro,1,/users/luiz-felipe-ferreira-monteiro.4045338e/badges
+Cauã,Emanuel,Ferreira de Araújo,1,/users/caua-emanuell/badges
+Alex,Rabelo,Ferreira,1,/users/alexferreiradev/badges
+Alexandre Henrique,,Ferreira,2,/users/alexandre-henrique-ferreira/badges
+Daniel,,Ferreira,1,/users/dferreira/badges
+Ely,,Ferreira,1,/users/ely-ferreira.e62b407b/badges
+José Luan,,Fernandes da Silva,1,/users/jose-luan-fernandes-da-silva/badges
+Gabriel,,Fernandes de Jesus,1,/users/gabrielfernandesj/badges
+Alexandre,Lopes,Fernandes,1,/users/alexlofern/badges
+Jéssica,,Fernandes,1,/users/jessica-fernandes.336e2d9a/badges
+Leandro,,Fernandes,1,/users/leandro-fernandes.98e23049/badges
+Luan,,Fernandes,1,/users/souluanf/badges
+Marcus,Vinicius Barbosa,Fernandes,1,/users/marcus-fernandes.f5b5381a/badges
+Robério,,Fernandes,1,/users/roberio-fernandes/badges
+Jaelcio,,Araujo,1,/users/jaelcio-araujo/badges
+Luiz,,Araujo,1,/users/luiz-araujo.e5cbb69f/badges
+Davi José,,Araújo Filho,1,/users/davi-jose-araujo-filho.42083701/badges
+Diego,,Araújo,1,/users/diego-araujo.dfd5ebee/badges
+Ewerson,,Araújo,1,/users/ewerson-araujo/badges
+Yuji,,Arima,1,/users/yuji-arima.42885fa9/badges
+Luccas,,Arruda Portela Galdino,1,/users/luccas-arruda-portela-galdino.f5da4044/badges
+Julio,,Arruda,2,/users/julio-arruda/badges
+Roberto,,Filho,1,/users/roberto-filho.4238e019/badges
+Thiago,,Finardi,1,/users/tfinardi/badges
+Vinicius,,Finger,1,/users/vinicius-finger/badges
+Igor,,Fiori,1,/users/igor-fiori/badges
+Caio Haruo,,Flauzino Hatai,1,/users/caio-haruo-flauzino-hatai/badges
+Rodrigo,,Florindo,1,/users/rodrigo-florindo.77d32dd9/badges
+Marco Tulio,,Fonseca Moreira,1,/users/marco-tulio-fonseca-moreira/badges
+Everton,,Fonseca,1,/users/everton-fonseca/badges
+Rafael,,Ferreira,1,/users/rafaelmaferreira/badges
+Saulo,,Ferreira,1,/users/saulo-ferreira.2d251208/badges
+Wallyson,,Ferreira,1,/users/wallyson-ferreira/badges
+Deusimar,,Ferreria dos Anjos,1,/users/deusimar-ferreria/badges
+Elaine,,Fidalgo,1,/users/elaine-fidalgo/badges
+Lucas,,Fieri Pedroso,1,/users/lucas-fieri-pedroso/badges
+Hamilton,,Filho,1,/users/hamilton-filho.a68140d5/badges
+Leomax,,Filho,1,/users/leomax-filho/badges
+Gabriel Cezar,,Ferreira,1,/users/gabriel-cezar-ferreira.344797d3/badges
+Ivan,,Ferreira,1,/users/ivan-ferreira.112c99cb/badges
+João,,Ferreira,1,/users/joao-ferreira.50489570/badges
+Julia Karine,,Ferreira,1,/users/julia-karine-ferreira/badges
+Juliano,,Ferreira,1,/users/juliano-ferreira.bfaf47f2/badges
+Julio,,Ferreira,1,/users/julio-ferreira.254a45b0/badges
+Luiza,,Ferreira,1,/users/luiza-ferreira.49158fb0/badges
+Pedro Paulo,Lopes,Ferreira,1,/users/pedro-paulo-lopes-ferreira/badges
+Wagner,,Costa,1,/users/wagner-costa.b1abe43f/badges
+Caio,Guilherme,Coutinho dos Santos,2,/users/caio-guilherme-coutinho-dos-santos/badges
+Eduardo,,Coutinho,1,/users/eduardo-coutinho.19d5f9d6/badges
+Gustavo,,Coutinho,1,/users/gustavo-potenza-coutinho/badges
+Ilana,,Coutinho,1,/users/ilana-coutinho/badges
+Rodrigo,,Couto,1,/users/rodrigo-couto.373ba254/badges
+Luis Antonio,,Coêlho,1,/users/luis-antonio-coelho/badges
+Vinicius,,Crepschi,1,/users/vinicius-crepschi.63fe887f/badges
+Aylla Christinne,,Feitosa Rodrigues,1,/users/aylla-christinne-feitosa-rodrigues/badges
+Rafael,,Felicio,1,/users/rafael-felicio/badges
+Gabriel,,Felipetto,1,/users/gabriel-felipetto.977df04b/badges
+Aroldo,,Felix Pereira Junior,1,/users/aroldo-felix/badges
+Matheus,,Felix da Silva,1,/users/matheus-felix-da-silva/badges
+Cassia,,Fernanda,1,/users/cassia-fernanda/badges
+Lucas,,Fernandes Ferreira,1,/users/lucas-fernandes-ferreira/badges
+Gean,,Fernandes da Silva,1,/users/gean-fernandes-da-silva/badges
+Jefferson,,Francisco dos Santos,1,/users/jefferson-francisco-dos-santos/badges
+Matheus,,Francisco,1,/users/matheus-francisco.05216ab4/badges
+Augusto,,Franco,1,/users/augusto-franco.033a66ec/badges
+Willian,Roberto,Franco,1,/users/willian-roberto-franco/badges
+Guilherme,,Franzoni,1,/users/guilherme-franzoni.ce4a7070/badges
+Cleiton,,França Lima,1,/users/cleiton-franca-lima/badges
+Renato,,França Ramos,1,/users/renato-franca-ramos/badges
+Carol,,Freire,1,/users/carol-freire/badges
+Erick,,De Oliveira dos Reis Coimbra,2,/users/erick-de-oliveira-dos-reis-coimbra/badges
+Bryan Gustavo,,De Oliveira,1,/users/bryan-gustavo-de-oliveira/badges
+Karina,Ariga,De Oliveira,1,/users/karina-de-oliveira.5d6ba303/badges
+Giovani,,Decusati,1,/users/giovani-decusati/badges
+Sabrina,,Delpache,1,/users/sabrina-delpache/badges
+Thiago,,Demeterko,1,/users/thiago-demeterko/badges
+Gabriel,,Deon,1,/users/gabriel-deon/badges
+Flavia,,Deus,1,/users/flavia-deus/badges
+Julio Cesar,,Freitas Marciano,1,/users/julio-cesar-freitas-marciano/badges
+Solange Brasileiro de,,Freitas Neto,1,/users/solange-brasileiro-de-freitas-neto/badges
+Brunno,,Freitas,1,/users/brunnofreitas/badges
+Carolina,,Freitas,1,/users/carolina-s-freitas/badges
+Pedro,,Freitas,3,/users/pedro-freitas.f14cb2b9/badges
+Raphael,,Freitas,1,/users/raphael-a-s-de-freitas/badges
+Lais,,Frigério,1,/users/lais-frigerio/badges
+Beatriz,,Friso de Paula,1,/users/beatriz-friso-de-paula/badges
+Lorenzo,,Ganzella,1,/users/lorenzo-ganzella/badges
+Aldren,,Garcia Cosmo da Silva,1,/users/aldren-garcia-cosmo-da-silva/badges
+Carlos Henrique,Carlos-CGS,Garcia Soares,1,/users/carlos-garcia-cgs/badges
+Bruno,Vinicius,Garcia,6,/users/ifgarcia/badges
+Mario,,Gavidia Calderón,1,/users/mario-gavidia-calderon/badges
+Alejandro,,Gemin Rosales,1,/users/alejandro-gemin-rosales/badges
+Lucas,,Gervasoni,1,/users/lucas-gervasoni/badges
+Mateus,,Gervazioni,1,/users/mateus-gervazioni/badges
+Plinio,,Galisteu,1,/users/plinio-galisteu/badges
+Olesya,,Galkina,1,/users/olesya-galkina/badges
+Paulo,,Galleazzo,1,/users/paulo-galleazzo/badges
+Klaus,,Galm,1,/users/klaus-galm/badges
+Alef,Costa,Galvão,1,/users/alef-costa-galvao/badges
+Ricardo,,Galvão,8,/users/ricardo-galvao.52cfc0ae/badges
+Sávio,,Gama,1,/users/savio-gama/badges
+Alexandre,,Gammaro,1,/users/alexandre_gammaro/badges
+Maria Carolina,,Frota,1,/users/maria-carolina-frota/badges
+Victor,,Fuctuoso,2,/users/victor-fuctuoso/badges
+Ederson,,Furlan,1,/users/ederson-furlan/badges
+ROMULO,,GOMES DELLA LIBERA,1,/users/romulo-gomes-della-libera.6655014b/badges
+MATHEUS,,GONÇALVES,1,/users/g0nc/badges
+Diego,,Gabriel,1,/users/diego-gabriel.3fb5fe2e/badges
+Ângelo,,Gaio,1,/users/angelo-gaio/badges
+Gabriel,,Galeazzi,1,/users/gabriel-galeazzi/badges
+Bruno,,Gomez,1,/users/bruno-gomez.342ae7ed/badges
+Juliana,Wisniewski,Goncalves,1,/users/juliana-goncalves.48590d6d/badges
+Thiago,,Goncalves,3,/users/thiago-goncalves.54430b0e/badges
+Tiago,,Gontijo,1,/users/tiago-gontijo/badges
+Maria,,Gonzales Guarneri,1,/users/maria-gonzales-guarneri/badges
+Carlos Eduardo,,Gonçalves Borges,1,/users/carlos-eduardo-goncalves-borges/badges
+Luiz Gustavo,,Gonçalves Brito,1,/users/luiz-gustavo-goncalves-brito/badges
+Bruna,,Gonçalves de Jesus,1,/users/bruna-goncalves-de-jesus/badges
+Guilherme,,Kai,1,/users/guilherme-kai/badges
+Gabriel Felipe,,Kalb,1,/users/gabriel-kalb/badges
+Bruno,,Kalel,1,/users/bruno-kalel/badges
+Patrick,,Karnopp Robetti,1,/users/patrick-karnopp-robetti/badges
+Kevin,,Katzer,1,/users/kevin-katzer/badges
+Lazaro,,Kayky,1,/users/lazaro-kayky.56d55bf9/badges
+Willians,,Keiichi,1,/users/willians-keiichi/badges
+Joao,,Kestering,3,/users/joao-kestering/badges
+Paulo Jorge,,Jimenez Junior,1,/users/paulo-jorge-jimenez-junior.c100b43c/badges
+Gustavo,,Jobstraibizer,1,/users/gustavo-jobstraibizer/badges
+Rodrigo,,Jordão,1,/users/rodrigo-alexandre-de-sousa-pacheco-jordao/badges
+Jean,,Jose Ferreira Dornelas,1,/users/dornelasfr/badges
+Éverton,,José da Costa,1,/users/everton-jose-da-costa/badges
+Flávio,,José,2,/users/flaviojcf/badges
+Marcos,,Julio Zanelli,1,/users/marcos-julio-zanelli/badges
+Guilherme,,Junior,1,/users/guilherme-junior.a6d050c0/badges
+João Vinícius,,Guerber de Souza,1,/users/joao-vinicius-guerber-de-souza/badges
+Carlos Eduardo,,Guergolet da Silva,1,/users/carlos-eduardo-guergolet-da-silva/badges
+Vitor Hugo,,Guerra,2,/users/vitor-hugo-guerra/badges
+Richard,,Guilherme,1,/users/richard-guilherme/badges
+Ernesto,,Guimaraes,1,/users/ernesto-guimaraes/badges
+Marcelino Kennedy,,Guimaraes,1,/users/marcelino-kennedy-guimaraes.361f1bdd/badges
+Henrique,,Guimarães,1,/users/henrique-guimaraes.07a7aa79/badges
+Vitória,,Guimarães,1,/users/vitoria-guimaraes.9f46dac0/badges
+Helio,,Junior,1,/users/helio-junior.c48dd4bc/badges
+Marcos,,Junior,1,/users/marcos-junior.2432317c/badges
+Moises,Paiva de Abreu,Junior,1,/users/moises-junior/badges
+Newton,,Junior,1,/users/newton-junior/badges
+seilor,,Junior,2,/users/seilor-bonancio-junior/badges
+Cleber,,Júnior,1,/users/cleber-junior/badges
+Hugo,,Júnior,1,/users/hugojunior/badges
+Jose Arimateia Rodrigues,Rodrigues,Júnior,1,/users/jose-arimateia-r-junior/badges
+andre Luiz,,Kovalski,1,/users/andre-luiz-kovalski/badges
+Rhayssa,,Kramer Bezerra de Melo,1,/users/rhayssa-kramer-bezerra-de-melo/badges
+Lucas,,Kraus Monteiro Alves,1,/users/lucas-kraus-monteiro-alves/badges
+João Heytor,Heytor,Kreitlow Pereira,1,/users/joao-heytor-kreitlow-pereira/badges
+Rafael,,Kruger,1,/users/rafael-kruger.ba8f8a59/badges
+Fabrício Veronez,,KubeDev,1,/users/fabricio-veronez-kubedev/badges
+Rodrigo,,Kumabe,4,/users/rodrigo-kumabe/badges
+Klaus Dieter,,Kupper,1,/users/klaus-dieter-kupper/badges
+Mayumi,,Kusunoki Griebler,1,/users/mayumi-kusunoki-griebler/badges
+Esdras,,Kutomi,2,/users/esdras-kutomi.024e6bbe/badges
+Esdras,,Kutomi,1,/users/esdras-kutomi.58729e29/badges
+Luiza,,Kuze,1,/users/luiza-kuze/badges
+PEDRO,,LOPES,1,/users/pedro-lopes.f79ab519/badges
+GUILHERME,,LUCAS,1,/users/guilherme-lucas.8cd03734/badges
+Izabelly,,Labegalini,1,/users/izabelly-labegalini/badges
+Ana luiza,,Lacerda,1,/users/ana-luiza-lacerda/badges
+Mateus Gustavo,,Ignácio,1,/users/mateus-gustavo-ignacio/badges
+Nilton,,Iinuma,1,/users/nilton-iinuma/badges
+Jonathan Rodrigo,,Inacio,1,/users/jonathan-rodrigo-inacio/badges
+Eduardo,Kinishi,Inoue,1,/users/eduinoue/badges
+Tiago,Henrique,Iwamoto,1,/users/tiago-iwamoto/badges
+Lucas,,Izaias,1,/users/lucas-izaias.ec9d7f30/badges
+JOSE,,JANIO DOS SANTOS SILVA,1,/users/jose-janio-dos-santos-silva/badges
+DERVANIL,,JUNIOR,1,/users/dervanil-junior/badges
+Horácio,,Dias Baptista Neto,1,/users/nenodias/badges
+Andre,,Dias,16,/users/andredias/badges
+André,,Dias,1,/users/andre-dias.0f5a82ff/badges
+Emerson,,Dias,1,/users/emerson-dias/badges
+Joshua,,Dias,1,/users/joshua-dias.d146baa2/badges
+Marlon,,Dias,1,/users/marlon-dias.e50713e6/badges
+Miguel,,Dias,1,/users/miguel-dias.b6c19d9a/badges
+Pilar,,Dib,1,/users/pilar-dib/badges
+Mateus,,Lenhart,7,/users/mateus-lenhart/badges
+Natassja,,Lessa,1,/users/natassja-lessa/badges
+Sadjow,,Leão,1,/users/sadjow-leao/badges
+Bryan,,Liaris,1,/users/bryan-liaris/badges
+Ednil,,Libanio,1,/users/ednil-libanio/badges
+Felipe,Grucci,Libona,1,/users/felipe-grucci-libona/badges
+Nilo,Hernandez,Lima Jr,1,/users/nilo-lima-jr/badges
+Cláudio Filipe,,Lima Rapôso,1,/users/claudio-filipe-lima-raposo/badges
+Tiago,,Gonçalves,1,/users/tiagogn/badges
+Vitória,,Gonçalves,1,/users/vitoria-goncalves/badges
+Yago,,Gonçalves,1,/users/yago-goncalves.758da4a9/badges
+Yan,,Gorski,1,/users/yan-gorski/badges
+Priscilla,,Gra,1,/users/priscilla-gra/badges
+Elton,,Granado,1,/users/elton-granado/badges
+Marcelo,,Granha,1,/users/marcelo-granha/badges
+Camille,,Grings Silva,1,/users/camille-grings-silva/badges
+Raylan,,Lopes,1,/users/raylan-lopes/badges
+Clara,,Loris de Sales Gomes,1,/users/clara-loris-de-sales-gomes/badges
+Felipe,,Lourenço,1,/users/felipe-lourenco.dd2aaacf/badges
+Julia,,Lourenço,1,/users/lourencojulia/badges
+Diogo,,Lucas De Oliveira,1,/users/diogo-lucas-de-oliveira/badges
+Mateus,,Lucena Sabino,1,/users/mateus-lucena-sabino/badges
+Kate,,Lucena dos Santos,1,/users/kate-lucena-dos-santos/badges
+Lucas,,Ludicsa,11,/users/lucas-ludicsa/badges
+Caroline,,Lopes dos Santos,1,/users/caroline-lopes-dos-santos/badges
+André v,,Lopes,1,/users/andre-v-lopes/badges
+Antonio,,Lopes,1,/users/antonio-lopes.2e6e3412/badges
+Gustavo,,Lopes,1,/users/gustavo-lopes.ad3b4639/badges
+Igor,,Lopes,1,/users/igor-lopes.7870489b/badges
+Inaldo,Lopes,Lopes,2,/users/inaldo-lopes/badges
+Marcos,,Lopes,1,/users/marcos-lopes.178b2ffa/badges
+Nathan Schiavon Sanches,,Lopes,1,/users/nathan-schiavon-sanches-lopes/badges
+Pedro,,Lins,1,/users/pedro-lins.090b531e/badges
+Arthur,,Lisboa,1,/users/arthur-lisboa.28a629b1/badges
+Gustavo,Teixeira,Lisboa,1,/users/glisboa/badges
+Igor,,Lobo,1,/users/igor-lobo/badges
+Lorrane,,Lobo,1,/users/lorrane-lobo/badges
+Sofia,,Lopes Munaro,1,/users/sofia-lopes-munaro/badges
+Yan,,Lopes Rodrigues,1,/users/yan-lopes-rodrigues/badges
+Jeferson,,Lopes de Oliveira Mendes,1,/users/jeferson-lopes-de-oliveira-mendes/badges
+Felipe,,Maia,1,/users/felipe-ma1a/badges
+Fernando,,Maia,1,/users/fernando-maia.8656de37/badges
+Fernando,,Maia,1,/users/fernando-maia.8165f29a/badges
+Jorge,,Maia,1,/users/jorge-maia/badges
+João Pedro,,Maia,1,/users/joao-pedro-maia.92d4c291/badges
+Michel,,Maia,1,/users/michel-maia.a336061e/badges
+Rachel,,Maia,1,/users/rachel-maia/badges
+Alexandre,,Malaquias,1,/users/alexandre-malaquias.e9e9c41a/badges
+Clemente,,Machado,1,/users/clemente-machado/badges
+Diego,,Machado,1,/users/diego-machado.cbec4a46/badges
+Hudson,,Machado,1,/users/hudson-machado/badges
+James,,Maclean,1,/users/james-maclean.02a5739a/badges
+Gilberto,,Macorin,1,/users/gilberto-macorin/badges
+Guilherme,,Magalhães,1,/users/guilherme-magalhaes.b47fc829/badges
+Josiane,de Cássia,Magalhães,1,/users/josiane-magalhaes/badges
+Victor,,Magdalene,1,/users/victor-magdalene/badges
+Marcel,,Manfio,1,/users/marcel-manfio/badges
+Lennon,,Manholeto,1,/users/lennon-manholeto/badges
+Marcellus,,Manhães,1,/users/marcellus-manhaes/badges
+Joao Otavio Rodrigues de Castro,,Manieri,2,/users/joao-otavio-rodrigues-de-castro-manieri.33ae545e/badges
+Patrick,,Manzo,1,/users/patrick-manzo/badges
+Glauber,Marcelino,Marcelino da Silva,1,/users/glauber-marcelino-silva/badges
+Bhrenner,,Marcelino,1,/users/bhrenner/badges
+Joao,,Marcelo Domingos Bruno,2,/users/joao-marcelo-domingos-bruno/badges
+Eduardo,,Martins Ramalho,1,/users/eduardo-martins-ramalho/badges
+Caio,,Martins,1,/users/caio-martins.5874f27e/badges
+Daniel,,Martins,1,/users/daniel-martins.65605309/badges
+Gabriel,,Martins,1,/users/gabrieldlm/badges
+Henrique,,Martins,1,/users/henrique-martins/badges
+Marlena,,Martins,1,/users/marlena-martins/badges
+Thiago,,Martins,1,/users/thiago-martins.1106c99f/badges
+Valter,,Martins,1,/users/valter-martins/badges
+Jonathan,,Ghellere,2,/users/jonathan-ghellere.55c358de/badges
+Bruno,,Gianini,1,/users/bruno-gianini.dd28dd27/badges
+Loys,,Gibertoni,1,/users/loys-gibertoni/badges
+Diego,,Giglioli,14,/users/diego-giglioli.bb64eaa5/badges
+Arthur,,Gini,1,/users/arthur-gini/badges
+Douglas,Montanha,Giordano,1,/users/douglas-giordano.2ae583a4/badges
+Pablo Nicolás,,Girone,1,/users/pablo.girone/badges
+Gabriel,,Glatz,1,/users/gabriel-glatz.d3118fb9/badges
+Paula,,Gonçalves dos Santos Barros,1,/users/paula-goncalves-dos-santos-barros/badges
+Aires,,Gonçalves,1,/users/airesvsg/badges
+Anderson,,Gonçalves,1,/users/anderson-goncalves-de-sousa-junior/badges
+Edson,,Gonçalves,1,/users/biboy/badges
+Flávio Dantas,,Gonçalves,1,/users/flavio-dantas-goncalves/badges
+Marcos,,Gonçalves,1,/users/coppolaop/badges
+Nathalia,,Gonçalves,1,/users/nathalia-goncalves.def54d6c/badges
+Renan,Lopes,Gonçalves,1,/users/renan.goncalves/badges
 Jordan,,Marvao,1,/users/jordan-marvao/badges
 Tiago,,Marzari,1,/users/tiago-marzari/badges
 Leila,,Mascarenhas do Prado,1,/users/leila-mascarenhas-do-prado/badges
@@ -703,30 +663,6 @@ Lucca,,Matos,1,/users/lucca-matos/badges
 Luis,,Matos,1,/users/luis-matos.062f9ddb/badges
 Beatriz,,Matsui,5,/users/beatriz-matsui/badges
 Emerson Katsumi,,Matsumoto,1,/users/emerson-katsumi-matsumoto/badges
-Avner Miguel de,,Lima Santos,1,/users/avner-miguel-de-lima-santos/badges
-Adriano,,Lima,1,/users/adriano-lima.f72704f9/badges
-Amanda,,Lima,1,/users/amanda-lima.45193992/badges
-Andreza,,Lima,1,/users/andreza-lima.c3847213/badges
-Bernardo,,Lima,1,/users/bernardo-lima.30b294fb/badges
-Breno,,Lima,1,/users/breno-lima.65a1ac7e/badges
-Diogo,,Lima,1,/users/diogo-lima.0666844e/badges
-Emerson,,Lima,1,/users/emerson-lima.2def9558/badges
-Laís,,Meuchi,1,/users/lais-meuchi/badges
-Alberto,,Miglioni,1,/users/alberto-miglioni/badges
-Josemar Tadeu,,Migowski,1,/users/josemar-migowski/badges
-Beatriz,,Milz,2,/users/beatriz-milz/badges
-Jeferson,,Mioto da Cunha,1,/users/jeferson-mioto-da-cunha/badges
-Leonardo,,Miranda Amaral,3,/users/leonardo-miranda-amaral/badges
-Lucas,,Miranda,1,/users/lucas-miranda.d1ca9f03/badges
-Moisés,,Miranda,1,/users/moises-miranda.38b78ea0/badges
-Marcio,,Miyata,1,/users/marcio-miyata/badges
-Ricardo Norio,,Miyata,1,/users/ricardo-norio-miyata/badges
-Fabio,,Mizo,1,/users/fabio-mizo/badges
-Glauco,,Modanezi,1,/users/glauco-modanezi/badges
-Pedro Renato,,Modena,1,/users/pedro-modena/badges
-Gabriel,,Moenik,1,/users/gabriel-moenik/badges
-Barbara,,Monteiro Branco,1,/users/barbara-monteiro-branco/badges
-Douglas,,Monteiro de Souza,1,/users/douglas-monteiro-de-souza/badges
 Pamela,,Mendes,1,/users/pamela-mendes.ec9f194d/badges
 Daniel,,Mendlovitz,1,/users/daniel-mendlovitz/badges
 Danilo,,Mendonça,1,/users/danilo-mendonca/badges
@@ -735,14 +671,54 @@ Adriano,,Menezes,1,/users/adriano-menezes.9ba71bb7/badges
 Enderson,,Menezes,3,/users/endersonmenezes/badges
 Johnny Dias,,Menezes,1,/users/johnny-dias-menezes/badges
 Eric Hans,,Messias da Silva,1,/users/eric-hans-messias-da-silva/badges
-João,,Luiz,1,/users/joaoluizbr/badges
-Elaine,,Luiza,1,/users/elaine-luiza/badges
-Douglas,,Luna,1,/users/douglasluna/badges
-Marcely,,Luna,1,/users/marcely-luna/badges
-Sérgio,,Luna,1,/users/sergio-luna.06a2cbe2/badges
-Victoria,,Luquet Tewari,1,/users/victoria-luquet-tewari/badges
-Jhonatan,,Lôbo,1,/users/jhonatan-lobo/badges
-Greice,,M Tulio,1,/users/greice-m-tulio/badges
+Pedro,,Henauth,1,/users/pedro-henauth/badges
+Rodrigo,Garcez,Hermann,1,/users/rodrigo-garcez-hermann/badges
+Renato,,Hirooka,1,/users/renato-hirooka/badges
+Laura,,Holanda,1,/users/laura-holanda/badges
+Luís,Gustavo,Hoshino,1,/users/luis-hoshino/badges
+Daniel,,Huanca Gutierrez,1,/users/daniel-huanca-gutierrez/badges
+Thiago Henrique,,Hupner,1,/users/thiago-henrique-hupner/badges
+Frank,Osasere,Idugboe,1,/users/kloudmaster/badges
+Avner Miguel de,,Lima Santos,1,/users/avner-miguel-de-lima-santos/badges
+Adriano,,Lima,1,/users/adriano-lima.f72704f9/badges
+Amanda,,Lima,1,/users/amanda-lima.45193992/badges
+Andreza,,Lima,1,/users/andreza-lima.c3847213/badges
+Bernardo,,Lima,1,/users/bernardo-lima.30b294fb/badges
+Breno,,Lima,1,/users/breno-lima.65a1ac7e/badges
+Diogo,,Lima,1,/users/diogo-lima.0666844e/badges
+Emerson,,Lima,1,/users/emerson-lima.2def9558/badges
+Marcio,,Miyata,1,/users/marcio-miyata/badges
+Ricardo Norio,,Miyata,1,/users/ricardo-norio-miyata/badges
+Fabio,,Mizo,1,/users/fabio-mizo/badges
+Glauco,,Modanezi,1,/users/glauco-modanezi/badges
+Pedro Renato,,Modena,1,/users/pedro-modena/badges
+Gabriel,,Moenik,1,/users/gabriel-moenik/badges
+Barbara,,Monteiro Branco,1,/users/barbara-monteiro-branco/badges
+Douglas,,Monteiro de Souza,1,/users/douglas-monteiro-de-souza/badges
+ISAIAS,,JUNIOR,1,/users/isaias-junior.0c6c097b/badges
+Danilo,Caminhotto,Jafelice,1,/users/danilo-jafelice/badges
+Júlio,,Jaszumbek,1,/users/julio-jaszumbek/badges
+Allyson,,Jeronimo,1,/users/allyson-jeronimo/badges
+Julio,Cesar,Jeronymo,2,/users/julio-jeronymo/badges
+Thalison,,Jesus Cardoso,2,/users/thalison-jesus-cardoso/badges
+Rafael,,Jesus de Maria,1,/users/rafael-jesus-de-maria/badges
+Murilo,,Jesus,1,/users/murilo-jesus.575e1364/badges
+Jaicon,,Marmitt,1,/users/jaicon-marmitt/badges
+Joao Lucas,,Marques Guimaraes,1,/users/joao-guimaraes.fc990a56/badges
+Luiz Fernando,,Marques de Oliveira,1,/users/luiz-fernando-marques-de-oliveira/badges
+Solange Aparecida,,Marques,1,/users/solange-aparecida-marques/badges
+Sérgio,,Marques,1,/users/sergio-marques.999412a6/badges
+Luis,,Martin Ghiglia,1,/users/luis-martin-ghiglia.9fa13cfe/badges
+Marcus,,Martins Leite,1,/users/marcus-martins-leite/badges
+Anderson,Toledo,Martins Moreira,1,/users/anderson-martins.d8eb7253/badges
+Leonardo,,Moraes,1,/users/leonardo-bastos-moraes/badges
+Victor,,Moraes,1,/users/victor-moraes.6a9f1952/badges
+Gabriel,,Morais,1,/users/gabriel-morais.9ff36ada/badges
+Alexandre,,Moreira,1,/users/alexandre-moreira.4e2c14d5/badges
+Bruno,,Moreira,1,/users/bruno-moreira.59fb69e4/badges
+Leonardo,,Moreira,1,/users/leonardo-moreira/badges
+Rodrigo,Aparecido Vieira,Moreira,1,/users/rodrigo-moreira.198b3239/badges
+Fernando,,Moreni,5,/users/fernando-moreni/badges
 Edilson,,Monteiro,2,/users/edilson-monteiro/badges
 Ednei,,Monteiro,5,/users/ednei-monteiro/badges
 Luiz,Felippe Neves,Monteiro,1,/users/luiz-felippe-neves-monteiro/badges
@@ -759,38 +735,22 @@ Vinicius,,Moura,1,/users/vinicius-moura/badges
 Vitor,,Mukai,1,/users/vitor-mukai/badges
 Lucas,,Mumbarra,1,/users/lucasmumbarra/badges
 Tatiane,,Müller,1,/users/tatiane-muller/badges
-Cezar Gabriel,,Moreno Almeida LimaLima,1,/users/cezar-gabriel-moreno-almeida-limalima/badges
-Wesley,,Moreno,1,/users/wesley-moreno/badges
-Eduardo,,Moretti,1,/users/eduardo-moretti.a41f4404/badges
-Alexandre,,Moronari,1,/users/alexandre-moronari/badges
-Samuel,,Mota da Silva,1,/users/samuel-mota-da-silva.35fccbe7/badges
-Lauzier,,Mota,1,/users/lauzier-mota/badges
-Pedro,,Motta,1,/users/pedro-motta/badges
-Robson,,Motta,1,/users/robson-motta/badges
-JANAINA,,NASCIMENTO FEITOZA,1,/users/janaina-nascimento-feitoza.3ef7dfb3/badges
-BRUNO HENRIQUE,,NUNES,1,/users/bruno-nunes.929b0a91/badges
-Lilian,,Nagata,1,/users/lilian-nagata/badges
-Simone,de Fátima,Nakajima Tassi,1,/users/simone-nakajima-tassi/badges
-Eduardo,,Narciso,1,/users/eduardo-narciso.aac7d3e6/badges
-Milton,,Nascimento Alves da Silva,1,/users/milton-nascimento-alves-da-silva/badges
-Samory Soundiata,,Nascimento Nunes Pereira,1,/users/samory-soundiata-nascimento-nunes-pereira/badges
-Vitor,,Nascimento da Silva,1,/users/vitor-nascimento-da-silva.0e0a3ee6/badges
-Aylla Christinne,,Feitosa Rodrigues,1,/users/aylla-christinne-feitosa-rodrigues/badges
-Rafael,,Felicio,1,/users/rafael-felicio/badges
-Gabriel,,Felipetto,1,/users/gabriel-felipetto.977df04b/badges
-Aroldo,,Felix Pereira Junior,1,/users/aroldo-felix/badges
-Matheus,,Felix da Silva,1,/users/matheus-felix-da-silva/badges
-Cassia,,Fernanda,1,/users/cassia-fernanda/badges
-Lucas,,Fernandes Ferreira,1,/users/lucas-fernandes-ferreira/badges
-Gean,,Fernandes da Silva,1,/users/gean-fernandes-da-silva/badges
-Paulo,,Fonseca,1,/users/paulo-fonseca.3f8f2aca/badges
-Samuel,,Fontebasso da Silva,1,/users/samuel-fontebasso-da-silva/badges
-Othon,,Fontenele,1,/users/othon-fontenele/badges
-André,,Fontoura,3,/users/andre-fontoura/badges
-Gabriel,,Fraga,1,/users/gabriel-fraga/badges
-Lucas,,Fraga,1,/users/lucas-fraga/badges
-Alberto,,Fragalá Neto,2,/users/alberto-fragala-neto/badges
-Luiz Henrique,,Franca,1,/users/luiz-henrique-franca/badges
+Luiz,,Glatz,1,/users/luiz-glatz/badges
+Ryan,,Gois,1,/users/ryan-gois/badges
+Tiago,,Gomes Cesar,1,/users/tiago-gomes-cesar/badges
+Juciele Maiara,,Gomes da Silva,1,/users/juciele-maiara-gomes-da-silva/badges
+Emily,,Gomes,1,/users/emily-gomes.e729ded2/badges
+Francisco,,Gomes,1,/users/francisco-gomes.caf47710/badges
+Glaucivania,,Gomes,1,/users/glaucivania-gomes/badges
+Marina,,Gomes,1,/users/marina-gomes.68453fa0/badges
+Ederson,,Melo,1,/users/ederson-melo.bba46485/badges
+Gisele,,Melo,1,/users/gisele-melo/badges
+Majory,,Melo,1,/users/majory-melo/badges
+Felipe,,Mendes Alexandrino,1,/users/felipe-mendes-alexandrino/badges
+Gabriel,,Mendes Soares Velasco,1,/users/gabriel-mendes-soares-velasco.1b224b05/badges
+Diogo,,Mendes de Souza,1,/users/diogo-mendes-de-souza/badges
+Juliana,,Mendes,1,/users/juliana-mendes.650416ac/badges
+Leda,,Mendes,1,/users/leda-mendes/badges
 Alberto,,Nascimento,1,/users/alberto-nascimento.67abe9bc/badges
 Daniel,,Nascimento,1,/users/daniel-nascimento.b30b39b0/badges
 Edson,,Nascimento,1,/users/edson-nascimento.3bacd48e/badges
@@ -807,390 +767,14 @@ Guilherme,,Neuhaus,1,/users/guilherme-neuhaus/badges
 João,,Neves Marques,1,/users/joao-neves-marques/badges
 Deison,,Neves,1,/users/deison-neves/badges
 Débora,,Nieri,1,/users/debora-nieri/badges
-Luis,,Fabrício De Llamas,1,/users/luis-fabricio-de-llamas/badges
-José Luiz,,Fagundes,1,/users/jose-luiz-fagundes/badges
-Aline,,Fank Maciel Viana,2,/users/aline-fank-maciel-viana/badges
-João Pedro,,Faria e Souza,1,/users/joao-pedro-faria-e-souza/badges
-Josemir,,Farias de Brito,1,/users/josemir-farias-de-brito/badges
-João Antônio,,Farnesi Pereira,1,/users/joao-antonio-farnesi-pereira/badges
-Edgar Peixoto,,Farrapo,2,/users/edgarpf/badges
-André,,Farzat,1,/users/andre-farzat/badges
-Luciana Satie,,Oguma,2,/users/luciana-satie-oguma/badges
-Thaís Tiemi,,Ohashi,1,/users/thais-tiemi-ohashi/badges
-Felipe,,Ojo,1,/users/felipe-ojo/badges
-Felipe,,Oliboni,1,/users/felipe-oliboni/badges
-Matheus Henrique,,Oliveira Santos,1,/users/matheus-henrique-oliveira-santos/badges
-Wesley,,Oliveira Santos,1,/users/wesleyosantos91/badges
-Daniel,Alonso,Oliveira Soares,10,/users/dalonsw/badges
-Thiago,,Oliveira da Cunha,1,/users/thiago-oliveira-da-cunha/badges
-Ian Gabriel,,Oliveira de Sousa,2,/users/ian-gabriel-oliveira-de-sousa/badges
-Igor,,Oliveira dos Santos,1,/users/igor-oliveira-dos-santos/badges
-Andrey,,Oliveira,1,/users/andrey-oliveira.499b0eef/badges
-André,,Oliveira,1,/users/andre-oliveira.7e4d30f2/badges
-Arion Mathias,,Oliveira,1,/users/arion-mathias-oliveira/badges
-Bernardo,,Oliveira,1,/users/bernardo-oliveira.b72063d8/badges
-Carlos,,Oliveira,1,/users/carlos-oliveira.2fa89868/badges
-Carlos,,Oliveira,1,/users/carlos-oliveira.8c5bd358/badges
-Danylo,,Oliveira,1,/users/danylo-oliveira.794c6fdd/badges
-Elisabete Martins de,,Oliveira,1,/users/elisabete-martins-de-oliveira/badges
-Erick,,Oliveira,1,/users/erick-oliveira.769b7247/badges
-Erick,,Oliveira,1,/users/erick-oliveira.fa371330/badges
-Fernando,,Oliveira,1,/users/fernando-oliveira.7e0a15a2/badges
-Gleibson,Rodrigo,Oliveira,1,/users/gleibson-oliveira/badges
-Iury,,Oliveira,2,/users/iury-oliveira/badges
-Julia,,Oliveira,1,/users/julia-oliveira.71664c6a/badges
-Paulo,,Oliveira,1,/users/paulo-oliveira.65a3c6d4/badges
-Raul,,Oliveira,1,/users/raul-oliveira.9b355c46/badges
-Robson,,Oliveira,1,/users/robson-oliveira.fa579ef0/badges
-Rogerio,,Oliveira,1,/users/rogerio-oliveira.2dd65e88/badges
-Thiago,,Oliveira,1,/users/thiago-oliveira.17490d97/badges
-Wesley,,Oliveira,1,/users/wesley-oliveira.d2e05880/badges
-Andrey,,Onoue,1,/users/andrey-onoue/badges
-Eliane,,Orlandin do Carmo,1,/users/eliane-orlandin-do-carmo/badges
-Tiago,,Gonçalves,1,/users/tiagogn/badges
-Vitória,,Gonçalves,1,/users/vitoria-goncalves/badges
-Yago,,Gonçalves,1,/users/yago-goncalves.758da4a9/badges
-Yan,,Gorski,1,/users/yan-gorski/badges
-Priscilla,,Gra,1,/users/priscilla-gra/badges
-Elton,,Granado,1,/users/elton-granado/badges
-Marcelo,,Granha,1,/users/marcelo-granha/badges
-Camille,,Grings Silva,1,/users/camille-grings-silva/badges
-Herica,,Nunes Ferreira de Oliveira,1,/users/herica-nunes-ferreira-de-oliveira/badges
-Ítalo,,Nunes Tillmann de Abreu,1,/users/italo-abreu.ca37fa7b/badges
-Andre,,Nunes,13,/users/andre-nunes.0d03ef9b/badges
-Gabriel,,Nunes,1,/users/gabriel-nunes.dded586e/badges
-Marcos,,Nunes,1,/users/marcos-nunes.03c42141/badges
-Marcos,,Nunes,1,/users/mnunes/badges
-Ricardo,José,Nunes,1,/users/ricardo-j-nunes/badges
-João,,Nóbrega,2,/users/joao-nobrega.dde5217a/badges
-Marcelo,,Pedrazzani,1,/users/marcelo-pedrazzani/badges
-Julia,,Pedrosa,1,/users/julia-pedrosa/badges
-Lucas,,Pedroso,1,/users/lucas-pedroso/badges
-Breno,,Peixoto de Almeida,1,/users/breno-peixoto-de-almeida/badges
-André Luiz,,Peixoto,1,/users/andre-luiz-peixoto/badges
-Vitória Maria,,Pena Mendes,1,/users/vitoria-maria-pena-mendes/badges
-Matheus Henrique,,Pereira Assunção,1,/users/matheus-henrique-pereira-assuncao/badges
-Thulio,Mattheus,Pereira De Sousa,1,/users/thulio-mattheus-pereira-de-sousa/badges
-CLAUDIO,,PISKA,1,/users/claudio-piska/badges
-Guilherme,,Pacheco Aparicio,1,/users/guilherme-pacheco-aparicio/badges
-Pedro Henrique,,Pacheco Jordão,1,/users/pedro-hjordao/badges
-Fabio,,Padua,2,/users/fabio-padua/badges
-Letícia,,Paes Pereira,1,/users/leticia-paes-pereira/badges
-Mayara,,Paes,1,/users/mayara-paes.adc06b7f/badges
-Renicius,,Pagotto Fostaini,4,/users/renicius-pagotto-fostaini/badges
-Igor,,Paim,1,/users/igor-paim/badges
-Caroline,,Lopes dos Santos,1,/users/caroline-lopes-dos-santos/badges
-André v,,Lopes,1,/users/andre-v-lopes/badges
-Antonio,,Lopes,1,/users/antonio-lopes.2e6e3412/badges
-Gustavo,,Lopes,1,/users/gustavo-lopes.ad3b4639/badges
-Igor,,Lopes,1,/users/igor-lopes.7870489b/badges
-Inaldo,Lopes,Lopes,2,/users/inaldo-lopes/badges
-Marcos,,Lopes,1,/users/marcos-lopes.178b2ffa/badges
-Nathan Schiavon Sanches,,Lopes,1,/users/nathan-schiavon-sanches-lopes/badges
-Kened,,Oliveira,1,/users/kened-oliveira/badges
-Luciano,da Silva,Oliveira,1,/users/luciano-da-silva-oliveira/badges
-Marcel,Fonseca,Oliveira,1,/users/celfons/badges
-Marcos,,Oliveira,2,/users/olivmarcos/badges
-Matheus,,Oliveira,1,/users/matheus-oliveira.84b752cb/badges
-Matheus,Santos,Oliveira,1,/users/matheus-s-oliveira/badges
-Mayara,,Oliveira,1,/users/mayara-oliveira-mfo/badges
-Paulo,,Oliveira,1,/users/paulo-oliveira.a7d53bb8/badges
-Murilo,Vinicios,Pigosso,1,/users/murilo-vinicios-pigosso/badges
-Inalberth,,Pinheiro Santos,1,/users/inalberth-pinheiro-santos/badges
-Andersson,,Pinheiro,3,/users/andersson-pinheiro.318145fb/badges
-Bruno,,Pinheiro,1,/users/bruno-pinheiro.720f7dd6/badges
-Rodrigo,,Pinheiro,1,/users/rodrigo-pinheiro.19ed6fba/badges
-Afrânio,,Pinto,1,/users/afranio-pinto/badges
-Neilor,de Oliveira,Pinto,1,/users/neilor/badges
-Guilherme,,Pires,1,/users/guilherme-pires.f49526d9/badges
-Pedro,,Ortiz,1,/users/pedro-ortiz.c987bd53/badges
-Renato,,Osaka,1,/users/renato-osaka/badges
-André,,Osmarin,1,/users/andre-osmarin/badges
-Livia,,P. O. Santos,1,/users/livia-p-o-santos/badges
-Patricia,,P. Zanni de Godoy,1,/users/patricia-p-zanni-de-godoy/badges
-JEANE,,PEDROSA,1,/users/jeane-pedrosa/badges
-ALEXSON,SCHEPPA,PEISINO,1,/users/alexson-peisino/badges
-LUCAS,,PINHEIRO ALVES,1,/users/lucas-pinheiro-alves.4eea3ac5/badges
-Gabriel,,Pereira Falcão,1,/users/gabriel-pereira-falcao/badges
-João Pedro,,Pereira Holanda,1,/users/joao-pedro-pereira-holanda/badges
-Carlos,,Pereira Lopes,1,/users/carlos-pereira-lopes/badges
-Yasmin,,Pereira Vargas,1,/users/yasmin-pereira-vargas/badges
-Diego,,Pereira da Rocha,1,/users/dprocha/badges
-Mariana,,Pereira da Silva dos Reis,1,/users/mariana-pereira-da-silva-dos-reis/badges
-Luciano,,Pereira de Arruda,1,/users/luciano-pereira-de-arruda.2d12495a/badges
-Arthur,,Pereira,1,/users/arthur-pereira.44446cc6/badges
-Vitor,,Pires,1,/users/vitor-pires/badges
-Jessica,,Plá,1,/users/jessica-pla.18a31d72/badges
-Jenifer,,Plácido,1,/users/jenifer-placido.08928cfc/badges
-Matheus,,Polkorny,1,/users/matheus-polkorny/badges
-Gabriel Lucius,,Pomin,1,/users/gabriel-lucius-pomin/badges
-Ingrid,,Portilho,1,/users/ingrid-portilho/badges
-Marcelo,,Porto,1,/users/marcelo-porto.3ab3f003/badges
-Douglas,,Prado,1,/users/douglas-prado.25b84e5f/badges
-Regina,,Regina,1,/users/regina-regina.e6be6ae5/badges
-Julio,Coronetti,Regino,1,/users/julio-coronetti/badges
-Thiago,,Regis Gouveia Lima,1,/users/thiago-regis-gouveia-lima/badges
-Marcio,,Regis,1,/users/marcio-regis/badges
-Andre,,Rego,1,/users/andre-rego/badges
-Raphael,,Rego,1,/users/raphaelcarlosr/badges
-Addam,,Reis,1,/users/addam-reis/badges
-Mateus,,Reis,1,/users/mateuspsvreis/badges
-Rafael,,Ribas,1,/users/rafael-ribas.e722d5f2/badges
-Gabriel,,Ribeiro Camargo Ferreira,1,/users/gabriel-ribeiro-camargo-ferreira/badges
-Nathan,,Ribeiro Ferreira Pinto,1,/users/nathan-ribeiro-ferreira-pinto/badges
-Juan Carlos,,Ribeiro Fiuza,1,/users/juan-carlos-ribeiro-fiuza/badges
-Roberto,,Ribeiro Junior,1,/users/roberto-ribeiro-junior/badges
-Douglas,,Ribeiro Silverio,1,/users/douglas-ribeiro-silverio/badges
-Junior,,Ribeiro,1,/users/jotacode/badges
-Karine,,Ribeiro,1,/users/karine_ribeiro/badges
-Rafael,Isaias,Reis,1,/users/rafael-isaias-reis/badges
-Vinícius Gonçalves,,Reis,1,/users/vinicius-goncalves-reis/badges
-Igor,,Resende,1,/users/igor-resende/badges
-Lais,,Resende,1,/users/lais-resende/badges
-Ramon,,Resende,1,/users/ramon-resende/badges
-Felipe,,Rezende,1,/users/feliperezende/badges
-Felipe,,Rezende,1,/users/rezendesfelipe/badges
-Isabeli,,Rezende,1,/users/isabeli-rezende/badges
-Rodrigo,,Pereira,1,/users/rodrigosilveirapereira/badges
-Tatiana,,Pereira,1,/users/tatianaappereira/badges
-Átalo,,Pereira,1,/users/atalo-pereira/badges
-Danilo,,Perez,7,/users/daniloperez/badges
-Wallace,Saymon Leite,Pessoa,1,/users/wallace-saymon-leite-pessoa/badges
-Moacir,Rodrigues,Petry,3,/users/moacir-rodrigues/badges
-Martin,,Pfeifer,1,/users/martin-pfeifer-dev/badges
-Leonardo,,Pignato,1,/users/leonardo-pignato/badges
-João Paulo,,Ramos,1,/users/joao-paulo-ramos.675156c0/badges
-Leonardo,,Ramos,1,/users/leonardoramos/badges
-Lucas,,Ramos,1,/users/lucas-ramos.0d23342f/badges
-Natasha,,Ramos,1,/users/natasha-carmo/badges
-Thiago,,Rampim,1,/users/thiago-rampim/badges
-Raíssa,,Rangel Santos de Abreu,1,/users/raissa-rangel-santos-de-abreu/badges
-Hector,,Rasquinho Costa,1,/users/hector-rasquinho-costa/badges
-Leonardo,,Ravagnani,1,/users/leonardo-ravagnani/badges
-Wadson,,Rocha Lemos,1,/users/wadson-rocha-lemos.0338aa99/badges
-Antônio,,Rocha Neto,1,/users/antonio-rocha-neto/badges
-Eric,Matheus,Rocha,2,/users/eric-matheus-rocha/badges
-Felipe,,Rocha,1,/users/felipe-rocha.50a844f4/badges
-Gessé,Da Silva,Rocha,3,/users/gesserocha/badges
-Herik,,Rocha,1,/users/herik-rocha/badges
-Italo,,Rocha,1,/users/italo-rocha.b1ee0390/badges
-Vitor Ugo,,Roda da Rosa Junior,1,/users/vjunior/badges
-Luiz,,Rodrigo Jardim da Silva,2,/users/luiz-rodrigo-jardim-da-silva/badges
-Heverton,,Rodrigues Camargo,1,/users/heverton-rodrigues-camargo/badges
-Thiago,,Rodrigues Costa,1,/users/thiago-rodrigues-costa.d707a72c/badges
-Tales,,Rodrigues Jardim,1,/users/tales-rodrigues-jardim/badges
-Andrea,,Rodrigues Marques,1,/users/andrea-rodrigues-marques/badges
-Jéssica,,Rodrigues da Silva,1,/users/jessica-rodrigues-da-silva.e90f9aa3/badges
-Alceu,,Rodrigues de Freitas Junior,1,/users/alceu-rodrigues-de-freitas-junior/badges
-Ellen,,Rodrigues de Oliveira Dutra,1,/users/ellendutra/badges
-Mateus,,Ribeiro,1,/users/mateus-ribeiro.120d5431/badges
-Ricardo,,Ribeiro,1,/users/ricardo-ribeiro.66e98ed8/badges
-Samyr,,Ribeiro,1,/users/samyr-ribeiro/badges
-Ana Beatriz,,Rielo costa,1,/users/ana-beatriz-rielo-costa/badges
-Joao Mauricio,,Rinardo,2,/users/joao-mauricio-rinardo/badges
-Paulo,,Roberto Frisolio Junior,2,/users/paulo-roberto-frisolio-junior/badges
-Gabriel,,Robles,1,/users/gabriel-robles.f4d9f5b8/badges
-Guilherme,,Roca,1,/users/guilherme-roca/badges
-Arthur,,Paiva,1,/users/arthur-paiva/badges
-Igor Alexsander,,Parastchuk,1,/users/igor-alexsander-parastchuk/badges
-Thiago,,Passos,1,/users/thiago-passos.3af608dd/badges
-Adriano,Arantes,Paterlini,2,/users/adriano-arantes-paterlini/badges
-Berg,,Patricio,1,/users/berg-patricio/badges
-Enzo,,Patti,1,/users/enzo-patti/badges
-Hyan,,Paulino,1,/users/hyan-paulino/badges
-Caio,,Pavesi,1,/users/caio-pavesi/badges
-Ederson,,Melo,1,/users/ederson-melo.bba46485/badges
-Gisele,,Melo,1,/users/gisele-melo/badges
-Majory,,Melo,1,/users/majory-melo/badges
-Felipe,,Mendes Alexandrino,1,/users/felipe-mendes-alexandrino/badges
-Gabriel,,Mendes Soares Velasco,1,/users/gabriel-mendes-soares-velasco.1b224b05/badges
-Diogo,,Mendes de Souza,1,/users/diogo-mendes-de-souza/badges
-Juliana,,Mendes,1,/users/juliana-mendes.650416ac/badges
-Leda,,Mendes,1,/users/leda-mendes/badges
-Leonardo,,Rodrigues,1,/users/leonardo-rodrigues.5ca27290/badges
-Luma,,Rodrigues,1,/users/luma-rodrigues/badges
-Thiago,,Rodrigues,1,/users/thiago-rodrigues.c6ebb45b/badges
-Thiago,,Rodrigues,1,/users/thiago-rodrigues.270c911b/badges
-Yago,,Rodrigues,1,/users/yago-rodrigues.5e3c4b4b/badges
-Fernando,Henrique,Rogelin Filho,1,/users/fernando-rogelin/badges
-Allan,,Rolli,1,/users/allan-rolli/badges
-Amanda,,Roly,1,/users/amanda-roly/badges
-Luciana,,Sahd Chamma Baptista,1,/users/luciana-sahd-chamma-baptista/badges
-Leonardo,Felipe,Salgado,3,/users/leonardo-salgado.292179c5/badges
-Julio Henrique,,Salina,1,/users/julio-henrique-salina/badges
-Maria,,Salomon,2,/users/maria-salomon.3d54d2e9/badges
-Diego,,Sampaio,1,/users/diego-sampaio/badges
-André Luiz Venancio,,Sanchez,1,/users/andre-luiz-venancio-sanchez/badges
-Gabriel,,Sant'Anna,1,/users/gabriel-sant-anna.f791553c/badges
-Jimmy,,Sant'ana,1,/users/jimmy-sant-ana.f674449a/badges
-Kari Atílio,,Santos Moreira,1,/users/kari-atilio-santos-moreira/badges
-Jailton,,Santos Sales Junior,5,/users/jailton-santos-sales-junior/badges
-Rafael,,Santos de Almeida,1,/users/rafael-santos-de-almeida.d92f9665/badges
-Vinicius,,Santos de Pontes,1,/users/vsdepontes/badges
-Heloísa,,Santos de Sousa,1,/users/heloisa-santos-de-sousa/badges
-Abimael,,Santos,1,/users/abimael-santos.8dc3130b/badges
-Alex,,Santos,1,/users/alex-santos.926ac230/badges
-Amanda,,Santos,2,/users/amanda-santos.ce66967a/badges
-Livia,,Santos,1,/users/livia-santos.822c3fac/badges
-Lucas,,Santos,1,/users/lucas-santos.1209616b/badges
-Mariana,,Santos,1,/users/mariana-santos.61a432d7/badges
-Mauro,,Santos,1,/users/mauro-santos.e2490b19/badges
-Miria A,,Santos,1,/users/miria-a-santos/badges
-Pablo,,Santos,1,/users/pablo-santos.716a2477/badges
-Pedro,,Santos,1,/users/pedro-santos.365c7cd5/badges
-Pedro,,Santos,1,/users/pedro-santos.a3d7d13f/badges
-Henrique,,Santana Dos Santos,1,/users/henrique-santana-dos-santos/badges
-Juliana,,Santana dos Santos,1,/users/juliana-santana-dos-santos/badges
-Rodrigo,,Santana dos Santos,1,/users/rodrigo-santana-dos-santos/badges
-Caroline,,Santana,1,/users/caroline-santana.2f0d22cd/badges
-Rayner,,Santana,1,/users/rayner-santana/badges
-Vinicius,,Santana,1,/users/vinicius-santana.cedadc58/badges
-Luis,,Santini,1,/users/luis-santini.1d876221/badges
-Newton,,Santos Junior,1,/users/newton-santos-junior/badges
-Yuri,,Romão,1,/users/yuri-romao/badges
-Carlos Augusto,,Roque,1,/users/carlos-augusto-roque/badges
-Vinicius,,Rosa de Lima,1,/users/vinicius-rosa-de-lima/badges
-Felipe,,Rosa,1,/users/felipe-rosa.3a57a66f/badges
-Rodrigo,,Rossi,1,/users/rodrigo-rossi.de2feba6/badges
-Rafael,,Roza,1,/users/rafael-roza.d077edbc/badges
-Ana Paula,,Ruas,1,/users/ana-paula-ruas/badges
-Jairo,,Rudas,1,/users/jairo-rudas/badges
-Antoni,,Sganzerla,1,/users/antoni-sganzerla/badges
-Lucas Kendy,,Shimizu Silva,1,/users/lucas-kendy-shimizu-silva/badges
-Levi,,Siebra,1,/users/levi-siebra/badges
-Debora,,Sieburger Carvalho,1,/users/debora-sieburger-carvalho/badges
-Stefani,,Signore,1,/users/stefani-signore/badges
-Marcio,,Silva Alves,1,/users/marcio-silva-alves.0b837991/badges
-João Victor,,Silva Farchi,1,/users/joao-victor-silva-farchi/badges
-Marco Aurélio,,Silva Ferreira,1,/users/marco-aurelio-silva-ferreira/badges
-Jefferson Lucas,,Silva Lourenço,1,/users/jefferson-lucas-silva-lourenco/badges
-Vinícius,,Silva Madureira Pereira,1,/users/viniciusmadureira/badges
-Ezer,,Silva Santana Menezes,1,/users/ezer-silva-santana-menezes/badges
-Gledson,,Silva Sousa,1,/users/gledson-silva-sousa/badges
-Rafael,,Silva Willians,5,/users/rafael-silva-willians/badges
-Lorena Raissa,,Silva da Silva,1,/users/lorena-raissa-silva-da-silva/badges
-Adriano,,Silva,1,/users/adriano-silva.2686211c/badges
-Andre Luiz,,Silva,1,/users/andre-luiz-silva.913fd7db/badges
-Daniel,,Leite,1,/users/daniel-leite.6c7868b4/badges
-Marcus,,Leite,1,/users/marcus-leite/badges
-Matheus,,Leite,1,/users/matheus-leite.76260a4d/badges
-Raoni,,Leite,1,/users/raoni-leite.601fa209/badges
-Tarik,,Leite,1,/users/tarik-leite/badges
-Guilherme,,Leme,1,/users/guilherme-leme.86097c35/badges
-Marcelo,,Lemes,1,/users/marcelo-lemes/badges
-Mariana,,Lemos Silva Lisboa,1,/users/mariana-lemos-silva-lisboa/badges
-Leonardo,,Rodrigues de Oliveira,1,/users/lro/badges
-Derick,,Rodrigues,1,/users/derick-rodrigues/badges
-Diogo,,Rodrigues,1,/users/diogo-rodrigues.c8a131ea/badges
-Gabriel,,Rodrigues,1,/users/gabrielaraujrr/badges
-Gabriel,,Rodrigues,1,/users/gabriel-rodrigues.117e53dd/badges
-Gabriel,,Rodrigues,1,/users/gabriel-rodrigues.bf2404d5/badges
-Gustavo,,Rodrigues,1,/users/gustavo-rodrigues.344d2ce6/badges
-Kauã,,Rodrigues,1,/users/kaua-rodrigues.eee5a127/badges
-Fábio,,Silva,1,/users/fabiosilva/badges
-Gabriel,,Silva,1,/users/gabriel-silva.3cfa38ee/badges
-Genival,,Silva,1,/users/genival-silva.8ac80cce/badges
-Giovanna,,Silva,1,/users/giovanna-silva.a0e48ff8/badges
-João,,Silva,1,/users/joao-silva.69ad90bb/badges
-Juliano Ribeiro,,Silva,1,/users/juliano-ribeiro-silva/badges
-Julio,,Silva,1,/users/julio-silva.659e6960/badges
-Leandro de Souza,,Silva,1,/users/leandross/badges
-Michael,,Rafael Andrade da Silva,1,/users/michael-rafael-andrade-da-silva/badges
-Cainã,,Rafael,1,/users/caina-rafael/badges
-Alan,,Ramalho,1,/users/alan-ramalho/badges
-Jonathan,,Ramalho,1,/users/jonathan-ramalho/badges
-Ana,,Ramos,1,/users/ana-ramos.0562d8e2/badges
-Gerson,,Ramos,1,/users/gerson-ramos/badges
-Hugo,,Ramos,1,/users/hugo-ramos.88c91384/badges
-Jaqueline,,Ramos,1,/users/jaqueline-ramos.bdfa86f5/badges
-Leonardo,,Moraes,1,/users/leonardo-bastos-moraes/badges
-Victor,,Moraes,1,/users/victor-moraes.6a9f1952/badges
-Gabriel,,Morais,1,/users/gabriel-morais.9ff36ada/badges
-Alexandre,,Moreira,1,/users/alexandre-moreira.4e2c14d5/badges
-Bruno,,Moreira,1,/users/bruno-moreira.59fb69e4/badges
-Leonardo,,Moreira,1,/users/leonardo-moreira/badges
-Rodrigo,Aparecido Vieira,Moreira,1,/users/rodrigo-moreira.198b3239/badges
-Fernando,,Moreni,5,/users/fernando-moreni/badges
-Ruan,,Silva,1,/users/ruan-silva.0f8329c6/badges
-Ryan,,Silva,1,/users/ryan-silva.a1d47fa5/badges
-Samara,,Silva,1,/users/samara-silva.c0a78381/badges
-Stephany,,Silva,1,/users/stephany-silva.363f1e2d/badges
-Thiago,,Silva,1,/users/thiago-silva.932b6ecd/badges
-Thiago,,Silva,1,/users/thiago-silva.88c6855e/badges
-Thélesson,,Silva,1,/users/thelesson-silva/badges
-Tiago Rodrigues,,Silva,1,/users/manotiago/badges
-Wagner,,Silva,1,/users/wagner-silva.e87d9803/badges
-leandro,,Silva,1,/users/leandro-silva.841ba62c/badges
-Cristiano,,Silveira Silva,1,/users/cristiano-silveira-silva/badges
-Danilo,,Silvestre,1,/users/danilo-silvestre/badges
-Sara,,Simao,1,/users/sara-simao/badges
-Luís Eduardo,,Simon,1,/users/luis-eduardo-simon/badges
-José Maurício,,Simão Ramos,1,/users/jose-mauricio-simao-ramos/badges
-Felipe,Henrique,Simões de Oliveira,1,/users/felipe-henrique-simoes-de-oliveira/badges
-Anderson,,Soares,1,/users/anderson-soares.c08cbd3e/badges
-Fablicio,,Soares,1,/users/fablicio-soares/badges
-Harysson,,Soares,1,/users/harysson-soares/badges
-Jefferson,,Soares,1,/users/jefferson-soares/badges
-José,Malty,Soares,1,/users/jose-malty-soares/badges
-Rhuan,,Soares,1,/users/rhuan-soares.10bd8307/badges
-Ronaldo,,Soares,1,/users/ronaldo-soares/badges
-Marcio,,Socorro,1,/users/marcio-socorro/badges
-Lukasz,,Sojka,1,/users/lukasz-sojka/badges
-Sandro,,Somogyi,1,/users/sandro-somogyi/badges
-Chrystian,,Sousa,1,/users/chrystian-sousa/badges
-Haniel,,Sousa,1,/users/haniel-sousa/badges
-Zilde,,Souto Maior Neto,1,/users/zilde-souto-maior-neto/badges
-Eurico,,Souza Cruz,2,/users/eurico-souza-cruz.184431ac/badges
-Tainá,,Souza Peixoto,1,/users/taina-souza-peixoto/badges
-Alex,,Souza Silva,3,/users/alex-souza-silva/badges
-Andreza,,Santos,1,/users/andreza-santos/badges
-Ariele,,Santos,1,/users/ariele-santos/badges
-Bruno,,Santos,1,/users/bruno-santos.620d50f5/badges
-Carlos,,Santos,1,/users/carlos-santos.b8cc0f6c/badges
-Carlos Eduardo dos,,Santos,1,/users/carlos-eduardo-dos-santos.13f6271e/badges
-Emerson,,Santos,1,/users/emerson-santos.99710025/badges
-Everton,,Santos,1,/users/everton-santos.e4752d5e/badges
-Fabiano,,Santos,1,/users/fabiano-santos.dd74f029/badges
-Mateus,,Lenhart,7,/users/mateus-lenhart/badges
-Natassja,,Lessa,1,/users/natassja-lessa/badges
-Sadjow,,Leão,1,/users/sadjow-leao/badges
-Bryan,,Liaris,1,/users/bryan-liaris/badges
-Ednil,,Libanio,1,/users/ednil-libanio/badges
-Felipe,Grucci,Libona,1,/users/felipe-grucci-libona/badges
-Nilo,Hernandez,Lima Jr,1,/users/nilo-lima-jr/badges
-Cláudio Filipe,,Lima Rapôso,1,/users/claudio-filipe-lima-raposo/badges
-Jefferson,,Queiroz,1,/users/jefferson-queiroz.abc654a9/badges
-Rodolfo,,Queiroz,1,/users/rodolfo-queiroz/badges
-PEDRO,,ROCHA,1,/users/pedro-rocha.f58454c1/badges
-PEDRO HENRIQUE,,RODRIGUES,1,/users/pedro-henrique-rodrigues.ed75d969/badges
-LUIS FELIPE,,ROSA DE OLIVEIRA,1,/users/luis-felipe-rosa-de-oliveira/badges
-Victor,,Rabay,1,/users/victor-rabay/badges
-Jorge,,Rabello,1,/users/jorge-rabello/badges
-Andre,,Racz,3,/users/andre-racz/badges
-Renato,,Simões,1,/users/rasrenato/badges
-Andressa,,Siqueira,1,/users/andressa-siqueira.1a1d45d2/badges
-Marcelo,,Siqueira,1,/users/marcelo-siqueira.d8ed1be4/badges
-Mauro,,Siqueira,1,/users/mauro-siqueira/badges
-Rodrigo,,Siviero Campos,1,/users/rodrigo-siviero-campos/badges
-David,,Soares Araujo,1,/users/david-soares-araujo/badges
-Felipe,,Soares Casseb dos Santos,1,/users/felipe-soares-casseb-dos-santos/badges
-João Pedro,,Soares Oliveira,1,/users/joao-pedro-soares.9c818639/badges
-Joao,,Tercetti,1,/users/joao-paulo-tercetti/badges
-Rodrigo,,Teófilo de Freitas,1,/users/rodrigo-teofilo-de-freitas/badges
-Thauan Fernandes,,Thauan,1,/users/thauan-fernandes-thauan/badges
-Guilherme,,Theodoro Camargo dos Santos,1,/users/guilherme-theodoro-camargo-dos-santos/badges
-Luciana,,Thomaz Soares,1,/users/luciana-thomaz-soares/badges
-Allan,,Thomazelli dos Santos Vasconcellos,1,/users/allan-thomazelli-dos-santos/badges
-Eduardo,,Thomazi,1,/users/eduardo-thomazi.1985c236/badges
-Daniel,,Todegnon,1,/users/c-daniel-habib-todegnon/badges
-Rafael,,Santos,1,/users/rafael-santos.5d9999bc/badges
-Rui,,Santos,1,/users/rui-santos.3898667d/badges
-Vinicius,,Santos,1,/users/vinicius-santos.8c294adf/badges
-Vinicius,Modenese,Santos,1,/users/vinicius-modenese/badges
-Renata,,Saraiva,1,/users/renata-saraiva/badges
-Rodrigo,,Saraiva,1,/users/rodrigo-saraiva.63000905/badges
-Bruno,,Sato,1,/users/bruno-sato.f4153eb0/badges
-Giovanna,,Scandellari,1,/users/giovanna-scandellari/badges
+Cezar Gabriel,,Moreno Almeida LimaLima,1,/users/cezar-gabriel-moreno-almeida-limalima/badges
+Wesley,,Moreno,1,/users/wesley-moreno/badges
+Eduardo,,Moretti,1,/users/eduardo-moretti.a41f4404/badges
+Alexandre,,Moronari,1,/users/alexandre-moronari/badges
+Samuel,,Mota da Silva,1,/users/samuel-mota-da-silva.35fccbe7/badges
+Lauzier,,Mota,1,/users/lauzier-mota/badges
+Pedro,,Motta,1,/users/pedro-motta/badges
+Robson,,Motta,1,/users/robson-motta/badges
 Anderson,,Nishihara,1,/users/anderson-nishihara/badges
 Marcos,,Nobre Santos,1,/users/marcos-nobre-santos/badges
 Lis,,Nogueira Marreiros,1,/users/lis-nogueira-marreiros/badges
@@ -1199,14 +783,78 @@ Wendel,,Nogueira,1,/users/wendel-nogueira.9d4482f0/badges
 Wallace,,Noronha,2,/users/wallace-noronha/badges
 Cleiton Rafael,,Novotni,1,/users/cleiton-rafael-novotni/badges
 Maria de Fátima,,Nunes Alves,1,/users/maria-de-fatima-nunes-alves/badges
-Vitor,,Tokushige,1,/users/vitor-tokushige.025e98f1/badges
-Isabel,,Tolentino,1,/users/isabel-tolentino.2462b355/badges
-Rodrigo,,Torralbo,1,/users/rodrigo-torralbo/badges
-Joao,,Torres,1,/users/joao-torres.218812c4/badges
-Ronaldo,,Totini,2,/users/ronaldo-totini/badges
-Eduardo,,Trevisani Gamba,1,/users/eduardo-trevisani-gamba/badges
-Igor,Hideki,Trindade,2,/users/igor-trindade.e7cf91ef/badges
-Carlos Eduardo,,Troleis,1,/users/carlos-eduardo-troleis/badges
+Ian Gabriel,,Oliveira de Sousa,2,/users/ian-gabriel-oliveira-de-sousa/badges
+Igor,,Oliveira dos Santos,1,/users/igor-oliveira-dos-santos/badges
+Andrey,,Oliveira,1,/users/andrey-oliveira.499b0eef/badges
+André,,Oliveira,1,/users/andre-oliveira.7e4d30f2/badges
+Arion Mathias,,Oliveira,1,/users/arion-mathias-oliveira/badges
+Bernardo,,Oliveira,1,/users/bernardo-oliveira.b72063d8/badges
+Carlos,,Oliveira,1,/users/carlos-oliveira.2fa89868/badges
+Carlos,,Oliveira,1,/users/carlos-oliveira.8c5bd358/badges
+Luciana Satie,,Oguma,2,/users/luciana-satie-oguma/badges
+Thaís Tiemi,,Ohashi,1,/users/thais-tiemi-ohashi/badges
+Felipe,,Ojo,1,/users/felipe-ojo/badges
+Felipe,,Oliboni,1,/users/felipe-oliboni/badges
+Matheus Henrique,,Oliveira Santos,1,/users/matheus-henrique-oliveira-santos/badges
+Wesley,,Oliveira Santos,1,/users/wesleyosantos91/badges
+Daniel,Alonso,Oliveira Soares,10,/users/dalonsw/badges
+Thiago,,Oliveira da Cunha,1,/users/thiago-oliveira-da-cunha/badges
+Francisco,,Lima,1,/users/francisco-lima.622cbc48/badges
+Iana Monique da Silva Rodrigues,,Lima,1,/users/iana-monique-da-silva-rodrigues-lima/badges
+Luana,,Lima,1,/users/luana-lima.f06d3dbb/badges
+Luís,,Lima,1,/users/luis-lima.1ba10bc1/badges
+Matheus,,Lima,1,/users/matheusliima/badges
+Victor,,Lima,1,/users/victor-lima.e5c5de92/badges
+Wesley,Batista Santos,Lima,1,/users/wesley-lima.a6a889ad/badges
+Keila,,Linhares,1,/users/keila-linhares/badges
+Herica,,Nunes Ferreira de Oliveira,1,/users/herica-nunes-ferreira-de-oliveira/badges
+Ítalo,,Nunes Tillmann de Abreu,1,/users/italo-abreu.ca37fa7b/badges
+Andre,,Nunes,13,/users/andre-nunes.0d03ef9b/badges
+Gabriel,,Nunes,1,/users/gabriel-nunes.dded586e/badges
+Marcos,,Nunes,1,/users/marcos-nunes.03c42141/badges
+Marcos,,Nunes,1,/users/mnunes/badges
+Ricardo,José,Nunes,1,/users/ricardo-j-nunes/badges
+João,,Nóbrega,2,/users/joao-nobrega.dde5217a/badges
+Danylo,,Oliveira,1,/users/danylo-oliveira.794c6fdd/badges
+Elisabete Martins de,,Oliveira,1,/users/elisabete-martins-de-oliveira/badges
+Erick,,Oliveira,1,/users/erick-oliveira.769b7247/badges
+Erick,,Oliveira,1,/users/erick-oliveira.fa371330/badges
+Fernando,,Oliveira,1,/users/fernando-oliveira.7e0a15a2/badges
+Gleibson,Rodrigo,Oliveira,1,/users/gleibson-oliveira/badges
+Iury,,Oliveira,2,/users/iury-oliveira/badges
+Julia,,Oliveira,1,/users/julia-oliveira.71664c6a/badges
+DANIEL,,MARQUES,3,/users/danielmarques/badges
+FELIPE,,MELLO,1,/users/felipe-mello.44b39330/badges
+LETICIA,,MURAKAWA,1,/users/leticia-murakawa.9c51a826/badges
+Felipe Xavier,,Macedo Silva,1,/users/felipe-xavier-macedo-silva/badges
+Gabriel,,Macedo,1,/users/gabriel-macedo.b67c4828/badges
+Mikaelson,,Macena,1,/users/mikaelson-macena/badges
+Cesar Augusto,,Machado Cadoná,1,/users/cesar-augusto-machado-cadona/badges
+Alex,,Machado,2,/users/alexmachadodev/badges
+Kened,,Oliveira,1,/users/kened-oliveira/badges
+Luciano,da Silva,Oliveira,1,/users/luciano-da-silva-oliveira/badges
+Marcel,Fonseca,Oliveira,1,/users/celfons/badges
+Marcos,,Oliveira,2,/users/olivmarcos/badges
+Matheus,,Oliveira,1,/users/matheus-oliveira.84b752cb/badges
+Matheus,Santos,Oliveira,1,/users/matheus-s-oliveira/badges
+Mayara,,Oliveira,1,/users/mayara-oliveira-mfo/badges
+Paulo,,Oliveira,1,/users/paulo-oliveira.a7d53bb8/badges
+Paulo,,Oliveira,1,/users/paulo-oliveira.65a3c6d4/badges
+Raul,,Oliveira,1,/users/raul-oliveira.9b355c46/badges
+Robson,,Oliveira,1,/users/robson-oliveira.fa579ef0/badges
+Rogerio,,Oliveira,1,/users/rogerio-oliveira.2dd65e88/badges
+Thiago,,Oliveira,1,/users/thiago-oliveira.17490d97/badges
+Wesley,,Oliveira,1,/users/wesley-oliveira.d2e05880/badges
+Andrey,,Onoue,1,/users/andrey-onoue/badges
+Eliane,,Orlandin do Carmo,1,/users/eliane-orlandin-do-carmo/badges
+Pedro,,Ortiz,1,/users/pedro-ortiz.c987bd53/badges
+Renato,,Osaka,1,/users/renato-osaka/badges
+André,,Osmarin,1,/users/andre-osmarin/badges
+Livia,,P. O. Santos,1,/users/livia-p-o-santos/badges
+Patricia,,P. Zanni de Godoy,1,/users/patricia-p-zanni-de-godoy/badges
+JEANE,,PEDROSA,1,/users/jeane-pedrosa/badges
+ALEXSON,SCHEPPA,PEISINO,1,/users/alexson-peisino/badges
+LUCAS,,PINHEIRO ALVES,1,/users/lucas-pinheiro-alves.4eea3ac5/badges
 Breno,,Pereira,1,/users/breno-pereira.c1d023ab/badges
 Carlos Vinícius,,Pereira,1,/users/carlos-vinicius-pereira/badges
 Fernanda,Cassemiro,Pereira,1,/users/frnndcassemiro/badges
@@ -1215,227 +863,213 @@ Igor,,Pereira,1,/users/igor-pereira.7341af2a/badges
 João Pedro,,Pereira,1,/users/joao-pedro-pereira.7f50c70c/badges
 Lidiane,,Pereira,1,/users/lidiane-pereira.87e53903/badges
 Nicolas,,Pereira,1,/users/nicolas-pereira.f8d8ed7a/badges
+Marcelo,,Pedrazzani,1,/users/marcelo-pedrazzani/badges
+Julia,,Pedrosa,1,/users/julia-pedrosa/badges
+Lucas,,Pedroso,1,/users/lucas-pedroso/badges
+Breno,,Peixoto de Almeida,1,/users/breno-peixoto-de-almeida/badges
+André Luiz,,Peixoto,1,/users/andre-luiz-peixoto/badges
+Vitória Maria,,Pena Mendes,1,/users/vitoria-maria-pena-mendes/badges
+Matheus Henrique,,Pereira Assunção,1,/users/matheus-henrique-pereira-assuncao/badges
+Thulio,Mattheus,Pereira De Sousa,1,/users/thulio-mattheus-pereira-de-sousa/badges
+Arthur,,Paiva,1,/users/arthur-paiva/badges
+Igor Alexsander,,Parastchuk,1,/users/igor-alexsander-parastchuk/badges
+Thiago,,Passos,1,/users/thiago-passos.3af608dd/badges
+Adriano,Arantes,Paterlini,2,/users/adriano-arantes-paterlini/badges
+Berg,,Patricio,1,/users/berg-patricio/badges
+Enzo,,Patti,1,/users/enzo-patti/badges
+Hyan,,Paulino,1,/users/hyan-paulino/badges
+Caio,,Pavesi,1,/users/caio-pavesi/badges
+Gabriel,,Pereira Falcão,1,/users/gabriel-pereira-falcao/badges
+João Pedro,,Pereira Holanda,1,/users/joao-pedro-pereira-holanda/badges
+Carlos,,Pereira Lopes,1,/users/carlos-pereira-lopes/badges
+Yasmin,,Pereira Vargas,1,/users/yasmin-pereira-vargas/badges
+Diego,,Pereira da Rocha,1,/users/dprocha/badges
+Mariana,,Pereira da Silva dos Reis,1,/users/mariana-pereira-da-silva-dos-reis/badges
+Luciano,,Pereira de Arruda,1,/users/luciano-pereira-de-arruda.2d12495a/badges
+Arthur,,Pereira,1,/users/arthur-pereira.44446cc6/badges
+Rodrigo,,Pereira,1,/users/rodrigosilveirapereira/badges
+Tatiana,,Pereira,1,/users/tatianaappereira/badges
+Átalo,,Pereira,1,/users/atalo-pereira/badges
+Danilo,,Perez,7,/users/daniloperez/badges
+Wallace,Saymon Leite,Pessoa,1,/users/wallace-saymon-leite-pessoa/badges
+Moacir,Rodrigues,Petry,3,/users/moacir-rodrigues/badges
+Martin,,Pfeifer,1,/users/martin-pfeifer-dev/badges
+Leonardo,,Pignato,1,/users/leonardo-pignato/badges
+Jessica,,Plá,1,/users/jessica-pla.18a31d72/badges
+Jenifer,,Plácido,1,/users/jenifer-placido.08928cfc/badges
+Matheus,,Polkorny,1,/users/matheus-polkorny/badges
+Gabriel Lucius,,Pomin,1,/users/gabriel-lucius-pomin/badges
+Ingrid,,Portilho,1,/users/ingrid-portilho/badges
+Marcelo,,Porto,1,/users/marcelo-porto.3ab3f003/badges
+Douglas,,Prado,1,/users/douglas-prado.25b84e5f/badges
+Leandro,,Prado,3,/users/leandro-prado.521892cb/badges
+Rodolfo,,Queiroz,1,/users/rodolfo-queiroz/badges
+PEDRO,,ROCHA,1,/users/pedro-rocha.f58454c1/badges
+PEDRO HENRIQUE,,RODRIGUES,1,/users/pedro-henrique-rodrigues.ed75d969/badges
+LUIS FELIPE,,ROSA DE OLIVEIRA,1,/users/luis-felipe-rosa-de-oliveira/badges
+Victor,,Rabay,1,/users/victor-rabay/badges
+Jorge,,Rabello,1,/users/jorge-rabello/badges
+Andre,,Racz,3,/users/andre-racz/badges
+Michael,,Rafael Andrade da Silva,1,/users/michael-rafael-andrade-da-silva/badges
+Leonardo,,Ramos,1,/users/leonardoramos/badges
+Lucas,,Ramos,1,/users/lucas-ramos.0d23342f/badges
+Natasha,,Ramos,1,/users/natasha-carmo/badges
+Thiago,,Rampim,1,/users/thiago-rampim/badges
+Raíssa,,Rangel Santos de Abreu,1,/users/raissa-rangel-santos-de-abreu/badges
+Hector,,Rasquinho Costa,1,/users/hector-rasquinho-costa/badges
+Leonardo,,Ravagnani,1,/users/leonardo-ravagnani/badges
+Regina,,Regina,1,/users/regina-regina.e6be6ae5/badges
+Julio,Coronetti,Regino,1,/users/julio-coronetti/badges
+Thiago,,Regis Gouveia Lima,1,/users/thiago-regis-gouveia-lima/badges
+Marcio,,Regis,1,/users/marcio-regis/badges
+Andre,,Rego,1,/users/andre-rego/badges
+Raphael,,Rego,1,/users/raphaelcarlosr/badges
+Addam,,Reis,1,/users/addam-reis/badges
+Mateus,,Reis,1,/users/mateuspsvreis/badges
+Rafael,Isaias,Reis,1,/users/rafael-isaias-reis/badges
+Vinícius Gonçalves,,Reis,1,/users/vinicius-goncalves-reis/badges
+Igor,,Resende,1,/users/igor-resende/badges
+Lais,,Resende,1,/users/lais-resende/badges
+Ramon,,Resende,1,/users/ramon-resende/badges
+Felipe,,Rezende,1,/users/feliperezende/badges
+Felipe,,Rezende,1,/users/rezendesfelipe/badges
+Isabeli,,Rezende,1,/users/isabeli-rezende/badges
+Rafael,,Ribas,1,/users/rafael-ribas.e722d5f2/badges
+Cainã,,Rafael,1,/users/caina-rafael/badges
+Alan,,Ramalho,1,/users/alan-ramalho/badges
+Jonathan,,Ramalho,1,/users/jonathan-ramalho/badges
+Ana,,Ramos,1,/users/ana-ramos.0562d8e2/badges
+Gerson,,Ramos,1,/users/gerson-ramos/badges
+Hugo,,Ramos,1,/users/hugo-ramos.88c91384/badges
+Jaqueline,,Ramos,1,/users/jaqueline-ramos.bdfa86f5/badges
+João Paulo,,Ramos,1,/users/joao-paulo-ramos.675156c0/badges
+Murilo,Vinicios,Pigosso,1,/users/murilo-vinicios-pigosso/badges
+Inalberth,,Pinheiro Santos,1,/users/inalberth-pinheiro-santos/badges
+Andersson,,Pinheiro,3,/users/andersson-pinheiro.318145fb/badges
+Bruno,,Pinheiro,1,/users/bruno-pinheiro.720f7dd6/badges
+Rodrigo,,Pinheiro,1,/users/rodrigo-pinheiro.19ed6fba/badges
+Afrânio,,Pinto,1,/users/afranio-pinto/badges
+Neilor,de Oliveira,Pinto,1,/users/neilor/badges
+Guilherme,,Pires,1,/users/guilherme-pires.f49526d9/badges
+Chinmay,,Khadkhad,1,/users/chinmay-khadkhad/badges
+Kerven,,Kildhery Silva,1,/users/kerven-kildhery-silva/badges
+Mathias,,Klein,1,/users/mathias-klein/badges
+Leonardo,,Knight,1,/users/leonardo-knight/badges
+Eduardo Felipe,,Knop Coelho,3,/users/eduardo-felipe-knop-coelho/badges
+Jhonnathan,,Kohlschreiber Dias Sabino,1,/users/jhonnathan-kohlschreiber-dias-sabino/badges
+Violeta,,Kondo da Silva,1,/users/violeta-kondo-da-silva/badges
+Stephan,,Kotarski,1,/users/stephan-kotarski/badges
+Gabriel,,Ribeiro Camargo Ferreira,1,/users/gabriel-ribeiro-camargo-ferreira/badges
+Nathan,,Ribeiro Ferreira Pinto,1,/users/nathan-ribeiro-ferreira-pinto/badges
+Juan Carlos,,Ribeiro Fiuza,1,/users/juan-carlos-ribeiro-fiuza/badges
+Roberto,,Ribeiro Junior,1,/users/roberto-ribeiro-junior/badges
+Douglas,,Ribeiro Silverio,1,/users/douglas-ribeiro-silverio/badges
+Junior,,Ribeiro,1,/users/jotacode/badges
+Karine,,Ribeiro,1,/users/karine_ribeiro/badges
+Mateus,,Ribeiro,1,/users/mateus-ribeiro.120d5431/badges
+Daniel,,Leite,1,/users/daniel-leite.6c7868b4/badges
+Marcus,,Leite,1,/users/marcus-leite/badges
+Matheus,,Leite,1,/users/matheus-leite.76260a4d/badges
+Raoni,,Leite,1,/users/raoni-leite.601fa209/badges
+Tarik,,Leite,1,/users/tarik-leite/badges
+Guilherme,,Leme,1,/users/guilherme-leme.86097c35/badges
+Marcelo,,Lemes,1,/users/marcelo-lemes/badges
+Mariana,,Lemos Silva Lisboa,1,/users/mariana-lemos-silva-lisboa/badges
+Heverton,,Rodrigues Camargo,1,/users/heverton-rodrigues-camargo/badges
+Thiago,,Rodrigues Costa,1,/users/thiago-rodrigues-costa.d707a72c/badges
+Tales,,Rodrigues Jardim,1,/users/tales-rodrigues-jardim/badges
+Andrea,,Rodrigues Marques,1,/users/andrea-rodrigues-marques/badges
+Jéssica,,Rodrigues da Silva,1,/users/jessica-rodrigues-da-silva.e90f9aa3/badges
+Alceu,,Rodrigues de Freitas Junior,1,/users/alceu-rodrigues-de-freitas-junior/badges
+Ellen,,Rodrigues de Oliveira Dutra,1,/users/ellendutra/badges
+Leonardo,,Rodrigues de Oliveira,1,/users/lro/badges
+Marcelo,Almeida,Eugênio,1,/users/marceloeugenio/badges
+Fábio Alexandre,,Evangelista Melo,2,/users/fabio-alexandre-evangelista-melo/badges
+Giovanna,,Evangelista,1,/users/giovanna-evangelista.175852fb/badges
+Rafael,,Evangelista,1,/users/rafaelguerra/badges
+Tobias,,Evangelista,1,/users/tobias-evangelista/badges
+LUCAS,,FERREIRA,1,/users/lucas-ferreira.83dde431/badges
+LEANDRO,,FRANKLIN,1,/users/leandrofranklin/badges
+Fabricio,,Fabricio Silva,1,/users/fabricio-fabricio-silva/badges
+JANAINA,,NASCIMENTO FEITOZA,1,/users/janaina-nascimento-feitoza.3ef7dfb3/badges
+BRUNO HENRIQUE,,NUNES,1,/users/bruno-nunes.929b0a91/badges
+Lilian,,Nagata,1,/users/lilian-nagata/badges
+Simone,de Fátima,Nakajima Tassi,1,/users/simone-nakajima-tassi/badges
+Eduardo,,Narciso,1,/users/eduardo-narciso.aac7d3e6/badges
+Milton,,Nascimento Alves da Silva,1,/users/milton-nascimento-alves-da-silva/badges
+Samory Soundiata,,Nascimento Nunes Pereira,1,/users/samory-soundiata-nascimento-nunes-pereira/badges
+Vitor,,Nascimento da Silva,1,/users/vitor-nascimento-da-silva.0e0a3ee6/badges
+Luma,,Rodrigues,1,/users/luma-rodrigues/badges
+Thiago,,Rodrigues,1,/users/thiago-rodrigues.c6ebb45b/badges
+Thiago,,Rodrigues,1,/users/thiago-rodrigues.270c911b/badges
+Yago,,Rodrigues,1,/users/yago-rodrigues.5e3c4b4b/badges
+Fernando,Henrique,Rogelin Filho,1,/users/fernando-rogelin/badges
+Allan,,Rolli,1,/users/allan-rolli/badges
+Amanda,,Roly,1,/users/amanda-roly/badges
+Yuri,,Romão,1,/users/yuri-romao/badges
+Derick,,Rodrigues,1,/users/derick-rodrigues/badges
+Diogo,,Rodrigues,1,/users/diogo-rodrigues.c8a131ea/badges
+Gabriel,,Rodrigues,1,/users/gabrielaraujrr/badges
+Gabriel,,Rodrigues,1,/users/gabriel-rodrigues.117e53dd/badges
+Gabriel,,Rodrigues,1,/users/gabriel-rodrigues.bf2404d5/badges
+Gustavo,,Rodrigues,1,/users/gustavo-rodrigues.344d2ce6/badges
+Kauã,,Rodrigues,1,/users/kaua-rodrigues.eee5a127/badges
+Leonardo,,Rodrigues,1,/users/leonardo-rodrigues.5ca27290/badges
+Ricardo,,Ribeiro,1,/users/ricardo-ribeiro.66e98ed8/badges
+Samyr,,Ribeiro,1,/users/samyr-ribeiro/badges
+Ana Beatriz,,Rielo costa,1,/users/ana-beatriz-rielo-costa/badges
+Joao Mauricio,,Rinardo,2,/users/joao-mauricio-rinardo/badges
+Paulo,,Roberto Frisolio Junior,2,/users/paulo-roberto-frisolio-junior/badges
+Gabriel,,Robles,1,/users/gabriel-robles.f4d9f5b8/badges
+Guilherme,,Roca,1,/users/guilherme-roca/badges
+Wadson,,Rocha Lemos,1,/users/wadson-rocha-lemos.0338aa99/badges
+Carlos Augusto,,Roque,1,/users/carlos-augusto-roque/badges
+Vinicius,,Rosa de Lima,1,/users/vinicius-rosa-de-lima/badges
+Felipe,,Rosa,1,/users/felipe-rosa.3a57a66f/badges
+Rodrigo,,Rossi,1,/users/rodrigo-rossi.de2feba6/badges
+Rafael,,Roza,1,/users/rafael-roza.d077edbc/badges
+Ana Paula,,Ruas,1,/users/ana-paula-ruas/badges
+Jairo,,Rudas,1,/users/jairo-rudas/badges
 Gabriel,,S. Gonçalves,1,/users/gabriel-s-goncalves/badges
-Marcio Eduardo,,S. Silva,1,/users/marcio-eduardo-s-silva.22014e1d/badges
-BRUNO,,SAVI,2,/users/bruno-savi/badges
-MIRELLE,,SILVA,1,/users/mirelle-silva/badges
-THIAGO ANANIAS,,SILVA,2,/users/thiago-ananias-silva.4d9d6eb1/badges
-EVERALDO,,SOARES,1,/users/everaldo-soares/badges
-Raíssa,,Sabino Cunha,1,/users/raissa-sabino-cunha/badges
-Edson,,Sabino da Silva,1,/users/edson-sabino-da-silva/badges
-Juliana,,Tadeu da Silva,1,/users/juxxnn/badges
-Isaque,,Taioque,1,/users/isaque-taioque/badges
-Daniel,,Takahashi,1,/users/daniel-takahashi/badges
-Arthur,,Takeda,1,/users/arthur-takeda/badges
-Cynthia,Akemi,Takiishi,1,/users/cynthia-akemi-takiishi/badges
-Haline,,Tamaoki,1,/users/haline-tamaoki/badges
-Juliana,Harumi,Tanaka,1,/users/juliana-harumi-tanaka/badges
-Oliver,,Tangari,2,/users/oliver-tangari/badges
-Rodrigo,,Tsuru,1,/users/rodrigo-tsuru/badges
-Henrique,,Tsuyoshi,1,/users/henrique-tsuyoshi/badges
-Kauan,,Tulio,1,/users/kauan-tulio/badges
-Eduardo,,Uchoa,1,/users/eduardo-uchoa.791675c2/badges
-Sandro Toshio,,Uehara,1,/users/sandro-toshio-uehara/badges
-Matheus,,Ulhoa,1,/users/matheus-ulhoa/badges
-José,,Ulisses Da Silva Filho,1,/users/jose-ulisses-da-silva-filho/badges
-Fernando,,Utikawa,1,/users/fernando-utikawa/badges
-Elica,,Vaz,1,/users/elica-vaz/badges
-Rafael,,Veiga,1,/users/rafael-veiga.6da91263/badges
-Guilherme Henrique,,Veloso Santos,1,/users/guilherme-henrique-veloso-santos/badges
-Isaac,,Veras,1,/users/isaac-veras/badges
-Wesley,,Versart Alves Costa de Lima,1,/users/wesley-versart-alves-costa-de-lima/badges
-Matheus,,Veríssimo,1,/users/matheus-verissimo/badges
-Romualdo,,Viana Filho,1,/users/romualdo-viana-filho/badges
-Jamili,,Viana,1,/users/jamili-viana/badges
-Asaph,,Souza diniz,2,/users/asaph-souza-diniz/badges
-Castro,,Souza,1,/users/castro-souza/badges
-Clayton,Rodrigues,Souza,9,/users/clayton-souza/badges
-Diego,,Souza,1,/users/diego-souza.7b6856d1/badges
-Emily,,Souza,1,/users/emily-souza.da0fead6/badges
-Felipe,,Souza,1,/users/felipe-souza.1f02ca3f/badges
-Gabriel,,Souza,1,/users/gabriel-souza.512c4442/badges
-Geovana,,Souza,1,/users/geovana-souza.f07f52eb/badges
-Mariana,,Valério,1,/users/mariana-valerio/badges
-THIERRY PHILIPPE PIERRE ANDRADE,,Vanden BROUCKE,1,/users/thierry-philippe-pierre-andrade-vanden-broucke/badges
-Aluisio,,Vanzolin,2,/users/aluisio-vanzolin.938f3f7d/badges
-Pedro,,Vascconcelos,1,/users/pedro-vascconcelos/badges
-Horacio,,Vasconcellos,2,/users/horacio-vasconcellos/badges
-Vitor,,Vasconcellos,1,/users/vitor-vasconcellos-dos-santos/badges
-MATHEUS,,Vasconcelos,1,/users/matheus-vasconcelos.c1e1ded4/badges
-Danyellias,,Vaz de Lima Manso,1,/users/danyellias-vaz-de-lima-manso/badges
-Michael,,Viana,1,/users/michael-viana.0d8f9d1e/badges
-Victoria,,Viana,1,/users/victoria-viana.4fc77713/badges
-Alisson,,Vianna,1,/users/alisson-vianna/badges
-Lincoln,,Vicencio,1,/users/lincoln-vicencio/badges
-José,,Vieira da Costa Neto,1,/users/jvnetobr/badges
-Francisco Lucas,,Vieira do Nascimento,1,/users/francisco-lucas-vieira-do-nascimento/badges
-Caio,Vianna,Vieira,9,/users/caio-vianna.b6440384/badges
-Luan,França,Vieira,1,/users/luan-vieira.eb2a85e7/badges
-Luana,Corrêa,Vieira,11,/users/luana-vieira.36aca490/badges
-Matheus,,Vieira,1,/users/matheus-vieira.4f7841a5/badges
-Rafael,,Vieira,1,/users/rafael-vieira.bf8397ad/badges
-Shenna,Fernanda da Silva,Vieira,1,/users/shenna-fernanda-s-vieira/badges
-Vinicius,,Vieira,1,/users/vinicius-vieira.8e9dc56a/badges
-Rayssa,,Vilaça,1,/users/rayssa-vilaca/badges
-Vinicius,,Villa,1,/users/vinicius-villa/badges
-Felipe,,Vinhas,1,/users/felipevinhas/badges
-Taimisson,de Carvalho,Schardosim,1,/users/taimisson-schardosim/badges
-Jaison,,Schmidt,4,/users/jaison-schmidt/badges
-Fábio,,Schorn,1,/users/fschorn/badges
-Renan,,Scolari,1,/users/renan-scolari/badges
-Pedro,,Seberino,1,/users/pedro-seberino/badges
-Fabio Massanori,,Sendo,1,/users/fabio-massanori-sendo/badges
-Higor,,Senna,1,/users/higor-senna/badges
-Anderson,,Serafim,1,/users/anderson-serafim/badges
-Sergio,,Stempliuc,1,/users/sergio-stempliuc/badges
-Larissa,,Stephanie da Silva,1,/users/larissa-stephanie-da-silva/badges
-Leandro,Justino,Stoew,1,/users/leandro-stoew/badges
-Fábio,,Szymanski,1,/users/fabio-szymanski/badges
-Gustavo,,Sá,1,/users/1gustavosa1/badges
-Nathalia,,T. Silva,2,/users/nathalia-t-silva/badges
-MATHEUS,,TANURE,1,/users/matheus-tanure/badges
-CRISTIANO,,TELES DA MATA,1,/users/cristiano-teles-da-mata/badges
-Northon,,Vinicios,1,/users/northon-vinicios/badges
-Marcus,,Virgilio de Araujo,1,/users/marcus-virgilio-de-araujo.2b5791fd/badges
-Paulo,,Vitor,1,/users/paulo-vitor.02ce8a73/badges
-Ayrton,,Vitorino,1,/users/ayrton-vitorino/badges
-Leonardo,,Vizagre,10,/users/leonardo.vizagre/badges
-João,,Víctor,1,/users/joao-victor.97d48746/badges
-Guilherme,,W. Espinola,1,/users/guilherme-w-espinola/badges
-Matheus,,Wachtler,1,/users/matheus-wachtler/badges
-lucelho,,cristiano,1,/users/lucelho-cristiano/badges
-liziane,,cysne,1,/users/liziane-cysne/badges
-Edmo,,da Costa,1,/users/edmo-da-costa/badges
-Andressa,,da Cunha,1,/users/andressa-da-cunha/badges
-Guilherme José,,da Fonseca Mello,1,/users/guilherme-jose-da-fonseca-mello/badges
-Carolainne,,da Roza Pessanha,1,/users/carolainne-da-roza-pessanha/badges
-Raissa,Nazaré,da Silva Barbosa,1,/users/raissa-nazare/badges
-Aline,,da Silva Cardoso,1,/users/aline-da-silva-cardoso/badges
-Wilson,,Zarantonello Junior,1,/users/wilson-zarantonello-junior/badges
-Ronan,Adriel,Zenatti,1,/users/ronanzenatti/badges
-Rodrigo,,Zimmerle dos Santos Rodrigues,1,/users/rodrigo-zimmerle-dos-santos-rodrigues.853d1050/badges
-William,,Zonta,5,/users/william-zonta.d8c69de2/badges
-NELSON,,abu samra rahal JUNIOR,1,/users/nelson-abu-samra-rahal-junior/badges
-andre luiz,,albuquerque monteiro,1,/users/andre-luiz-albuquerque-monteiro/badges
-marcelo,,alves,1,/users/marcelo-alves.40165eb3/badges
-jessica,,cerqueira,1,/users/jessica-cerqueira.43960e3f/badges
-Jonatas,,Winston,1,/users/jonatas-winston/badges
-Gabriel,,Wolf,1,/users/gabriel-wolf.54143cad/badges
-Renata,,Wrobleski,1,/users/renata-wrobleski/badges
-Gabriely,,Xavier,1,/users/gabriely-xavier/badges
-José Gabriel De Novais,,Xavier,1,/users/jose-gabriel-de-novais-xavier/badges
-Icaro,,Xenofonte,1,/users/icaro-xenofonte/badges
-Marcel,Hikaru,Yamanaka,1,/users/marcel-hikaru-yamanaka/badges
-Washington,Kiyoshi,Yoshimatsu,1,/users/washington-yoshimatsu/badges
-Luiz Fernando,,da Silva Junior,1,/users/luiz-fernando-da-silva-junior/badges
-Cristiano,,da Silva Lemes,1,/users/cslemes/badges
-Ludmila,,da Silva Pires,1,/users/ludmila-da-silva-pires/badges
-Fábio,,da Silva Rouvier,1,/users/fabio-da-silva-rouvier/badges
-Ana Cláudia,Coscia Di Ferro,da Silva,1,/users/ana-claudia-coscia-di-ferro-da-silva/badges
-Dayvid,,da Silva,1,/users/dayvid-da-silva/badges
-Diogo,Kobbi,da Silva,2,/users/diogo-kobbi/badges
-Edson Rodrigues,,da Silva,1,/users/edson-rodrigues-da-silva/badges
-Lucas Henrique,,de Amorim,1,/users/lucas-henrique-de-amorim/badges
-Mateus Elias,,de Andrade Pereira,1,/users/mateus-elias-de-andrade-pereira.92f586e7/badges
-Emerson,Delatorre,de Andrade,1,/users/delatorrea/badges
-Bruno,,de Araujo Jones Tabatini,1,/users/bruno-de-araujo-jones-tabatini/badges
-José Gabriel,,de Araújo Lopes,1,/users/jose-gabriel-de-araujo-lopes/badges
-Éverton Costa,,de Araújo,1,/users/everton-costa-de-araujo/badges
-Ingrid,,de Assis Souza,1,/users/ingrid-de-assis-souza.0b0127bc/badges
-Larissa,Conti,de Barros,1,/users/larissa-conti/badges
-Lucas Eduardo,,de Carvalho,1,/users/lucas-eduardo-de-carvalho/badges
-Lucas,,de Castro Rodrigues,1,/users/lucas-de-castro-rodrigues.2397069e/badges
-Giancarlo,Vieira,de Castro,1,/users/giancarlo-castro/badges
-Rodrigo,,de Deus,1,/users/rodrigo-de-deus/badges
-Víctor,,de Farias Silva,1,/users/victor-de-farias-silva/badges
-Alejandro,,de Jongh,1,/users/adejonghm/badges
-Jefferson Douglas,Douglas,de Lima Junior,1,/users/jefferson-douglas-de-lima-junior/badges
-Ailton,,de Lira,1,/users/ailton-de-lira/badges
-MARCIO,ANDRE CASTELO BRANCO,ZAMPIRON,1,/users/marciozampiron/badges
-Guilherme,,Zago,1,/users/guilherme-zago.4753b961/badges
-Rebecca,,Zamagna,1,/users/rebecca-zamagna/badges
-Felipe,,Zanatto,1,/users/felipe-zanatto.64535195/badges
-Luis Carlos,,Zancanela,1,/users/luis-carlos-zancanela/badges
-Fernanda,,Zanella Alves,1,/users/fernanda-zanella-alves/badges
-Victor,,Zangerolame Fim,1,/users/victor-zangerolame-fim.5ab2547f/badges
-João Pedro,,Zanqueta,1,/users/joao-pedro-zanqueta/badges
-Lucas,Pereira,dos Reis,1,/users/lucas-dos-reis.32feba79/badges
-Tulio Calil,,dos Santos Andrade,1,/users/tulio-calil-dos-santos-andrade/badges
-Ailton,,dos Santos Brazilino Junior,1,/users/ailton-dos-santos-brazilino-junior/badges
-Marcelo,,dos Santos Goncalves,1,/users/marcelo-dos-santos-goncalves/badges
-Gabriel,,dos Santos Mouta,1,/users/gabriel-dos-santos-mouta/badges
-Carolina,,dos Santos Oliveira,1,/users/carolina-dos-santos-oliveira/badges
-Alessandro,,dos Santos,1,/users/alessandro-dos-santos.8b1805b6/badges
-Bruno Pinheiro,,dos Santos,1,/users/brunopinheiro/badges
-Gabriela,,de Moraes da Silva,1,/users/gabriela-de-moraes-da-silva/badges
-Guilherme,,de Moraes,1,/users/guilherme-de-moraes/badges
-Alan,,de Oliveira Gonçalves,1,/users/alan-de-oliveira-goncalves/badges
-Carla Camila,,de Oliveira Martins,1,/users/carla-camila-de-oliveira-martins/badges
-Luciano,,de Oliveira,1,/users/lanno/badges
-Juliana,,de Paula Almeida,1,/users/juliana-de-paula-almeida.e4ac44ec/badges
-Kairo Henrique,,de Paula Pavan,1,/users/kairopavan/badges
-Pauline,,de Pinho,1,/users/pauline-de-pinho/badges
-Fernando Elias Botão,,dos Santos,1,/users/fernando-elias-botao-dos-santos/badges
-Gustavo,Ribeiro,dos Santos,1,/users/gustavribeiro/badges
-Marina,Vital,dos Santos,1,/users/marivital/badges
-Victor Hugo,,dos Santos,1,/users/victor-hugo-dos-santos.6886aaa8/badges
-jose,,fernandes,1,/users/jose-fernandes.c19d1655/badges
-caue,paulo avilez,fiedler,1,/users/caue-paulo-avilez-fiedler/badges
-pedro,,francisco mendes almeida,1,/users/pedro-francisco-mendes-almeida/badges
-Victor,,guilherme Fierro,2,/users/victor-guilherme-fierro/badges
-clovis,,harada,1,/users/clovis-harada/badges
-firmo,,holanda,1,/users/firmo-holanda/badges
-José,,jânio,1,/users/jose-janio/badges
-ji hye,,koo,1,/users/ji-hye-koo.f4b96b21/badges
-vinicius,,lima,1,/users/vinicius-lima.d90e9dbd/badges
-Flavio,,lves Munck,1,/users/flavio-lves-munck/badges
-vicentina,,martins dos reis,1,/users/vicentina-martins-dos-reis/badges
-abraao,,matias,1,/users/abraao-matias.725e0eea/badges
-jeferson,,mattos de salles,1,/users/jeferson-mattos-de-salles/badges
-andre,,paes,1,/users/andre-paes.d023a427/badges
-giulia,,paiva,2,/users/giulia-paiva/badges
-lucas,,pereira,1,/users/lucas-pereira.7b78b6c0/badges
-ramon,,perez,1,/users/ramon-perez.0b2f8c62/badges
-vinicius,,roberto,1,/users/vinicius-roberto.7f2bd660/badges
-jose,,robson,1,/users/jose-robson/badges
-pedro,,rodrigues,1,/users/pedro-rodrigues.086c2b0d/badges
-ISAIAS,,JUNIOR,1,/users/isaias-junior.0c6c097b/badges
-Danilo,Caminhotto,Jafelice,1,/users/danilo-jafelice/badges
-Júlio,,Jaszumbek,1,/users/julio-jaszumbek/badges
-Allyson,,Jeronimo,1,/users/allyson-jeronimo/badges
-Julio,Cesar,Jeronymo,2,/users/julio-jeronymo/badges
-Thalison,,Jesus Cardoso,2,/users/thalison-jesus-cardoso/badges
-Rafael,,Jesus de Maria,1,/users/rafael-jesus-de-maria/badges
-Murilo,,Jesus,1,/users/murilo-jesus.575e1364/badges
-cassia,,sampaio,1,/users/cassia-sampaio/badges
-Rafael,,vasconcelos dos santos,1,/users/rafael-vasconcelos-dos-santos.bb2fc2ce/badges
-wendel,,vieira,1,/users/wendel-vieira.df32f260/badges
-matheus,,zandona,2,/users/matheus-zandona/badges
-Erlan,,ㅤ,1,/users/erlan-lucio/badges
-Luis Fernando,,da Silva,1,/users/luis-fernando-da-silva.451574db/badges
-Luiz Felipe Neiva,,da Silva,1,/users/luiz-felipe-da-silva.6d34b298/badges
-Marcos,,da Silva,1,/users/marcos-da-silva.12ea6193/badges
-Rafael Vinicius,Volkmer,da Silva,1,/users/rafaelvvolkmer/badges
-Rodrigo,,da Silva,1,/users/rodrigo-da-silva.db2ef65f/badges
-Larissa,,de Albuquerque Santos,1,/users/larissa-de-albuquerque-santos/badges
-Luiz Felipe,,de Almeida Fávaro,1,/users/luiz-felipe-de-almeida-favaro/badges
-Gabrielle,Alves,de Almeida,1,/users/gabrielle-alves-de-almeida/badges
-Fabrizio Elias,,de Santana Silva,2,/users/fabrizio-elias-de-santana-silva/badges
-Fabiano,,de Santana,1,/users/fabiano-de-santana.13c7af1c/badges
-Leonardo,Saconato,de Santana,1,/users/leonardo-saconato-de-santana/badges
-Wensttay,,de Sousa Alencar,1,/users/wensttay-de-sousa-alencar.81b17551/badges
-Milton,,de Sousa Cabral Júnior,1,/users/milton-de-sousa-cabral-junior/badges
-Daniel Felipe,,de Souza Costa,1,/users/daniel-felipe-de-souza-costa/badges
-Aderlei,,de Souza Filho,1,/users/aderlei-de-souza-filho/badges
-Leonardo,,de Souza Rodrigues,1,/users/leo10ui/badges
-Bruno,,Silva,1,/users/bruno-silva.ea109883/badges
-Daniel,,Silva,1,/users/daniel-silva.ebdf82e4/badges
-Daniel,,Silva,1,/users/daniel-silva.5d486660/badges
-Diego,,Silva,1,/users/diego-silva.4103ec7b/badges
-Eder,,Silva,1,/users/eder-silva.827e7cf5/badges
-Elidiana,,Silva,1,/users/elidiana/badges
-Fernando,,Silva,2,/users/fernando-silva.34f7917d/badges
-Flávio,,Silva,2,/users/flavio-silva.dd781bd3/badges
+Pedro,,Lacerda,2,/users/pedro-lacerda.4fe63591/badges
+Gabriel,,Lagrota,1,/users/gabriel-lagrota/badges
+Arthur,,Lamberti,1,/users/arthur-lamberti/badges
+Paloma,,Lataliza,1,/users/paloma-lataliza/badges
+Rubens,,Lavor,1,/users/rubens-lavor/badges
+Henrique,,Leal,1,/users/henrique-leal.62a5b1d2/badges
+Nicolas,,Leal,1,/users/nicolas-leal/badges
+Jean,,Leandro,1,/users/jean-leandro/badges
+Guilherme,,Guirro,1,/users/guilherme-guirro/badges
+Cleicy,,Guião de Oliveira,1,/users/cleicy-guiao-de-oliveira/badges
+Fernando,,Gurgel,1,/users/fernando-gurgel/badges
+Patrick,,Handres,1,/users/patrickhandres/badges
+Pedro,,Harutunian,1,/users/pedro-harutunian/badges
+Bruno,,Hashimoto,1,/users/bruno-hashimoto.86b9b0a0/badges
+Mateus,,Hechenblaichner,1,/users/mateus-hechenblaichner/badges
+Frederico,,Henauth,1,/users/frederico-henauth.4a4faa4e/badges
+Leonardo,Felipe,Salgado,3,/users/leonardo-salgado.292179c5/badges
+Julio Henrique,,Salina,1,/users/julio-henrique-salina/badges
+Maria,,Salomon,2,/users/maria-salomon.3d54d2e9/badges
+Diego,,Sampaio,1,/users/diego-sampaio/badges
+André Luiz Venancio,,Sanchez,1,/users/andre-luiz-venancio-sanchez/badges
+Gabriel,,Sant'Anna,1,/users/gabriel-sant-anna.f791553c/badges
+Jimmy,,Sant'ana,1,/users/jimmy-sant-ana.f674449a/badges
+Henrique,,Santana Dos Santos,1,/users/henrique-santana-dos-santos/badges
+Paulo,,Fonseca,1,/users/paulo-fonseca.3f8f2aca/badges
+Samuel,,Fontebasso da Silva,1,/users/samuel-fontebasso-da-silva/badges
+Othon,,Fontenele,1,/users/othon-fontenele/badges
+André,,Fontoura,3,/users/andre-fontoura/badges
+Gabriel,,Fraga,1,/users/gabriel-fraga/badges
+Lucas,,Fraga,1,/users/lucas-fraga/badges
+Alberto,,Fragalá Neto,2,/users/alberto-fragala-neto/badges
+Luiz Henrique,,Franca,1,/users/luiz-henrique-franca/badges
+Ariele,,Santos,1,/users/ariele-santos/badges
+Bruno,,Santos,1,/users/bruno-santos.620d50f5/badges
+Carlos,,Santos,1,/users/carlos-santos.b8cc0f6c/badges
+Carlos Eduardo dos,,Santos,1,/users/carlos-eduardo-dos-santos.13f6271e/badges
+Emerson,,Santos,1,/users/emerson-santos.99710025/badges
+Everton,,Santos,1,/users/everton-santos.e4752d5e/badges
+Fabiano,,Santos,1,/users/fabiano-santos.dd74f029/badges
 Fernando,,Santos,2,/users/fernandomatsuosantos/badges
 Fernando,,Santos,1,/users/fernando-santos.0299979d/badges
 Gabriel,de Souza,Santos,1,/users/gabrielss4ntos/badges
@@ -1444,22 +1078,62 @@ Isabelle,,Santos,1,/users/isabelletrsantos/badges
 Joao,,Santos,1,/users/joao-santos.3314aa84/badges
 Laudson,Batista,Santos,1,/users/laudson-santos/badges
 Leonardo,,Santos,1,/users/leonardo-santos.e0a8172e/badges
-Leandro,,Prado,3,/users/leandro-prado.521892cb/badges
-João,,Prates,1,/users/joao-prates.e9c003b8/badges
-Bárbara,,Presente,1,/users/barbara-presente/badges
-Kelvyn,,Prete,1,/users/kelvyn-prete/badges
-Guilherme,,Procopio,1,/users/guilherme-procopio/badges
-Luisa,,Purificação,1,/users/luisa-purificacao.152d9b65/badges
-Thalita,,Quachio,1,/users/thalita-quachio/badges
-David,Aquino,Queiroz,1,/users/dnowdd/badges
-Miguel,,Wainsztok,1,/users/miguel-wainsztok/badges
-Strauss,,Walter,1,/users/strauss-walter/badges
-Francisco,,Washington,1,/users/francisco-washington/badges
-Sara,,Watanabe,1,/users/sara-watanabe.3b561a8e/badges
-Ingrid,,Weiers,1,/users/ingrid-weiers/badges
-Allex,,Welter,1,/users/allex-welter/badges
-Miguel,,Wilker Ribas,1,/users/miguel-wilker-ribas/badges
-Herick,,Willians Canhe Rocha,1,/users/herick-willians-canhe-rocha/badges
+Livia,,Santos,1,/users/livia-santos.822c3fac/badges
+Rui,,Santos,1,/users/rui-santos.3898667d/badges
+Vinicius,,Santos,1,/users/vinicius-santos.8c294adf/badges
+Vinicius,Modenese,Santos,1,/users/vinicius-modenese/badges
+Renata,,Saraiva,1,/users/renata-saraiva/badges
+Rodrigo,,Saraiva,1,/users/rodrigo-saraiva.63000905/badges
+Bruno,,Sato,1,/users/bruno-sato.f4153eb0/badges
+Giovanna,,Scandellari,1,/users/giovanna-scandellari/badges
+Taimisson,de Carvalho,Schardosim,1,/users/taimisson-schardosim/badges
+Juliana,,Santana dos Santos,1,/users/juliana-santana-dos-santos/badges
+Rodrigo,,Santana dos Santos,1,/users/rodrigo-santana-dos-santos/badges
+Caroline,,Santana,1,/users/caroline-santana.2f0d22cd/badges
+Rayner,,Santana,1,/users/rayner-santana/badges
+Vinicius,,Santana,1,/users/vinicius-santana.cedadc58/badges
+Luis,,Santini,1,/users/luis-santini.1d876221/badges
+Newton,,Santos Junior,1,/users/newton-santos-junior/badges
+Kari Atílio,,Santos Moreira,1,/users/kari-atilio-santos-moreira/badges
+Lucas,,Santos,1,/users/lucas-santos.1209616b/badges
+Mariana,,Santos,1,/users/mariana-santos.61a432d7/badges
+Mauro,,Santos,1,/users/mauro-santos.e2490b19/badges
+Miria A,,Santos,1,/users/miria-a-santos/badges
+Pablo,,Santos,1,/users/pablo-santos.716a2477/badges
+Pedro,,Santos,1,/users/pedro-santos.365c7cd5/badges
+Pedro,,Santos,1,/users/pedro-santos.a3d7d13f/badges
+Rafael,,Santos,1,/users/rafael-santos.5d9999bc/badges
+Marcio Eduardo,,S. Silva,1,/users/marcio-eduardo-s-silva.22014e1d/badges
+BRUNO,,SAVI,2,/users/bruno-savi/badges
+MIRELLE,,SILVA,1,/users/mirelle-silva/badges
+THIAGO ANANIAS,,SILVA,2,/users/thiago-ananias-silva.4d9d6eb1/badges
+EVERALDO,,SOARES,1,/users/everaldo-soares/badges
+Raíssa,,Sabino Cunha,1,/users/raissa-sabino-cunha/badges
+Edson,,Sabino da Silva,1,/users/edson-sabino-da-silva/badges
+Luciana,,Sahd Chamma Baptista,1,/users/luciana-sahd-chamma-baptista/badges
+Lucas Kendy,,Shimizu Silva,1,/users/lucas-kendy-shimizu-silva/badges
+Levi,,Siebra,1,/users/levi-siebra/badges
+Debora,,Sieburger Carvalho,1,/users/debora-sieburger-carvalho/badges
+Stefani,,Signore,1,/users/stefani-signore/badges
+Marcio,,Silva Alves,1,/users/marcio-silva-alves.0b837991/badges
+João Victor,,Silva Farchi,1,/users/joao-victor-silva-farchi/badges
+Marco Aurélio,,Silva Ferreira,1,/users/marco-aurelio-silva-ferreira/badges
+Jefferson Lucas,,Silva Lourenço,1,/users/jefferson-lucas-silva-lourenco/badges
+Daniel,,Silva,1,/users/daniel-silva.ebdf82e4/badges
+Daniel,,Silva,1,/users/daniel-silva.5d486660/badges
+Diego,,Silva,1,/users/diego-silva.4103ec7b/badges
+Eder,,Silva,1,/users/eder-silva.827e7cf5/badges
+Elidiana,,Silva,1,/users/elidiana/badges
+Fernando,,Silva,2,/users/fernando-silva.34f7917d/badges
+Flávio,,Silva,2,/users/flavio-silva.dd781bd3/badges
+Fábio,,Silva,1,/users/fabiosilva/badges
+Gabriel,,Silva,1,/users/gabriel-silva.3cfa38ee/badges
+Genival,,Silva,1,/users/genival-silva.8ac80cce/badges
+Giovanna,,Silva,1,/users/giovanna-silva.a0e48ff8/badges
+João,,Silva,1,/users/joao-silva.69ad90bb/badges
+Juliano Ribeiro,,Silva,1,/users/juliano-ribeiro-silva/badges
+Julio,,Silva,1,/users/julio-silva.659e6960/badges
+Leandro de Souza,,Silva,1,/users/leandross/badges
 Luciano Dias,,Silva,1,/users/luciano-dias-silva/badges
 Luigi,Benevides,Silva,1,/users/luigibenevides/badges
 Matheus,,Silva,1,/users/matheus-silva.93e0ef63/badges
@@ -1468,7 +1142,71 @@ Maxwell,,Silva,1,/users/maxwell-silva.da878bac/badges
 Mayara,,Silva,1,/users/mayara-silva.d2878d84/badges
 Natalia,,Silva,1,/users/natalia-silva.5b2a9bb1/badges
 Ricardo,Rosa,Silva,1,/users/ricardo-silva.856949cb/badges
+Ruan,,Silva,1,/users/ruan-silva.0f8329c6/badges
+leandro,,Silva,1,/users/leandro-silva.841ba62c/badges
+Cristiano,,Silveira Silva,1,/users/cristiano-silveira-silva/badges
+Danilo,,Silvestre,1,/users/danilo-silvestre/badges
+Sara,,Simao,1,/users/sara-simao/badges
+Luís Eduardo,,Simon,1,/users/luis-eduardo-simon/badges
+José Maurício,,Simão Ramos,1,/users/jose-mauricio-simao-ramos/badges
+Felipe,Henrique,Simões de Oliveira,1,/users/felipe-henrique-simoes-de-oliveira/badges
+Renato,,Simões,1,/users/rasrenato/badges
+CLAUDIO,,PISKA,1,/users/claudio-piska/badges
+Guilherme,,Pacheco Aparicio,1,/users/guilherme-pacheco-aparicio/badges
+Pedro Henrique,,Pacheco Jordão,1,/users/pedro-hjordao/badges
+Fabio,,Padua,2,/users/fabio-padua/badges
+Letícia,,Paes Pereira,1,/users/leticia-paes-pereira/badges
+Mayara,,Paes,1,/users/mayara-paes.adc06b7f/badges
+Renicius,,Pagotto Fostaini,4,/users/renicius-pagotto-fostaini/badges
+Igor,,Paim,1,/users/igor-paim/badges
+Andressa,,Siqueira,1,/users/andressa-siqueira.1a1d45d2/badges
+Marcelo,,Siqueira,1,/users/marcelo-siqueira.d8ed1be4/badges
+Mauro,,Siqueira,1,/users/mauro-siqueira/badges
+Rodrigo,,Siviero Campos,1,/users/rodrigo-siviero-campos/badges
+David,,Soares Araujo,1,/users/david-soares-araujo/badges
+Felipe,,Soares Casseb dos Santos,1,/users/felipe-soares-casseb-dos-santos/badges
+João Pedro,,Soares Oliveira,1,/users/joao-pedro-soares.9c818639/badges
+Anderson,,Soares,1,/users/anderson-soares.c08cbd3e/badges
+Jaison,,Schmidt,4,/users/jaison-schmidt/badges
+Fábio,,Schorn,1,/users/fschorn/badges
+Renan,,Scolari,1,/users/renan-scolari/badges
+Pedro,,Seberino,1,/users/pedro-seberino/badges
+Fabio Massanori,,Sendo,1,/users/fabio-massanori-sendo/badges
+Higor,,Senna,1,/users/higor-senna/badges
+Anderson,,Serafim,1,/users/anderson-serafim/badges
+Antoni,,Sganzerla,1,/users/antoni-sganzerla/badges
+Fablicio,,Soares,1,/users/fablicio-soares/badges
+Harysson,,Soares,1,/users/harysson-soares/badges
+Jefferson,,Soares,1,/users/jefferson-soares/badges
+José,Malty,Soares,1,/users/jose-malty-soares/badges
+Rhuan,,Soares,1,/users/rhuan-soares.10bd8307/badges
+Ronaldo,,Soares,1,/users/ronaldo-soares/badges
+Marcio,,Socorro,1,/users/marcio-socorro/badges
+Lukasz,,Sojka,1,/users/lukasz-sojka/badges
+Antônio,,Rocha Neto,1,/users/antonio-rocha-neto/badges
+Eric,Matheus,Rocha,2,/users/eric-matheus-rocha/badges
+Felipe,,Rocha,1,/users/felipe-rocha.50a844f4/badges
+Gessé,Da Silva,Rocha,3,/users/gesserocha/badges
+Herik,,Rocha,1,/users/herik-rocha/badges
+Italo,,Rocha,1,/users/italo-rocha.b1ee0390/badges
+Vitor Ugo,,Roda da Rosa Junior,1,/users/vjunior/badges
+Luiz,,Rodrigo Jardim da Silva,2,/users/luiz-rodrigo-jardim-da-silva/badges
+Castro,,Souza,1,/users/castro-souza/badges
+Clayton,Rodrigues,Souza,9,/users/clayton-souza/badges
+Diego,,Souza,1,/users/diego-souza.7b6856d1/badges
+Emily,,Souza,1,/users/emily-souza.da0fead6/badges
+Felipe,,Souza,1,/users/felipe-souza.1f02ca3f/badges
+Gabriel,,Souza,1,/users/gabriel-souza.512c4442/badges
+Geovana,,Souza,1,/users/geovana-souza.f07f52eb/badges
 Giovane,,Souza,1,/users/giovanesouza/badges
+Sandro,,Somogyi,1,/users/sandro-somogyi/badges
+Chrystian,,Sousa,1,/users/chrystian-sousa/badges
+Haniel,,Sousa,1,/users/haniel-sousa/badges
+Zilde,,Souto Maior Neto,1,/users/zilde-souto-maior-neto/badges
+Eurico,,Souza Cruz,2,/users/eurico-souza-cruz.184431ac/badges
+Tainá,,Souza Peixoto,1,/users/taina-souza-peixoto/badges
+Alex,,Souza Silva,3,/users/alex-souza-silva/badges
+Asaph,,Souza diniz,2,/users/asaph-souza-diniz/badges
 João,,Souza,1,/users/joao-souza.b4169c20/badges
 Ludmila,,Souza,1,/users/ludmila-souza/badges
 Rhian Mendes,,Souza,1,/users/rhian-mendes-souza/badges
@@ -1476,7 +1214,251 @@ Vinicius,Henrique Dias de,Souza,1,/users/vinicius-henrique-dias-de-souza/badges
 Gabriela,,Spanemberg Bado,1,/users/gabriela-spanemberg-bado/badges
 Matheus Henrique,,Spiazzi Domingues,1,/users/matheus-henrique-spiazzi-domingues/badges
 Julia,,Stateri,1,/users/julia-stateri/badges
+Sergio,,Stempliuc,1,/users/sergio-stempliuc/badges
+Isaque,,Taioque,1,/users/isaque-taioque/badges
+Daniel,,Takahashi,1,/users/daniel-takahashi/badges
+Arthur,,Takeda,1,/users/arthur-takeda/badges
+Cynthia,Akemi,Takiishi,1,/users/cynthia-akemi-takiishi/badges
+Haline,,Tamaoki,1,/users/haline-tamaoki/badges
+Juliana,Harumi,Tanaka,1,/users/juliana-harumi-tanaka/badges
+Oliver,,Tangari,2,/users/oliver-tangari/badges
+Roberto,,Tappi Filho,1,/users/roberto-tappi-filho/badges
+Rodrigo,,Teófilo de Freitas,1,/users/rodrigo-teofilo-de-freitas/badges
+Thauan Fernandes,,Thauan,1,/users/thauan-fernandes-thauan/badges
+Guilherme,,Theodoro Camargo dos Santos,1,/users/guilherme-theodoro-camargo-dos-santos/badges
+Luciana,,Thomaz Soares,1,/users/luciana-thomaz-soares/badges
+Allan,,Thomazelli dos Santos Vasconcellos,1,/users/allan-thomazelli-dos-santos/badges
+Eduardo,,Thomazi,1,/users/eduardo-thomazi.1985c236/badges
+Daniel,,Todegnon,1,/users/c-daniel-habib-todegnon/badges
+Vitor,,Tokushige,1,/users/vitor-tokushige.025e98f1/badges
+Isabel,,Tolentino,1,/users/isabel-tolentino.2462b355/badges
+Rodrigo,,Torralbo,1,/users/rodrigo-torralbo/badges
+Joao,,Torres,1,/users/joao-torres.218812c4/badges
+Ronaldo,,Totini,2,/users/ronaldo-totini/badges
+Eduardo,,Trevisani Gamba,1,/users/eduardo-trevisani-gamba/badges
+Igor,Hideki,Trindade,2,/users/igor-trindade.e7cf91ef/badges
+Carlos Eduardo,,Troleis,1,/users/carlos-eduardo-troleis/badges
+Rodrigo,,Tsuru,1,/users/rodrigo-tsuru/badges
+Rafael,,Veiga,1,/users/rafael-veiga.6da91263/badges
+Guilherme Henrique,,Veloso Santos,1,/users/guilherme-henrique-veloso-santos/badges
+Isaac,,Veras,1,/users/isaac-veras/badges
+Wesley,,Versart Alves Costa de Lima,1,/users/wesley-versart-alves-costa-de-lima/badges
+Matheus,,Veríssimo,1,/users/matheus-verissimo/badges
+Romualdo,,Viana Filho,1,/users/romualdo-viana-filho/badges
+Jamili,,Viana,1,/users/jamili-viana/badges
+Michael,,Viana,1,/users/michael-viana.0d8f9d1e/badges
+Henrique,,Tsuyoshi,1,/users/henrique-tsuyoshi/badges
+Kauan,,Tulio,1,/users/kauan-tulio/badges
+Eduardo,,Uchoa,1,/users/eduardo-uchoa.791675c2/badges
+Sandro Toshio,,Uehara,1,/users/sandro-toshio-uehara/badges
+Matheus,,Ulhoa,1,/users/matheus-ulhoa/badges
+José,,Ulisses Da Silva Filho,1,/users/jose-ulisses-da-silva-filho/badges
+Fernando,,Utikawa,1,/users/fernando-utikawa/badges
+Mariana,,Valério,1,/users/mariana-valerio/badges
+THIERRY PHILIPPE PIERRE ANDRADE,,Vanden BROUCKE,1,/users/thierry-philippe-pierre-andrade-vanden-broucke/badges
+Aluisio,,Vanzolin,2,/users/aluisio-vanzolin.938f3f7d/badges
+Pedro,,Vascconcelos,1,/users/pedro-vascconcelos/badges
+Horacio,,Vasconcellos,2,/users/horacio-vasconcellos/badges
+Vitor,,Vasconcellos,1,/users/vitor-vasconcellos-dos-santos/badges
+MATHEUS,,Vasconcelos,1,/users/matheus-vasconcelos.c1e1ded4/badges
+Danyellias,,Vaz de Lima Manso,1,/users/danyellias-vaz-de-lima-manso/badges
+Elica,,Vaz,1,/users/elica-vaz/badges
+Matheus,,Vieira,1,/users/matheus-vieira.4f7841a5/badges
+Rafael,,Vieira,1,/users/rafael-vieira.bf8397ad/badges
+Shenna,Fernanda da Silva,Vieira,1,/users/shenna-fernanda-s-vieira/badges
+Vinicius,,Vieira,1,/users/vinicius-vieira.8e9dc56a/badges
+Rayssa,,Vilaça,1,/users/rayssa-vilaca/badges
+Vinicius,,Villa,1,/users/vinicius-villa/badges
+Felipe,,Vinhas,1,/users/felipevinhas/badges
+Northon,,Vinicios,1,/users/northon-vinicios/badges
+Marcus,,Virgilio de Araujo,1,/users/marcus-virgilio-de-araujo.2b5791fd/badges
+Paulo,,Vitor,1,/users/paulo-vitor.02ce8a73/badges
+Ayrton,,Vitorino,1,/users/ayrton-vitorino/badges
+Leonardo,,Vizagre,11,/users/leonardo.vizagre/badges
+João,,Víctor,1,/users/joao-victor.97d48746/badges
+Guilherme,,W. Espinola,1,/users/guilherme-w-espinola/badges
+Matheus,,Wachtler,1,/users/matheus-wachtler/badges
+Miguel,,Wainsztok,1,/users/miguel-wainsztok/badges
+Guilherme,,Zago,1,/users/guilherme-zago.4753b961/badges
+Rebecca,,Zamagna,1,/users/rebecca-zamagna/badges
+Felipe,,Zanatto,1,/users/felipe-zanatto.64535195/badges
+Luis Carlos,,Zancanela,1,/users/luis-carlos-zancanela/badges
+Fernanda,,Zanella Alves,1,/users/fernanda-zanella-alves/badges
+Victor,,Zangerolame Fim,1,/users/victor-zangerolame-fim.5ab2547f/badges
+João Pedro,,Zanqueta,1,/users/joao-pedro-zanqueta/badges
+Wilson,,Zarantonello Junior,1,/users/wilson-zarantonello-junior/badges
+Victoria,,Viana,1,/users/victoria-viana.4fc77713/badges
+Alisson,,Vianna,1,/users/alisson-vianna/badges
+Lincoln,,Vicencio,1,/users/lincoln-vicencio/badges
+José,,Vieira da Costa Neto,1,/users/jvnetobr/badges
+Francisco Lucas,,Vieira do Nascimento,1,/users/francisco-lucas-vieira-do-nascimento/badges
+Caio,Vianna,Vieira,9,/users/caio-vianna.b6440384/badges
+Luan,França,Vieira,1,/users/luan-vieira.eb2a85e7/badges
+Luana,Corrêa,Vieira,11,/users/luana-vieira.36aca490/badges
+João,,Luiz,1,/users/joaoluizbr/badges
+Elaine,,Luiza,1,/users/elaine-luiza/badges
+Douglas,,Luna,1,/users/douglasluna/badges
+Marcely,,Luna,1,/users/marcely-luna/badges
+Sérgio,,Luna,1,/users/sergio-luna.06a2cbe2/badges
+Victoria,,Luquet Tewari,1,/users/victoria-luquet-tewari/badges
+Jhonatan,,Lôbo,1,/users/jhonatan-lobo/badges
+Greice,,M Tulio,1,/users/greice-m-tulio/badges
+Strauss,,Walter,1,/users/strauss-walter/badges
+Francisco,,Washington,1,/users/francisco-washington/badges
+Sara,,Watanabe,1,/users/sara-watanabe.3b561a8e/badges
+Ingrid,,Weiers,1,/users/ingrid-weiers/badges
+Allex,,Welter,1,/users/allex-welter/badges
+Miguel,,Wilker Ribas,1,/users/miguel-wilker-ribas/badges
+Herick,,Willians Canhe Rocha,1,/users/herick-willians-canhe-rocha/badges
+Jonatas,,Winston,1,/users/jonatas-winston/badges
+Ronan,Adriel,Zenatti,1,/users/ronanzenatti/badges
+Rodrigo,,Zimmerle dos Santos Rodrigues,1,/users/rodrigo-zimmerle-dos-santos-rodrigues.853d1050/badges
+William,,Zonta,5,/users/william-zonta.d8c69de2/badges
+NELSON,,abu samra rahal JUNIOR,1,/users/nelson-abu-samra-rahal-junior/badges
+andre luiz,,albuquerque monteiro,1,/users/andre-luiz-albuquerque-monteiro/badges
+marcelo,,alves,1,/users/marcelo-alves.40165eb3/badges
+jessica,,cerqueira,1,/users/jessica-cerqueira.43960e3f/badges
+lucelho,,cristiano,1,/users/lucelho-cristiano/badges
+liziane,,cysne,1,/users/liziane-cysne/badges
+Edmo,,da Costa,1,/users/edmo-da-costa/badges
+Andressa,,da Cunha,1,/users/andressa-da-cunha/badges
+Guilherme José,,da Fonseca Mello,1,/users/guilherme-jose-da-fonseca-mello/badges
+Carolainne,,da Roza Pessanha,1,/users/carolainne-da-roza-pessanha/badges
+Raissa,Nazaré,da Silva Barbosa,1,/users/raissa-nazare/badges
+Aline,,da Silva Cardoso,1,/users/aline-da-silva-cardoso/badges
+Luiz Fernando,,da Silva Junior,1,/users/luiz-fernando-da-silva-junior/badges
+Gabriel,,Wolf,1,/users/gabriel-wolf.54143cad/badges
+Renata,,Wrobleski,1,/users/renata-wrobleski/badges
+Gabriely,,Xavier,1,/users/gabriely-xavier/badges
+José Gabriel De Novais,,Xavier,1,/users/jose-gabriel-de-novais-xavier/badges
+Icaro,,Xenofonte,1,/users/icaro-xenofonte/badges
+Marcel,Hikaru,Yamanaka,1,/users/marcel-hikaru-yamanaka/badges
+Washington,Kiyoshi,Yoshimatsu,1,/users/washington-yoshimatsu/badges
+MARCIO,ANDRE CASTELO BRANCO,ZAMPIRON,1,/users/marciozampiron/badges
+Mateus Elias,,de Andrade Pereira,1,/users/mateus-elias-de-andrade-pereira.92f586e7/badges
+Emerson,Delatorre,de Andrade,1,/users/delatorrea/badges
+Bruno,,de Araujo Jones Tabatini,1,/users/bruno-de-araujo-jones-tabatini/badges
+José Gabriel,,de Araújo Lopes,1,/users/jose-gabriel-de-araujo-lopes/badges
+Éverton Costa,,de Araújo,1,/users/everton-costa-de-araujo/badges
+Ingrid,,de Assis Souza,1,/users/ingrid-de-assis-souza.0b0127bc/badges
+Larissa,Conti,de Barros,1,/users/larissa-conti/badges
+Lucas Eduardo,,de Carvalho,1,/users/lucas-eduardo-de-carvalho/badges
+Luiz Felipe Neiva,,da Silva,1,/users/luiz-felipe-da-silva.6d34b298/badges
+Marcos,,da Silva,1,/users/marcos-da-silva.12ea6193/badges
+Rafael Vinicius,Volkmer,da Silva,1,/users/rafaelvvolkmer/badges
+Rodrigo,,da Silva,1,/users/rodrigo-da-silva.db2ef65f/badges
+Larissa,,de Albuquerque Santos,1,/users/larissa-de-albuquerque-santos/badges
+Luiz Felipe,,de Almeida Fávaro,1,/users/luiz-felipe-de-almeida-favaro/badges
+Gabrielle,Alves,de Almeida,1,/users/gabrielle-alves-de-almeida/badges
+Lucas Henrique,,de Amorim,1,/users/lucas-henrique-de-amorim/badges
+Guilherme,,de Moraes,1,/users/guilherme-de-moraes/badges
+Alan,,de Oliveira Gonçalves,1,/users/alan-de-oliveira-goncalves/badges
+Carla Camila,,de Oliveira Martins,1,/users/carla-camila-de-oliveira-martins/badges
+Luciano,,de Oliveira,1,/users/lanno/badges
+Juliana,,de Paula Almeida,1,/users/juliana-de-paula-almeida.e4ac44ec/badges
+Kairo Henrique,,de Paula Pavan,1,/users/kairopavan/badges
+Pauline,,de Pinho,1,/users/pauline-de-pinho/badges
+Fabrizio Elias,,de Santana Silva,2,/users/fabrizio-elias-de-santana-silva/badges
+Amanda Neves,,do Carmo Pontes,1,/users/amanda-neves-do-carmo-pontes/badges
+Raphael,,do Nascimento Borges,1,/users/raphael-do-nascimento-borges/badges
+José Almir,,do Nascimento Júnior,1,/users/jose-almir-do-nascimento-junior/badges
+Guilherme,,do Nascimento e Silva,1,/users/guilherme-do-nascimento-e-silva.a77c94c6/badges
+Thays Roberta,,do Prado Ribeiro,1,/users/thays-roberta-do-prado-ribeiro/badges
+Luis,,do Prado,1,/users/luis-do-prado/badges
+ilka,,do carmo santos,1,/users/ilka-do-carmo-santos/badges
+Lucas,Pereira,dos Reis,1,/users/lucas-dos-reis.32feba79/badges
+Cristiano,,da Silva Lemes,1,/users/cslemes/badges
+Ludmila,,da Silva Pires,1,/users/ludmila-da-silva-pires/badges
+Fábio,,da Silva Rouvier,1,/users/fabio-da-silva-rouvier/badges
+Ana Cláudia,Coscia Di Ferro,da Silva,1,/users/ana-claudia-coscia-di-ferro-da-silva/badges
+Dayvid,,da Silva,1,/users/dayvid-da-silva/badges
+Diogo,Kobbi,da Silva,2,/users/diogo-kobbi/badges
+Edson Rodrigues,,da Silva,1,/users/edson-rodrigues-da-silva/badges
+Luis Fernando,,da Silva,1,/users/luis-fernando-da-silva.451574db/badges
+Rafael,,vasconcelos dos santos,1,/users/rafael-vasconcelos-dos-santos.bb2fc2ce/badges
+wendel,,vieira,1,/users/wendel-vieira.df32f260/badges
+matheus,,zandona,2,/users/matheus-zandona/badges
+Erlan,,ㅤ,1,/users/erlan-lucio/badges
+Tulio Calil,,dos Santos Andrade,1,/users/tulio-calil-dos-santos-andrade/badges
+Ailton,,dos Santos Brazilino Junior,1,/users/ailton-dos-santos-brazilino-junior/badges
+Marcelo,,dos Santos Goncalves,1,/users/marcelo-dos-santos-goncalves/badges
+Gabriel,,dos Santos Mouta,1,/users/gabriel-dos-santos-mouta/badges
+Carolina,,dos Santos Oliveira,1,/users/carolina-dos-santos-oliveira/badges
+Alessandro,,dos Santos,1,/users/alessandro-dos-santos.8b1805b6/badges
+Bruno Pinheiro,,dos Santos,1,/users/brunopinheiro/badges
+Fernando Elias Botão,,dos Santos,1,/users/fernando-elias-botao-dos-santos/badges
+Marcel,,Tavares,1,/users/marcel-tavares/badges
+Edson Luiz,,Tavario,1,/users/edson-luiz-tavario/badges
+Ari,,Tedeschi Junior,2,/users/ari-tedeschi-junior/badges
+Fernando,,Teixeira Candiotti,1,/users/fernando-teixeira-candiotti/badges
+André Luis,,Teixeira,1,/users/andre-luis-teixeira.e815cd95/badges
+Herbert,Gusmão,Tenorio,3,/users/herbert-tenorio.2772c532/badges
+Giovanna,,Teodoro,1,/users/giovanna-teodoro.90c644de/badges
+Joao,,Tercetti,1,/users/joao-paulo-tercetti/badges
+andre,,paes,1,/users/andre-paes.d023a427/badges
+giulia,,paiva,2,/users/giulia-paiva/badges
+lucas,,pereira,1,/users/lucas-pereira.7b78b6c0/badges
+ramon,,perez,1,/users/ramon-perez.0b2f8c62/badges
+vinicius,,roberto,1,/users/vinicius-roberto.7f2bd660/badges
+jose,,robson,1,/users/jose-robson/badges
+pedro,,rodrigues,1,/users/pedro-rodrigues.086c2b0d/badges
+cassia,,sampaio,1,/users/cassia-sampaio/badges
+João,,Prates,1,/users/joao-prates.e9c003b8/badges
+Bárbara,,Presente,1,/users/barbara-presente/badges
+Kelvyn,,Prete,1,/users/kelvyn-prete/badges
+Guilherme,,Procopio,1,/users/guilherme-procopio/badges
+Luisa,,Purificação,1,/users/luisa-purificacao.152d9b65/badges
+Thalita,,Quachio,1,/users/thalita-quachio/badges
+David,Aquino,Queiroz,1,/users/dnowdd/badges
+Jefferson,,Queiroz,1,/users/jefferson-queiroz.abc654a9/badges
+Larissa,,Stephanie da Silva,1,/users/larissa-stephanie-da-silva/badges
+Leandro,Justino,Stoew,1,/users/leandro-stoew/badges
+Fábio,,Szymanski,1,/users/fabio-szymanski/badges
+Gustavo,,Sá,1,/users/1gustavosa1/badges
+Nathalia,,T. Silva,2,/users/nathalia-t-silva/badges
+MATHEUS,,TANURE,1,/users/matheus-tanure/badges
+CRISTIANO,,TELES DA MATA,1,/users/cristiano-teles-da-mata/badges
+Juliana,,Tadeu da Silva,1,/users/juxxnn/badges
+Jailton,,Santos Sales Junior,5,/users/jailton-santos-sales-junior/badges
+Rafael,,Santos de Almeida,1,/users/rafael-santos-de-almeida.d92f9665/badges
+Vinicius,,Santos de Pontes,1,/users/vsdepontes/badges
+Heloísa,,Santos de Sousa,1,/users/heloisa-santos-de-sousa/badges
+Abimael,,Santos,1,/users/abimael-santos.8dc3130b/badges
+Alex,,Santos,1,/users/alex-santos.926ac230/badges
+Amanda,,Santos,2,/users/amanda-santos.ce66967a/badges
+Andreza,,Santos,1,/users/andreza-santos/badges
+Fabiano,,de Santana,1,/users/fabiano-de-santana.13c7af1c/badges
+Leonardo,Saconato,de Santana,1,/users/leonardo-saconato-de-santana/badges
+Wensttay,,de Sousa Alencar,1,/users/wensttay-de-sousa-alencar.81b17551/badges
+Milton,,de Sousa Cabral Júnior,1,/users/milton-de-sousa-cabral-junior/badges
+Daniel Felipe,,de Souza Costa,1,/users/daniel-felipe-de-souza-costa/badges
+Aderlei,,de Souza Filho,1,/users/aderlei-de-souza-filho/badges
+Leonardo,,de Souza Rodrigues,1,/users/leo10ui/badges
 Guilherme,,de Souza de Oliveira,1,/users/guilherme-de-souza-de-oliveira/badges
+Vinícius,,Silva Madureira Pereira,1,/users/viniciusmadureira/badges
+Ezer,,Silva Santana Menezes,1,/users/ezer-silva-santana-menezes/badges
+Gledson,,Silva Sousa,1,/users/gledson-silva-sousa/badges
+Rafael,,Silva Willians,5,/users/rafael-silva-willians/badges
+Lorena Raissa,,Silva da Silva,1,/users/lorena-raissa-silva-da-silva/badges
+Adriano,,Silva,1,/users/adriano-silva.2686211c/badges
+Andre Luiz,,Silva,1,/users/andre-luiz-silva.913fd7db/badges
+Bruno,,Silva,1,/users/bruno-silva.ea109883/badges
+Lucas,,de Castro Rodrigues,1,/users/lucas-de-castro-rodrigues.2397069e/badges
+Giancarlo,Vieira,de Castro,1,/users/giancarlo-castro/badges
+Rodrigo,,de Deus,1,/users/rodrigo-de-deus/badges
+Víctor,,de Farias Silva,1,/users/victor-de-farias-silva/badges
+Alejandro,,de Jongh,1,/users/adejonghm/badges
+Jefferson Douglas,Douglas,de Lima Junior,1,/users/jefferson-douglas-de-lima-junior/badges
+Ailton,,de Lira,1,/users/ailton-de-lira/badges
+Gabriela,,de Moraes da Silva,1,/users/gabriela-de-moraes-da-silva/badges
+Gustavo,Ribeiro,dos Santos,1,/users/gustavribeiro/badges
+Marina,Vital,dos Santos,1,/users/marivital/badges
+Victor Hugo,,dos Santos,1,/users/victor-hugo-dos-santos.6886aaa8/badges
+jose,,fernandes,1,/users/jose-fernandes.c19d1655/badges
+caue,paulo avilez,fiedler,1,/users/caue-paulo-avilez-fiedler/badges
+pedro,,francisco mendes almeida,1,/users/pedro-francisco-mendes-almeida/badges
+Victor,,guilherme Fierro,2,/users/victor-guilherme-fierro/badges
+clovis,,harada,1,/users/clovis-harada/badges
 Amanda,Silva,de Souza,1,/users/amandasdsouza/badges
 Daniele,Pereira,de Souza,1,/users/daniele-souza.6a86a086/badges
 Gabriela,,de Souza,1,/users/gabriela-de-souza.c2730840/badges
@@ -1485,18 +1467,35 @@ Tiago Epitacio,,de jesus,1,/users/tiago-epitacio-de-jesus/badges
 Gabriel,,den Hartog,1,/users/gabriel-den-hartog/badges
 Guilherme,,di Savoia Nascimento,1,/users/guilherme-di-savoia-nascimento/badges
 diego,,dias,1,/users/diego-dias.506b8967/badges
-Amanda Neves,,do Carmo Pontes,1,/users/amanda-neves-do-carmo-pontes/badges
-Raphael,,do Nascimento Borges,1,/users/raphael-do-nascimento-borges/badges
-José Almir,,do Nascimento Júnior,1,/users/jose-almir-do-nascimento-junior/badges
-Guilherme,,do Nascimento e Silva,1,/users/guilherme-do-nascimento-e-silva.a77c94c6/badges
-Thays Roberta,,do Prado Ribeiro,1,/users/thays-roberta-do-prado-ribeiro/badges
-Luis,,do Prado,1,/users/luis-do-prado/badges
-ilka,,do carmo santos,1,/users/ilka-do-carmo-santos/badges
-Roberto,,Tappi Filho,1,/users/roberto-tappi-filho/badges
-Marcel,,Tavares,1,/users/marcel-tavares/badges
-Edson Luiz,,Tavario,1,/users/edson-luiz-tavario/badges
-Ari,,Tedeschi Junior,2,/users/ari-tedeschi-junior/badges
-Fernando,,Teixeira Candiotti,1,/users/fernando-teixeira-candiotti/badges
-André Luis,,Teixeira,1,/users/andre-luis-teixeira.e815cd95/badges
-Herbert,Gusmão,Tenorio,3,/users/herbert-tenorio.2772c532/badges
-Giovanna,,Teodoro,1,/users/giovanna-teodoro.90c644de/badges
+firmo,,holanda,1,/users/firmo-holanda/badges
+José,,jânio,1,/users/jose-janio/badges
+ji hye,,koo,1,/users/ji-hye-koo.f4b96b21/badges
+vinicius,,lima,1,/users/vinicius-lima.d90e9dbd/badges
+Flavio,,lves Munck,1,/users/flavio-lves-munck/badges
+vicentina,,martins dos reis,1,/users/vicentina-martins-dos-reis/badges
+abraao,,matias,1,/users/abraao-matias.725e0eea/badges
+jeferson,,mattos de salles,1,/users/jeferson-mattos-de-salles/badges
+Bruno,,Mattos,1,/users/bruno-mattos.542e1ffc/badges
+Gabriela,,Mattos,1,/users/gabriela-mattos.5f8ebe22/badges
+Jean,,Medeiros,1,/users/jean-medeiros/badges
+Lucas,,Mello,1,/users/lucas-mello.a50b31af/badges
+Camila,,Melo Machado,1,/users/camila-melo-machado/badges
+Adriana,,Melo,1,/users/adriana-melo.f0f8e67b/badges
+Carolina,Maria de Paiva,Melo,1,/users/carolina-melo.19540326/badges
+Celio,,Melo,1,/users/celio-melo/badges
+Laís,,Meuchi,1,/users/lais-meuchi/badges
+Alberto,,Miglioni,1,/users/alberto-miglioni/badges
+Josemar Tadeu,,Migowski,1,/users/josemar-migowski/badges
+Beatriz,,Milz,2,/users/beatriz-milz/badges
+Jeferson,,Mioto da Cunha,1,/users/jeferson-mioto-da-cunha/badges
+Leonardo,,Miranda Amaral,3,/users/leonardo-miranda-amaral/badges
+Lucas,,Miranda,1,/users/lucas-miranda.d1ca9f03/badges
+Moisés,,Miranda,1,/users/moises-miranda.38b78ea0/badges
+Ryan,,Silva,1,/users/ryan-silva.a1d47fa5/badges
+Samara,,Silva,1,/users/samara-silva.c0a78381/badges
+Stephany,,Silva,1,/users/stephany-silva.363f1e2d/badges
+Thiago,,Silva,1,/users/thiago-silva.932b6ecd/badges
+Thiago,,Silva,1,/users/thiago-silva.88c6855e/badges
+Thélesson,,Silva,1,/users/thelesson-silva/badges
+Tiago Rodrigues,,Silva,1,/users/manotiago/badges
+Wagner,,Silva,1,/users/wagner-silva.e87d9803/badges
