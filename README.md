@@ -98,7 +98,7 @@ To have your Microsoft Learn GitHub certifications counted in the rankings:
 3. **Copy the share link** (it looks like: `https://learn.microsoft.com/en-us/users/YOUR-NAME/transcript/share/SHARE_ID`)
 4. **Submit a PR** to update your entry in the appropriate country CSV file in the `datasource/` directory:
    - Add your share URL to the `mslearn_url` column
-   - Example row: `Jesse,Houwing,6,/users/jessehouwing/badges,https://learn.microsoft.com/en-us/users/jessehouwing-1848/transcript/share/d5gza1z690gp607`
+   - Example row: `Jesse,Houwing,,6,/users/jessehouwing/badges,https://learn.microsoft.com/en-us/users/jessehouwing-1848/transcript/share/d5gza1z690gp607,`
 
 > **Privacy Note**: The transcript share link only exposes your completed certifications and training, not personal account details.
 
