@@ -72,8 +72,9 @@ This project tracks **ALL GitHub certifications** from two sources:
 2. **Microsoft-Issued Badges** - GitHub certifications transitioned to Microsoft Learn
    - GitHub Foundations (Microsoft Certified)
    - Other GitHub certifications now issued via learn.microsoft.com
+   - **Microsoft Certified: DevOps Engineer Expert** (related DevOps certification)
 
-> **Note**: All badges from the GitHub organization on Credly are counted, not just the core certifications. As of 2024, GitHub migrated some certification issuance to Microsoft Learn.
+> **Note**: All badges from the GitHub organization on Credly are counted, not just the core certifications. As of 2024, GitHub migrated some certification issuance to Microsoft Learn. Additionally, the Microsoft Certified: DevOps Engineer Expert certification is included due to its relevance to GitHub workflows and DevOps practices.
 
 ### 🎯 Ranking Accuracy
 
@@ -162,6 +163,8 @@ Data is sourced from the [Credly API](https://www.credly.com/api/v1/directory) f
 ### Certification Validation
 - **Expiration Checking**: Each badge's `expires_at_date` is validated against current date
 - **Dual Source Tracking**: Combines GitHub org badges + Microsoft external badges
+- **Included Microsoft Certifications**: GitHub-related badges + DevOps Engineer Expert
+- **Duplicate Prevention**: Only unique badge names are counted (no duplicates)
 - **Top Performer Focus**: Detailed validation applied to ranking candidates only
 
 ### Regional Coverage
