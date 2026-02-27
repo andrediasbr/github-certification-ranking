@@ -2,7 +2,7 @@ first_name,middle_name,last_name,badge_count,profile_url
 KHAN MD. SAIFULLAH,,ANJAR,1,/users/khan-md-saifullah-anjar/badges
 Fuad,,Ahmed,1,/users/fuad-ahmed.8a5042d0/badges
 Kausar,,Ahmed,1,/users/kausar-ahmed.53467c20/badges
-Md. Redwan,,Ahmed,0,/users/redwancse/badges
+Md. Redwan,,Ahmed,1,/users/redwancse/badges
 Tanvir,,Ahmed,1,/users/tanvir4hmed/badges
 Mir Muhammad Abidul Haq,,Ahnaf,1,/users/mir-muhammad-abidul-haq-ahnaf/badges
 Jasim,,Alam,1,/users/jasim-alam/badges
@@ -11,7 +11,7 @@ Md Sakib Sadman,,Badhon,1,/users/md-sakib-sadman-badhon/badges
 Ubayed,,Bin Sufian,1,/users/ubayed-bin-sufian/badges
 Arindam,Gustavo,Biswas,1,/users/arindamgb/badges
 Pritam,,Chakraborty,2,/users/pritam-chakraborty.e90ea69d/badges
-MD. Alvi,,Chowdhury,1,/users/md-alvi-chowdhury/badges
+MD. Alvi,,Chowdhury,0,/users/md-alvi-chowdhury/badges
 Sayanti,,Chowdhury,1,/users/sayantichy/badges
 ASIEF,IQBAL,DIEYAZ,1,/users/asief-iqbal-dieyaz/badges
 Joy,,Ghosh,1,/users/joy-ghosh.dab74562/badges
@@ -25,7 +25,7 @@ Najib,,Hossain Nahin,1,/users/najib-hossain-nahin/badges
 Md. Mokit,,Hossain,1,/users/md-mokit-hossain/badges
 Shahadat,,Hossain,1,/users/shahadat-hossain.c0bebef1/badges
 Ariful,,Islam,1,/users/arifulislamat/badges
-Md Hasibul,,Islam,1,/users/hasibit/badges
+Md Hasibul,,Islam,0,/users/hasibit/badges
 Md Rakibul,,Islam,1,/users/md-rakibul-islam.da894779/badges
 Fatima,,Jannet,1,/users/fatima-jannet/badges
 Mahmudul Hasan,,Jim,1,/users/mahmudul-hasan-jim/badges
