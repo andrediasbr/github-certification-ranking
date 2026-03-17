@@ -1,10 +1,10 @@
 first_name,middle_name,last_name,badge_count,profile_url
 Sreekutty KA,,Ajamalan,1,/users/sreekutty-ka-ajamalan/badges
-Enyinnaya Maxwell,,Akwu,1,/users/maxwell-akwu/badges
+Enyinnaya Maxwell,,Akwu,0,/users/maxwell-akwu/badges
 Shadab,,Azher,1,/users/shadab-azher/badges
 James,,Barrett,1,/users/james-barrett.4f52fcf9/badges
 Daniel,,Blank Bencke,1,/users/daniel-blank-bencke/badges
-Branislav,,Buna,0,/users/branislav-buna.2270fa67/badges
+Branislav,,Buna,3,/users/branislav-buna.2270fa67/badges
 Damien,,Butler,1,/users/damien-butler.3e2548b8/badges
 Tony,,Callaghan,1,/users/tony-callaghan.14342c7a/badges
 Tarik,,Carvalho,2,/users/tarik-carvalho/badges
@@ -19,7 +19,7 @@ Abhishek,,Danalakota,1,/users/abhishek-danalakota.390496ee/badges
 Abhishek,,Danalakota,1,/users/abhishek-danalakota/badges
 Dominic,,Dillon,1,/users/dominic-dillon/badges
 Louise,,Dorgan,1,/users/louise-dorgan/badges
-Sean,,Dwyer,2,/users/sean-dwyer.72a40457/badges
+Sean,,Dwyer,0,/users/sean-dwyer.72a40457/badges
 Jim,,Enright,1,/users/jim-enright/badges
 Philip,,Gahan,1,/users/philip-gahan.cd2b12a7/badges
 Ciprian,,Gheorghe,1,/users/ciprian-gheorghe.9674b841/badges
@@ -53,14 +53,14 @@ Chidozie,,Onyejelem,1,/users/chidozie-onyejelem/badges
 SWATHI,,PYDI,1,/users/swathi-pydi/badges
 Satvik,,Paderiya,1,/users/satvik-paderiya/badges
 Luca,,Paolucci,1,/users/luca-paolucci.73fb902d/badges
-Srinivasulu,,Paranduru,6,/users/srinivasulu-paranduru/badges
+Srinivasulu,,Paranduru,0,/users/srinivasulu-paranduru/badges
 Milan,,Ples,4,/users/milan-ples/badges
 Sriram,,Rajendran,1,/users/sriram-rajendran.844a0848/badges
 Jacqueline,,Russell,1,/users/jacqueline-russell.36b50405/badges
 Manas,Kumar,Sahoo,1,/users/manas-kumar-sahoo.19943c69/badges
 Sofia,,Santos,1,/users/sofia-santos.fea03350/badges
 Harish,,Sharma,1,/users/harish-harish.aeaff54a/badges
-Or,,Sharon,1,/users/or-sharon/badges
+Or,,Sharon,0,/users/or-sharon/badges
 Bobby,,Sheehy,1,/users/bobby-sheehy/badges
 Sankalp,,Shree,2,/users/sankalp-shree.fa954dcb/badges
 Francesco,,Sparviero,1,/users/francesco-sparviero/badges
