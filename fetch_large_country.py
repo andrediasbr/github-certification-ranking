@@ -23,6 +23,10 @@ ALLOWED_MICROSOFT_GITHUB_CERTIFICATIONS = {
     'Microsoft Applied Skills: Automate Azure Load Testing by using GitHub Actions',
 }
 
+EXCLUDED_GITHUB_CERTIFICATIONS = {
+    'GitHub Sales Professional',
+}
+
 def is_badge_expired(expires_at_date):
     """Check if a badge is expired based on expires_at_date"""
     if not expires_at_date:  # null = never expires
@@ -102,7 +106,7 @@ def fetch_github_org_badges(user_id):
                         # Get badge name and only count if unique
                         badge_template = badge.get('badge_template', {})
                         badge_name = badge_template.get('name', '')
-                        if badge_name:
+                        if badge_name and badge_name not in EXCLUDED_GITHUB_CERTIFICATIONS:
                             unique_badge_names.add(badge_name)
             
             page += 1
