@@ -2,7 +2,7 @@ first_name,middle_name,last_name,badge_count,profile_url
 Carl Johan,,Adolfsson,2,/users/carl-johan-adolfsson/badges
 Daniel,,Alm Lundin,1,/users/daniel-alm-lundin/badges
 Ilana,,Almaleh,4,/users/ilana-almaleh/badges
-Renan,,Almeida,5,/users/renan-almeida.a979bbce/badges
+Renan,,Almeida,4,/users/renan-almeida.a979bbce/badges
 Muhammad,,Alshakarti,1,/users/muhammad-alshakarti.efad4db5/badges
 Markus,,Andersson,1,/users/markus-andersson.bc231ccc/badges
 Mikael,,Andersson,1,/users/mikael-andersson.6ec8df0e/badges
@@ -12,7 +12,7 @@ Armin,,Balesic,1,/users/armin-balesic/badges
 Esmail,,Ben Moussa,4,/users/esmail-ben-moussa.75acaba5/badges
 Håkan,,Berg,1,/users/hakan-berg/badges
 Therese,,Berge,1,/users/therese-berge/badges
-Marcus,,Blennegård,2,/users/marcus-blennegard/badges
+Marcus,,Blennegård,0,/users/marcus-blennegard/badges
 Jamie,,Blomerus,1,/users/jamie-blomerus/badges
 Adam,,Blomqvist,1,/users/adam-blomqvist/badges
 Johannes,,Breitfeld,1,/users/johannes-breitfeld/badges
@@ -43,11 +43,11 @@ Ajit Kumar,,Guttula,1,/users/ajitkumarguttula/badges
 Erik,,Gylleus,1,/users/erik-gylleus/badges
 Harry,,Hagelberg,1,/users/harry-hagelberg/badges
 Olle,,Hallqvist Elias,1,/users/olle-hallqvist-elias/badges
-Carl,,Harris,3,/users/carl-harris.a210c59e/badges
+Carl,,Harris,2,/users/carl-harris.a210c59e/badges
 Erik,,Hjalmarsson,3,/users/erik-hjalmarsson/badges
 Alexander,,Hjelm,0,/users/alexander-hjelm.7d971afa/badges
 Alexander,,Hjelm,3,/users/alexander-hjelm.d61a84b9/badges
-Rasmus,,Hjelm-Eckervall,2,/users/rasmus-hjelm-eckervall/badges
+Rasmus,,Hjelm-Eckervall,0,/users/rasmus-hjelm-eckervall/badges
 Fredrik,,Holm,1,/users/fredrik-holm.1c1c0771/badges
 Heidi,,Housten,2,/users/heidi-housten/badges
 Tushar,,Jadhav,1,/users/tushar-jadhav.b63fe373/badges
@@ -84,7 +84,7 @@ Tobias,,Nilsson,2,/users/tobias-nilsson84/badges
 Johan,,Nordberg,5,/users/johan-nordberg/badges
 Matthias,,Nyman,1,/users/matthias-nyman.43d81c01/badges
 Gustav,,Odinger,1,/users/gustav-odinger/badges
-Mathias,,Olausson,3,/users/mathias-olausson/badges
+Mathias,,Olausson,2,/users/mathias-olausson/badges
 Stefan,,Olivebring,1,/users/stefan-olivebring/badges
 Andreas,,Olsson,1,/users/andreas-olsson.adc7fee7/badges
 Erik,,Olsson,2,/users/erik-olsson.18a2c39e/badges
@@ -93,9 +93,9 @@ Gaurav,,Pandey,5,/users/gaurav-pandey.121054a0/badges
 Suhas,,Patil,2,/users/suhas-patil.73d23ddf/badges
 Nirmala,,Periyasamy,1,/users/nirmala-periyasamy/badges
 Susanna,,Persson,5,/users/susanna-persson/badges
-Tobias,,Persson,4,/users/tobias-persson.f7d26f37/badges
+Tobias,,Persson,3,/users/tobias-persson.f7d26f37/badges
 Stefan,,Petrovic,2,/users/stefan-petrovic.0e0ca725/badges
-Stefan,,Petrovic,4,/users/stefan-petrovic.6ac93836/badges
+Stefan,,Petrovic,3,/users/stefan-petrovic.6ac93836/badges
 Oscar Thomas Daniel,,Pettersson,1,/users/oscar-thomas-daniel-pettersson/badges
 Patrik,,Pettersson,1,/users/patrik-pettersson.9383d8e0/badges
 Victor Lester IV,,Policarpio,1,/users/victorpolicarpio/badges
@@ -114,7 +114,7 @@ Emil,,Sjölander,5,/users/emil-sjolander/badges
 Björn,,Sundling,1,/users/bjorn-sundling/badges
 Eric,,Söderqvist,1,/users/eric-soderqvist/badges
 Pierre,,Thoor,2,/users/pierre-thoor/badges
-Magnus,,Timner,11,/users/magnus-timner.ddd6329c/badges
+Magnus,,Timner,10,/users/magnus-timner.ddd6329c/badges
 Felix,,Tran,1,/users/felix-tran/badges
 Ho Kai,,Tran,1,/users/ho-kai-tran/badges
 Gabriel,,Vega,1,/users/gabriel-vega.58e3ee5a/badges
