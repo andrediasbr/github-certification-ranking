@@ -25,6 +25,10 @@ ALLOWED_MICROSOFT_GITHUB_CERTIFICATIONS = {
     'Microsoft Applied Skills: Automate Azure Load Testing by using GitHub Actions',
 }
 
+EXCLUDED_BADGES = {
+    'GitHub Sales Professional',
+}
+
 def is_badge_expired(expires_at_date):
     """Check if a badge is expired based on expires_at_date"""
     if not expires_at_date:  # null = never expires
@@ -101,10 +105,10 @@ def fetch_github_org_badges(user_id):
                 if is_github_org:
                     expires_at_date = badge.get('expires_at_date')
                     if not is_badge_expired(expires_at_date):
-                        # Get badge name and only count if unique
+                        # Get badge name and only count if unique and not excluded
                         badge_template = badge.get('badge_template', {})
                         badge_name = badge_template.get('name', '')
-                        if badge_name:
+                        if badge_name and badge_name not in EXCLUDED_BADGES:
                             unique_badge_names.add(badge_name)
             
             page += 1
@@ -154,9 +158,9 @@ def fetch_country_data(country):
         # Sort by directory badge_count (includes expired) to get top candidates
         all_users_sorted = sorted(all_users, key=lambda x: x.get('badge_count', 0), reverse=True)
         
-        # Take top 30 candidates (with safety margin for ties and expired badges)
+        # Take top 50 candidates (safety margin for ties, expired badges, and position-based ranking)
         # If fewer users, take all
-        top_candidates = all_users_sorted[:min(30, len(all_users_sorted))]
+        top_candidates = all_users_sorted[:min(50, len(all_users_sorted))]
         
         print(f"  Fetching detailed badges for top {len(top_candidates)} candidates (to check expiration)...")
         user_badge_counts = {}

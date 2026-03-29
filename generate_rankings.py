@@ -116,8 +116,10 @@ def fetch_user_company(profile_url):
         response.raise_for_status()
         data = response.json()
         
-        # Extract company name
+        # Extract company name and sanitize pipe characters (breaks markdown tables)
         company = data.get('data', {}).get('current_organization_name', '')
+        if company:
+            company = company.replace('|', '/')
         return company if company else ''
     except:
         return ''
@@ -200,7 +202,7 @@ def get_outdated_csvs():
     return sorted(outdated, key=lambda x: x['hours_old'], reverse=True)
 
 def generate_markdown_top10(users, title, filename, filter_func=None):
-    """Generate TOP 10 markdown file"""
+    """Generate TOP 10 markdown file with position-based ranking (tied users on same row)"""
     
     # Filter users if filter function provided
     if filter_func:
@@ -211,36 +213,33 @@ def generate_markdown_top10(users, title, filename, filter_func=None):
     # Sort by badges (descending) then by name (alphabetically)
     sorted_users = sorted(filtered_users, key=lambda x: (-x['badges'], x['name'].lower()))
     
-    # Determine which users to include (top 10, but include ties)
-    top_users = []
-    current_rank = 0
+    # Group users into positions (tied users share a position)
+    positions = []  # list of (position_number, [users])
+    current_pos = 0
     prev_badges = None
-    rank_count = 0
     
-    for user in sorted_users:
-        # Increment rank_count for each user processed
-        rank_count += 1
-        
-        # Assign rank: if badges changed, update current_rank to rank_count
+    for i, user in enumerate(sorted_users):
         if user['badges'] != prev_badges:
-            current_rank = rank_count
+            current_pos += 1
             prev_badges = user['badges']
-        
-        # Include user if:
-        # - current_rank <= 10, OR
-        # - current_rank > 10 but has same badges as someone at rank 10
-        if current_rank <= 10:
-            top_users.append((current_rank, user))
-        elif top_users and user['badges'] == top_users[-1][1]['badges']:
-            # Include tied users even if rank > 10
-            top_users.append((current_rank, user))
+            if current_pos > 10:
+                break
+            positions.append((current_pos, [user]))
         else:
-            # No more users to include
-            break
+            if current_pos <= 10:
+                positions[-1][1].append(user)
+    
+    # Cap display: if a position has too many tied users, show first N and a count
+    MAX_USERS_PER_POSITION = 20
+    
+    # Collect all users across positions for company fetching (capped)
+    all_ranked_users = []
+    for pos, pos_users in positions:
+        all_ranked_users.extend(pos_users[:MAX_USERS_PER_POSITION])
     
     # Fetch company information for ranked users
-    print(f"  Fetching company info for {len(top_users)} ranked users...")
-    for rank, user in top_users:
+    print(f"  Fetching company info for {len(all_ranked_users)} ranked users...")
+    for user in all_ranked_users:
         company = fetch_user_company(user.get('profile_url', ''))
         user['company'] = company
     
@@ -258,26 +257,127 @@ def generate_markdown_top10(users, title, filename, filter_func=None):
 |------|------|--------|---------|---------|
 """
     
-    prev_rank = None
-    for rank, user in top_users:
-        # Show rank number only if it's different from previous
-        if rank != prev_rank:
-            # Add medal emoji for top 3 ranks (first occurrence only)
-            medal = {1: '🥇', 2: '🥈', 3: '🥉'}.get(rank, '')
-            rank_display = f"{medal} #{rank}" if medal else f"#{rank}"
-        else:
-            # For tied users: empty cell
-            rank_display = ""
+    for pos, pos_users in positions:
+        medal = {1: '🥇', 2: '🥈', 3: '🥉'}.get(pos, '')
+        rank_display = f"{medal} #{pos}" if medal else f"#{pos}"
         
-        # Add profile link if available
-        name_display = user['name']
-        if user.get('profile_url'):
-            profile_url = f"https://www.credly.com{user['profile_url']}"
-            name_display = f"[{user['name']}]({profile_url})"
+        # Cap display for positions with many tied users
+        display_users = pos_users[:MAX_USERS_PER_POSITION]
+        overflow = len(pos_users) - MAX_USERS_PER_POSITION
         
-        company_display = user.get('company', '')
-        content += f"| {rank_display} | {name_display} | {user['badges']} | {company_display} | {user['country']} |\n"
-        prev_rank = rank
+        # Build cell content for each column, joining tied users with <br>
+        names = []
+        companies = []
+        countries = []
+        for user in display_users:
+            if user.get('profile_url'):
+                profile_url = f"https://www.credly.com{user['profile_url']}"
+                names.append(f"[{user['name']}]({profile_url})")
+            else:
+                names.append(user['name'])
+            companies.append(user.get('company', ''))
+            countries.append(user['country'])
+        
+        if overflow > 0:
+            names.append(f"*... and {overflow} more*")
+            companies.append('')
+            countries.append('')
+        
+        name_cell = '<br>'.join(names)
+        badge_cell = str(pos_users[0]['badges'])
+        company_cell = '<br>'.join(companies)
+        country_cell = '<br>'.join(countries)
+        
+        content += f"| {rank_display} | {name_cell} | {badge_cell} | {company_cell} | {country_cell} |\n"
+    
+    # --- Company Rankings (TOP 5) --- based on ranked users' companies
+    company_stats = defaultdict(lambda: {'badges': 0, 'users': 0})
+    for user in all_ranked_users:
+        company = user.get('company', '')
+        if company:
+            company_stats[company]['badges'] += user['badges']
+            company_stats[company]['users'] += 1
+    
+    if company_stats:
+        sorted_companies = sorted(company_stats.items(), key=lambda x: (-x[1]['badges'], -x[1]['users'], x[0].lower()))
+        
+        # Build TOP 5 positions (with ties)
+        company_positions = []
+        prev_badges = None
+        current_pos = 0
+        for company_name, stats in sorted_companies:
+            if stats['badges'] != prev_badges:
+                current_pos += 1
+                prev_badges = stats['badges']
+                if current_pos > 5:
+                    break
+                company_positions.append((current_pos, [(company_name, stats)]))
+            else:
+                if current_pos <= 5:
+                    company_positions[-1][1].append((company_name, stats))
+        
+        if company_positions:
+            content += f"""
+---
+
+## 🏢 Top 5 Companies
+
+| Rank | Company | Total Badges | Certified Users |
+|------|---------|--------------|-----------------|
+"""
+            for pos, companies in company_positions:
+                medal = {1: '🥇', 2: '🥈', 3: '🥉'}.get(pos, '')
+                rank_display = f"{medal} #{pos}" if medal else f"#{pos}"
+                
+                company_names = '<br>'.join(c[0] for c in companies)
+                badges_cell = str(companies[0][1]['badges'])
+                users_cell = '<br>'.join(str(c[1]['users']) for c in companies)
+                
+                content += f"| {rank_display} | {company_names} | {badges_cell} | {users_cell} |\n"
+    
+    # --- Country Rankings (TOP 5) --- only for multi-country rankings
+    unique_countries = set(u['country'] for u in filtered_users)
+    if len(unique_countries) > 1:
+        country_stats = defaultdict(lambda: {'badges': 0, 'users': 0})
+        for user in filtered_users:
+            country_stats[user['country']]['badges'] += user['badges']
+            country_stats[user['country']]['users'] += 1
+        
+        sorted_countries = sorted(country_stats.items(), key=lambda x: (-x[1]['badges'], -x[1]['users'], x[0].lower()))
+        
+        # Build TOP 5 positions (with ties)
+        country_positions = []
+        prev_badges = None
+        current_pos = 0
+        for country_name, stats in sorted_countries:
+            if stats['badges'] != prev_badges:
+                current_pos += 1
+                prev_badges = stats['badges']
+                if current_pos > 5:
+                    break
+                country_positions.append((current_pos, [(country_name, stats)]))
+            else:
+                if current_pos <= 5:
+                    country_positions[-1][1].append((country_name, stats))
+        
+        if country_positions:
+            content += f"""
+---
+
+## 🌐 Top 5 Countries
+
+| Rank | Country | Total Badges | Certified Users |
+|------|---------|--------------|-----------------|
+"""
+            for pos, countries_list in country_positions:
+                medal = {1: '🥇', 2: '🥈', 3: '🥉'}.get(pos, '')
+                rank_display = f"{medal} #{pos}" if medal else f"#{pos}"
+                
+                country_names = '<br>'.join(c[0] for c in countries_list)
+                badges_cell = str(countries_list[0][1]['badges'])
+                users_cell = '<br>'.join(str(c[1]['users']) for c in countries_list)
+                
+                content += f"| {rank_display} | {country_names} | {badges_cell} | {users_cell} |\n"
     
     # Add statistics
     if filtered_users:
@@ -293,7 +393,7 @@ def generate_markdown_top10(users, title, filename, filter_func=None):
 - **Total Certified Users**: {total_users:,}
 - **Total Badges Earned**: {total_badges:,}
 - **Average Badges per User**: {avg_badges:.2f}
-- **Highest Badge Count**: {top_users[0][1]['badges'] if top_users else 0}
+- **Highest Badge Count**: {all_ranked_users[0]['badges'] if all_ranked_users else 0}
 
 ---
 """
@@ -357,7 +457,7 @@ def main():
     # Generate TOP 10 Americas
     generate_markdown_top10(
         users,
-        "🌎 TOP 10 GitHub Certifications - Americas",
+        "🗽 TOP 10 GitHub Certifications - Americas",
         "TOP10_AMERICAS.md",
         lambda u: u['continent'] == 'Americas'
     )
@@ -373,7 +473,7 @@ def main():
     # Generate TOP 10 Asia
     generate_markdown_top10(
         users,
-        "🌏 TOP 10 GitHub Certifications - Asia",
+        "� TOP 10 GitHub Certifications - Asia",
         "TOP10_ASIA.md",
         lambda u: u['continent'] == 'Asia'
     )
@@ -381,7 +481,7 @@ def main():
     # Generate TOP 10 Africa
     generate_markdown_top10(
         users,
-        "🌍 TOP 10 GitHub Certifications - Africa",
+        "🦁 TOP 10 GitHub Certifications - Africa",
         "TOP10_AFRICA.md",
         lambda u: u['continent'] == 'Africa'
     )

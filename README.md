@@ -3,12 +3,18 @@
 [![Generate GitHub Certifications Rankings](https://github.com/andrediasbr/github-certification-ranking/actions/workflows/generate-rankings.yml/badge.svg)](https://github.com/andrediasbr/github-certification-ranking/actions/workflows/generate-rankings.yml)
 
 > Automated daily rankings of GitHub Certifications leaders across different regions worldwide.
+> Rankings by **professionals**, **companies**, and **countries** — updated daily.
 
 <img src="images/github-octocat.jpg" alt="GitHub Octocat" width="120"/>
 
 ---
 
 ## 📊 Rankings Index
+
+Each ranking page includes:
+- 🏆 **Top 10 Positions** — Professionals ranked by number of certifications (tied users share the same position)
+- 🏢 **Top 5 Companies** — Companies with the most certified professionals
+- 🌐 **Top 5 Countries** — Countries leading in certifications (regional rankings only)
 
 ### 🌎 Regional Rankings
 
@@ -38,49 +44,47 @@ The rankings are automatically updated daily via GitHub Actions:
    - Uses parallel processing for fast data retrieval
    - Optimized handling for large countries (India, USA, Brazil, UK)
    
-2. **Smart Filtering**: Ensures ranking accuracy
-   - **Expired certifications are automatically excluded** from counts
-   - Only valid (non-expired) certifications count toward rankings
-   - Top 30 candidates per country are validated for accurate results
-   - 96% reduction in API requests with intelligent candidate selection
+2. **Fair Ranking Criteria**: Ensures an equitable competition
+   - **Position-based ranking**: The ranking shows 10 positions, not 10 users — professionals with the same number of certifications share the same position
+   - **Expired certifications are excluded**: Only active, valid certifications count
+   - **Excluded certifications**: Badges that can no longer be earned (e.g., `GitHub Sales Professional`) are excluded to keep the competition fair
+   - **Duplicate prevention**: Same badge name counts only once per user
+   - Top 50 candidates per country are validated for accurate results
    
-3. **Company Information**: Enriches rankings with professional context
+3. **Multi-dimensional Rankings**: Each regional ranking includes
+   - 🏆 **Top 10 Professionals** — Individual ranking by certification count
+   - 🏢 **Top 5 Companies** — Companies with the most certified professionals in the region
+   - 🌐 **Top 5 Countries** — Countries leading in certifications (excluded for single-country rankings)
+   
+4. **Company Information**: Enriches rankings with professional context
    - Company data fetched from public Credly user profiles
    - Displayed alongside name and certification count in rankings
-   - Updated during ranking generation for top performers only
    
-4. **Data Storage**: All certification data in the `datasource/` directory
+5. **Data Storage**: All certification data in the `datasource/` directory
    - Individual CSV files per country (e.g., `github-certs-brazil.csv`)
    - Metadata tracking for update timestamps and optimization
-   
-5. **Ranking Generation**: Creates TOP 10 rankings for each region
-   - Regional rankings: Brazil, Americas, Europe, Asia, Africa, Oceania
-   - Global ranking with top performers worldwide
-   - Automatic markdown file updates with latest data
 
 ### ℹ️ GitHub Certifications Sources
 
-This project tracks **ALL GitHub certifications** from two sources:
+This project tracks GitHub certifications from two sources:
 
-1. **GitHub Organization Badges** - All certifications issued directly by GitHub on Credly
+1. **GitHub Organization Badges** - Certifications issued directly by GitHub on Credly
    - **Core Certifications**: Foundations, Actions, Advanced Security, Administration, Copilot
    - **Partner Credentials**: Migrations, AzureDevOps Migrations, Advanced Security Partner Delivery
-   - **Sales Badges**: FY26 Sales Professional, Revenue Motions, Platform, Copilot, etc.
-   - **Professional Badges**: Tech Sales Professional, Sales Professional
-   - **Any other badge** issued by the GitHub organization
+   - **Any other active badge** issued by the GitHub organization
    
 2. **Microsoft-Issued Badges** - GitHub certifications transitioned to Microsoft Learn
-   - GitHub Foundations (Microsoft Certified)
-   - Other GitHub certifications now issued via learn.microsoft.com
-   - **Microsoft Certified: DevOps Engineer Expert** (related DevOps certification)
+   - GitHub Foundations, Actions, Advanced Security, Administration, Copilot (Microsoft Certified)
+   - Microsoft Certified: DevOps Engineer Expert
+   - Microsoft Applied Skills related to GitHub
 
-> **Note**: All badges from the GitHub organization on Credly are counted, not just the core certifications. As of 2024, GitHub migrated some certification issuance to Microsoft Learn. Additionally, the Microsoft Certified: DevOps Engineer Expert certification is included due to its relevance to GitHub workflows and DevOps practices.
+> **Note**: As of 2024, GitHub migrated some certification issuance to Microsoft Learn. Certifications that can no longer be earned (e.g., `GitHub Sales Professional`) are excluded from rankings to ensure fair competition.
 
-### 🎯 Ranking Accuracy
+### 🎯 Ranking Fairness
 
-- **Expiration Filtering**: Only active, non-expired certifications are counted
-- **Automatic Validation**: Certification expiration dates are checked against current date
-- **Example**: A user with 15 total badges but 3 expired will show 12 valid certifications
+- **Position-based**: 10 positions shown — tied professionals share the same rank
+- **Active only**: Expired certifications are automatically excluded
+- **Excluded badges**: Certifications no longer available for earning are not counted
 - **Daily Updates**: Rankings refresh daily to reflect newly issued and expired certifications
 
 ## 🚀 Manual Execution
@@ -152,9 +156,8 @@ python3 generate_rankings.py
 Data is sourced from the [Credly API](https://www.credly.com/api/v1/directory) for GitHub certifications.
 
 ### Performance Optimizations
-- **Intelligent Candidate Selection**: Fetches detailed badge data only for top 30 candidates per country
-  - Reduces API requests by 96% (from ~1,600 to ~60 requests for large countries)
-  - ~27x faster execution while maintaining accuracy
+- **Intelligent Candidate Selection**: Fetches detailed badge data only for top 50 candidates per country
+  - Reduces API requests by ~95% for large countries
 - **Parallel Processing**: Fetches multiple countries simultaneously using ThreadPoolExecutor
 - **Metadata Tracking**: Skips recently updated countries to reduce unnecessary API calls
 - **Specialized Handlers**: Large countries use optimized parallel page fetching
@@ -163,9 +166,9 @@ Data is sourced from the [Credly API](https://www.credly.com/api/v1/directory) f
 ### Certification Validation
 - **Expiration Checking**: Each badge's `expires_at_date` is validated against current date
 - **Dual Source Tracking**: Combines GitHub org badges + Microsoft external badges
-- **Included Microsoft Certifications**: GitHub-related badges + DevOps Engineer Expert
+- **Excluded Badges**: Certifications no longer available (e.g., `GitHub Sales Professional`) are excluded via `EXCLUDED_BADGES`
 - **Duplicate Prevention**: Only unique badge names are counted (no duplicates)
-- **Top Performer Focus**: Detailed validation applied to ranking candidates only
+- **Top Performer Focus**: Detailed validation applied to top 50 candidates per country
 
 ### Regional Coverage
 - **Americas**: 30+ countries including Brazil, USA, Canada, Argentina, Mexico, etc.
