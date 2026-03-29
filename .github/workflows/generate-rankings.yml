@@ -38,6 +38,7 @@ jobs:
       - name: Generate rankings
         run: |
           python3 generate_rankings.py
+          python3 generate_community_ranking.py
       
       - name: Commit and push rankings and CSVs
         run: |
