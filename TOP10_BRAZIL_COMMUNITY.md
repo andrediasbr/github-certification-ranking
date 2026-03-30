@@ -1,6 +1,6 @@
 # 🇧🇷 TOP 10 GitHub Certifications - Brazil (Community Only)
 
-> Last updated: March 29, 2026 at 16:27 UTC
+> Last updated: March 30, 2026 at 02:37 UTC
 >
 > This ranking includes only community certifications (excludes partner-exclusive badges).
 >
@@ -12,8 +12,8 @@
 | Rank | Name | Badges | Company |
 |------|------|--------|---------|
 | 🥇 #1 | [Andre Dias](https://www.credly.com/users/andredias/badges)<br>[Felipe Augusto](https://www.credly.com/users/felipementel/badges) | 8 | Avanade<br>Avanade |
-| 🥈 #2 | [Joao Pedro Alexandre Vieira](https://www.credly.com/users/joao-pedro-alexandre-vieira/badges) | 7 | Avanade |
-| 🥉 #3 | [Diego Giglioli](https://www.credly.com/users/diego-giglioli.bb64eaa5/badges)<br>[Matheus Barros](https://www.credly.com/users/matheus-barros.1892a132/badges) | 6 | Avanade<br>Avanade |
+| 🥈 #2 | [Diego Giglioli](https://www.credly.com/users/diego-giglioli.bb64eaa5/badges)<br>[Joao Pedro Alexandre Vieira](https://www.credly.com/users/joao-pedro-alexandre-vieira/badges) | 7 | Avanade<br>Avanade |
+| 🥉 #3 | [Matheus Barros](https://www.credly.com/users/matheus-barros.1892a132/badges) | 6 | Avanade |
 | #4 | [Beatriz Matsui](https://www.credly.com/users/beatriz-matsui/badges)<br>[Christiano Martins Milfont Almeida](https://www.credly.com/users/cmilfont/badges)<br>[Daniel Alonso Oliveira Soares](https://www.credly.com/users/dalonsw/badges)<br>[Danilo Perez](https://www.credly.com/users/daniloperez/badges)<br>[Ednei Monteiro](https://www.credly.com/users/ednei-monteiro/badges)<br>[Fernando Moreni](https://www.credly.com/users/fernando-moreni/badges)<br>[Jailton Santos Sales Junior](https://www.credly.com/users/jailton-santos-sales-junior/badges)<br>[Juliano Dziadzio](https://www.credly.com/users/juliano-dziadzio.5cdefb9f/badges)<br>[Lucas Ludicsa](https://www.credly.com/users/lucas-ludicsa/badges)<br>[Rafael Silva Willians](https://www.credly.com/users/rafael-silva-willians/badges)<br>[William Zonta](https://www.credly.com/users/william-zonta.d8c69de2/badges) | 5 | Microsoft<br>Accenture<br>ilegra<br><br>Microsoft<br><br>Microsoft<br><br>ilegra<br><br>Optima Latam |
 | #5 | [Andre Nunes](https://www.credly.com/users/andre-nunes.0d03ef9b/badges)<br>[Jaison Schmidt](https://www.credly.com/users/jaison-schmidt/badges)<br>[Jânio Santos](https://www.credly.com/users/janio-santos-silva/badges)<br>[Renicius Pagotto Fostaini](https://www.credly.com/users/renicius-pagotto-fostaini/badges)<br>[Rodrigo Kumabe](https://www.credly.com/users/rodrigo-kumabe/badges) | 4 | Avanade<br><br>Avanade<br><br> |
 | #6 | [Alex Souza Silva](https://www.credly.com/users/alex-souza-silva/badges)<br>[Andersson Pinheiro](https://www.credly.com/users/andersson-pinheiro.318145fb/badges)<br>[Arthur Costa](https://www.credly.com/users/arthur90costa/badges)<br>[Caio Vianna Vieira](https://www.credly.com/users/caio-vianna.b6440384/badges)<br>[DANIEL MARQUES](https://www.credly.com/users/danielmarques/badges)<br>[Deivid De Foggi](https://www.credly.com/users/deivid-de-foggi/badges)<br>[Eduardo Felipe Knop Coelho](https://www.credly.com/users/eduardo-felipe-knop-coelho/badges)<br>[Enderson Menezes](https://www.credly.com/users/endersonmenezes/badges)<br>[Eric Matheus Rocha](https://www.credly.com/users/eric-matheus-rocha/badges)<br>[Filipe Duarte](https://www.credly.com/users/filipe-duarte.3c29541f/badges)<br>[Gessé Da Silva Rocha](https://www.credly.com/users/gesserocha/badges)<br>[Herbert Gusmão Tenorio](https://www.credly.com/users/herbert-tenorio.2772c532/badges)<br>[Joao Kestering](https://www.credly.com/users/joao-kestering/badges)<br>[Leandro Prado](https://www.credly.com/users/leandro-prado.521892cb/badges)<br>[Leonardo Felipe Salgado](https://www.credly.com/users/leonardo-salgado.292179c5/badges)<br>[Leonardo Miranda Amaral](https://www.credly.com/users/leonardo-miranda-amaral/badges)<br>[Leonardo Vizagre](https://www.credly.com/users/leonardo.vizagre/badges)<br>[Luana Corrêa Vieira](https://www.credly.com/users/luana-vieira.36aca490/badges)<br>[Maria Carolina Alves](https://www.credly.com/users/oblipix/badges)<br>[Moacir Rodrigues Petry](https://www.credly.com/users/moacir-rodrigues/badges)<br>*... and 6 more* | 3 | <br>Avanade<br>Tokio Marine Seguradora<br>Avanade<br>XP Investimentos<br>Microsoft<br><br>Thoughtworks<br>Accenture<br><br><br>Softplan<br><br><br>Bradesco<br><br>Avanade<br>Avanade<br><br><br> |
@@ -26,7 +26,7 @@
 
 | Rank | Company | Total Badges | Certified Users |
 |------|---------|--------------|-----------------|
-| 🥇 #1 | Avanade | 77 | 28 |
+| 🥇 #1 | Avanade | 78 | 28 |
 | 🥈 #2 | Microsoft | 29 | 13 |
 | 🥉 #3 | Itaú Unibanco | 17 | 13 |
 | #4 | Bradesco | 14 | 12 |
@@ -37,8 +37,8 @@
 ## 📊 Statistics
 
 - **Total Certified Users**: 1,469
-- **Total Badges Earned**: 1,696
-- **Average Badges per User**: 1.15
+- **Total Badges Earned**: 1,697
+- **Average Badges per User**: 1.16
 - **Highest Badge Count**: 8
 
 ---

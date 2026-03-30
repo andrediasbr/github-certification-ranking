@@ -1,6 +1,6 @@
 first_name,middle_name,last_name,badge_count,profile_url
 Zeeshan,,.,1,/users/zeeshan.819bc2be/badges
-MUHAMMAD,,AHMAR ABEED KHAN,1,/users/muhammad-ahmar-abeed-khan/badges
+MUHAMMAD,,AHMAR ABEED KHAN,0,/users/muhammad-ahmar-abeed-khan/badges
 Muhammad,,Abdullah Khan,1,/users/muhammad-abdullah-khan.f904c0be/badges
 Ahmed,,Abdullah,2,/users/ahmad-abdullah.191fc3e3/badges
 Muhammad,,Abdullah,1,/users/muhammad-abdullah.3b327f40/badges
@@ -26,9 +26,9 @@ Waseem,,Akram,1,/users/wasii/badges
 Hafiz Ahtasham,,Alam,1,/users/hafiz-ahtasham-alam/badges
 Asghar,,Ali,1,/users/asghar-ali.31723580/badges
 Hassaan,,Ali,1,/users/hassaan-ali.248eaa05/badges
-Shahbaz,,Ali,1,/users/shahbaz-ali.9ed5cd5f/badges
+Shahbaz,,Ali,0,/users/shahbaz-ali.9ed5cd5f/badges
 Syed Shahriyar,,Ali,1,/users/syed-shahriyar-ali/badges
-Syed Umair,,Ali,1,/users/syed-umair-ali.566d564f/badges
+Syed Umair,,Ali,0,/users/syed-umair-ali.566d564f/badges
 Zain,,Ali,1,/users/zain-ali.697c55a1/badges
 Awais,,Amjad,1,/users/awais-amjad.c425a022/badges
 Haseeb,,Anjum,1,/users/haseeb-anjum.4f16153d/badges
