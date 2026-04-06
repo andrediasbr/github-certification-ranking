@@ -123,7 +123,7 @@ def fetch_github_org_badges(user_id):
 
 def fetch_page(country, page):
     """Fetch a single page for a country (without detailed badge fetching)"""
-    url = f"https://www.credly.com/api/v1/directory?organization_id=63074953-290b-4dce-86ce-ea04b4187219&sort=alphabetical&filter%5Blocation_name%5D={country.replace(' ', '%20')}&page={page}&format=json"
+    url = f"https://www.credly.com/api/v1/directory?organization_id=63074953-290b-4dce-86ce-ea04b4187219&sort=-total_badge_count&filter%5Blocation_name%5D={country.replace(' ', '%20')}&page={page}&format=json"
     
     try:
         response = requests.get(url, timeout=30)
