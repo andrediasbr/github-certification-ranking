@@ -1,4 +1,5 @@
 first_name,middle_name,last_name,badge_count,profile_url
+Amit,,Sharma,1,/users/amit-sharma.c8c40fe6/badges
 Miriam,,Alvad,3,/users/miriam-alvad.cf6370f0/badges
 Kim Hieu,,Dang,5,/users/kim-hieu-dang/badges
 Daniel,,Russell Feather,1,/users/daniel-russell-feather/badges
@@ -42,7 +43,7 @@ Vetle,,Gundersen,1,/users/vetle-gundersen/badges
 Brede,,Grønvold,1,/users/brede-gronvold/badges
 Arne Johan,,Kartveit,1,/users/arne-johan-kartveit/badges
 Thomas Ayo,,Graftås,1,/users/thomas-ayo-graftas/badges
-Kristoffer,,Eikså,0,/users/kristoffer-eiksa/badges
+Kristoffer,,Eikså,2,/users/kristoffer-eiksa/badges
 Aedan,,Soellaart,1,/users/aedan-soellaart/badges
 Synne,,Sjaavik,1,/users/synne-sjaavik/badges
 Arve,,Solli,2,/users/arve-solli.1b163404/badges
