@@ -1,13 +1,13 @@
 # 🇧🇷 TOP 10 GitHub Certifications - Brazil
 
-> Last updated: April 15, 2026 at 02:33 UTC
+> Last updated: April 15, 2026 at 16:40 UTC
 
 ## 🏆 Top 10 GitHub Certifications Leaders
 
 | Rank | Name | Badges | Company | Country |
 |------|------|--------|---------|---------|
-| 🥇 #1 | [Andre Dias](https://www.credly.com/users/andredias/badges)<br>[Felipe Augusto](https://www.credly.com/users/felipementel/badges) | 18 | Avanade<br>Avanade | Brazil<br>Brazil |
-| 🥈 #2 | [Joao Pedro Alexandre Vieira](https://www.credly.com/users/joao-pedro-alexandre-vieira/badges)<br>[Matheus Barros](https://www.credly.com/users/matheus-barros.1892a132/badges) | 16 | Avanade<br>Avanade | Brazil<br>Brazil |
+| 🥇 #1 | [Andre Dias](https://www.credly.com/users/andredias/badges)<br>[Diego Giglioli](https://www.credly.com/users/diego-giglioli.bb64eaa5/badges)<br>[Felipe Augusto](https://www.credly.com/users/felipementel/badges) | 18 | Avanade<br>Avanade<br>Avanade | Brazil<br>Brazil<br>Brazil |
+| 🥈 #2 | [Joao Pedro Alexandre Vieira](https://www.credly.com/users/joao-pedro-alexandre-vieira/badges)<br>[Matheus Barros](https://www.credly.com/users/matheus-barros.1892a132/badges) | 16 | <br>Avanade | Brazil<br>Brazil |
 | 🥉 #3 | [Jânio Santos](https://www.credly.com/users/janio-santos-silva/badges)<br>[Leonardo Vizagre](https://www.credly.com/users/leonardo.vizagre/badges) | 14 | Avanade<br>Avanade | Brazil<br>Brazil |
 | #4 | [Andre Nunes](https://www.credly.com/users/andre-nunes.0d03ef9b/badges)<br>[Caio Vianna Vieira](https://www.credly.com/users/caio-vianna.b6440384/badges)<br>[Luana Corrêa Vieira](https://www.credly.com/users/luana-vieira.36aca490/badges)<br>[Lucas Ludicsa](https://www.credly.com/users/lucas-ludicsa/badges) | 13 | Avanade<br>Avanade<br>Avanade<br>ilegra | Brazil<br>Brazil<br>Brazil<br>Brazil |
 | #5 | [Clayton Rodrigues Souza](https://www.credly.com/users/clayton-souza/badges)<br>[Daniel Alonso Oliveira Soares](https://www.credly.com/users/dalonsw/badges) | 12 | Avanade<br>ilegra | Brazil<br>Brazil |
@@ -23,7 +23,7 @@
 
 | Rank | Company | Total Badges | Certified Users |
 |------|---------|--------------|-----------------|
-| 🥇 #1 | Avanade | 211 | 17 |
+| 🥇 #1 | Avanade | 213 | 17 |
 | 🥈 #2 | ilegra | 31 | 3 |
 | 🥉 #3 | Sensedia | 9 | 1 |
 | #4 | GitHub | 7 | 1 |
@@ -32,9 +32,9 @@
 
 ## 📊 Statistics
 
-- **Total Certified Users**: 1,523
-- **Total Badges Earned**: 1,969
-- **Average Badges per User**: 1.29
+- **Total Certified Users**: 1,524
+- **Total Badges Earned**: 1,986
+- **Average Badges per User**: 1.30
 - **Highest Badge Count**: 18
 
 ---

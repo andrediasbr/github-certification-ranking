@@ -1,6 +1,6 @@
 # 🌊 TOP 10 GitHub Certifications - Oceania
 
-> Last updated: April 15, 2026 at 02:35 UTC
+> Last updated: April 15, 2026 at 16:42 UTC
 
 ## 🏆 Top 10 GitHub Certifications Leaders
 
@@ -31,8 +31,9 @@
 
 | Rank | Country | Total Badges | Certified Users |
 |------|---------|--------------|-----------------|
-| 🥇 #1 | Australia | 683 | 507 |
+| 🥇 #1 | Australia | 682 | 506 |
 | 🥈 #2 | New Zealand | 93 | 70 |
+| 🥉 #3 | Fiji | 1 | 1 |
 
 ---
 
