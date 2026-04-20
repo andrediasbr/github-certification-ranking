@@ -1,6 +1,6 @@
 first_name,middle_name,last_name,badge_count,profile_url
 Vincent,,Marchal,18,/users/vincent-marchal.87a05753/badges
-Olivier,,Delmotte,15,/users/o.delmotte/badges
+Olivier,,Delmotte,3,/users/o.delmotte/badges
 Jeoffrey,,NGO,5,/users/jeoffrey-ngo/badges
 Loïc,,Albarracin,6,/users/loic-albarracin/badges
 Marvin,,Pedron,1,/users/marvin-pedron/badges
@@ -85,7 +85,7 @@ Mohamed,,Benalia,1,/users/mohamed-benalia.ac9de0a4/badges
 Mohamed,,Jerbi,1,/users/mohamed-jerbi/badges
 Adrien,,Domurado,1,/users/adrien-domurado.dc6379d4/badges
 CLÉMENT,,TURMEL,1,/users/clement-turmel.484c26b0/badges
-David,,Aphing-Kouassi,0,/users/david-aphing-kouassi/badges
+David,,Aphing-Kouassi,2,/users/david-aphing-kouassi/badges
 Ludovic,,Delavois,2,/users/ludovic-delavois/badges
 Olivier,,Léger,1,/users/olivier-leger/badges
 Chayma,,ABIDI,1,/users/shimy-abidi/badges
@@ -153,7 +153,7 @@ Tony,,Jarriault,1,/users/tony-jarriault/badges
 Junior Yao,,DAVON,1,/users/junior-yao-davon/badges
 Florian,,Lefevre,1,/users/florian-lefevre.cb63d730/badges
 Kevin,,TAUPIN,1,/users/kevin-taupin.476ac2dd/badges
-Tahir,,Tidjani,0,/users/tahirt/badges
+Tahir,,Tidjani,3,/users/tahirt/badges
 Raphael,,Blondel,1,/users/raphael-blondel/badges
 Valentin,,Clergue,1,/users/valentin-clergue/badges
 Théo,,Rondoux,1,/users/theo-rondoux/badges

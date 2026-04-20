@@ -1,8 +1,8 @@
 first_name,middle_name,last_name,badge_count,profile_url
 Cristian,,Russu,5,/users/cristian-russu/badges
 Amruta,,Shetye,1,/users/amruta-shetye.ea23c764/badges
-Abhijit,,Darvankar,3,/users/abhijit-darvankar/badges
-Steffen,,Petersen,0,/users/steffen-petersen.3fa0eb9e/badges
+Abhijit,,Darvankar,0,/users/abhijit-darvankar/badges
+Steffen,,Petersen,1,/users/steffen-petersen.3fa0eb9e/badges
 Yelin,,Wang,1,/users/yelin-wang.280f763a/badges
 Rasmus Ulslev,,Pedersen,1,/users/rasmus-ulslev-pedersen/badges
 Swatilekha,,Paul,1,/users/swatilekha-paul.5e57bb61/badges
@@ -11,7 +11,7 @@ Thomas Lindskov,,Christensen,1,/users/thomas-lindskov-christensen/badges
 Lars,,Hvam,1,/users/lars-hvam/badges
 Andrei,,Penchilov,1,/users/andrei-penchilov/badges
 Sushma Mohan,,H K,1,/users/sushma-mohan-h-k/badges
-Audrius,,Bartkus,2,/users/audrius-bartkus/badges
+Audrius,,Bartkus,0,/users/audrius-bartkus/badges
 Jasper,,Nygaard,1,/users/jasper-nygaard.93a92b34/badges
 Alexandra,,Aldershaab,1,/users/alexandra-aldershaab/badges
 Cristian,,Zara,2,/users/cristian-zara/badges
@@ -26,10 +26,10 @@ Emil,,Emborg Thiel,1,/users/emil-emborg-thiel/badges
 Noemi,,Csokas,4,/users/noemi-csokas.4a9790e1/badges
 Mads,,Kristiansen,1,/users/mads-kristiansen.6e2b91b5/badges
 Rasmus,,Lystrøm,5,/users/rasmus-lystrom/badges
-Alexandru,,Vasile,0,/users/alexandru-vasile.147a454f/badges
+Alexandru,,Vasile,1,/users/alexandru-vasile.147a454f/badges
 Tomasz,,Cielecki,1,/users/tomasz-cielecki/badges
 Mathias,,Bidstrup,2,/users/mathias-bidstrup/badges
-Simona Iuliana,,Toader,0,/users/simona-iuliana-toader/badges
+Simona Iuliana,,Toader,2,/users/simona-iuliana-toader/badges
 Sebastian,,Ramsbøl,1,/users/sebastian-ramsbol/badges
 Erik,,Ejlskov Jensen,3,/users/erik-ejlskov-jensen/badges
 Navee,,Alok,1,/users/navee-alok/badges
@@ -39,11 +39,11 @@ Stiig,,Gade,2,/users/stiig-gade/badges
 Bo Vium,Vium,Thomsen,1,/users/bo-vium-thomsen/badges
 Poul,,Sørensen,1,/users/poul-sorensen.408ef631/badges
 Frederik,,Erbs Spang Thomsen,1,/users/frederik-erbs-spang-thomsen/badges
-Nicolai,,Skovvart,0,/users/nicolai.skovvart/badges
+Nicolai,,Skovvart,3,/users/nicolai.skovvart/badges
 Frederik,,Berthelsen,1,/users/frederik-berthelsen/badges
 Gilli,,Fjallstein,1,/users/gilli-fjallstein/badges
 Jesper,,Kristensen,1,/users/jesper-kristensen.d0090cb3/badges
-Raul,,Encarnacion,0,/users/raul.encarnacion/badges
+Raul,,Encarnacion,1,/users/raul.encarnacion/badges
 John,,Kølle,1,/users/john-kolle/badges
 ketaki,,kivade,1,/users/ketaki-kivade.0539074f/badges
 Julius,,Bendt,1,/users/julius-bendt/badges
