@@ -1,6 +1,6 @@
 # 🇧🇷 TOP 10 GitHub Certifications - Brazil
 
-> Last updated: April 20, 2026 at 02:42 UTC
+> Last updated: April 21, 2026 at 02:38 UTC
 
 ## 🏆 Top 10 GitHub Certifications Leaders
 
@@ -14,7 +14,7 @@
 | #6 | [Francisco Nascimento](https://www.credly.com/users/francisco-nascimento.f7a5a9f3/badges) | 11 | Avanade | Brazil |
 | #7 | [Cesar Souza](https://www.credly.com/users/cesar-souza.48cc6bb7/badges)<br>[Julio Cesar Barbosa da Silva](https://www.credly.com/users/juliocbsilva/badges)<br>[William Lima Silva](https://www.credly.com/users/williamlimasilva/badges) | 10 | <br>Avanade<br>Avanade | Brazil<br>Brazil<br>Brazil |
 | #8 | [Bruno Vinicius Garcia](https://www.credly.com/users/ifgarcia/badges)<br>[Dhiego Bastelli](https://www.credly.com/users/dhiego-bastelli/badges)<br>[Higor Coelho Do Nascimento](https://www.credly.com/users/higor-coelho-do-nascimento/badges)<br>[Ricardo Galvão](https://www.credly.com/users/ricardo-galvao.52cfc0ae/badges) | 9 | Avanade<br>Sensedia<br>Avanade<br>Avanade | Brazil<br>Brazil<br>Brazil<br>Brazil |
-| #9 | [Davi Santos](https://www.credly.com/users/davisantos/badges)<br>[Marcio Eduardo Souza da Silva](https://www.credly.com/users/marcio-eduardo-s-silva.22014e1d/badges) | 7 | Avanade<br>GitHub | Brazil<br>Brazil |
+| #9 | [Marcio Eduardo Souza da Silva](https://www.credly.com/users/marcio-eduardo-s-silva.22014e1d/badges)<br>[🧡 Davi Santos](https://www.credly.com/users/davisantos/badges) | 7 | GitHub<br>Avanade | Brazil<br>Brazil |
 | #10 | [Danilo Perez](https://www.credly.com/users/daniloperez/badges)<br>[Eduarda Costa da Silva](https://www.credly.com/users/eduarda-costa-da-silva/badges)<br>[Miguel Eduardo Xavier Nazer](https://www.credly.com/users/miguel-eduardo-xavier-nazer.be240a2d/badges) | 6 | <br>ilegra<br> | Brazil<br>Brazil<br>Brazil |
 
 ---
@@ -32,9 +32,9 @@
 
 ## 📊 Statistics
 
-- **Total Certified Users**: 1,523
-- **Total Badges Earned**: 1,990
-- **Average Badges per User**: 1.31
+- **Total Certified Users**: 1,522
+- **Total Badges Earned**: 1,984
+- **Average Badges per User**: 1.30
 - **Highest Badge Count**: 18
 
 ---
