@@ -1,8 +1,8 @@
 first_name,middle_name,last_name,badge_count,profile_url
 Luca,,Tosto,1,/users/luca-tosto.fa07794e/badges
-Alena,,Khvat,0,/users/alena-khvat/badges
+Alena,,Khvat,1,/users/alena-khvat/badges
 Enrico,,Garau,1,/users/enrico-garau/badges
-Fabio,,Craviolatti,0,/users/fabio-craviolatti/badges
+Fabio,,Craviolatti,1,/users/fabio-craviolatti/badges
 nicolas,,filippi,1,/users/nicolas-filippi/badges
 Andrea,,Cocco,1,/users/andrea-cocco.a8e9f1cb/badges
 Paolo,,Pericoli,2,/users/paolo-pericoli/badges
@@ -60,7 +60,7 @@ Andrea,,Miretti,1,/users/andrea-miretti/badges
 Roberto,,Guarnaroli,1,/users/roberto-guarnaroli/badges
 Andrea,,Ceroni,2,/users/andreaceroni/badges
 Rita,,Calabrese,1,/users/rita-calabrese/badges
-Andrea,,Perazzolo,0,/users/andrea-perazzolo/badges
+Andrea,,Perazzolo,3,/users/andrea-perazzolo/badges
 Daniele,,Paravisi,1,/users/daniele-paravisi.6e6cf486/badges
 Andrea,,Bianchi,1,/users/andrea-bianchi.0b8d637e/badges
 Gianluca,,Re,1,/users/gianluca-re/badges
@@ -92,7 +92,7 @@ Marcello,,Maugeri,1,/users/marcello-maugeri.e92f07fb/badges
 Alberto,,De Natale,1,/users/alberto-de-natale.f0943ed5/badges
 Domenico,,Citera,1,/users/domenico-citera/badges
 ✔️Moji,,Taavoni,1,/users/moji/badges
-Stefano,,Basciano,0,/users/stefano-basciano/badges
+Stefano,,Basciano,1,/users/stefano-basciano/badges
 Ernesto,,Cianciotta,1,/users/ernesto-cianciotta/badges
 Nijat,,Hummatov,1,/users/hummatovic/badges
 Cesare,,Emiliano,1,/users/cesare-emiliano/badges
@@ -117,7 +117,7 @@ Alessandro,,Magistroni,1,/users/alessandro-magistroni/badges
 Sofia,,Cantalupo,1,/users/sofia-cantalupo/badges
 Andrea,,Moscato,2,/users/andrea-moscato.3140e08d/badges
 Alessandra,,Salis,1,/users/alessandra-salis.ef5b9bca/badges
-Mario,,Cuomo,0,/users/mario-cuomo/badges
+Mario,,Cuomo,2,/users/mario-cuomo/badges
 Luca,,Loiotile,1,/users/luca-loiotile/badges
 Marco,,Melucci,1,/users/marcomelucci-friendlyhacker/badges
 piero,,ciula,1,/users/piero-ciula.6840b916/badges
@@ -241,15 +241,15 @@ Marcello,,Fabbri,1,/users/marcello-fabbri/badges
 Alexander James,,Candfield,2,/users/alexander-james-candfield/badges
 Marco,,Valsecchi,1,/users/valse/badges
 Fulvio,,Zecchin,1,/users/fulvio-zecchin/badges
-Massimo,,Bonanni,2,/users/massimobonanni/badges
+Massimo,,Bonanni,0,/users/massimobonanni/badges
 Danial,,Zendehdel,1,/users/danial-zendehdel/badges
 Daniele,,Olgiati,1,/users/daniele-olgiati/badges
 Giulio,,Sciarappa,2,/users/giulio-sciarappa/badges
 Roberto,,Cappelletti,1,/users/roberto-cappelletti/badges
 Francesca,,Maselli,1,/users/francesca-maselli/badges
 Salvatore,,Dessupoiu,3,/users/salvatore-dessupoiu/badges
-Riccardo,,Rigutini,0,/users/richardrigutins/badges
-Giorgio,,Lasala,2,/users/giorgio-lasala/badges
+Riccardo,,Rigutini,4,/users/richardrigutins/badges
+Giorgio,,Lasala,0,/users/giorgio-lasala/badges
 Federico,,Ceruti,1,/users/federico-ceruti/badges
 Lorenzo,,Campagna,1,/users/lorenzo-campagna/badges
 Massimiliano,,Pianges,1,/users/massimiliano-pianges.eecd1621/badges
@@ -273,7 +273,7 @@ Pietro,,Serrao,1,/users/pietro-serrao/badges
 Alessio,,Fiorentino,1,/users/alessio-fiorentino.74609af3/badges
 Emanuele,,Domingo,1,/users/emanuele-domingo.b5f6a917/badges
 Ermanno,,Russo,1,/users/ermanno-russo/badges
-Gianluca,,Recchia,0,/users/grecchia/badges
+Gianluca,,Recchia,2,/users/grecchia/badges
 Francesco,,Tarquini,1,/users/francesco-tarquini/badges
 Alessandro,,Pantano,1,/users/alessandro-pantano/badges
 Matteo,,Salvestrini,2,/users/matteo-salvestrini/badges
@@ -292,7 +292,7 @@ Fabio,,Bombardi,1,/users/fabio-bombardi/badges
 Alessandro,,Amoroso,1,/users/alessandro-amoroso/badges
 Silvia,,Caciolo,1,/users/silvia-caciolo.ce2ac6af/badges
 Federico,,François,1,/users/federico-francois/badges
-Gary,,Sassano,0,/users/gary-sassano/badges
+Gary,,Sassano,4,/users/gary-sassano/badges
 Domenico,,Serra,1,/users/domenico-serra/badges
 Michele,,Sanna,1,/users/michele-sanna/badges
 Simone,,Girardi,1,/users/simone-girardi/badges
