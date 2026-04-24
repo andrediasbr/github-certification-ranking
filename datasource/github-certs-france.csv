@@ -1,6 +1,6 @@
 first_name,middle_name,last_name,badge_count,profile_url
 Vincent,,Marchal,18,/users/vincent-marchal.87a05753/badges
-Olivier,,Delmotte,15,/users/o.delmotte/badges
+Olivier,,Delmotte,3,/users/o.delmotte/badges
 Jeoffrey,,NGO,5,/users/jeoffrey-ngo/badges
 Loïc,,Albarracin,6,/users/loic-albarracin/badges
 Marvin,,Pedron,1,/users/marvin-pedron/badges
@@ -34,7 +34,7 @@ Demousselle,,Sébastien,1,/users/demousselle-sebastien/badges
 Roman,,Lushkin,1,/users/roman-lushkin.7d4e38f5/badges
 Hubert,,de Fleurian,2,/users/hubert-de-fleurian/badges
 Christophe,,Arguel,1,/users/christophe-arguel/badges
-Guillaume,,JAY,3,/users/guillaume-jay.2fc4567a/badges
+Guillaume,,JAY,0,/users/guillaume-jay.2fc4567a/badges
 Ludovic,,CHOMBEAU,1,/users/ludovic-chombeau/badges
 Clément,,BARDY,1,/users/clement-bardy.0d25b9f7/badges
 Hamza,,Elyoubi,1,/users/hamza-elyoubi/badges
@@ -77,7 +77,7 @@ Van-Thanh-Tu,,NGUYEN,1,/users/van-thanh-tu-nguyen/badges
 Baptiste,,Saltel,1,/users/baptiste-saltel/badges
 Thibault,,Gauthier,1,/users/thibault-gauthier/badges
 Salma,,Ettafs,1,/users/salma-ettafs/badges
-Philippe,,Sollaud,2,/users/philippe-sollaud/badges
+Philippe,,Sollaud,0,/users/philippe-sollaud/badges
 Yassine,,Cheniour,1,/users/yassine-cheniour/badges
 maxime,,ruffenach,1,/users/maxime-ruffenach/badges
 Hemza,,NEDJARI BENHADJ ALI,1,/users/hemza-nedjari-benhadj-ali.c3805ab0/badges
@@ -153,7 +153,7 @@ Tony,,Jarriault,1,/users/tony-jarriault/badges
 Junior Yao,,DAVON,1,/users/junior-yao-davon/badges
 Florian,,Lefevre,1,/users/florian-lefevre.cb63d730/badges
 Kevin,,TAUPIN,1,/users/kevin-taupin.476ac2dd/badges
-Tahir,,Tidjani,3,/users/tahirt/badges
+Tahir,,Tidjani,0,/users/tahirt/badges
 Raphael,,Blondel,1,/users/raphael-blondel/badges
 Valentin,,Clergue,1,/users/valentin-clergue/badges
 Théo,,Rondoux,1,/users/theo-rondoux/badges
@@ -169,15 +169,15 @@ Walid,,Majdoubi,1,/users/walid-majdoubi/badges
 Ludovic,,Thuard,1,/users/ludovic-thuard/badges
 Thibaud,,Dirou,1,/users/thibaud-dirou/badges
 Victor,,VAIZAND,1,/users/victor-vaizand/badges
-Lucas,,Ladreyt,0,/users/lucas-ladreyt.5f38abc4/badges
+Lucas,,Ladreyt,3,/users/lucas-ladreyt.5f38abc4/badges
 Jules,,RUBIN,1,/users/jules-rubin/badges
 Axel,,Villeret,1,/users/axel-villeret/badges
 Mourad,,SALHI,1,/users/mourad-salhi/badges
 Zijin,,Huang,1,/users/zijin-huang.8d2fe609/badges
 Matthieu,,Bezard,1,/users/matthieu-bezard/badges
-Thomas,,Dupoiron,5,/users/thomas-dupoiron/badges
+Thomas,,Dupoiron,2,/users/thomas-dupoiron/badges
 Arthur,,Lefebvre,1,/users/arthur-lefebvre.75035b4a/badges
-Olivier,,Mertens,2,/users/olivmertens/badges
+Olivier,,Mertens,0,/users/olivmertens/badges
 Luis Enrique,,González Hilario,1,/users/luis-enrique-gonzalez-hilario/badges
 Abd Errahmane,,BOUTOBZA,1,/users/abd-errahmane-boutobza/badges
 Chems Eddine,,Hadiby,1,/users/chems-eddine-hadiby/badges
@@ -237,9 +237,9 @@ El Mehdi,,FETTAH,1,/users/mehdi-fettah/badges
 Maryna,,Kushnir,1,/users/maryna-kushnir/badges
 Simon,,Spozio,1,/users/simon-spozio/badges
 Arnaud,,Bourda,1,/users/arnaud-bourda/badges
-Romain,,Serre,0,/users/romain-serre/badges
+Romain,,Serre,3,/users/romain-serre/badges
 Jing,,LEI,2,/users/jing-lei.2b00bda0/badges
-LIONEL,,LONKAP TSAMBA,4,/users/lktslionel/badges
+LIONEL,,LONKAP TSAMBA,0,/users/lktslionel/badges
 Hippolyte,,KENGNI,1,/users/hippolyte-kengni/badges
 Bangaly,,Kaba,0,/users/bangaly-kaba/badges
 guillaume,,guerard,1,/users/guillaume-guerard/badges
@@ -269,7 +269,7 @@ Franck,,Jacottin,1,/users/franck-jacottin.c1c0ba41/badges
 Aurélien,,Garnier,1,/users/aurelien/badges
 Ludovic,,MEDARD,0,/users/ludovic-medard/badges
 Gaëtan,,Bogaert,1,/users/gaetan-bogaert.13285b33/badges
-Aubin Patrick,,TAKAM TAYO,3,/users/aubin-patrick-takam-tayo/badges
+Aubin Patrick,,TAKAM TAYO,0,/users/aubin-patrick-takam-tayo/badges
 Albert,,Phan,1,/users/albert-phan.7c9f1326/badges
 Jean-François,,GUEYFFIER,1,/users/jean-francois-gueyffier/badges
 Jérôme,,Djebari,1,/users/jerome-djebari.0a9396a4/badges
