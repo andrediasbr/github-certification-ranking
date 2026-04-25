@@ -1,5 +1,5 @@
 first_name,middle_name,last_name,badge_count,profile_url
-José,,Ibañez,0,/users/jose-ibanez.8df2cfd3/badges
+José,,Ibañez,7,/users/jose-ibanez.8df2cfd3/badges
 Benjamin,,Contreras Stoltze,1,/users/benjamin-contreras-stoltze/badges
 Cristian,,Rosas,1,/users/cristian-rosas/badges
 Edgar Moises,,Heredia Martin,1,/users/edgar-moises-heredia-martin/badges
@@ -7,7 +7,7 @@ Nicolás Eduardo,,Flores Muñoz,1,/users/nicolas-eduardo-flores-munoz/badges
 Ruth,,Perez,1,/users/ruth-perez.1ed127e8/badges
 Jorge Luis,,Gallardo Contreras,2,/users/jorge-luis-gallardo-contreras.fe024f7e/badges
 Luis,,Delgado,2,/users/luis-delgado-acevedo/badges
-Jonathan,,Mayne,0,/users/jonathan-mayne/badges
+Jonathan,,Mayne,2,/users/jonathan-mayne/badges
 Edgar Samuel,,Heredia Martin,1,/users/edgar-samuel-heredia-martin/badges
 Eric Marcel,,Fiegehen Gonzalez,1,/users/eric-marcel-fiegehen-gonzalez/badges
 Marcelo,,Poblete Molina,1,/users/marcelo-poblete-molina/badges
@@ -41,7 +41,7 @@ Carlos,,Pinto,1,/users/cxrloskenobi/badges
 VICENTE NICOLAS,,FREDES ESTUARDO,1,/users/vicente-nicolas-fredes-estuardo/badges
 Oliver,,Modinger,1,/users/oliver-modinger/badges
 Andres,,Carrillo,1,/users/andres-carrillo.538b290a/badges
-JOSE,MANUEL,MARQUEZ HURTADO,0,/users/jose-marquez-hurtado/badges
+JOSE,MANUEL,MARQUEZ HURTADO,2,/users/jose-marquez-hurtado/badges
 JOSE,,DONOSO VELASQUEZ,1,/users/jose-donoso-velasquez/badges
 Freddy,Rafael Jacinto,Torrealba Viloria,2,/users/fredtorrealba/badges
 Efraín,,Duarte Campos,1,/users/eduarte/badges
@@ -89,14 +89,14 @@ Christian,,Cáceres,2,/users/christian-caceres.9bb8cf85/badges
 Cristian,,Bueno,1,/users/cristian-bueno.f05e5794/badges
 Valentina,,Lobos Toro,1,/users/valentina-lobos-toro.a1482916/badges
 Manuel,Ignacio,Díaz Soto,1,/users/manueldiazsoto/badges
-Rodrigo,,Pino,0,/users/rodrigo-pino.1fb3f3e7/badges
+Rodrigo,,Pino,2,/users/rodrigo-pino.1fb3f3e7/badges
 Daniela,,Arenas,1,/users/daniela-arenas.a784d9a6/badges
 Patricia,,Hernandez,1,/users/patricia-hernandez.d5bd0743/badges
 Treavor,,Saldias,1,/users/treavor-saldias/badges
 Julio,,Juri,1,/users/julio-juri.44d0292d/badges
 Marco,,Córdova Fredes,1,/users/marco-cordova-fredes/badges
 Rodrigo,,Hidalgo Flores,2,/users/rodrigo-hidalgo-flores/badges
-andres,,yanez,5,/users/andres-yanez.6d71b97f/badges
+andres,,yanez,0,/users/andres-yanez.6d71b97f/badges
 Lucas,,Otarola,3,/users/lootarola/badges
 Michelle,,Alvarez,1,/users/michelle-alvarez.f9dc2913/badges
 Miguel Angel,,Leiva Martinez,1,/users/miguel-angel-leiva-martinez/badges
@@ -104,7 +104,7 @@ Vicente Alfonso,,Zapata Concha,1,/users/vicente-alfonso-zapata-concha/badges
 Vicente,,Yupanqui Saez,1,/users/vicente-yupanqui-saez/badges
 Juan Gonzalo,,Painequir Cerón,1,/users/juan-gonzalo-painequir-ceron/badges
 Juan,,Olguin,1,/users/juan-olguin.d8e54a46/badges
-Valentina,,Muñoz Valeria,2,/users/valentina-munoz-valeria.24193fba/badges
+Valentina,,Muñoz Valeria,0,/users/valentina-munoz-valeria.24193fba/badges
 Jose,Salomon,Contreras,1,/users/jose-contreras.cc6754a0/badges
 Kevin,,Aguirre,3,/users/keaguirre/badges
 Byron,,Faure Bossardt,1,/users/byron-faure-bossardt/badges
@@ -122,7 +122,7 @@ Joaquín Alonso,,Dinamarca Dinamarca,2,/users/joaquin-alonso-dinamarca-dinamarca
 Pablo,,Romero Caceres,1,/users/pablo-romero-caceres/badges
 Adrian,,Alvarez Escobar,1,/users/adrian-alvarez-escobar/badges
 Maximiliano,,Guerra,1,/users/maximiliano-guerra.654487da/badges
-Bryan,,Salcedo Montt,2,/users/bryan-salcedo-montt/badges
+Bryan,,Salcedo Montt,0,/users/bryan-salcedo-montt/badges
 Miguel,,Champin,1,/users/miguel-champin.c967480f/badges
 Luis,,Araya,1,/users/luis-araya.d79a7c6e/badges
 Adolfo,,Bernal,1,/users/adolfo-bernal.db33a437/badges
