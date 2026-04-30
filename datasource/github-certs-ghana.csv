@@ -1,6 +1,6 @@
 first_name,middle_name,last_name,badge_count,profile_url
-Enoch,Nii Lante,France,12,/users/enoch-nii-lante-france/badges
-Anita,,Saayeng,1,/users/anita-saayeng/badges
+Enoch,Nii Lante,France,0,/users/enoch-nii-lante-france/badges
+Anita,,Saayeng,0,/users/anita-saayeng/badges
 William,,Adu-Krow,1,/users/william-adu-krow/badges
 Cephas,,Tokoli,2,/users/cephas-tokoli/badges
 PAUL PROMISE,,DZAHINI,1,/users/paulpromise/badges
@@ -29,7 +29,7 @@ NANA,,ANIM-WIREDU,1,/users/nana-anim-wiredu/badges
 Ernest,,Sarfo,1,/users/ernest-sarfo.4be3d598/badges
 Gabriel,,Ayetor,1,/users/gabriel-ayetor/badges
 Kwasi,,Attafua,1,/users/kwasi-attafua/badges
-Cyril,,Baah,0,/users/cyril-baah/badges
+Cyril,,Baah,1,/users/cyril-baah/badges
 Paul Danso,,Asare,1,/users/paul-danso-asare/badges
 maxwell,,Ahorlu,1,/users/maxwell-ahorlu/badges
 Farouk,,Sedick,1,/users/farouk-sedick/badges

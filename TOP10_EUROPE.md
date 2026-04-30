@@ -1,6 +1,6 @@
 # 🇪🇺 TOP 10 GitHub Certifications - Europe
 
-> Last updated: April 29, 2026 at 02:54 UTC
+> Last updated: April 30, 2026 at 02:55 UTC
 
 ## 🏆 Top 10 GitHub Certifications Leaders
 
@@ -15,7 +15,7 @@
 | #7 | [Filip Bialowas](https://www.credly.com/users/filip-bialowas/badges)<br>[Fokko Veegens](https://www.credly.com/users/fokko-veegens/badges)<br>[Magnus Timner](https://www.credly.com/users/magnus-timner.ddd6329c/badges)<br>[Toni Laakso](https://www.credly.com/users/toni-laakso/badges)<br>[Virginia Hamra](https://www.credly.com/users/virginia-hamra-2/badges) | 10 | <br>Xebia<br>Solidify Eficode<br>Eficode<br>Xebia | Poland<br>Netherlands<br>Sweden<br>Finland<br>Netherlands |
 | #8 | [Jakob Johansson](https://www.credly.com/users/jakob-johansson.9602948e/badges)<br>[Marcin Gapiński](https://www.credly.com/users/marcin-gapinski.10424558/badges)<br>[Marcin Kociński](https://www.credly.com/users/marcin-kocinski/badges)<br>[Piotr Nowakowski](https://www.credly.com/users/piotr-nowakowski.0ae6ed51/badges)<br>[Samuel Henrique van Lenthe](https://www.credly.com/users/samuel-henrique-van-lenthe/badges) | 9 | <br><br><br><br>GitHub | Sweden<br>Poland<br>Poland<br>Poland<br>Netherlands |
 | #9 | [Aleksander Fidelus](https://www.credly.com/users/aleksander-fidelus/badges)<br>[Mateus Lenhart](https://www.credly.com/users/mateus-lenhart/badges)<br>[Michael Kokonowskyj](https://www.credly.com/users/mikokono/badges) | 7 | <br>ilegra<br> | Poland<br>Portugal<br>Germany |
-| #10 | [Bas van de Sande](https://www.credly.com/users/bas-van-de-sande/badges)<br>[Leon Sinlik](https://www.credly.com/users/leon-sinlik/badges)<br>[Loïc Albarracin](https://www.credly.com/users/loic-albarracin/badges)<br>[Margarita Sanz](https://www.credly.com/users/margarita-sanz.8b60fc23/badges)<br>[Miska Braun](https://www.credly.com/users/miskabraun/badges)<br>[Nicholas Brash](https://www.credly.com/users/nicholas-brash/badges)<br>[Pavlo Stadnyk](https://www.credly.com/users/pavlo-stadnyk/badges)<br>[Radek Zíma](https://www.credly.com/users/radek-zima.ca1cf160/badges)<br>[Roman Rabodzei](https://www.credly.com/users/romanrabodzei/badges) | 6 | Xebia Microsoft Services<br><br><br><br>Eficode Oy<br><br><br>ACTUM Digital<br>rinf.tech | Netherlands<br>Germany<br>France<br>Spain<br>Finland<br>United Kingdom<br>Italy<br>Czech Republic<br>Poland |
+| #10 | [Bas van de Sande](https://www.credly.com/users/bas-van-de-sande/badges)<br>[Leon Sinlik](https://www.credly.com/users/leon-sinlik/badges)<br>[Loïc Albarracin](https://www.credly.com/users/loic-albarracin/badges)<br>[Margarita Sanz](https://www.credly.com/users/margarita-sanz.8b60fc23/badges)<br>[Miska Braun](https://www.credly.com/users/miskabraun/badges)<br>[Nicholas Brash](https://www.credly.com/users/nicholas-brash/badges)<br>[Pavlo Stadnyk](https://www.credly.com/users/pavlo-stadnyk/badges)<br>[Radek Zíma](https://www.credly.com/users/radek-zima.ca1cf160/badges)<br>[Roman Rabodzei](https://www.credly.com/users/romanrabodzei/badges)<br>[Srinivasulu Paranduru](https://www.credly.com/users/srinivasulu-paranduru/badges) | 6 | Xebia Microsoft Services<br><br><br><br>Eficode Oy<br><br><br>ACTUM Digital<br>rinf.tech<br>Tata Consultancy Services | Netherlands<br>Germany<br>France<br>Spain<br>Finland<br>United Kingdom<br>Italy<br>Czech Republic<br>Poland<br>Ireland |
 
 ---
 
@@ -35,18 +35,18 @@
 
 | Rank | Country | Total Badges | Certified Users |
 |------|---------|--------------|-----------------|
-| 🥇 #1 | United Kingdom | 1058 | 758 |
+| 🥇 #1 | United Kingdom | 1055 | 757 |
 | 🥈 #2 | Netherlands | 633 | 311 |
-| 🥉 #3 | Spain | 607 | 455 |
-| #4 | Germany | 461 | 343 |
-| #5 | Poland | 455 | 298 |
+| 🥉 #3 | Spain | 608 | 456 |
+| #4 | Germany | 462 | 345 |
+| #5 | Poland | 452 | 297 |
 
 ---
 
 ## 📊 Statistics
 
-- **Total Certified Users**: 4,126
-- **Total Badges Earned**: 5,872
+- **Total Certified Users**: 4,130
+- **Total Badges Earned**: 5,864
 - **Average Badges per User**: 1.42
 - **Highest Badge Count**: 18
 
