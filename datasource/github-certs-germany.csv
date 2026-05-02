@@ -1,5 +1,6 @@
 first_name,middle_name,last_name,badge_count,profile_url
-Nico,,Orschel,12,/users/nico-orschel/badges
+Daniel,Richard,Snell,1,/users/daniel-snell.f7bc4ec8/badges
+Nico,,Orschel,0,/users/nico-orschel/badges
 Anirban,,Ghosh,1,/users/anirban-ghosh.22d2d490/badges
 André,,Böttcher,1,/users/andre-bottcher/badges
 Sandra,,Neff,5,/users/sandra-neff.59a05583/badges
@@ -205,7 +206,7 @@ Luis,,Munoz Molina,1,/users/luis-munoz-molina/badges
 Karol,,Zyskowski,2,/users/karol-zyskowski/badges
 Ruben Chester,,Dieutchou,1,/users/ruben-chester-dieutchou/badges
 Sewmi,,Rajapaksha,1,/users/sewmi-rajapaksha/badges
-Alexander,,Trusheim,0,/users/alexander-trusheim/badges
+Alexander,,Trusheim,2,/users/alexander-trusheim/badges
 Jonas,,Brahmst,1,/users/jonas-brahmst/badges
 Jonathan,,Peil,3,/users/jonathan-peil/badges
 Kai,,Opitz,1,/users/kai-opitz/badges
@@ -214,7 +215,7 @@ Neeta,,Jadhav,1,/users/neeta-jadhav/badges
 Yuri,,Winche Achermann,1,/users/yuriachermann/badges
 Daniel,,Meyer,1,/users/meda1028/badges
 Eugen,,Scherbin,1,/users/eugen-scherbin/badges
-Marijn,,Scholtens,2,/users/marijn-scholtens/badges
+Marijn,,Scholtens,0,/users/marijn-scholtens/badges
 Carlos,,Hernandez-Vaquero,1,/users/carlos-hernandez-vaquero/badges
 Jan-Otto,,Kröpke,1,/users/jkroepke/badges
 Christian,,Weese,4,/users/christian-weese/badges
@@ -229,7 +230,7 @@ Jonas,,Wanninger,1,/users/jonas-wanninger/badges
 Arpit,,bajpai,1,/users/arpit-bajpai.e873fea2/badges
 Milos,,Rujevic,1,/users/milosrujevic/badges
 Gennady,,Solomennikov,2,/users/gennady-solomennikov/badges
-Niko,,Mix,2,/users/nikomix/badges
+Niko,,Mix,0,/users/nikomix/badges
 Florian,,Eckert,5,/users/florian-eckert.f49f0bb4/badges
 Florian,,Stolzmann,1,/users/florian-stolzmann.45280836/badges
 Dario,,Brozovic,1,/users/dario-brozovic.672c1d98/badges
@@ -290,7 +291,7 @@ Arjun,,Maryankandy Rajendran,1,/users/arjun-maryankandy-rajendran/badges
 Richard,,Z.,2,/users/richard-z/badges
 Florian,,Kraning,1,/users/florian-kraning/badges
 Stephanie Marisa,,Lanius,1,/users/stephanie-marisa-lanius/badges
-Carlos Tadeu,,Panato Junior,4,/users/cpanato/badges
+Carlos Tadeu,,Panato Junior,0,/users/cpanato/badges
 Christian,,Trabold,1,/users/christian-trabold/badges
 Marcel,,Müller,1,/users/marcel-muller.c402fed2/badges
 Glenn,,Verhaag,1,/users/glenn-verhaag/badges

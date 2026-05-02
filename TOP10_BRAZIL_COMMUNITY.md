@@ -1,6 +1,6 @@
 # 🇧🇷 TOP 10 GitHub Certifications - Brazil (Community Only)
 
-> Last updated: May 01, 2026 at 12:23 UTC
+> Last updated: May 02, 2026 at 02:50 UTC
 >
 > This ranking includes only community certifications (excludes partner-exclusive badges).
 >
