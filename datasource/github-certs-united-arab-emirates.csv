@@ -2,8 +2,8 @@ first_name,middle_name,last_name,badge_count,profile_url
 Mohammed,,Mahgoub,1,/users/mohammed-mahgoub.684f8d88/badges
 Sumaira,,Sagheer,1,/users/sumairas/badges
 Ahmed,,Qazi,2,/users/ahmed-qazi.defa842e/badges
-Paolo,,Salvatierra,0,/users/psalvatierra/badges
-Imran,,Mustafa,0,/users/imran-mustafa.f0041310/badges
+Paolo,,Salvatierra,1,/users/psalvatierra/badges
+Imran,,Mustafa,1,/users/imran-mustafa.f0041310/badges
 Alexandros,,Vlantis,1,/users/alexandros-vlantis/badges
 Areeb,,Pasha,1,/users/areeb.pasha/badges
 Ahmed,,Seddiq,1,/users/ahmed-seddiq.5021351f/badges
@@ -17,7 +17,7 @@ morad,,Mohammed,1,/users/morad-mohammed/badges
 Lukas,,Marquardt,1,/users/heyitslks/badges
 Sahal,,Mulki,1,/users/sahal-mulki/badges
 Mohammad,,Abu-Khader,1,/users/mohammad-abukhader/badges
-Md Nasim,,Akhtar,0,/users/md-nasim-akhtar.2baf402f/badges
+Md Nasim,,Akhtar,1,/users/md-nasim-akhtar.2baf402f/badges
 Aditya,,Shibu,1,/users/aditya-shibu/badges
 Mohammad,,Hassan,1,/users/mohammad-hassan.4236d264/badges
 Matin,,Rezaii,1,/users/matin-rezaii/badges
@@ -26,14 +26,14 @@ Mohammed Fazalullah,,Qudrath,1,/users/mohammed-fazalullah-qudrath.afd14bfd/badge
 Mahfouz,,Alaghbar,1,/users/mahfouz-alaghbar/badges
 Mohamed,,Al Ajlani,1,/users/mohamed-al-ajlani/badges
 Bentic,,Sebastian,1,/users/bentic-sebastian/badges
-Bakir,,Najjar,0,/users/bakir-najjar/badges
+Bakir,,Najjar,1,/users/bakir-najjar/badges
 Logeswaran,,Vinayagam,1,/users/logeswaran-vinayagam.78dacafc/badges
 Rasul Ahmed,,Khan,1,/users/rasul-ahmed-khan.4a429b5f/badges
 Muhammad,,Ali,4,/users/muhammadallee/badges
-Gianni,,Rosa Gallina,1,/users/gianni-rosa-gallina/badges
+Gianni,,Rosa Gallina,0,/users/gianni-rosa-gallina/badges
 Mushtaq,,Ahmad,1,/users/mushtaq-ahmad.0f444749/badges
 Ahmed,,Abdelfattah,1,/users/ahmed-abdelfattah.2f89de0b/badges
-Salman,,Haider,1,/users/salman-haider.71f3b0d8/badges
+Salman,,Haider,0,/users/salman-haider.71f3b0d8/badges
 Faisal Muhammad,,Saleem,1,/users/fsaleem/badges
 Nihil,,Babu,1,/users/nihil-babu.31cf159d/badges
 Jasim,,Basheer,1,/users/jasim-basheer/badges

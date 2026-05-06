@@ -1,5 +1,5 @@
 first_name,middle_name,last_name,badge_count,profile_url
-Samuel,,Afolabi,4,/users/samuel-afolabi.4b624579/badges
+Samuel,,Afolabi,0,/users/samuel-afolabi.4b624579/badges
 Promise,,Igbo,10,/users/promise-igbo/badges
 Precious,,Olowookere,1,/users/precious-olowookere/badges
 Oluebube,,Victoria,1,/users/oluebube-victoria/badges
@@ -188,7 +188,7 @@ Ibim,,Braide,1,/users/ibim-braide/badges
 Oluwaseun,,Ayodeji,3,/users/oluwaseun-ayodeji.48975b9e/badges
 Favour,,Kinsgsley,1,/users/favour-kinsgsley/badges
 OG,,DMERLIN,1,/users/og-dmerlin.634a52b8/badges
-Amachree,,Gift,1,/users/amachree-gift/badges
+Gift,Depriye,Amachree,1,/users/amachree-gift/badges
 Atinuke Oluwabamikemi,,Kayode,1,/users/atinuke-oluwabamikemi-kayode/badges
 Elizabeth,,Okaome,1,/users/elizabeth-okaome/badges
 Yommie,,Odusanya,1,/users/yommie-odusanya/badges
@@ -328,7 +328,7 @@ Samuel,,Chigozie,1,/users/samuel-chigozie/badges
 Uchechukwu,,Emmanuel,1,/users/uchechukwu-emmanuel.3d152696/badges
 Precious,,Amuh,1,/users/precious-amuh/badges
 Victor,Olamide,Akande,1,/users/avictorx/badges
-OluDayo,,Orunsolu,6,/users/dayo777/badges
+OluDayo,,Orunsolu,1,/users/dayo777/badges
 Eyoto,,Oviawe,2,/users/eyoto-oviawe/badges
 Franklin,,Afolabi,1,/users/frankfolabi/badges
 Olajide,Omotunde,oretade,1,/users/omotunde-oretade/badges
