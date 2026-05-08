@@ -1,12 +1,12 @@
 first_name,middle_name,last_name,badge_count,profile_url
-José,,Ibañez,0,/users/jose-ibanez.8df2cfd3/badges
+José,,Ibañez,7,/users/jose-ibanez.8df2cfd3/badges
 Benjamin,,Contreras Stoltze,1,/users/benjamin-contreras-stoltze/badges
 Cristian,,Rosas,1,/users/cristian-rosas/badges
 Edgar Moises,,Heredia Martin,1,/users/edgar-moises-heredia-martin/badges
 Nicolás Eduardo,,Flores Muñoz,1,/users/nicolas-eduardo-flores-munoz/badges
 Ruth,,Perez,1,/users/ruth-perez.1ed127e8/badges
 Jorge Luis,,Gallardo Contreras,2,/users/jorge-luis-gallardo-contreras.fe024f7e/badges
-Luis,,Delgado,2,/users/luis-delgado-acevedo/badges
+Luis,,Delgado,0,/users/luis-delgado-acevedo/badges
 Jonathan,,Mayne,2,/users/jonathan-mayne/badges
 Edgar Samuel,,Heredia Martin,1,/users/edgar-samuel-heredia-martin/badges
 Eric Marcel,,Fiegehen Gonzalez,1,/users/eric-marcel-fiegehen-gonzalez/badges
@@ -96,7 +96,7 @@ Treavor,,Saldias,1,/users/treavor-saldias/badges
 Julio,,Juri,1,/users/julio-juri.44d0292d/badges
 Marco,,Córdova Fredes,1,/users/marco-cordova-fredes/badges
 Rodrigo,,Hidalgo Flores,2,/users/rodrigo-hidalgo-flores/badges
-andres,,yanez,5,/users/andres-yanez.6d71b97f/badges
+andres,,yanez,0,/users/andres-yanez.6d71b97f/badges
 Lucas,,Otarola,3,/users/lootarola/badges
 Michelle,,Alvarez,1,/users/michelle-alvarez.f9dc2913/badges
 Miguel Angel,,Leiva Martinez,1,/users/miguel-angel-leiva-martinez/badges
@@ -229,7 +229,7 @@ Pablo,,Ulloa,1,/users/pablo-ulloa.8720001f/badges
 Sebastian,,Aranda,1,/users/sebastian-aranda.ff41d718/badges
 oliver,,fierro,1,/users/oliver-fierro/badges
 Juan Carlos,,Faundez,2,/users/juan-carlos-faundez/badges
-Sebastian,,Ramos,0,/users/sebastian-ramos.c132adc7/badges
+Sebastian,,Ramos,3,/users/sebastian-ramos.c132adc7/badges
 Rafael,,Mendoza Guiñez,1,/users/rafael-mendoza-dev/badges
 Paulo Guilherme,,Bezerra de Albuquerque,1,/users/paulo-guilherme-bezerra-de-albuquerque/badges
 Diego,,Vallejos,0,/users/diego-vallejos.db4616cd/badges
