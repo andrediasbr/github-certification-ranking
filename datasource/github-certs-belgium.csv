@@ -2,9 +2,9 @@ first_name,middle_name,last_name,badge_count,profile_url
 Rudi,,Larno,3,/users/rudi-larno.a969962f/badges
 Julien,,Lebutte,3,/users/julienlebutte/badges
 Sujith,,Quintelier,18,/users/sujith/badges
-Thomas,,Biesmans,1,/users/thomas-biesmans/badges
+Thomas,,Biesmans,0,/users/thomas-biesmans/badges
 Kristof,,Van Hees,2,/users/kristof-van-hees/badges
-Wendy,,Dupont,1,/users/wendy-dupont.61ef5b08/badges
+Wendy,,Dupont,0,/users/wendy-dupont.61ef5b08/badges
 Andy,,Diericks,0,/users/andy-diericks/badges
 Rik,,Delva,0,/users/rik-delva/badges
 Glenn,,Mattys,0,/users/glenn-mattys.a1d6549e/badges
@@ -12,14 +12,14 @@ Danny,,De Paepe,1,/users/dannydepaepe/badges
 Olanrewaju,,Adetola,1,/users/olanrewaju-adetola.702d78dd/badges
 Nicolas,,Verachtert,1,/users/nicolas-verachtert.e601cc22/badges
 Robin,,Aerts,2,/users/robin-aerts/badges
-Guylian,,Bollon,0,/users/guylian-bollon/badges
+Guylian,,Bollon,1,/users/guylian-bollon/badges
 Gilles,,Vercammen,1,/users/gilles-vercammen/badges
 Donnely,,Defoort,1,/users/donnely-defoort/badges
 Hasler,,Tehou,1,/users/hasler-tehou/badges
 Sandiparthi,,Harish,1,/users/sandiparthi-harish/badges
 Mehdi,,Skrabel,1,/users/mehdi-skrabel/badges
 Tibo,,Vanheule,1,/users/tibo-vanheule/badges
-Bram,,Beirens,1,/users/bram-beirens/badges
+Bram,,Beirens,0,/users/bram-beirens/badges
 Frederiek,,Vandepitte,2,/users/frederiek-vandepitte/badges
 Michaël,,Vanderheyden,2,/users/michael-vanderheyden/badges
 Maarten,,Mateusen,1,/users/maarten-mateusen/badges
@@ -48,7 +48,7 @@ Daan,,Vervoort,2,/users/daan-vervoort/badges
 Yves,,Van Stappen,5,/users/yves-van-stappen/badges
 Ruben,,Verschuere,2,/users/ruben-verschuere/badges
 Tim,,Maes,1,/users/tim-maes/badges
-Jonathan,,Hiben,0,/users/jonathanhiben/badges
+Jonathan,,Hiben,3,/users/jonathanhiben/badges
 Logan,,Farci,3,/users/logan-farci/badges
 Yogeshwaran,,C,1,/users/yogeshwaran-c.528b859f/badges
 Mike,,Van den Heuvel,4,/users/mike-van-den-heuvel.daad68c8/badges
@@ -91,7 +91,7 @@ Jan,,De Laet,0,/users/jan-de-laet/badges
 Mike,,Martin,1,/users/mike-martin.bafa8336/badges
 Yannick,,Zwijsen,1,/users/yannick-zwijsen/badges
 Dave,,Lux,1,/users/dave-lux/badges
-Wout,,Cardoen,2,/users/wout-cardoen/badges
+Wout,,Cardoen,0,/users/wout-cardoen/badges
 peter,,de tender,1,/users/peter-de-tender/badges
 Bastiaan,,Van den Bussche,1,/users/bastiaan-van-den-bussche/badges
 Gitte,,Vermeiren,1,/users/gitte-vermeiren.74b443bc/badges

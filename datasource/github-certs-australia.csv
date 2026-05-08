@@ -1,6 +1,6 @@
 first_name,middle_name,last_name,badge_count,profile_url
 Hatem,,Elbakoury,2,/users/hatem-elbakoury.6a5fff8b/badges
-Marco,,Celon,12,/users/marco-celon.53bc8019/badges
+Marco,,Celon,0,/users/marco-celon.53bc8019/badges
 Shawn,,St Mart,1,/users/shawn-st-mart.3e5becd9/badges
 Chris,,Plewa,1,/users/chris-plewa/badges
 Alex,,Vaziri,2,/users/alex-vaziri/badges
@@ -51,7 +51,7 @@ Chitra,,Raju,1,/users/chitra-raju.8b6e7e6a/badges
 Wenshuo,,Wang,1,/users/wenshuo-wang.4a721323/badges
 Akash,,Singh,1,/users/akash-singh.35487603/badges
 Zexi,,Kong,1,/users/zexi-kong/badges
-Aaron,,Co Hee,0,/users/aaron-co-hee/badges
+Aaron,,Co Hee,3,/users/aaron-co-hee/badges
 Kanwarpreet,,Sethi,2,/users/kanwarpreet-sethi.93a19f80/badges
 Fadi,,Sh,1,/users/fadi-sh.844a797c/badges
 Joseph,,York,1,/users/joseph-york.05108569/badges
@@ -192,7 +192,7 @@ Tiziano,,Olmetti,1,/users/tiziano-olmetti/badges
 Sarah,,Boys,1,/users/sarah-boys.56e31abf/badges
 Xinyang,,Chen,1,/users/xinyang-chen.d074a5e0/badges
 Calvin,,Sui,1,/users/calvin-sui/badges
-Jesse,,Loudon,3,/users/jesseloudon/badges
+Jesse,,Loudon,0,/users/jesseloudon/badges
 Adam,,Simmonds,1,/users/adam-simmonds.4f5e4169/badges
 Jaisree,,Subramanian,1,/users/jaisree-subramanian.e1d226d0/badges
 Shahil,,Prasad,1,/users/shahil-prasad.64368532/badges
@@ -285,7 +285,7 @@ Aimee,,Geng,2,/users/aimee-geng/badges
 Viet,,Luu,4,/users/viet-luu.28e619f2/badges
 Sarvesh,,Udutha,1,/users/sarvesh-udutha/badges
 Tong,,Wu,1,/users/tong-wu.700de1e2/badges
-Khurram,,Shahzad,4,/users/khurram-shahzad.7a11d163/badges
+Khurram,,Shahzad,0,/users/khurram-shahzad.7a11d163/badges
 Lekshmi,,Venugopalan Kumari Padmam,2,/users/lekshmi-vk/badges
 Georgia,,Ayoub,1,/users/georgia-ayoub/badges
 Preethi,,Sabbineni,1,/users/preethi-sabbineni.3c3d17d6/badges
