@@ -1,6 +1,6 @@
 first_name,middle_name,last_name,badge_count,profile_url
 Samuel,,Afolabi,4,/users/samuel-afolabi.4b624579/badges
-Promise,,Igbo,10,/users/promise-igbo/badges
+Promise,,Igbo,0,/users/promise-igbo/badges
 Precious,,Olowookere,1,/users/precious-olowookere/badges
 Oluebube,,Victoria,1,/users/oluebube-victoria/badges
 Oshoke,,Sule,1,/users/oshoke-sule/badges
@@ -11,7 +11,7 @@ Joanne,,Obodoagwu,2,/users/joanne-obodoagwu/badges
 Oyin,,Dawodu,1,/users/oyin-dawodu/badges
 Taofeeq,Adeoye,Bello,6,/users/taofeeq-bello.110ee8a5/badges
 Kenechukwu,,Echendu,2,/users/kenechukwu-echendu/badges
-Ibidapo,,Babatunde,0,/users/ibidapo-babatunde/badges
+Ibidapo,,Babatunde,2,/users/ibidapo-babatunde/badges
 Samuel,,Fatogun,1,/users/samuel-fatogun/badges
 Hezekiah,,Ogundele,5,/users/hezekiah-ogundele/badges
 Lateef,,Taiwo,1,/users/lateef-taiwo/badges
@@ -105,7 +105,7 @@ Samuel,,Adekunle,1,/users/samueladekunle/badges
 Abdul lateef,,Abioye,1,/users/abdul-lateef-abioye/badges
 Kolade,,Ige,1,/users/kolade-ige.ec06ff8c/badges
 Opeyemi,,Oluwadare,1,/users/opeyemidare/badges
-Emmanuel,,Idehen,2,/users/emmanuel-idehen.a4bac0f3/badges
+Emmanuel,,Idehen,0,/users/emmanuel-idehen.a4bac0f3/badges
 Uchechukwu Judith,,Ezenwosu,2,/users/judith-ezenwosu/badges
 Abisoye,,Ogunmona,1,/users/abisoye-ogunmona/badges
 Solomon,,Odewale,1,/users/solomon-odewale/badges
@@ -160,7 +160,7 @@ Haruna,,Popoola,3,/users/haruna-popoola/badges
 Akinkunmi,Anthony,Afolabi,3,/users/akinkunmi-afolabi/badges
 oluwatobi,,ohidoa,1,/users/oluwatobi-ohidoa/badges
 Kayode,,Yusuf,3,/users/kayode-yusuf.223018ca/badges
-Tolase,,Nureni,2,/users/tolase-nureni/badges
+Tolase,,Nureni,0,/users/tolase-nureni/badges
 Mohammed,,Dolapo,1,/users/mohammed-dolapo/badges
 Solomon,,Eseyin,2,/users/solomon-eseyin.a4b3b703/badges
 Israel,,ndaman,1,/users/4c0151d6-ddff-4b14-89bd-aa8c9e659093/badges
@@ -254,7 +254,7 @@ Jennifer,,Igbeta,1,/users/jennifer-igbeta/badges
 Jubril,,Edun,1,/users/jubril-edun.d8904335/badges
 Raymond,,Afuye,1,/users/raymond-afuye/badges
 Valentine,,Stephen,3,/users/valentine-stephen/badges
-Obaro,,Olori,0,/users/obaro-olori.97a0b7b9/badges
+Obaro,,Olori,5,/users/obaro-olori.97a0b7b9/badges
 Emmanuel,Oche,Akor,1,/users/emmanuelakor/badges
 Abiodun,,Gabriel,1,/users/abiodun-gabriel/badges
 Jeffrey,,Ogah,1,/users/jeffrey-ogah/badges

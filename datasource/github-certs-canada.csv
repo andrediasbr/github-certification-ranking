@@ -1,14 +1,14 @@
 first_name,middle_name,last_name,badge_count,profile_url
 David,,Kokkilic,2,/users/david-kokkilic/badges
 Andy M.,,Kucuk,5,/users/andy-m-kucuk/badges
-Kaan,,Turgut,0,/users/hkaanturgut/badges
+Kaan,,Turgut,15,/users/hkaanturgut/badges
 Edwin,,Rodriguez,5,/users/edwin-rodriguez.0613fba4/badges
 Ludovic,,Labesse,1,/users/ludovic-labesse/badges
 Alexandre-Xavier,,Labonté-Lamoureux,4,/users/alexandre-xavier-labonte-lamoureux/badges
 Nikhil,,Thampi,3,/users/nikhil-thampi.6084008d/badges
 Benjamin,,Marsteau,9,/users/bmarsteau/badges
 Subrahmanya Srinivas,,Lanka Venkata,1,/users/subrahmanya-srinivas-lanka-venkata/badges
-Erol,,Kavas,0,/users/erol/badges
+Erol,,Kavas,8,/users/erol/badges
 Suryakand,,Shinde,1,/users/suryakand-shinde/badges
 Sawdeep,,Gulati,1,/users/sawdeep-gulati/badges
 Opeyemi,,Olatunde,1,/users/opeyemi-olatunde.fcd2043d/badges
@@ -36,11 +36,11 @@ Zareef,,Al Islam,1,/users/zareef-al-islam/badges
 Luc,,Tremblay,1,/users/luc-tremblay.f9415f26/badges
 Allen,,LAN,1,/users/allen-lan.1e9c88b3/badges
 Jimmy,,Muchachasoy,2,/users/jimmy-muchachasoy/badges
-Ahmad,,El Nakib,0,/users/ahmad-el-nakib/badges
+Ahmad,,El Nakib,2,/users/ahmad-el-nakib/badges
 Dinesh,,Patel,1,/users/dinesh-patel.028df9a9/badges
 Karim,,Ismail,1,/users/karim-ismail.4ea152e9/badges
 Loveneet,,Saini,2,/users/loveneet-saini.9402eae4/badges
-Eric,,Leonard,0,/users/eric-leonard.3b1ac6ab/badges
+Eric,,Leonard,3,/users/eric-leonard.3b1ac6ab/badges
 Illayaraja,,Swaminathan,1,/users/illayaraja-swaminathan.5fdc8d9e/badges
 Krishna,,Joshi,1,/users/krishna-joshi.4371baab/badges
 Aakersh,,Ganganagunta,1,/users/aakersh-ganganagunta.efc4b507/badges
@@ -267,7 +267,7 @@ Ganesan,,Sokkalingam,1,/users/ganesan-sokkalingam/badges
 Khaled,,Ahmed,1,/users/khaled-ahmed.01548036/badges
 Nargis,,Ghiasi,1,/users/nargis-ghiasi.31c6e503/badges
 Angeles,,Banaka,4,/users/angeles-banaka/badges
-Elena,,Neroslavskaya,1,/users/elena-neroslavskaya/badges
+Elena,,Neroslavskaya,0,/users/elena-neroslavskaya/badges
 Michael,,Han,2,/users/xiangyu-han/badges
 Vishesh,,Aneja,1,/users/vishesh-aneja/badges
 Andy,,Pak,1,/users/andypak/badges
@@ -288,7 +288,7 @@ Maksym,,Bondar,1,/users/maksym-bondar.85cd8584/badges
 Elio,,Di Nino,1,/users/eliodinino/badges
 Roopesh,,Jhurani,1,/users/rjhurani/badges
 Yang,,Zou,1,/users/yang-zou.6907ebd6/badges
-Hamza,,Koc,0,/users/hamzakoc/badges
+Hamza,,Koc,5,/users/hamzakoc/badges
 Tal,,Riginiano,3,/users/tal-riginiano/badges
 Adam,,Frantschuk,1,/users/adam-frantschuk/badges
 Raul,,Rivera,1,/users/raul-rivera.9ebe2229/badges
@@ -316,7 +316,7 @@ Charles,,Lambert,1,/users/charles-lambert.a031642e/badges
 Andrea,,Liao,1,/users/andrea-liao.63f7012a/badges
 Gopala Krishna Rao,,Pulijala,1,/users/gopala-krishna-rao-pulijala/badges
 Hugo,,GARBEZ,1,/users/hugo-garbez/badges
-Luciano,,S.Mori,0,/users/luciano-s-mori/badges
+Luciano,,S.Mori,3,/users/luciano-s-mori/badges
 Mehmet,,Sever,1,/users/mehmet-sever/badges
 Lesley,,Chan,3,/users/lesley-chan.0dd36ac1/badges
 Eric,,McElroy,2,/users/eric-mcelroy/badges
@@ -351,7 +351,7 @@ James,,Zhang,2,/users/james-zhang.f05eb19c/badges
 Eldrick,,Wega,4,/users/eldrick-wega/badges
 Vedant,,Singhania,2,/users/vedant-singhania.62eb4267/badges
 Suyash,,Khasnobish,2,/users/suyash-khasnobish/badges
-Mike,,Lapierre,0,/users/mike-lapierre/badges
+Mike,,Lapierre,1,/users/mike-lapierre/badges
 ANDREW,,SEARS,1,/users/andrew-sears.2d30a6f4/badges
 Alex,,Quitiaquez Esquivel,1,/users/alex-quitiaquez-esquivel/badges
 Celeste,,Taylor,1,/users/celeste-taylor.3af623eb/badges
@@ -414,7 +414,7 @@ Bosco,,Chan,1,/users/bosco-chan.e0f7a485/badges
 Umaiyal,,Velayutham,1,/users/umaiyal-velayutham/badges
 Arun,,Varadharajalu,1,/users/arun-varadharajalu/badges
 Jhan,,Silva Martinez,1,/users/shankyjs/badges
-Calin,,Lupas,0,/users/calin-lupas/badges
+Calin,,Lupas,1,/users/calin-lupas/badges
 Khaled,,Amayri,1,/users/khaled-amayri/badges
 Tari,,Ockiya,1,/users/tari-ockiya/badges
 Yang,,Zeng,1,/users/yang-zeng.5ab59150/badges
