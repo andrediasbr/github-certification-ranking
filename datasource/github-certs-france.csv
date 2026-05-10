@@ -1,6 +1,6 @@
 first_name,middle_name,last_name,badge_count,profile_url
 Vincent,,Marchal,18,/users/vincent-marchal.87a05753/badges
-Olivier,,Delmotte,15,/users/o.delmotte/badges
+Olivier,,Delmotte,3,/users/o.delmotte/badges
 Jeoffrey,,NGO,5,/users/jeoffrey-ngo/badges
 Loïc,,Albarracin,6,/users/loic-albarracin/badges
 Marvin,,Pedron,1,/users/marvin-pedron/badges
@@ -29,7 +29,7 @@ Fabien,,TRISSIE,1,/users/fabien-trissie/badges
 Kaikai,,XING,1,/users/kaikai-xing/badges
 Kiswendsida Ulrich A.,,OUEDRAOGO,1,/users/kiswendsida-ulrich-a-ouedraogo/badges
 Hiba,,Elouariti,1,/users/hiba-elouariti.b7fae8fd/badges
-Wafaa,,TOUNZI,3,/users/wafaa-tounzi/badges
+Wafaa,,TOUNZI,0,/users/wafaa-tounzi/badges
 Demousselle,,Sébastien,1,/users/demousselle-sebastien/badges
 Roman,,Lushkin,1,/users/roman-lushkin.7d4e38f5/badges
 Hubert,,de Fleurian,2,/users/hubert-de-fleurian/badges
@@ -210,7 +210,7 @@ Stéphane,,Cottin,1,/users/stephane-cottin.0296e0b9/badges
 Ludovic,,Toinel,1,/users/ludovic-toinel/badges
 John,,Dennison,1,/users/john-dennison.ba71b653/badges
 Arnaud,,Flaesch,5,/users/arnaud-flaesch/badges
-Samuel,,CHNIBER,0,/users/samuel-chniber/badges
+Samuel,,CHNIBER,5,/users/samuel-chniber/badges
 Vincent,,Thiébault,1,/users/vincent-thiebault/badges
 Xavier,,Mignot,2,/users/xavier-mignot.023225ed/badges
 Houssam,,Kanso,1,/users/houssam-kanso/badges
