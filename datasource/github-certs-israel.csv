@@ -1,13 +1,13 @@
 first_name,middle_name,last_name,badge_count,profile_url
 Uri,,Menuhin,2,/users/uri-menuhin.b74b6137/badges
-Daniel,,Cohen,0,/users/daniel-cohen.f0144a1f/badges
+Daniel,,Cohen,2,/users/daniel-cohen.f0144a1f/badges
 Roni,,Frenkel,1,/users/roni-frenkel/badges
 Ayelet,,Lev,0,/users/ayelet-lev.f7c3a6b6/badges
 Katie,,Golan,0,/users/katie-golan/badges
 Salame,,Azbarka,1,/users/salame-azbarka/badges
 Dror,,Cohen,1,/users/dror-cohen.4b521239/badges
 Andy,,Tehaok,3,/users/andy-tehaok/badges
-Ofek,,Ben Eliezer,0,/users/ofek-ben-eliezer/badges
+Ofek,,Ben Eliezer,5,/users/ofek-ben-eliezer/badges
 Or,,Shohat,2,/users/or-shohat/badges
 Amit,,Nahmias,1,/users/amit-nahmias/badges
 maayan,,assraf,1,/users/maayan-assraf/badges
@@ -15,19 +15,19 @@ Dor,,Kedem,1,/users/dor-kedem.4892b17a/badges
 Lior,,Yantovski,1,/users/lior-yantovski/badges
 Nir,,Chen,1,/users/nir-chen/badges
 Lejb,,Golovatyi,1,/users/lejb-golovatyi/badges
-Lior,,Dux,1,/users/lior-dux/badges
+Lior,,Dux,5,/users/lior-dux/badges
 Alexander,,Lipkin,1,/users/alexander-lipkin/badges
-Tal,,Giladi,0,/users/tal-giladi/badges
+Tal,,Giladi,1,/users/tal-giladi/badges
 Asaf,,Zenou,1,/users/asaf-zenou/badges
 Hagai,,Astrin,1,/users/hagai-astrin/badges
 Baruch,,Bazak,2,/users/baruch-bazak/badges
 Artur,,Vel,1,/users/artur-vel/badges
-Yuri,,Sokolov,1,/users/yuri-sokolov.b6b3bc76/badges
+Yuri,,Sokolov,2,/users/yuri-sokolov.b6b3bc76/badges
 Ron,,Hadad,1,/users/ron-hadad/badges
 dan,,arbib,3,/users/dan-arbib/badges
 Eran,,Braylovski,4,/users/eran-braylovski/badges
-Itzhak,,Nachum,0,/users/itzhak-nachum/badges
-Nadav,,Ben Haim,0,/users/nadav-ben-haim/badges
+Itzhak,,Nachum,1,/users/itzhak-nachum/badges
+Nadav,,Ben Haim,2,/users/nadav-ben-haim/badges
 Nir,,Marcu,1,/users/nir-marcu/badges
 Eyal,,Shanan,1,/users/eyal-shanan.044d2d4e/badges
 Chana,,Hartman,1,/users/chana-hartman/badges
@@ -40,11 +40,11 @@ Arnon,,Tzori,1,/users/arnon-tzori.62dd8ae1/badges
 Matan,,Avital,1,/users/matan-avital/badges
 elad,,cirt,2,/users/elad-cirt/badges
 Konstantin,,Djamilov,1,/users/konstantin-djamilov/badges
-Illia,,Rizvash,3,/users/illia-rizvash/badges
+Illia,,Rizvash,0,/users/illia-rizvash/badges
 Jonatan,Nataniel,Kruszewski,5,/users/jonatan-kruszewski/badges
 Jeremie,,nabet,1,/users/jeremie-nabet/badges
 Elie,,Mazouz,1,/users/elie-mazouz/badges
-Misha,,Kav,0,/users/misha-kav/badges
+Misha,,Kav,2,/users/misha-kav/badges
 yaniv,,paz,1,/users/yaniv-paz/badges
 Moshe,,Uzan,1,/users/moshe-uzan/badges
 Yaacov,,Elbaz,1,/users/yaacov-elbaz/badges
