@@ -1,6 +1,6 @@
 first_name,middle_name,last_name,badge_count,profile_url
 Shalin,,Dave,1,/users/shalin-dave.a1886fb0/badges
-Erol,,Kavas,9,/users/erol/badges
+Erol,,Kavas,0,/users/erol/badges
 David,,Kokkilic,2,/users/david-kokkilic/badges
 Andy M.,,Kucuk,5,/users/andy-m-kucuk/badges
 Kaan,,Turgut,15,/users/hkaanturgut/badges
@@ -86,7 +86,7 @@ Krishnaprasath,,Vasudevan,1,/users/krishnaprasath-vasudevan.e365a5d1/badges
 Inderpartap,,Cheema,1,/users/inderpartap-cheema/badges
 Rushit,,Shah,1,/users/rushit-shah.d1c69e19/badges
 Vijay Kumar,,YADAV,1,/users/vijay-kumar-yadav.d2a3445b/badges
-Jean-François,,Bilodeau,0,/users/jfbilodeau/badges
+Jean-François,,Bilodeau,3,/users/jfbilodeau/badges
 Amit,,Jain,1,/users/amit-jain.f921ef00/badges
 Om,,Patel,1,/users/om-patel.d38646c1/badges
 Robert,,Nicolas-Emmanuel,1,/users/robert-nicolas-emmanuel/badges
@@ -267,8 +267,8 @@ Jaiganesh,,Shanmugam,1,/users/jaiganesh-shanmugam/badges
 Ganesan,,Sokkalingam,1,/users/ganesan-sokkalingam/badges
 Khaled,,Ahmed,1,/users/khaled-ahmed.01548036/badges
 Nargis,,Ghiasi,1,/users/nargis-ghiasi.31c6e503/badges
-Angeles,,Banaka,0,/users/angeles-banaka/badges
-Elena,,Neroslavskaya,1,/users/elena-neroslavskaya/badges
+Angeles,,Banaka,4,/users/angeles-banaka/badges
+Elena,,Neroslavskaya,0,/users/elena-neroslavskaya/badges
 Michael,,Han,2,/users/xiangyu-han/badges
 Vishesh,,Aneja,1,/users/vishesh-aneja/badges
 Andy,,Pak,1,/users/andypak/badges
@@ -317,7 +317,7 @@ Charles,,Lambert,1,/users/charles-lambert.a031642e/badges
 Andrea,,Liao,1,/users/andrea-liao.63f7012a/badges
 Gopala Krishna Rao,,Pulijala,1,/users/gopala-krishna-rao-pulijala/badges
 Hugo,,GARBEZ,1,/users/hugo-garbez/badges
-Luciano,,S.Mori,3,/users/luciano-s-mori/badges
+Luciano,,S.Mori,0,/users/luciano-s-mori/badges
 Mehmet,,Sever,1,/users/mehmet-sever/badges
 Lesley,,Chan,3,/users/lesley-chan.0dd36ac1/badges
 Eric,,McElroy,2,/users/eric-mcelroy/badges
@@ -482,7 +482,7 @@ Sai Deepak,,Kodur,1,/users/sai-deepak-kodur/badges
 Louis,,Boro,4,/users/louis-boro/badges
 Gurmeet,,Kaur,1,/users/gurmeet-kaur.6c63787f/badges
 Terry,,Greening,1,/users/terry-greening/badges
-Ads,,Dawson,0,/users/adam-dawson.6dc91e21/badges
+Ads,,Dawson,3,/users/adam-dawson.6dc91e21/badges
 Viswanathan,,Ananthanarayanan,1,/users/viswanathan-ananthanarayanan.92816351/badges
 Christopher,,Riding,1,/users/christopher-riding.a7ae2b01/badges
 Rajat,,Agrawal,1,/users/rajatagrawal1094/badges
