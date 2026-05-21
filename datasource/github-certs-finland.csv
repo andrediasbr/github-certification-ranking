@@ -1,6 +1,6 @@
 first_name,middle_name,last_name,badge_count,profile_url
 Heikki,,Europaeus,3,/users/heikki-europaeus/badges
-Toni,,Laakso,10,/users/toni-laakso/badges
+Toni,,Laakso,11,/users/toni-laakso/badges
 Pekka,,Sahi,5,/users/pekka-sahi.d4158f93/badges
 Mika,,Tavi,3,/users/mika-tavi/badges
 Henry,,Luosujärvi,4,/users/henry-luosujarvi/badges
@@ -56,10 +56,10 @@ Tony,,Lam,1,/users/tony-lam.1c9a23dd/badges
 MAN ON,,KWOK,1,/users/man-on-kwok/badges
 Antti,,Koponen,1,/users/antti-koponen/badges
 Naga Priyanka,,Kanna,1,/users/priyanka-kanna.40cf62b6/badges
-Rasmus,,Paltschik,1,/users/rasmus-paltschik/badges
+Rasmus,,Paltschik,0,/users/rasmus-paltschik/badges
 Taige,,Wang,1,/users/taigewang/badges
 Joonas,,Venäläinen,1,/users/joonas-venalainen/badges
-Dinesh Singh,,Bisht,1,/users/dinesh-singh-bisht.0f6d30da/badges
+Dinesh Singh,,Bisht,0,/users/dinesh-singh-bisht.0f6d30da/badges
 Juha,,Luoto,1,/users/juha-luoto/badges
 Emil,,Heliste,1,/users/emil-heliste/badges
 Filip,,Norrgård,1,/users/filip-norrgard/badges
