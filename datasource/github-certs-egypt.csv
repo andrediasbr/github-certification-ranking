@@ -1,7 +1,7 @@
 first_name,middle_name,last_name,badge_count,profile_url
 ahmed,,anany,1,/users/ahmed-anany.fb37bc33/badges
 Youssef Ahmed,,Saeed Youssef,1,/users/youssefahmedsaied/badges
-Abdallah,,Mohamed,2,/users/abdallah-mohamed.1eaa3f27/badges
+Abdallah,,Mohamed,0,/users/abdallah-mohamed.1eaa3f27/badges
 Ahmed,,Moghazy,1,/users/amoghazy/badges
 Omar,,Tokal,1,/users/omar-tokal.5859142b/badges
 Ahmed,Magdy,Magdy Abdel Baset,1,/users/ahmed-magdy.5a3eb09b/badges
@@ -16,9 +16,9 @@ Tarek,Adel,Ali,1,/users/tarek-adel.b18ea735/badges
 Mohammed,,Lashein,1,/users/mohammed-lashein/badges
 Hany,,Sayed,1,/users/hany-sayed/badges
 Mahmoud,,Sallam,1,/users/mahmoud-sallam.009557e8/badges
-Mohamed,,Tourky,1,/users/mohamed-tourky.c84908a1/badges
-Omar,,ElNemr,0,/users/omar99elnemr/badges
-Ahmed,,Hanye,1,/users/ahmed-hanye.05db8b99/badges
+Mohamed,,Tourky,0,/users/mohamed-tourky.c84908a1/badges
+Omar,,ElNemr,1,/users/omar99elnemr/badges
+Ahmed,,Hanye,0,/users/ahmed-hanye.05db8b99/badges
 Ahmed,Mohamed,Abd Elhamid,1,/users/ahmed-abd-elhamid.13c05a10/badges
 baraa,,mabro,1,/users/baraa-mabro/badges
 Abdelrahman,,Amro Emara,1,/users/abdelrahman-amro-emara/badges
@@ -30,10 +30,10 @@ Muhammad,,Magdi,1,/users/muhammad-magdi.eef72472/badges
 Andrew,,Ayman,1,/users/andrew-ayman.44640986/badges
 Abdelrhman,,Eldesoky,1,/users/abdelrhman-eldesoky.09fde726/badges
 Mohamed Hesham,,Elziat,1,/users/mohamed-hesham-elziat/badges
-Abdulrahman,,Borham,1,/users/abdulrahman-borham/badges
+Abdulrahman,,Borham,0,/users/abdulrahman-borham/badges
 Omar Mohamed,,Zoair,1,/users/omar-mohamed-zoair/badges
 Shaker,,Hussien,1,/users/shaker-hussien/badges
-ahmed,,elsayed,0,/users/ahmed-elsayed.a139dff0/badges
+ahmed,,elsayed,1,/users/ahmed-elsayed.a139dff0/badges
 Nouran,,Sabry,1,/users/nouran-sabry/badges
 Marwan,,Mohammad Fathy Abbas,1,/users/marwan-mohammad-fathy-abbas/badges
 Ziad,,Assem,1,/users/ziad-assem-elgarhy/badges
@@ -129,7 +129,7 @@ abdelrahman,,elzarka,1,/users/abdelrahman-elzarka.f5ab698b/badges
 Ahmed,,Adel,1,/users/ahmedadel3/badges
 Kamel,,Fares,1,/users/kamel-fares.c578fe94/badges
 Amir,,Kasseb,1,/users/amirkasseb/badges
-Rehab,,Ragab,3,/users/rehab-abotalep/badges
+Rehab,,Ragab,0,/users/rehab-abotalep/badges
 Begad,,Habib,1,/users/begad-habib/badges
 Basel,Abdel-Maqsoud,Ziada,1,/users/basel-ziada/badges
 Emad Eldin,,Adel Mahmoud Rezk,1,/users/emad-eldin-adel-mahmoud-rezk/badges
@@ -181,7 +181,7 @@ Mohamed,,Alaa,1,/users/mohamed-alaa-0/badges
 Amin,,Mohamed,1,/users/amin-mohamed.018b3173/badges
 Bassent,,Gamal,1,/users/bassent-gamal/badges
 Mohamed,,Sayed,2,/users/mohamed-sayed.0872868c/badges
-Omar,,Fathy,2,/users/omarmfathy219/badges
+Omar,,Fathy,0,/users/omarmfathy219/badges
 Omar,,Elsherif,1,/users/omar-elsherif.724fb6c6/badges
 Ahmed,,Elkhouly,1,/users/ahmed-elkhouly.2215e0fc/badges
 Ahmed,,Mohamed Ali Gaber,2,/users/ahmed-mohamed-ali-gaber/badges
