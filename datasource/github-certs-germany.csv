@@ -1,5 +1,5 @@
 first_name,middle_name,last_name,badge_count,profile_url
-Daniel,Richard,Snell,1,/users/daniel-snell.f7bc4ec8/badges
+Daniel,Richard,Snell,10,/users/daniel-snell.f7bc4ec8/badges
 Nico,,Orschel,12,/users/nico-orschel/badges
 Anirban,,Ghosh,1,/users/anirban-ghosh.22d2d490/badges
 André,,Böttcher,1,/users/andre-bottcher/badges
@@ -35,7 +35,7 @@ Willi,,Köhler,1,/users/willi-kohler/badges
 Ömer,,Balyali,1,/users/omer-balyali/badges
 Antonio,,Cono,1,/users/antonio-cono/badges
 Chris,,Schindlbeck,1,/users/chris-schindlbeck/badges
-Eric,,Schüler,0,/users/ericschueler/badges
+Eric,,Schüler,2,/users/ericschueler/badges
 Florian,,Reitz,1,/users/florian-reitz.3d4faf2c/badges
 Hakan,,Inal,1,/users/hakan-inal/badges
 Emma,,Carballal Haire,1,/users/emma-carballal-haire/badges
@@ -80,7 +80,7 @@ Jörg,,Jakoby,1,/users/jorg-jakoby/badges
 Jonathan,,David,3,/users/jonathan-david.59eed3ce/badges
 Sven,,Gapski,1,/users/sven-gapski/badges
 Florian,,Richter,1,/users/florian-richter.26584944/badges
-Turgay,,Akbas,4,/users/turgay-akbas/badges
+Turgay,,Akbas,1,/users/turgay-akbas/badges
 Fabius,,Hobler,1,/users/fabius-hobler/badges
 Gowrisha,,C. Vishwa Kumar,1,/users/gowrishacv/badges
 Zain,,Sohail,1,/users/zain-sohail.221b5be6/badges
@@ -94,7 +94,7 @@ Anand,,Advani,1,/users/anand-advani.21b4d527/badges
 tejassarwajna,,degala,1,/users/tejassarwajna-degala/badges
 Mustafa,,Emal,2,/users/mustafaemal/badges
 Mara,,Kiefer,5,/users/mnkiefer/badges
-Subin,,Mathew,3,/users/subinamathew/badges
+Subin,,Mathew,0,/users/subinamathew/badges
 Benjamin,,Thiele,1,/users/benjamin-thiele/badges
 Padma,,Mesa,1,/users/padma-mesa.aa279427/badges
 Atif,,Jalal,1,/users/atif-jalal.888a08b7/badges
@@ -214,7 +214,7 @@ Neeta,,Jadhav,1,/users/neeta-jadhav/badges
 Yuri,,Winche Achermann,1,/users/yuriachermann/badges
 Daniel,,Meyer,1,/users/meda1028/badges
 Eugen,,Scherbin,1,/users/eugen-scherbin/badges
-Marijn,,Scholtens,2,/users/marijn-scholtens/badges
+Marijn,,Scholtens,0,/users/marijn-scholtens/badges
 Carlos,,Hernandez-Vaquero,1,/users/carlos-hernandez-vaquero/badges
 Jan-Otto,,Kröpke,1,/users/jkroepke/badges
 Christian,,Weese,4,/users/christian-weese/badges
@@ -272,7 +272,7 @@ Gonzalo,,Oberreuter,1,/users/gonzalo-oberreuter/badges
 Luis,,Sarmiento,2,/users/luis-sarmiento.fc6ade81/badges
 Doston,,Hamrakulov,1,/users/doston-hamrakulov/badges
 Dario,,Digregorio,2,/users/dario-digregorio/badges
-Valentin,,Vogel,4,/users/valentin-vogel/badges
+Valentin,,Vogel,0,/users/valentin-vogel/badges
 Alois,,Heilmaier,1,/users/alois-heilmaier/badges
 Alexander,,a.kunde@outlook.com,1,/users/alexander-a-kunde-outlook-com/badges
 Pavel,,Pokutnev,1,/users/pavel-pokutnev/badges
@@ -290,7 +290,7 @@ Arjun,,Maryankandy Rajendran,1,/users/arjun-maryankandy-rajendran/badges
 Richard,,Z.,2,/users/richard-z/badges
 Florian,,Kraning,1,/users/florian-kraning/badges
 Stephanie Marisa,,Lanius,1,/users/stephanie-marisa-lanius/badges
-Carlos Tadeu,,Panato Junior,4,/users/cpanato/badges
+Carlos Tadeu,,Panato Junior,0,/users/cpanato/badges
 Christian,,Trabold,1,/users/christian-trabold/badges
 Marcel,,Müller,1,/users/marcel-muller.c402fed2/badges
 Glenn,,Verhaag,1,/users/glenn-verhaag/badges
@@ -324,7 +324,7 @@ Shqiponj,,Alidemi,1,/users/shqiponj-alidemi/badges
 Maximilian,,Quernheim,1,/users/maximilian-quernheim/badges
 Maik,,Wendt,1,/users/maik-wendt/badges
 Martin,,Hentschel,2,/users/martin-hentschel.c99bc3da/badges
-Kanchana,,Taggarsi,0,/users/kanchana-taggarsi/badges
+Kanchana,,Taggarsi,1,/users/kanchana-taggarsi/badges
 Lasse,,Haffke,2,/users/lasse-haffke/badges
 Benedikt,,Funke,1,/users/benedikt-funke/badges
 Matthias,,Wiesen,1,/users/matthias-wiesen/badges
@@ -332,7 +332,7 @@ Tim,,Möllers,2,/users/tim-mollers.dffd0f7e/badges
 Heikki,,Pöntinen,0,/users/heikki-pontinen/badges
 Martin,,Stühmer,1,/users/martin-stuehmer/badges
 Michael,,Contento,1,/users/michael-contento/badges
-Clemens,,Wältken,0,/users/clemens-waltken/badges
+Clemens,,Wältken,2,/users/clemens-waltken/badges
 Igwe,,Kalu,3,/users/igwe-kalu/badges
 Markus,,Walker,1,/users/markus-walker.adb2dcf6/badges
 Valentin,,Heidelberger,2,/users/valentin-heidelberger/badges

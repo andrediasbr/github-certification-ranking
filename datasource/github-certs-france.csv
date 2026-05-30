@@ -1,6 +1,6 @@
 first_name,middle_name,last_name,badge_count,profile_url
 Vincent,,Marchal,18,/users/vincent-marchal.87a05753/badges
-Olivier,,Delmotte,15,/users/o.delmotte/badges
+Olivier,,Delmotte,3,/users/o.delmotte/badges
 Jeoffrey,,NGO,5,/users/jeoffrey-ngo/badges
 Loïc,,Albarracin,6,/users/loic-albarracin/badges
 Marvin,,Pedron,1,/users/marvin-pedron/badges
@@ -32,7 +32,7 @@ Hiba,,Elouariti,1,/users/hiba-elouariti.b7fae8fd/badges
 Wafaa,,TOUNZI,3,/users/wafaa-tounzi/badges
 Demousselle,,Sébastien,1,/users/demousselle-sebastien/badges
 Roman,,Lushkin,1,/users/roman-lushkin.7d4e38f5/badges
-Hubert,,de Fleurian,2,/users/hubert-de-fleurian/badges
+Hubert,,de Fleurian,0,/users/hubert-de-fleurian/badges
 Christophe,,Arguel,1,/users/christophe-arguel/badges
 Guillaume,,JAY,3,/users/guillaume-jay.2fc4567a/badges
 Ludovic,,CHOMBEAU,1,/users/ludovic-chombeau/badges
@@ -269,7 +269,7 @@ Franck,,Jacottin,1,/users/franck-jacottin.c1c0ba41/badges
 Aurélien,,Garnier,1,/users/aurelien/badges
 Ludovic,,MEDARD,0,/users/ludovic-medard/badges
 Gaëtan,,Bogaert,1,/users/gaetan-bogaert.13285b33/badges
-Aubin Patrick,,TAKAM TAYO,0,/users/aubin-patrick-takam-tayo/badges
+Aubin Patrick,,TAKAM TAYO,3,/users/aubin-patrick-takam-tayo/badges
 Albert,,Phan,1,/users/albert-phan.7c9f1326/badges
 Jean-François,,GUEYFFIER,1,/users/jean-francois-gueyffier/badges
 Jérôme,,Djebari,1,/users/jerome-djebari.0a9396a4/badges

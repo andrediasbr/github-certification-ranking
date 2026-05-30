@@ -1,5 +1,5 @@
 first_name,middle_name,last_name,badge_count,profile_url
-Julien,,Lebutte,10,/users/julienlebutte/badges
+Julien,,Lebutte,0,/users/julienlebutte/badges
 Rudi,,Larno,3,/users/rudi-larno.a969962f/badges
 Sujith,,Quintelier,18,/users/sujith/badges
 Thomas,,Biesmans,1,/users/thomas-biesmans/badges
@@ -10,9 +10,9 @@ Rik,,Delva,0,/users/rik-delva/badges
 Glenn,,Mattys,0,/users/glenn-mattys.a1d6549e/badges
 Danny,,De Paepe,0,/users/dannydepaepe/badges
 Olanrewaju,,Adetola,1,/users/olanrewaju-adetola.702d78dd/badges
-Nicolas,,Verachtert,1,/users/nicolas-verachtert.e601cc22/badges
+Nicolas,,Verachtert,0,/users/nicolas-verachtert.e601cc22/badges
 Robin,,Aerts,2,/users/robin-aerts/badges
-Guylian,,Bollon,0,/users/guylian-bollon/badges
+Guylian,,Bollon,1,/users/guylian-bollon/badges
 Gilles,,Vercammen,1,/users/gilles-vercammen/badges
 Donnely,,Defoort,1,/users/donnely-defoort/badges
 Hasler,,Tehou,1,/users/hasler-tehou/badges
@@ -87,7 +87,7 @@ Josue,,del Valle Nicolas,1,/users/josue-del-valle-nicolas/badges
 Ben,,Borra,2,/users/ben-borra/badges
 Koen,,Luyten,1,/users/koen-luyten.8eb6ee2f/badges
 Thomas,,Van Rampelberg,3,/users/thomas-van-rampelberg.b896b559/badges
-Jan,,De Laet,0,/users/jan-de-laet/badges
+Jan,,De Laet,1,/users/jan-de-laet/badges
 Mike,,Martin,1,/users/mike-martin.bafa8336/badges
 Yannick,,Zwijsen,1,/users/yannick-zwijsen/badges
 Dave,,Lux,1,/users/dave-lux/badges

@@ -1,5 +1,5 @@
 first_name,middle_name,last_name,badge_count,profile_url
-Patrycja,,Kozak,5,/users/patrycja-kozak.7ba0e4cc/badges
+Patrycja,,Kozak,6,/users/patrycja-kozak.7ba0e4cc/badges
 Aleksander,,Fidelus,7,/users/aleksander-fidelus/badges
 Konrad,,Dunikowski,13,/users/konrad-dunikowski/badges
 Marcin,,Gapiński,9,/users/marcin-gapinski.10424558/badges
@@ -37,7 +37,7 @@ Elzbieta,,Mieczkowska-Witek,1,/users/elzbieta-mieczkowska-witek/badges
 Anna,,Szymaniak,1,/users/anna-kudzia/badges
 Rafal,,Sarota,1,/users/rafal-sarota/badges
 Jan,,Osiecki,2,/users/jan-osiecki/badges
-Jakub,,Jasiński,4,/users/jakub-jasinski.b2743c28/badges
+Jakub,,Jasiński,0,/users/jakub-jasinski.b2743c28/badges
 KONRAD,,GORZELANCZYK,1,/users/konrad-gorzelanczyk/badges
 Aliaksandr,,Zaman,1,/users/aliaksandr-zaman/badges
 Oleksii,,Borzylo,1,/users/oleksii-borzylo/badges
@@ -56,7 +56,7 @@ Bartłomiej,,Cieszkowski,1,/users/bartlomiej-cieszkowski/badges
 Szymon,,Janisz,1,/users/szymon-janisz/badges
 Klaudia,,Dogoda,1,/users/klaudia-dogoda/badges
 Mateusz,,Sopyła,1,/users/mateusz-sopyla/badges
-Dawid,,Ciarach,2,/users/dawid-ciarach/badges
+Dawid,,Ciarach,0,/users/dawid-ciarach/badges
 Piotr,,Sobas,1,/users/piotr-sobas/badges
 Krzysztof,,Nazar,1,/users/krzysztof-nazar/badges
 Łukasz,,Zawadzki,1,/users/lukaszzawadzki/badges
@@ -122,7 +122,7 @@ Klaudia,,Bukowska,1,/users/klaudia-bukowska/badges
 Krzysztof,,Borkowski,1,/users/borkowski-kristof/badges
 Adrian,,Goral,1,/users/adrian-goral/badges
 Michał,,Smyk,2,/users/michal-smyk/badges
-Michał,,Sermak,0,/users/michal-sermak.e8f758b1/badges
+Michał,,Sermak,4,/users/michal-sermak.e8f758b1/badges
 Dominik,,Mich,1,/users/dominik-mich/badges
 Pawel,,Stuczynski,3,/users/pawel-stuczynski/badges
 Artur,,Morys - Magiera,1,/users/artur-morys-magiera/badges
