@@ -1,9 +1,9 @@
 first_name,middle_name,last_name,badge_count,profile_url
-Daniel,Richard,Snell,10,/users/daniel-snell.f7bc4ec8/badges
+Daniel,Richard,Snell,0,/users/daniel-snell.f7bc4ec8/badges
 Nico,,Orschel,12,/users/nico-orschel/badges
 Anirban,,Ghosh,1,/users/anirban-ghosh.22d2d490/badges
 André,,Böttcher,1,/users/andre-bottcher/badges
-Sandra,,Neff,5,/users/sandra-neff.59a05583/badges
+Sandra,,Neff,0,/users/sandra-neff.59a05583/badges
 Leon,,Sinlik,6,/users/leon-sinlik/badges
 Till,,Spindler,11,/users/till-spindler/badges
 Tobias,,Wittenburg,1,/users/tobias-wittenburg.0c857b00/badges
@@ -35,7 +35,7 @@ Willi,,Köhler,1,/users/willi-kohler/badges
 Ömer,,Balyali,1,/users/omer-balyali/badges
 Antonio,,Cono,1,/users/antonio-cono/badges
 Chris,,Schindlbeck,1,/users/chris-schindlbeck/badges
-Eric,,Schüler,2,/users/ericschueler/badges
+Eric,,Schüler,0,/users/ericschueler/badges
 Florian,,Reitz,1,/users/florian-reitz.3d4faf2c/badges
 Hakan,,Inal,1,/users/hakan-inal/badges
 Emma,,Carballal Haire,1,/users/emma-carballal-haire/badges
@@ -69,7 +69,7 @@ Philipp,,Kremling,1,/users/philipp-kremling.1372356a/badges
 Sven,,63207@protonmail.con,1,/users/sven-63207-protonmail-con/badges
 Swayam,,Chadha,1,/users/swayam-chadha/badges
 Enian,,Gashi,1,/users/enian-gashi/badges
-Jonathan,,Heard,2,/users/jonathan-heard.1201cd56/badges
+Jonathan,,Heard,0,/users/jonathan-heard.1201cd56/badges
 Sami,Mansoor,Alavi,1,/users/sami-alavi/badges
 Leonard,,Haddad,1,/users/leonard-haddad/badges
 Kirill,,Fedotov,1,/users/kirill-fedotov.7134c0e0/badges
@@ -80,7 +80,7 @@ Jörg,,Jakoby,1,/users/jorg-jakoby/badges
 Jonathan,,David,3,/users/jonathan-david.59eed3ce/badges
 Sven,,Gapski,1,/users/sven-gapski/badges
 Florian,,Richter,1,/users/florian-richter.26584944/badges
-Turgay,,Akbas,1,/users/turgay-akbas/badges
+Turgay,,Akbas,4,/users/turgay-akbas/badges
 Fabius,,Hobler,1,/users/fabius-hobler/badges
 Gowrisha,,C. Vishwa Kumar,1,/users/gowrishacv/badges
 Zain,,Sohail,1,/users/zain-sohail.221b5be6/badges
@@ -94,7 +94,7 @@ Anand,,Advani,1,/users/anand-advani.21b4d527/badges
 tejassarwajna,,degala,1,/users/tejassarwajna-degala/badges
 Mustafa,,Emal,2,/users/mustafaemal/badges
 Mara,,Kiefer,5,/users/mnkiefer/badges
-Subin,,Mathew,0,/users/subinamathew/badges
+Subin,,Mathew,3,/users/subinamathew/badges
 Benjamin,,Thiele,1,/users/benjamin-thiele/badges
 Padma,,Mesa,1,/users/padma-mesa.aa279427/badges
 Atif,,Jalal,1,/users/atif-jalal.888a08b7/badges
@@ -176,7 +176,7 @@ Artur,,Kordowski,4,/users/artur-kordowski/badges
 Tom,,Kaleße,1,/users/tom-kalesse/badges
 Simon,,Ott,1,/users/simon-ott.ded88686/badges
 Clemens,,Wimmer,1,/users/clemens-wimmer/badges
-John,,Nguyen,2,/users/john-nguyen.b9f8e2a2/badges
+John,,Nguyen,0,/users/john-nguyen.b9f8e2a2/badges
 Valeriia,,Morkhat,1,/users/valeriia-morkhat/badges
 Luke,,Kucinski,1,/users/luke-kucinski/badges
 Felix,,Troll,1,/users/felix-troll/badges
@@ -229,7 +229,7 @@ Jonas,,Wanninger,1,/users/jonas-wanninger/badges
 Arpit,,bajpai,1,/users/arpit-bajpai.e873fea2/badges
 Milos,,Rujevic,1,/users/milosrujevic/badges
 Gennady,,Solomennikov,2,/users/gennady-solomennikov/badges
-Niko,,Mix,0,/users/nikomix/badges
+Niko,,Mix,2,/users/nikomix/badges
 Florian,,Eckert,5,/users/florian-eckert.f49f0bb4/badges
 Florian,,Stolzmann,1,/users/florian-stolzmann.45280836/badges
 Dario,,Brozovic,1,/users/dario-brozovic.672c1d98/badges
@@ -272,7 +272,7 @@ Gonzalo,,Oberreuter,1,/users/gonzalo-oberreuter/badges
 Luis,,Sarmiento,2,/users/luis-sarmiento.fc6ade81/badges
 Doston,,Hamrakulov,1,/users/doston-hamrakulov/badges
 Dario,,Digregorio,2,/users/dario-digregorio/badges
-Valentin,,Vogel,0,/users/valentin-vogel/badges
+Valentin,,Vogel,4,/users/valentin-vogel/badges
 Alois,,Heilmaier,1,/users/alois-heilmaier/badges
 Alexander,,a.kunde@outlook.com,1,/users/alexander-a-kunde-outlook-com/badges
 Pavel,,Pokutnev,1,/users/pavel-pokutnev/badges
@@ -290,7 +290,7 @@ Arjun,,Maryankandy Rajendran,1,/users/arjun-maryankandy-rajendran/badges
 Richard,,Z.,2,/users/richard-z/badges
 Florian,,Kraning,1,/users/florian-kraning/badges
 Stephanie Marisa,,Lanius,1,/users/stephanie-marisa-lanius/badges
-Carlos Tadeu,,Panato Junior,0,/users/cpanato/badges
+Carlos Tadeu,,Panato Junior,4,/users/cpanato/badges
 Christian,,Trabold,1,/users/christian-trabold/badges
 Marcel,,Müller,1,/users/marcel-muller.c402fed2/badges
 Glenn,,Verhaag,1,/users/glenn-verhaag/badges
