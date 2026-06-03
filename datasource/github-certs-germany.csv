@@ -1,6 +1,6 @@
 first_name,middle_name,last_name,badge_count,profile_url
 Daniel,Richard,Snell,10,/users/daniel-snell.f7bc4ec8/badges
-Nico,,Orschel,0,/users/nico-orschel/badges
+Nico,,Orschel,12,/users/nico-orschel/badges
 Anirban,,Ghosh,1,/users/anirban-ghosh.22d2d490/badges
 André,,Böttcher,1,/users/andre-bottcher/badges
 Sandra,,Neff,5,/users/sandra-neff.59a05583/badges
@@ -9,7 +9,7 @@ Till,,Spindler,11,/users/till-spindler/badges
 Tobias,,Wittenburg,1,/users/tobias-wittenburg.0c857b00/badges
 Kevin,,Leadbeater,1,/users/kevin-leadbeater/badges
 Harald,,Binkle,4,/users/harald-binkle/badges
-Michael,,Kokonowskyj,7,/users/mikokono/badges
+Michael,,Kokonowskyj,2,/users/mikokono/badges
 Maik,,Müller,5,/users/aatmmr/badges
 Julian,,Sievers,1,/users/julian-sievers/badges
 Michael,,Heinen,1,/users/michael-heinen.2e087ca9/badges
@@ -160,7 +160,7 @@ Zhinoo,,Zobairi,1,/users/zhinoo-zobairi/badges
 Maik,,Mursall,2,/users/maik-mursall/badges
 Razvan,,Tataru,1,/users/razvan-tataru.3565dc2a/badges
 Thomas,,Reuhl,1,/users/thomas-reuhl/badges
-Alexander,,Todorovic,3,/users/alexander-todorovic/badges
+Alexander,,Todorovic,0,/users/alexander-todorovic/badges
 Dima,,Kirichenko,1,/users/dima-kirichenko/badges
 Patrick,,Schauer,1,/users/patrick-schauer/badges
 Florian,,Sommer,1,/users/florian-sommer.3ac6a20d/badges
@@ -214,7 +214,7 @@ Neeta,,Jadhav,1,/users/neeta-jadhav/badges
 Yuri,,Winche Achermann,1,/users/yuriachermann/badges
 Daniel,,Meyer,1,/users/meda1028/badges
 Eugen,,Scherbin,1,/users/eugen-scherbin/badges
-Marijn,,Scholtens,0,/users/marijn-scholtens/badges
+Marijn,,Scholtens,2,/users/marijn-scholtens/badges
 Carlos,,Hernandez-Vaquero,1,/users/carlos-hernandez-vaquero/badges
 Jan-Otto,,Kröpke,1,/users/jkroepke/badges
 Christian,,Weese,4,/users/christian-weese/badges
@@ -229,7 +229,7 @@ Jonas,,Wanninger,1,/users/jonas-wanninger/badges
 Arpit,,bajpai,1,/users/arpit-bajpai.e873fea2/badges
 Milos,,Rujevic,1,/users/milosrujevic/badges
 Gennady,,Solomennikov,2,/users/gennady-solomennikov/badges
-Niko,,Mix,0,/users/nikomix/badges
+Niko,,Mix,2,/users/nikomix/badges
 Florian,,Eckert,5,/users/florian-eckert.f49f0bb4/badges
 Florian,,Stolzmann,1,/users/florian-stolzmann.45280836/badges
 Dario,,Brozovic,1,/users/dario-brozovic.672c1d98/badges
