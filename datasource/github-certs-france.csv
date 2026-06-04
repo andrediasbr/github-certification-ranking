@@ -1,6 +1,6 @@
 first_name,middle_name,last_name,badge_count,profile_url
 Vincent,,Marchal,18,/users/vincent-marchal.87a05753/badges
-Olivier,,Delmotte,3,/users/o.delmotte/badges
+Olivier,,Delmotte,15,/users/o.delmotte/badges
 Jeoffrey,,NGO,5,/users/jeoffrey-ngo/badges
 Loïc,,Albarracin,6,/users/loic-albarracin/badges
 Marvin,,Pedron,1,/users/marvin-pedron/badges
@@ -77,7 +77,7 @@ Van-Thanh-Tu,,NGUYEN,1,/users/van-thanh-tu-nguyen/badges
 Baptiste,,Saltel,1,/users/baptiste-saltel/badges
 Thibault,,Gauthier,1,/users/thibault-gauthier/badges
 Salma,,Ettafs,1,/users/salma-ettafs/badges
-Philippe,,Sollaud,0,/users/philippe-sollaud/badges
+Philippe,,Sollaud,2,/users/philippe-sollaud/badges
 Yassine,,Cheniour,1,/users/yassine-cheniour/badges
 maxime,,ruffenach,1,/users/maxime-ruffenach/badges
 Hemza,,NEDJARI BENHADJ ALI,1,/users/hemza-nedjari-benhadj-ali.c3805ab0/badges
@@ -110,7 +110,7 @@ Mezrigui,,Chihab,1,/users/mezrigui-chihab/badges
 Sylvain,,POINTUD,3,/users/sylvain-pointud/badges
 Hamza,,Karbal,1,/users/hamza-karbal/badges
 Lucas,,Goutaudier,1,/users/lucas-goutaudier.3ff5d904/badges
-LEON DIDIER,,DIFFO MOFOR,2,/users/leon-didier-diffo-mofor/badges
+LEON DIDIER,,DIFFO MOFOR,0,/users/leon-didier-diffo-mofor/badges
 Edmund,,Chambers,1,/users/edmund-chambers/badges
 Galil,,Mori,1,/users/galil-mori/badges
 Edoardo,Carlo Georges Daniel,Marchesi Veglia,1,/users/edoardo-marchesi-veglia/badges
@@ -124,7 +124,7 @@ guillaume,,ginguene,5,/users/guillaume-ginguene/badges
 Thibault,,Falise,3,/users/thibault-falise.d3599d00/badges
 Driss,,Amrani,1,/users/driss-amrani/badges
 MAXIME,,BENOIT,1,/users/maxime-benoit.d3be23fe/badges
-Yannick,,WILLI,2,/users/yannick-willi/badges
+Yannick,,WILLI,0,/users/yannick-willi/badges
 Alexis,,Cortes,1,/users/alexis-cortes.1ab4ca09/badges
 tony,,riyanto,1,/users/tony-riyanto/badges
 Tusanth,,Thalayasingam,1,/users/tusanth-thalayasingam/badges
@@ -210,7 +210,7 @@ Stéphane,,Cottin,1,/users/stephane-cottin.0296e0b9/badges
 Ludovic,,Toinel,1,/users/ludovic-toinel/badges
 John,,Dennison,1,/users/john-dennison.ba71b653/badges
 Arnaud,,Flaesch,5,/users/arnaud-flaesch/badges
-Samuel,,CHNIBER,0,/users/samuel-chniber/badges
+Samuel,,CHNIBER,5,/users/samuel-chniber/badges
 Vincent,,Thiébault,1,/users/vincent-thiebault/badges
 Xavier,,Mignot,2,/users/xavier-mignot.023225ed/badges
 Houssam,,Kanso,1,/users/houssam-kanso/badges

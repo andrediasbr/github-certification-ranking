@@ -1,7 +1,7 @@
 first_name,middle_name,last_name,badge_count,profile_url
 Anthony,,Borton,1,/users/anthony-borton/badges
 Hatem,,Elbakoury,2,/users/hatem-elbakoury.6a5fff8b/badges
-Marco,,Celon,12,/users/marco-celon.53bc8019/badges
+Marco,,Celon,0,/users/marco-celon.53bc8019/badges
 Shawn,,St Mart,1,/users/shawn-st-mart.3e5becd9/badges
 Chris,,Plewa,1,/users/chris-plewa/badges
 Alex,,Vaziri,2,/users/alex-vaziri/badges
@@ -74,7 +74,7 @@ Vishal,,Sharma,1,/users/very-shal-sharma/badges
 Jonathan,,Petrinolis,1,/users/jonathan-petrinolis/badges
 Kanjan,,Sharma,1,/users/kanjan-sharma/badges
 Yasiru,,Lokesha,1,/users/yasiru-lokesha/badges
-Rajesh Kumar,,Singh,3,/users/rajesh-singh.414f20b5/badges
+Rajesh Kumar,,Singh,0,/users/rajesh-singh.414f20b5/badges
 Bertram,,Truong,1,/users/bertram-truong/badges
 Ian,,Qin,1,/users/ianqin/badges
 Jan,,Jost,1,/users/janjost/badges
@@ -116,10 +116,10 @@ Daniele,,Vicario,1,/users/daniele-vicario/badges
 Cihan,,Solbudak,2,/users/cihan-solbudak/badges
 Sai Krishna Karthik,,Gentela,1,/users/sai-krishna-karthik-gentela/badges
 Manoj,,Nair,2,/users/manoj-nair.b72e8868/badges
-Tao,,Wang,3,/users/tao-wang.23788946/badges
+Tao,,Wang,0,/users/tao-wang.23788946/badges
 Socheat,,Chhun,1,/users/socheat-chhun/badges
 Ruth,,Downing,1,/users/ruth-downing.81a676b0/badges
-Andre,,Kolodochka,4,/users/andre-kolodochka/badges
+Andre,,Kolodochka,0,/users/andre-kolodochka/badges
 junlin,,pang,1,/users/junlin-pang/badges
 Luiza,,Alaniz Garcia,1,/users/luiza-alaniz-garcia/badges
 Jamie,,Dimovski,1,/users/jamie-dimovski.3e194436/badges
@@ -458,7 +458,7 @@ Roger,,Symonds,1,/users/roger-symonds.146c684b/badges
 Bruno,,Faria,1,/users/bnlf/badges
 Muhammad,,Irfan,2,/users/muhammad-irfan.421629dd/badges
 Gary,,Goh,1,/users/gary-goh.8068ea36/badges
-Leo,,Arkhipov,0,/users/leoa451/badges
+Leo,,Arkhipov,2,/users/leoa451/badges
 Joshua,,Antolini,1,/users/joshua-antolini.df695e04/badges
 Justin Alex,,Paramanandan,1,/users/justin-alex-paramanandan/badges
 Steven,,Honson,1,/users/steven-honson/badges
