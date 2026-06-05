@@ -2,7 +2,7 @@ first_name,middle_name,last_name,badge_count,profile_url
 Ahsan Jamshed,,Qureshi,1,/users/ahsan-jamshed-qureshi.b3dcbff6/badges
 Junaid,,Shahzad,1,/users/junaid-shahzad.5ae9c626/badges
 Abdul Hadi,,Asad,1,/users/abdul-hadi-asad/badges
-Tahir,,Mahmood,1,/users/tahir-mahmood.41a4044d/badges
+Tahir,,Mahmood,0,/users/tahir-mahmood.41a4044d/badges
 Abdul,,Qadeer,1,/users/abdul-qadeer.81e4ec8a/badges
 Usman,,Sheikh,2,/users/usman-sheikh.e360f868/badges
 Muhammed,Faisal,Shahzad,1,/users/faisal-shahzad.c6991115/badges
@@ -22,7 +22,7 @@ Ajmal,,Razaq,1,/users/ajmal-razaq/badges
 Junaid,,Aslam,1,/users/junaidaslamm/badges
 Zain,,Ali,1,/users/zain-ali.697c55a1/badges
 Muhammad,,Jawad,1,/users/muhammad-jawad.7f5aaf4a/badges
-Hasnain,,Saleem,0,/users/hasnain-saleem.5e64e762/badges
+Hasnain,,Saleem,1,/users/hasnain-saleem.5e64e762/badges
 Mursal,,Mateen,1,/users/mursal-mateen/badges
 Mujeeb,,Ur Rehman,1,/users/mujeeb-ur-rehman.5f90b53d/badges
 Zubair,,Asghar,1,/users/zubair-asghar.fdf3cbd1/badges
@@ -30,7 +30,7 @@ Haseeb,,Anjum,1,/users/haseeb-anjum.4f16153d/badges
 Mian Muhammad,,Musharraf,1,/users/mian-muhammad-musharraf/badges
 Muhammad,,Ahmad Mubasher,1,/users/muhammad-ahmad-mubasher/badges
 farhat,,abbas,1,/users/farhat-abbas.c4781b54/badges
-Muhammad,,Usman,1,/users/usman2789/badges
+Muhammad,,Usman,0,/users/usman2789/badges
 Ahtasham,,Ilyas,1,/users/ahtasham-ilyas/badges
 Suhaib,,Tariq,2,/users/muhammad-suhaib.e3ec2c82/badges
 Shaheer,,Ahmad,1,/users/shaheerahmad/badges

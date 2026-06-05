@@ -1,5 +1,5 @@
 first_name,middle_name,last_name,badge_count,profile_url
-Pavlo,,Rudenko,2,/users/pavlo-rudenko/badges
+Pavlo,,Rudenko,1,/users/pavlo-rudenko/badges
 Gabriel,,Young,1,/users/gabriel-young.845b79b4/badges
 Vladislav,,Shevchenko,1,/users/vladislav-shevchenko.0d82fa5e/badges
 Andrii,,Pryymak,1,/users/andrei-pryymak/badges
@@ -17,7 +17,7 @@ Oksana,,Berezhnyk,1,/users/oksana-berezhnyk.aa666c6d/badges
 Denys,,Doskakch,1,/users/denys-doskakch/badges
 Nikita,,Reshetnik,1,/users/nikita-reshetnik/badges
 Сергій,,Ярошевич,1,/users/username.37b28b0e/badges
-Vladyslav,,Vysochanskyi,2,/users/vladyslav-vysochanskyi.72072c97/badges
+Vladyslav,,Vysochanskyi,0,/users/vladyslav-vysochanskyi.72072c97/badges
 Vladislav,,Antonyuk,1,/users/vladislav-antonyuk/badges
 Viktoriia,,Demnyk,1,/users/viktoriia-demnyk/badges
 Roman,,Myshchyshyn,1,/users/roman-myshchyshyn.c381f2d3/badges
@@ -26,7 +26,7 @@ Vitalii,,Piatnytskyi,1,/users/vitalii-piatnytskyi/badges
 Serhii,Sergeyevich,Plesovskykh,0,/users/serhii-plesovskykh/badges
 Mykyta,,Potapenko,1,/users/mykyta-potapenko/badges
 Bohdan,,Rudenko,2,/users/bohdan-rudenko/badges
-Ivan,,Marchyshyn,1,/users/one-marc/badges
+Ivan,,Marchyshyn,0,/users/one-marc/badges
 Misha,,Popov,1,/users/misha-popov/badges
 Oleksandr,,Tsyhankov,1,/users/oleksandr-tsyhankov/badges
 Yurii,,Vasylyk,1,/users/yurii-vasylyk/badges
@@ -79,7 +79,7 @@ Valentyn,,Zamykhivskyi,1,/users/valentyn-zamykhivskyi.e7f04c9d/badges
 Nazarii,,Kurchyk,1,/users/nazarii-kurchyk/badges
 Maksym,,Perehinets,2,/users/maksym-perehinets/badges
 Nazar,,Antoniuk,1,/users/niusia/badges
-Yurii,,Hasko,0,/users/yurii-hasko/badges
+Yurii,,Hasko,4,/users/yurii-hasko/badges
 Dmytro,,Cheholia,1,/users/dmytro-cheholia/badges
 Artem,,Novak,1,/users/artem-novak/badges
 Oleksandr,,Susla,1,/users/oleksandr-susla/badges
