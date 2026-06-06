@@ -1,4 +1,5 @@
 first_name,middle_name,last_name,badge_count,profile_url
+Maciej,,Śmigielski,6,/users/maciej-smigielski/badges
 Patrycja,,Kozak,6,/users/patrycja-kozak.7ba0e4cc/badges
 Aleksander,,Fidelus,7,/users/aleksander-fidelus/badges
 Konrad,,Dunikowski,13,/users/konrad-dunikowski/badges
@@ -7,7 +8,6 @@ Robert,,Siurek,3,/users/robert-siurek/badges
 Filip,,Bialowas,10,/users/filip-bialowas/badges
 Piotr,,Nowakowski,9,/users/piotr-nowakowski.0ae6ed51/badges
 Marcin,,Kociński,9,/users/marcin-kocinski/badges
-Maciej,,Śmigielski,5,/users/maciej-smigielski/badges
 Szymon,,Stasiak,5,/users/szymon-stasiak.5e19c414/badges
 Przemyslaw,,Drozd,1,/users/przemyslaw-drozd.ef5fde92/badges
 Marcin,,marcin.noczynski@softwareone.com,4,/users/marcin-marcin-noczynski-softwareone-com/badges
@@ -37,7 +37,7 @@ Elzbieta,,Mieczkowska-Witek,1,/users/elzbieta-mieczkowska-witek/badges
 Anna,,Szymaniak,1,/users/anna-kudzia/badges
 Rafal,,Sarota,1,/users/rafal-sarota/badges
 Jan,,Osiecki,2,/users/jan-osiecki/badges
-Jakub,,Jasiński,0,/users/jakub-jasinski.b2743c28/badges
+Jakub,,Jasiński,4,/users/jakub-jasinski.b2743c28/badges
 KONRAD,,GORZELANCZYK,1,/users/konrad-gorzelanczyk/badges
 Aliaksandr,,Zaman,1,/users/aliaksandr-zaman/badges
 Oleksii,,Borzylo,1,/users/oleksii-borzylo/badges
@@ -107,7 +107,7 @@ Adrian,Piotr,Dacka,1,/users/adrian-dacka/badges
 Adrian,,Nieć,1,/users/adrian-niec/badges
 damian,,dziedzic,1,/users/damian-dziedzic.8705ad1f/badges
 Ernest,,Roszak,1,/users/ernest-roszak/badges
-Volodymyr,,Shkrupskyi,2,/users/volodymyr-shkrupskyi/badges
+Volodymyr,,Shkrupskyi,1,/users/volodymyr-shkrupskyi/badges
 Robert,,Leszczynski,1,/users/robert-leszczynski/badges
 Lukasz,,Regulski,1,/users/lukasz-regulski.1a7759fd/badges
 Stanisław,,Nieradko,1,/users/stanislaw-nieradko/badges
@@ -152,7 +152,7 @@ Karol,,Witek,2,/users/karol-witek/badges
 Jakub,,Przybysz,1,/users/jakub-przybysz.cdb420da/badges
 Burak,,Yılmaz,1,/users/burak-yilmaz.7e659ebe/badges
 Filip,,Halys,1,/users/filip-halys/badges
-Sayan,,Daw,0,/users/sayandaw/badges
+Sayan,,Daw,5,/users/sayandaw/badges
 Jacek,,Pietrzyk,1,/users/jacek-pietrzyk/badges
 Maciej,,Kowalczyk,2,/users/maciej-kowalczyk.fd3dae21/badges
 Kamil,,Dąbek,1,/users/kamil-dabek.bff2ee50/badges

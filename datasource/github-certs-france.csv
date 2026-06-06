@@ -1,8 +1,8 @@
 first_name,middle_name,last_name,badge_count,profile_url
+Loïc,,Albarracin,7,/users/loic-albarracin/badges
+Jeoffrey,,NGO,6,/users/jeoffrey-ngo/badges
 Vincent,,Marchal,18,/users/vincent-marchal.87a05753/badges
 Olivier,,Delmotte,15,/users/o.delmotte/badges
-Jeoffrey,,NGO,5,/users/jeoffrey-ngo/badges
-Loïc,,Albarracin,6,/users/loic-albarracin/badges
 Marvin,,Pedron,1,/users/marvin-pedron/badges
 Alexis,,Perez,1,/users/alexis-perez.b84f801f/badges
 Virgile,,Malfatti,1,/users/virgile-malfatti/badges
@@ -124,7 +124,7 @@ guillaume,,ginguene,5,/users/guillaume-ginguene/badges
 Thibault,,Falise,3,/users/thibault-falise.d3599d00/badges
 Driss,,Amrani,1,/users/driss-amrani/badges
 MAXIME,,BENOIT,1,/users/maxime-benoit.d3be23fe/badges
-Yannick,,WILLI,2,/users/yannick-willi/badges
+Yannick,,WILLI,0,/users/yannick-willi/badges
 Alexis,,Cortes,1,/users/alexis-cortes.1ab4ca09/badges
 tony,,riyanto,1,/users/tony-riyanto/badges
 Tusanth,,Thalayasingam,1,/users/tusanth-thalayasingam/badges
@@ -241,7 +241,7 @@ Romain,,Serre,3,/users/romain-serre/badges
 Jing,,LEI,2,/users/jing-lei.2b00bda0/badges
 LIONEL,,LONKAP TSAMBA,4,/users/lktslionel/badges
 Hippolyte,,KENGNI,1,/users/hippolyte-kengni/badges
-Bangaly,,Kaba,0,/users/bangaly-kaba/badges
+Bangaly,,Kaba,4,/users/bangaly-kaba/badges
 guillaume,,guerard,1,/users/guillaume-guerard/badges
 Imen,,OUNI,1,/users/imen-ouni/badges
 Cedric,,Le Neindre,1,/users/cedric-le-neindre/badges
