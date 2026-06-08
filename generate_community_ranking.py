@@ -40,6 +40,7 @@ ALLOWED_MICROSOFT_BADGES = {
     'Microsoft Applied Skills: Accelerate AI-assisted development by using GitHub Copilot',
     'Microsoft Applied Skills: Accelerate app development by using GitHub Copilot',
     'Microsoft Applied Skills: Automate Azure Load Testing by using GitHub Actions',
+    'Microsoft Applied Skills: Resolve GitHub issues by using GitHub Copilot',
 }
 
 GITHUB_ORG_ID = '63074953-290b-4dce-86ce-ea04b4187219'
