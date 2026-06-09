@@ -23,6 +23,7 @@ ALLOWED_MICROSOFT_GITHUB_CERTIFICATIONS = {
     'Microsoft Applied Skills: Accelerate AI-assisted development by using GitHub Copilot',
     'Microsoft Applied Skills: Accelerate app development by using GitHub Copilot',
     'Microsoft Applied Skills: Automate Azure Load Testing by using GitHub Actions',
+    'Microsoft Applied Skills: Resolve GitHub issues by using GitHub Copilot',
 }
 
 EXCLUDED_BADGES = {
