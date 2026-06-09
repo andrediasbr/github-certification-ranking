@@ -1,6 +1,6 @@
 # 🗽 TOP 10 GitHub Certifications - Americas
 
-> Last updated: June 09, 2026 at 03:30 UTC
+> Last updated: June 09, 2026 at 18:52 UTC
 
 ## 🏆 Top 10 GitHub Certifications Leaders
 
@@ -14,8 +14,8 @@
 | #6 | [Caio Vianna Vieira](https://www.credly.com/users/caio-vianna.b6440384/badges)<br>[Clayton Rodrigues Souza](https://www.credly.com/users/clayton-souza/badges)<br>[Daniel Alonso Oliveira Soares](https://www.credly.com/users/dalonsw/badges)<br>[Luana Corrêa Vieira](https://www.credly.com/users/luana-vieira.36aca490/badges)<br>[Lucas Ludicsa](https://www.credly.com/users/lucas-ludicsa/badges) | 13 | Avanade<br>Avanade<br>ilegra<br>Avanade<br>ilegra | Brazil<br>Brazil<br>Brazil<br>Brazil<br>Brazil |
 | #7 | [John Wildes](https://www.credly.com/users/john-wildes/badges)<br>[Matt Olson](https://www.credly.com/users/molson504x/badges) | 12 | <br>Xebia | United States<br>United States |
 | #8 | [Alexander Chorosevic](https://www.credly.com/users/alexander-chorosevic/badges)<br>[Bill Schneider](https://www.credly.com/users/bill-schneider.7f045131/badges)<br>[Daniel Koch](https://www.credly.com/users/daniel-koch.dc5d8183/badges)<br>[Francisco Nascimento](https://www.credly.com/users/francisco-nascimento.f7a5a9f3/badges)<br>[🧡 Davi Santos](https://www.credly.com/users/davisantos/badges) | 11 | <br><br>CodeCargo<br>Avanade<br>Avanade | United States<br>United States<br>United States<br>Brazil<br>Brazil |
-| #9 | [Benjamin Marsteau](https://www.credly.com/users/bmarsteau/badges)<br>[Cesar Souza](https://www.credly.com/users/cesar-souza.48cc6bb7/badges)<br>[Dhiego Bastelli](https://www.credly.com/users/dhiego-bastelli/badges)<br>[JT Jarnegan](https://www.credly.com/users/jjarnegan/badges)<br>[Julio Cesar Barbosa da Silva](https://www.credly.com/users/juliocbsilva/badges)<br>[Lautaro Orellano](https://www.credly.com/users/lautaro-orellano/badges)<br>[Parker Johnston](https://www.credly.com/users/parker-johnston/badges)<br>[William Lima Silva](https://www.credly.com/users/williamlimasilva/badges) | 10 | Wepoint<br><br>Sensedia<br>Xebia<br>Avanade<br><br><br>Avanade | Canada<br>Brazil<br>Brazil<br>United States<br>Brazil<br>Argentina<br>United States<br>Brazil |
-| #10 | [Bruno Vinicius Garcia](https://www.credly.com/users/ifgarcia/badges)<br>[Erol Kavas](https://www.credly.com/users/erol/badges)<br>[Higor Coelho Do Nascimento](https://www.credly.com/users/higor-coelho-do-nascimento/badges)<br>[Ricardo Galvão](https://www.credly.com/users/ricardo-galvao.52cfc0ae/badges)<br>[Thomas Boker](https://www.credly.com/users/thomas-boker/badges)<br>[William Quintero](https://www.credly.com/users/willraido/badges) | 9 | Avanade<br>PwC<br>Avanade<br>Avanade<br>IBM<br>Clever IT | Brazil<br>Canada<br>Brazil<br>Brazil<br>United States<br>Colombia |
+| #9 | [Benjamin Marsteau](https://www.credly.com/users/bmarsteau/badges)<br>[Cesar Souza](https://www.credly.com/users/cesar-souza.48cc6bb7/badges)<br>[Dhiego Bastelli](https://www.credly.com/users/dhiego-bastelli/badges)<br>[JT Jarnegan](https://www.credly.com/users/jjarnegan/badges)<br>[Julio Cesar Barbosa da Silva](https://www.credly.com/users/juliocbsilva/badges)<br>[Parker Johnston](https://www.credly.com/users/parker-johnston/badges)<br>[William Lima Silva](https://www.credly.com/users/williamlimasilva/badges) | 10 | Wepoint<br><br>Sensedia<br>Xebia<br>Avanade<br><br>Avanade | Canada<br>Brazil<br>Brazil<br>United States<br>Brazil<br>United States<br>Brazil |
+| #10 | [Bruno Vinicius Garcia](https://www.credly.com/users/ifgarcia/badges)<br>[Erol Kavas](https://www.credly.com/users/erol/badges)<br>[Higor Coelho Do Nascimento](https://www.credly.com/users/higor-coelho-do-nascimento/badges)<br>[José Ibañez](https://www.credly.com/users/jose-ibanez.8df2cfd3/badges)<br>[Ricardo Galvão](https://www.credly.com/users/ricardo-galvao.52cfc0ae/badges)<br>[Thomas Boker](https://www.credly.com/users/thomas-boker/badges)<br>[William Quintero](https://www.credly.com/users/willraido/badges) | 9 | Avanade<br>PwC<br>Avanade<br>Baufest<br>Avanade<br>IBM<br>Clever IT | Brazil<br>Canada<br>Brazil<br>Chile<br>Brazil<br>United States<br>Colombia |
 
 ---
 
@@ -35,41 +35,20 @@
 
 | Rank | Country | Total Badges | Certified Users |
 |------|---------|--------------|-----------------|
-| 🥇 #1 | United States | 3964 | 2812 |
-| 🥈 #2 | Brazil | 2017 | 1523 |
-| 🥉 #3 | Canada | 725 | 551 |
-| #4 | Mexico | 562 | 447 |
-| #5 | Peru | 497 | 416 |
+| 🥇 #1 | United States | 3972 | 2813 |
+| 🥈 #2 | Brazil | 2024 | 1525 |
+| 🥉 #3 | Canada | 727 | 551 |
+| #4 | Mexico | 557 | 445 |
+| #5 | Peru | 495 | 415 |
 
 ---
 
 ## 📊 Statistics
 
-- **Total Certified Users**: 6,852
-- **Total Badges Earned**: 9,073
-- **Average Badges per User**: 1.32
+- **Total Certified Users**: 6,690
+- **Total Badges Earned**: 8,867
+- **Average Badges per User**: 1.33
 - **Highest Badge Count**: 19
-
----
-
-## ⚠️ Data Freshness Warning
-
-The following countries have data that was not updated in the last run:
-
-| Country | Last Updated | Hours Old |
-|---------|--------------|-----------|
-| Antigua And Barbuda | 2026-06-08 03:55 UTC | 36h |
-| Andorra | 2026-06-08 03:55 UTC | 36h |
-| Afghanistan | 2026-06-08 03:55 UTC | 36h |
-| Armenia | 2026-06-08 03:55 UTC | 36h |
-| Albania | 2026-06-08 03:55 UTC | 36h |
-| Azerbaijan | 2026-06-08 03:55 UTC | 36h |
-| Algeria | 2026-06-08 03:55 UTC | 36h |
-| Bahrain | 2026-06-08 03:55 UTC | 36h |
-| Angola | 2026-06-08 03:55 UTC | 36h |
-| Belize | 2026-06-08 03:55 UTC | 36h |
-
-*... and 188 more countries*
 
 ---
 
