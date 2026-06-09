@@ -12,18 +12,7 @@ import sys
 import requests
 from concurrent.futures import ThreadPoolExecutor, as_completed
 from datetime import datetime
-
-ALLOWED_MICROSOFT_GITHUB_CERTIFICATIONS = {
-    'GitHub Copilot',
-    'GitHub Actions',
-    'GitHub Advanced Security',
-    'GitHub Foundations',
-    'GitHub Administration',
-    'Microsoft Certified: DevOps Engineer Expert',
-    'Microsoft Applied Skills: Accelerate AI-assisted development by using GitHub Copilot',
-    'Microsoft Applied Skills: Accelerate app development by using GitHub Copilot',
-    'Microsoft Applied Skills: Automate Azure Load Testing by using GitHub Actions',
-}
+from certifications import ALLOWED_MICROSOFT_GITHUB_CERTIFICATIONS
 
 EXCLUDED_BADGES = {
     'GitHub Sales Professional',
