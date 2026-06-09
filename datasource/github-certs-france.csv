@@ -1,7 +1,7 @@
 first_name,middle_name,last_name,badge_count,profile_url
+Vincent,,Marchal,19,/users/vincent-marchal.87a05753/badges
 Loïc,,Albarracin,7,/users/loic-albarracin/badges
 Jeoffrey,,NGO,6,/users/jeoffrey-ngo/badges
-Vincent,,Marchal,3,/users/vincent-marchal.87a05753/badges
 Olivier,,Delmotte,16,/users/o.delmotte/badges
 Marvin,,Pedron,1,/users/marvin-pedron/badges
 Alexis,,Perez,1,/users/alexis-perez.b84f801f/badges
@@ -120,7 +120,7 @@ Yann,,Desaunois,1,/users/yann-desaunois/badges
 Jori,,Mathurin,1,/users/jori-mathurin/badges
 Michael,,FERY,1,/users/michael-fery/badges
 Grégory,,Ott,1,/users/gregory-ott.f7396675/badges
-guillaume,,ginguene,0,/users/guillaume-ginguene/badges
+guillaume,,ginguene,5,/users/guillaume-ginguene/badges
 Thibault,,Falise,3,/users/thibault-falise.d3599d00/badges
 Driss,,Amrani,1,/users/driss-amrani/badges
 MAXIME,,BENOIT,1,/users/maxime-benoit.d3be23fe/badges
@@ -169,7 +169,7 @@ Walid,,Majdoubi,1,/users/walid-majdoubi/badges
 Ludovic,,Thuard,1,/users/ludovic-thuard/badges
 Thibaud,,Dirou,1,/users/thibaud-dirou/badges
 Victor,,VAIZAND,1,/users/victor-vaizand/badges
-Lucas,,Ladreyt,3,/users/lucas-ladreyt.5f38abc4/badges
+Lucas,,Ladreyt,0,/users/lucas-ladreyt.5f38abc4/badges
 Jules,,RUBIN,1,/users/jules-rubin/badges
 Axel,,Villeret,1,/users/axel-villeret/badges
 Mourad,,SALHI,1,/users/mourad-salhi/badges
@@ -237,7 +237,7 @@ El Mehdi,,FETTAH,1,/users/mehdi-fettah/badges
 Maryna,,Kushnir,1,/users/maryna-kushnir/badges
 Simon,,Spozio,1,/users/simon-spozio/badges
 Arnaud,,Bourda,1,/users/arnaud-bourda/badges
-Romain,,Serre,3,/users/romain-serre/badges
+Romain,,Serre,0,/users/romain-serre/badges
 Jing,,LEI,2,/users/jing-lei.2b00bda0/badges
 LIONEL,,LONKAP TSAMBA,4,/users/lktslionel/badges
 Hippolyte,,KENGNI,1,/users/hippolyte-kengni/badges

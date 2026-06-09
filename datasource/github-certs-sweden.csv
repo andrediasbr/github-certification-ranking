@@ -1,12 +1,13 @@
 first_name,middle_name,last_name,badge_count,profile_url
-Magnus,,Timner,0,/users/magnus-timner.ddd6329c/badges
+Erik,,Hjalmarsson,4,/users/erik-hjalmarsson/badges
+Magnus,,Timner,11,/users/magnus-timner.ddd6329c/badges
 Tobias,,Persson,4,/users/tobias-persson.f7d26f37/badges
 Eric,,Söderqvist,4,/users/eric-soderqvist/badges
 Mathias,,Olausson,3,/users/mathias-olausson/badges
 Ellen,,Egeld,5,/users/ellen-egeld.0508fffc/badges
 Susanna,,Persson,5,/users/susanna-persson/badges
 Heidi,,Housten,2,/users/heidi-housten/badges
-Emil,,Sjölander,0,/users/emil-sjolander/badges
+Emil,,Sjölander,5,/users/emil-sjolander/badges
 Erik,,Olsson,2,/users/erik-olsson.18a2c39e/badges
 Jakob,,Johansson,7,/users/jakob-johansson.9602948e/badges
 Jessica,,Chavez Ruiz,2,/users/jessica-chavez-ruiz.1bf5de96/badges
@@ -14,7 +15,6 @@ Ilana,,Almaleh,3,/users/ilana-almaleh/badges
 Esmail,,Ben Moussa,4,/users/esmail-ben-moussa.75acaba5/badges
 Tobias,,Nilsson,2,/users/tobias-nilsson84/badges
 Alexander,,Hjelm,3,/users/alexander-hjelm.d61a84b9/badges
-Erik,,Hjalmarsson,3,/users/erik-hjalmarsson/badges
 Simon,,Liolios,2,/users/simon-liolios/badges
 Srinivas,,Dutta,1,/users/srinivas-dutta.34308374/badges
 Ho Kai,,Tran,1,/users/ho-kai-tran/badges
@@ -67,7 +67,7 @@ Panteleimon,,Santorinios,1,/users/panteleimon-santorinios/badges
 Stefan,,Petrovic,3,/users/stefan-petrovic.6ac93836/badges
 Andrey,,Markelov,1,/users/andrey-markelov.8212a7bf/badges
 Carl Johan,,Adolfsson,2,/users/carl-johan-adolfsson/badges
-Digvijay,,Chauhan,5,/users/digvijay-chauhan/badges
+Digvijay,,Chauhan,0,/users/digvijay-chauhan/badges
 Anas,,Mofleh,2,/users/anas-mofleh/badges
 Stefan,,Petrovic,2,/users/stefan-petrovic.0e0ca725/badges
 Andreas,,Kahlroth,3,/users/andreas-kahlroth/badges
@@ -89,7 +89,7 @@ Stefan,,Lisper,2,/users/stefan-lisper/badges
 Emanuel,,Palm,2,/users/emanuel-palm/badges
 Benjamin,,Jönsson,1,/users/benjamin-jonsson/badges
 Nikolay,,Sandt,1,/users/sandt/badges
-Pierre,,Thoor,0,/users/pierre-thoor/badges
+Pierre,,Thoor,1,/users/pierre-thoor/badges
 Linus,,Gustafsson,1,/users/linus-gustafsson.80c62a92/badges
 Gabriel,,Vega,1,/users/gabriel-vega.58e3ee5a/badges
 Harry,,Hagelberg,1,/users/harry-hagelberg/badges
