@@ -2,7 +2,7 @@ first_name,middle_name,last_name,badge_count,profile_url
 Shan,,Jiang,2,/users/shan-jiang.7f69b1ad/badges
 Yue,,Zhang,1,/users/yue-zhang.4e1e87b4/badges
 路,,周,1,/users/username.af2baa37/badges
-Fan,,Lijun,1,/users/fan-lijun/badges
+Fan,,Lijun,0,/users/fan-lijun/badges
 sha,,lei,1,/users/sha-lei.9be8018c/badges
 Ding,,Delong,1,/users/ding-delong/badges
 GAO,,TONG,1,/users/gao-tong.f68950bd/badges
@@ -10,7 +10,7 @@ GAO,,TONG,1,/users/gao-tong.f68950bd/badges
 娜,,杨,1,/users/username.c447e467/badges
 海波,,孙,1,/users/username.4b3c288b/badges
 lin,,wang,1,/users/lin-wang.db5d911b/badges
-Yao,,姚,1,/users/yao.9c96ad39/badges
+Yao,,姚,0,/users/yao.9c96ad39/badges
 滔,,商,1,/users/username.1f4e883e/badges
 chaolong,,li,1,/users/chaolong-li.2bad46a2/badges
 YAOFENG,,GUO,1,/users/yaofeng-guo/badges
@@ -59,7 +59,7 @@ xi,,wang,1,/users/xi-wang.bec068e2/badges
 Yangzi,,Fu,1,/users/yangzi-fu/badges
 方倩,,倩,1,/users/username.caf94d24/badges
 HE,,CAO,1,/users/he-cao.d445177e/badges
-Guojun,,Wei,5,/users/guojun-wei.b7d924e2/badges
+Guojun,,Wei,2,/users/guojun-wei.b7d924e2/badges
 Lei,,Zhang,1,/users/lei-zhang.certs/badges
 Liu,,Pan,1,/users/liu-pan.1a4119ad/badges
 zhang,,sihang,1,/users/zhang-sihang/badges

@@ -1,6 +1,6 @@
 first_name,middle_name,last_name,badge_count,profile_url
 Rudi,,Larno,4,/users/rudi-larno.a969962f/badges
-Julien,,Lebutte,13,/users/julienlebutte/badges
+Julien,,Lebutte,14,/users/julienlebutte/badges
 Sujith,,Quintelier,18,/users/sujith/badges
 Thomas,,Biesmans,1,/users/thomas-biesmans/badges
 Kristof,,Van Hees,2,/users/kristof-van-hees/badges
@@ -51,7 +51,7 @@ Tim,,Maes,1,/users/tim-maes/badges
 Jonathan,,Hiben,3,/users/jonathanhiben/badges
 Logan,,Farci,3,/users/logan-farci/badges
 Yogeshwaran,,C,1,/users/yogeshwaran-c.528b859f/badges
-Mike,,Van den Heuvel,4,/users/mike-van-den-heuvel.daad68c8/badges
+Mike,,Van den Heuvel,0,/users/mike-van-den-heuvel.daad68c8/badges
 Ward,,Lostrie,3,/users/ward-lostrie/badges
 Hemza,,Verbruggen,4,/users/hemza-verbruggen/badges
 Egon,,Verlaet,1,/users/egonverlaet/badges
@@ -73,7 +73,7 @@ Quinten,,Noels,3,/users/quintennoels/badges
 Tim,,Vrolix,1,/users/tim-vrolix/badges
 Pierre,,Maclot,1,/users/pierre-maclot/badges
 Gilles,,Dufrane,1,/users/gilles-dufrane/badges
-Karim,,Vaes,3,/users/kvaes/badges
+Karim,,Vaes,0,/users/kvaes/badges
 Nina,,Vermeiren,1,/users/nina-vermeiren.fa99facc/badges
 yves,,Brichart,1,/users/yves-brichart/badges
 Eugeniu,,Carausu,1,/users/eugeniu-carausu.841ad99c/badges
@@ -87,7 +87,7 @@ Josue,,del Valle Nicolas,1,/users/josue-del-valle-nicolas/badges
 Ben,,Borra,2,/users/ben-borra/badges
 Koen,,Luyten,1,/users/koen-luyten.8eb6ee2f/badges
 Thomas,,Van Rampelberg,3,/users/thomas-van-rampelberg.b896b559/badges
-Jan,,De Laet,0,/users/jan-de-laet/badges
+Jan,,De Laet,1,/users/jan-de-laet/badges
 Mike,,Martin,1,/users/mike-martin.bafa8336/badges
 Yannick,,Zwijsen,1,/users/yannick-zwijsen/badges
 Dave,,Lux,1,/users/dave-lux/badges
