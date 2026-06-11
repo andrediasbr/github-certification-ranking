@@ -1,6 +1,6 @@
 first_name,middle_name,last_name,badge_count,profile_url
 Maciej,,Śmigielski,6,/users/maciej-smigielski/badges
-Patrycja,,Kozak,6,/users/patrycja-kozak.7ba0e4cc/badges
+Patrycja,,Kozak,8,/users/patrycja-kozak.2a2cf477/badges
 Aleksander,,Fidelus,7,/users/aleksander-fidelus/badges
 Konrad,,Dunikowski,13,/users/konrad-dunikowski/badges
 Marcin,,Gapiński,9,/users/marcin-gapinski.10424558/badges
@@ -30,7 +30,7 @@ Dariusz,,Kowalczyk,1,/users/dkowal0/badges
 Jakub,,Ligęcki,1,/users/jakub-ligecki/badges
 Jan,,Malinowski,1,/users/jan-malinowski/badges
 Juliusz,,Malka,1,/users/juliusz-malka/badges
-Jacek,,Sorgowicki,4,/users/jacek-sorgowicki/badges
+Jacek,,Sorgowicki,0,/users/jacek-sorgowicki/badges
 Maciej,,Kubbisz,1,/users/maciej-kubbisz/badges
 Natalia,,Chrzascik,1,/users/natalia-chrzascik/badges
 Elzbieta,,Mieczkowska-Witek,1,/users/elzbieta-mieczkowska-witek/badges
@@ -98,7 +98,6 @@ Barbara,,Rapacz,1,/users/barbara-rapacz.6693bdd8/badges
 Maciej,,Jędrak,1,/users/maciej-jedrak.0d622cfd/badges
 Igor,,Dalka,1,/users/igor-dalka/badges
 Bartosz,,Dąbrowski,1,/users/bartosz-dabrowski.c58e7da6/badges
-Patrycja,,Kozak,2,/users/patrycja-kozak.2a2cf477/badges
 Mariia,,Lublinska,1,/users/mariia-lublinska/badges
 Mikhail,,Lemiasheuski,1,/users/mikhail-lemiasheuski/badges
 Jan,,Chlebek,1,/users/jan-chlebek/badges
@@ -107,7 +106,7 @@ Adrian,Piotr,Dacka,1,/users/adrian-dacka/badges
 Adrian,,Nieć,1,/users/adrian-niec/badges
 damian,,dziedzic,1,/users/damian-dziedzic.8705ad1f/badges
 Ernest,,Roszak,1,/users/ernest-roszak/badges
-Volodymyr,,Shkrupskyi,2,/users/volodymyr-shkrupskyi/badges
+Volodymyr,,Shkrupskyi,1,/users/volodymyr-shkrupskyi/badges
 Robert,,Leszczynski,1,/users/robert-leszczynski/badges
 Lukasz,,Regulski,1,/users/lukasz-regulski.1a7759fd/badges
 Stanisław,,Nieradko,1,/users/stanislaw-nieradko/badges
