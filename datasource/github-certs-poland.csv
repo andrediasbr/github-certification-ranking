@@ -1,6 +1,6 @@
 first_name,middle_name,last_name,badge_count,profile_url
+Patrycja,,Kozak,11,/users/patrycja-kozak.2a2cf477/badges
 Maciej,,Śmigielski,6,/users/maciej-smigielski/badges
-Patrycja,,Kozak,9,/users/patrycja-kozak.2a2cf477/badges
 Aleksander,,Fidelus,7,/users/aleksander-fidelus/badges
 Konrad,,Dunikowski,13,/users/konrad-dunikowski/badges
 Marcin,,Gapiński,9,/users/marcin-gapinski.10424558/badges
@@ -12,7 +12,7 @@ Szymon,,Stasiak,5,/users/szymon-stasiak.5e19c414/badges
 Przemyslaw,,Drozd,1,/users/przemyslaw-drozd.ef5fde92/badges
 Marcin,,marcin.noczynski@softwareone.com,4,/users/marcin-marcin-noczynski-softwareone-com/badges
 Adam,,Papis,1,/users/adam-papis/badges
-Dominik,,Skowron,2,/users/dominik-skowron/badges
+Dominik,,Skowron,0,/users/dominik-skowron/badges
 Szymon,,Miotk,1,/users/szymon-miotk/badges
 Bartosz,,Wiśniewski,3,/users/wisniewski-bartosz/badges
 Nikodem,,Mrowiec,1,/users/nikodem-mrowiec/badges
@@ -37,7 +37,7 @@ Elzbieta,,Mieczkowska-Witek,1,/users/elzbieta-mieczkowska-witek/badges
 Anna,,Szymaniak,1,/users/anna-kudzia/badges
 Rafal,,Sarota,1,/users/rafal-sarota/badges
 Jan,,Osiecki,2,/users/jan-osiecki/badges
-Jakub,,Jasiński,4,/users/jakub-jasinski.b2743c28/badges
+Jakub,,Jasiński,0,/users/jakub-jasinski.b2743c28/badges
 KONRAD,,GORZELANCZYK,1,/users/konrad-gorzelanczyk/badges
 Aliaksandr,,Zaman,1,/users/aliaksandr-zaman/badges
 Oleksii,,Borzylo,1,/users/oleksii-borzylo/badges
@@ -106,7 +106,7 @@ Adrian,Piotr,Dacka,1,/users/adrian-dacka/badges
 Adrian,,Nieć,1,/users/adrian-niec/badges
 damian,,dziedzic,1,/users/damian-dziedzic.8705ad1f/badges
 Ernest,,Roszak,1,/users/ernest-roszak/badges
-Volodymyr,,Shkrupskyi,1,/users/volodymyr-shkrupskyi/badges
+Volodymyr,,Shkrupskyi,2,/users/volodymyr-shkrupskyi/badges
 Robert,,Leszczynski,1,/users/robert-leszczynski/badges
 Lukasz,,Regulski,1,/users/lukasz-regulski.1a7759fd/badges
 Stanisław,,Nieradko,1,/users/stanislaw-nieradko/badges
@@ -151,7 +151,7 @@ Karol,,Witek,2,/users/karol-witek/badges
 Jakub,,Przybysz,1,/users/jakub-przybysz.cdb420da/badges
 Burak,,Yılmaz,1,/users/burak-yilmaz.7e659ebe/badges
 Filip,,Halys,1,/users/filip-halys/badges
-Sayan,,Daw,0,/users/sayandaw/badges
+Sayan,,Daw,5,/users/sayandaw/badges
 Jacek,,Pietrzyk,1,/users/jacek-pietrzyk/badges
 Maciej,,Kowalczyk,2,/users/maciej-kowalczyk.fd3dae21/badges
 Kamil,,Dąbek,1,/users/kamil-dabek.bff2ee50/badges
@@ -166,7 +166,7 @@ Jacek,,Kała,1,/users/jacek-kala/badges
 Jakub,,Pokusa,1,/users/jakub-pokusa/badges
 Patryk,,Lotzwi,1,/users/patryk-lotzwi.ce418966/badges
 Łukasz,,Monecki,1,/users/lukasz-monecki.12b7e7a3/badges
-Łukasz,,Matuszyk,5,/users/lukasz-matuszyk/badges
+Łukasz,,Matuszyk,0,/users/lukasz-matuszyk/badges
 Jerzy,,Czopek,1,/users/jerzy-czopek/badges
 Karol,,Tarłowski,1,/users/karol-tarlowski/badges
 Piotr,,Piątkiewicz,1,/users/piotr-piatkiewicz/badges
