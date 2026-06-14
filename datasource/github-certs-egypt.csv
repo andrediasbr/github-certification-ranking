@@ -1,5 +1,5 @@
 first_name,middle_name,last_name,badge_count,profile_url
-ahmed,,anany,0,/users/ahmed-anany.fb37bc33/badges
+ahmed,,anany,1,/users/ahmed-anany.fb37bc33/badges
 Youssef Ahmed,,Saeed Youssef,1,/users/youssefahmedsaied/badges
 Abdallah,,Mohamed,2,/users/abdallah-mohamed.1eaa3f27/badges
 Ahmed,,Moghazy,1,/users/amoghazy/badges
@@ -9,7 +9,7 @@ Ahmed Ayman,,Zeitoun,1,/users/ahmed-ayman-zeitoun/badges
 Mahmoud,,Hamdy,1,/users/mahmoud-hamdy.c8ea604a/badges
 Ebrahim,,Osama,1,/users/ebrahim-osama.58a4f50a/badges
 Adel,,Rabie,1,/users/adel-rabie.cddbd676/badges
-Ghassan,,Elgendy,1,/users/ghassanelgendy/badges
+Ghassan,,Elgendy,0,/users/ghassanelgendy/badges
 Ibrahim,,Habib,1,/users/ibrahimhabib/badges
 Mark,,Habeeb,1,/users/markhabeeb/badges
 Tarek,Adel,Ali,1,/users/tarek-adel.b18ea735/badges
@@ -17,13 +17,13 @@ Mohammed,,Lashein,1,/users/mohammed-lashein/badges
 Hany,,Sayed,1,/users/hany-sayed/badges
 Mahmoud,,Sallam,1,/users/mahmoud-sallam.009557e8/badges
 Mohamed,,Tourky,1,/users/mohamed-tourky.c84908a1/badges
-Omar,,ElNemr,0,/users/omar99elnemr/badges
+Omar,,ElNemr,1,/users/omar99elnemr/badges
 Ahmed,,Hanye,1,/users/ahmed-hanye.05db8b99/badges
 Ahmed,Mohamed,Abd Elhamid,1,/users/ahmed-abd-elhamid.13c05a10/badges
 baraa,,mabro,1,/users/baraa-mabro/badges
 Abdelrahman,,Amro Emara,1,/users/abdelrahman-amro-emara/badges
 Mohamed,,Eltoukhee,1,/users/mohamed-eltoukhee/badges
-Mazen,,Mohamed,0,/users/mazen-mohamed.3c9ee359/badges
+Mazen,,Mohamed,1,/users/mazen-mohamed.3c9ee359/badges
 Ahmed,,Tamer,1,/users/ahmed-tamer.d09bbaa4/badges
 Emad,,Samir Zaki,1,/users/emad-samir-zaki/badges
 Muhammad,,Magdi,1,/users/muhammad-magdi.eef72472/badges
@@ -189,7 +189,7 @@ Joe,,Afify,2,/users/joe-afify/badges
 Aya,,Abdelrahman,1,/users/aya-abdelrahman.be974a56/badges
 Yasmin,,Ghazy,1,/users/yasmin-ghazy/badges
 Abdelrhman,,Amen,2,/users/abdelrhman-amen/badges
-Ali,,Heikal,4,/users/aliheikal/badges
+Ali,,Heikal,0,/users/aliheikal/badges
 Ahmed,,Amer,1,/users/ahmed-hesham-attaalla-amer/badges
 Mohamed Rabie,,Abdelkader Mohamed,1,/users/mohamed-rabie.74e278fc/badges
 Sarah,,Hassan,1,/users/sarah-hassan.f0fde823/badges
