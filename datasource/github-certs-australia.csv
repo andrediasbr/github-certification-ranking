@@ -1,4 +1,5 @@
 first_name,middle_name,last_name,badge_count,profile_url
+Angie,,Fasciani,1,/users/angie-fasciani.fd75bdf6/badges
 Jamie,,Grimwood,1,/users/jamie-grimwood/badges
 Marco,,Celon,13,/users/marco-celon.53bc8019/badges
 Anthony,,Borton,1,/users/anthony-borton/badges
@@ -214,7 +215,7 @@ Sriram,,Ramani,1,/users/sriram-ramani/badges
 Zeyu,,Chen,1,/users/zeyu-chen.c85947b2/badges
 Roshan,,Wosti,1,/users/roshan-wosti/badges
 Lucian,,Maly,1,/users/lucian-maly/badges
-Kitty,,Chiu,1,/users/kittychiu/badges
+Kitty,,Chiu,0,/users/kittychiu/badges
 Michael John,Timpoc,Peña,1,/users/michael-john-pena/badges
 Mehakdeep,,Singh,1,/users/mehakdeep-singh.cf006b42/badges
 YI-FAN,,YU,1,/users/yi-fan-yu.7eb7a48a/badges
@@ -334,7 +335,7 @@ ruokai,,lai,1,/users/ruokai-lai.e0afef81/badges
 Ji,,Yao,1,/users/ji-yao.b4fd82f0/badges
 Arthur,,Rimbun,1,/users/arthur-rimbun/badges
 Jun,,Li,1,/users/jun-li.6eb60439/badges
-Jeremy,,Lee,0,/users/jeremy-lee.045b8358/badges
+Jeremy,,Lee,3,/users/jeremy-lee.045b8358/badges
 Rodney,,Almeida,1,/users/rodney-almeida/badges
 Kevin,,He,1,/users/kevin-he.adc6f212/badges
 Lucas,,Zeng,1,/users/lucas-zeng.cffb00b9/badges
