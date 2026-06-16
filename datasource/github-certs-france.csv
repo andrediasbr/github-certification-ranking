@@ -1,7 +1,7 @@
 first_name,middle_name,last_name,badge_count,profile_url
 Olivier,,Delmotte,19,/users/o.delmotte/badges
 Vincent,,Marchal,19,/users/vincent-marchal.87a05753/badges
-Loïc,,Albarracin,7,/users/loic-albarracin/badges
+Loïc,,Albarracin,0,/users/loic-albarracin/badges
 Jeoffrey,,NGO,6,/users/jeoffrey-ngo/badges
 Marvin,,Pedron,1,/users/marvin-pedron/badges
 Alexis,,Perez,1,/users/alexis-perez.b84f801f/badges
@@ -32,7 +32,7 @@ Hiba,,Elouariti,1,/users/hiba-elouariti.b7fae8fd/badges
 Wafaa,,TOUNZI,3,/users/wafaa-tounzi/badges
 Demousselle,,Sébastien,1,/users/demousselle-sebastien/badges
 Roman,,Lushkin,1,/users/roman-lushkin.7d4e38f5/badges
-Hubert,,de Fleurian,2,/users/hubert-de-fleurian/badges
+Hubert,,de Fleurian,0,/users/hubert-de-fleurian/badges
 Christophe,,Arguel,1,/users/christophe-arguel/badges
 Guillaume,,JAY,3,/users/guillaume-jay.2fc4567a/badges
 Ludovic,,CHOMBEAU,1,/users/ludovic-chombeau/badges
@@ -107,7 +107,7 @@ Nicolas,,FLEURY,1,/users/nicolas-fleury.b6311eca/badges
 Sandra,,Parlant,4,/users/sandra-parlant/badges
 Pierre,,Caujolle,1,/users/pierre-caujolle/badges
 Mezrigui,,Chihab,1,/users/mezrigui-chihab/badges
-Sylvain,,POINTUD,0,/users/sylvain-pointud/badges
+Sylvain,,POINTUD,3,/users/sylvain-pointud/badges
 Hamza,,Karbal,1,/users/hamza-karbal/badges
 Lucas,,Goutaudier,1,/users/lucas-goutaudier.3ff5d904/badges
 LEON DIDIER,,DIFFO MOFOR,2,/users/leon-didier-diffo-mofor/badges
@@ -241,7 +241,7 @@ Romain,,Serre,3,/users/romain-serre/badges
 Jing,,LEI,2,/users/jing-lei.2b00bda0/badges
 LIONEL,,LONKAP TSAMBA,0,/users/lktslionel/badges
 Hippolyte,,KENGNI,1,/users/hippolyte-kengni/badges
-Bangaly,,Kaba,0,/users/bangaly-kaba/badges
+Bangaly,,Kaba,4,/users/bangaly-kaba/badges
 guillaume,,guerard,1,/users/guillaume-guerard/badges
 Imen,,OUNI,1,/users/imen-ouni/badges
 Cedric,,Le Neindre,1,/users/cedric-le-neindre/badges
