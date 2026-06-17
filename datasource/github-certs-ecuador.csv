@@ -2,9 +2,9 @@ first_name,middle_name,last_name,badge_count,profile_url
 José,,Guzmán,1,/users/jose-guzman.64d1888d/badges
 Luis Esteban,,Oleas Chávez,1,/users/luis-esteban-oleas-chavez/badges
 Joshua,,Sailema,1,/users/joshua-sailema/badges
-Edwin,,Hernandez,1,/users/edwin-hernandez.db6fde5c/badges
+Edwin,,Hernandez,0,/users/edwin-hernandez.db6fde5c/badges
 Stefani,,Castellanos,1,/users/stefani-castellanos/badges
-Keyla,,Munoz,1,/users/keyla-munoz.deac3b11/badges
+Keyla,,Munoz,0,/users/keyla-munoz.deac3b11/badges
 ALEXANDER VLADIMIR,,ROJAS CEVALLOS,2,/users/alexander-vladimir-rojas-cevallos/badges
 Johnny,,Coral,1,/users/johnny-coral/badges
 Henry,,Coyago Reinoso,1,/users/henry-coyago-reinoso/badges
@@ -71,7 +71,7 @@ Rodrigo,,Haro,1,/users/rodrigo-haro/badges
 Jonathan,Francisco,García,1,/users/afjhony/badges
 Marco Antonio,,Marquez Santos,1,/users/marco-antonio-marquez-santos/badges
 Christian,,Carpio,1,/users/christian-carpio/badges
-Wilson,Armando,Lluilema,2,/users/wilson-lluilema.6f7afa53/badges
+Wilson,Armando,Lluilema,0,/users/wilson-lluilema.6f7afa53/badges
 Alejandro,,Sarmiento,1,/users/alejandro-sarmiento.e8bef5a3/badges
 Carlos,Homero,Maldonado,1,/users/carlosmaldonado/badges
 Bryan,Gustavo,Arellano,1,/users/bryan-arellano.4e3a15d1/badges
