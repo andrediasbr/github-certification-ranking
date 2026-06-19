@@ -1,6 +1,6 @@
 first_name,middle_name,last_name,badge_count,profile_url
 Marko,,Zeitlhofer,13,/users/marko-zeitlhofer/badges
-Matthias,,Augustin,1,/users/matthias-augustin/badges
+Matthias,,Augustin,0,/users/matthias-augustin/badges
 Andreas,,Happe,1,/users/andreas-happe/badges
 Christofer,,Held,1,/users/christofer-held/badges
 Christian,,Mehlmauer,1,/users/firefart/badges
@@ -18,7 +18,7 @@ Nemanja,,Filipovic,3,/users/nemanja-filipovic.5cfaae78/badges
 Jürgen,,Etzlstorfer,1,/users/jetzlstorfer/badges
 Thomas,,Hochgatterer,2,/users/thomas-hochgatterer/badges
 Péter,,Bozsó,2,/users/peterbozso/badges
-Min,,Yin,1,/users/min-yin/badges
+Min,,Yin,0,/users/min-yin/badges
 Thomas,,Schuetz,1,/users/thschue/badges
 Bernhard,,Trinnes,1,/users/bernhard-trinnes/badges
 Roland,,Puhwein,2,/users/roland-puhwein/badges

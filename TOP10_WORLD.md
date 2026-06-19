@@ -1,12 +1,12 @@
 # 🌍 TOP 10 GitHub Certifications - Global
 
-> Last updated: June 18, 2026 at 03:59 UTC
+> Last updated: June 19, 2026 at 04:20 UTC
 
 ## 🏆 Top 10 GitHub Certifications Leaders
 
 | Rank | Name | Badges | Company | Country |
 |------|------|--------|---------|---------|
-| 🥇 #1 | [Akshay Algeri](https://www.credly.com/users/akshay-algeri/badges)<br>[Barnes Chism](https://www.credly.com/users/barnes-chism/badges)<br>[Jesse Houwing](https://www.credly.com/users/jessehouwing/badges)<br>[Joost Voskuil](https://www.credly.com/users/joost-voskuil/badges)<br>[Olivier Delmotte](https://www.credly.com/users/o.delmotte/badges)<br>[Peter Szekeli](https://www.credly.com/users/peter-szekeli/badges)<br>[Vincent Marchal](https://www.credly.com/users/vincent-marchal.87a05753/badges) | 19 | Canarys Automations Limited<br>Xebia<br>Xebia<br>Delta-N<br>Avanade<br>Xebia<br>Avanade | India<br>United States<br>Netherlands<br>Netherlands<br>France<br>Netherlands<br>France |
+| 🥇 #1 | [Akshay Algeri](https://www.credly.com/users/akshay-algeri/badges)<br>[Barnes Chism](https://www.credly.com/users/barnes-chism/badges)<br>[Joost Voskuil](https://www.credly.com/users/joost-voskuil/badges)<br>[Olivier Delmotte](https://www.credly.com/users/o.delmotte/badges)<br>[Peter Szekeli](https://www.credly.com/users/peter-szekeli/badges)<br>[Vincent Marchal](https://www.credly.com/users/vincent-marchal.87a05753/badges) | 19 | Canarys Automations Limited<br>Xebia<br>Delta-N<br>Avanade<br>Xebia<br>Avanade | India<br>United States<br>Netherlands<br>France<br>Netherlands<br>France |
 | 🥈 #2 | [Andre Dias](https://www.credly.com/users/andredias/badges)<br>[Diego Giglioli](https://www.credly.com/users/diego-giglioli.bb64eaa5/badges)<br>[Felipe Augusto](https://www.credly.com/users/felipementel/badges)<br>[Joas de Groot](https://www.credly.com/users/joas707/badges)<br>[Shankaragoud Biradar](https://www.credly.com/users/shankaragoud-biradar.23a05304/badges)<br>[Sujith Quintelier](https://www.credly.com/users/sujith/badges)<br>[Vinay C](https://www.credly.com/users/vinay-c.f7b7d8ef/badges) | 18 | Avanade<br>Avanade<br>Avanade<br>Delta-N<br>Canarys Automations Limited<br>Microsoft<br>Canarys Automations Limited | Brazil<br>Brazil<br>Brazil<br>Netherlands<br>India<br>Belgium<br>India |
 | 🥉 #3 | [Naveen Kunder](https://www.credly.com/users/naveenkunder/badges)<br>[Niranjana K](https://www.credly.com/users/niranjana-koni/badges)<br>[Renan Evangelista Pereira](https://www.credly.com/users/renan-evangelista-pereira/badges) | 17 | Canarys Automations Limited<br>Canarys Automations Limited<br>Avanade | India<br>India<br>Brazil |
 | #4 | [Evan Allen](https://www.credly.com/users/evan_allen/badges)<br>[Fabian Biesheuvel](https://www.credly.com/users/fabian-biesheuvel/badges)<br>[Hidde de Smet](https://www.credly.com/users/hidde-de-smet/badges)<br>[Joao Pedro Alexandre Vieira](https://www.credly.com/users/joao-pedro-alexandre-vieira/badges)<br>[Kuldeep Saini](https://www.credly.com/users/kuldeep-saini.9be84ec9/badges)<br>[Matheus Barros](https://www.credly.com/users/matheus-barros.1892a132/badges)<br>[Nuthi Prathyusha](https://www.credly.com/users/nuthi-prathyusha/badges)<br>[Raghavendra Shirashyad](https://www.credly.com/users/raghavendra-shirashyad/badges)<br>[Rimon Oz](https://www.credly.com/users/rimon-oz/badges)<br>[Rob Bos](https://www.credly.com/users/rob-bos/badges)<br>[Sandeep Doddamani](https://www.credly.com/users/sandeep-doddamani/badges) | 16 | Xebia<br>Delta-N<br>Xebia<br>Avanade<br>Xebia<br>Avanade<br>Canarys Automations Limited<br>Canarys Automations Limited<br><br>Xebia<br>Canarys Automations Limited | United States<br>Netherlands<br>Netherlands<br>Brazil<br>India<br>Brazil<br>India<br>India<br>Netherlands<br>Netherlands<br>India |
@@ -24,7 +24,7 @@
 | Rank | Company | Total Badges | Certified Users |
 |------|---------|--------------|-----------------|
 | 🥇 #1 | Canarys Automations Limited | 387 | 29 |
-| 🥈 #2 | Xebia | 288 | 20 |
+| 🥈 #2 | Xebia | 269 | 19 |
 | 🥉 #3 | Avanade | 265 | 18 |
 | #4 | Delta-N | 65 | 4 |
 | #5 | Eficode<br>ilegra | 26 | 2<br>2 |
@@ -36,17 +36,17 @@
 | Rank | Country | Total Badges | Certified Users |
 |------|---------|--------------|-----------------|
 | 🥇 #1 | India | 12160 | 10000 |
-| 🥈 #2 | United States | 3981 | 2815 |
-| 🥉 #3 | Brazil | 2032 | 1523 |
-| #4 | United Kingdom | 1061 | 756 |
-| #5 | Canada | 724 | 549 |
+| 🥈 #2 | United States | 3978 | 2815 |
+| 🥉 #3 | Brazil | 2024 | 1522 |
+| #4 | United Kingdom | 1051 | 754 |
+| #5 | Canada | 722 | 549 |
 
 ---
 
 ## 📊 Statistics
 
-- **Total Certified Users**: 24,914
-- **Total Badges Earned**: 31,982
+- **Total Certified Users**: 24,883
+- **Total Badges Earned**: 31,883
 - **Average Badges per User**: 1.28
 - **Highest Badge Count**: 19
 
