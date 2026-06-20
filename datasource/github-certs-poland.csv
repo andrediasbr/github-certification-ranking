@@ -1,11 +1,12 @@
 first_name,middle_name,last_name,badge_count,profile_url
+Patrycja,,Kozak,17,/users/patrycja-kozak.2a2cf477/badges
+Robert,,Siurek,4,/users/robert-siurek/badges
+Pawel,,Stuczynski,7,/users/pawel-stuczynski/badges
 Mateusz,,Ciechan,3,/users/mateusz-ciechan.fb111339/badges
-Patrycja,,Kozak,12,/users/patrycja-kozak.2a2cf477/badges
 Maciej,,Śmigielski,6,/users/maciej-smigielski/badges
 Aleksander,,Fidelus,7,/users/aleksander-fidelus/badges
 Konrad,,Dunikowski,13,/users/konrad-dunikowski/badges
 Marcin,,Gapiński,9,/users/marcin-gapinski.10424558/badges
-Robert,,Siurek,3,/users/robert-siurek/badges
 Filip,,Bialowas,10,/users/filip-bialowas/badges
 Piotr,,Nowakowski,9,/users/piotr-nowakowski.0ae6ed51/badges
 Marcin,,Kociński,9,/users/marcin-kocinski/badges
@@ -25,7 +26,7 @@ Artur,,Babii,1,/users/artur-babii/badges
 Eustachy,,Lisiński,2,/users/eustachy-lisinski/badges
 Michał,,Kowalski,1,/users/michal-kowalski.6eb0ba35/badges
 Krzysztof,,Baj,2,/users/krzysztof-baj/badges
-Magdalena,,Bialik,0,/users/magdalena-bialik/badges
+Magdalena,,Bialik,2,/users/magdalena-bialik/badges
 Bartosz,,Lewandowski,1,/users/bartosz-lewandowski.0cc36b59/badges
 Dariusz,,Kowalczyk,1,/users/dkowal0/badges
 Jakub,,Ligęcki,1,/users/jakub-ligecki/badges
@@ -107,7 +108,7 @@ Adrian,Piotr,Dacka,1,/users/adrian-dacka/badges
 Adrian,,Nieć,1,/users/adrian-niec/badges
 damian,,dziedzic,1,/users/damian-dziedzic.8705ad1f/badges
 Ernest,,Roszak,1,/users/ernest-roszak/badges
-Volodymyr,,Shkrupskyi,1,/users/volodymyr-shkrupskyi/badges
+Volodymyr,,Shkrupskyi,2,/users/volodymyr-shkrupskyi/badges
 Robert,,Leszczynski,1,/users/robert-leszczynski/badges
 Lukasz,,Regulski,1,/users/lukasz-regulski.1a7759fd/badges
 Stanisław,,Nieradko,1,/users/stanislaw-nieradko/badges
@@ -124,7 +125,6 @@ Adrian,,Goral,1,/users/adrian-goral/badges
 Michał,,Smyk,2,/users/michal-smyk/badges
 Michał,,Sermak,4,/users/michal-sermak.e8f758b1/badges
 Dominik,,Mich,1,/users/dominik-mich/badges
-Pawel,,Stuczynski,4,/users/pawel-stuczynski/badges
 Artur,,Morys - Magiera,1,/users/artur-morys-magiera/badges
 Jakub,,Rożnowski,1,/users/jakub-roznowski/badges
 Kacper,,Łęcki,1,/users/kacper-lecki/badges

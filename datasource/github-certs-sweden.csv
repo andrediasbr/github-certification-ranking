@@ -1,4 +1,5 @@
 first_name,middle_name,last_name,badge_count,profile_url
+Heidi,,Housten,3,/users/heidi-housten/badges
 Erik,,Hjalmarsson,5,/users/erik-hjalmarsson/badges
 Magnus,,Timner,11,/users/magnus-timner.ddd6329c/badges
 Tobias,,Persson,4,/users/tobias-persson.f7d26f37/badges
@@ -6,7 +7,6 @@ Eric,,Söderqvist,4,/users/eric-soderqvist/badges
 Mathias,,Olausson,3,/users/mathias-olausson/badges
 Ellen,,Egeld,5,/users/ellen-egeld.0508fffc/badges
 Susanna,,Persson,5,/users/susanna-persson/badges
-Heidi,,Housten,2,/users/heidi-housten/badges
 Emil,,Sjölander,5,/users/emil-sjolander/badges
 Erik,,Olsson,2,/users/erik-olsson.18a2c39e/badges
 Jakob,,Johansson,7,/users/jakob-johansson.9602948e/badges
@@ -15,7 +15,7 @@ Ilana,,Almaleh,3,/users/ilana-almaleh/badges
 Esmail,,Ben Moussa,4,/users/esmail-ben-moussa.75acaba5/badges
 Tobias,,Nilsson,2,/users/tobias-nilsson84/badges
 Alexander,,Hjelm,3,/users/alexander-hjelm.d61a84b9/badges
-Simon,,Liolios,0,/users/simon-liolios/badges
+Simon,,Liolios,2,/users/simon-liolios/badges
 Srinivas,,Dutta,1,/users/srinivas-dutta.34308374/badges
 Ho Kai,,Tran,1,/users/ho-kai-tran/badges
 Amarildo,,Rajta,1,/users/amarildo-rajta/badges
@@ -39,7 +39,7 @@ Alexander,,Hjelm,0,/users/alexander-hjelm.7d971afa/badges
 Renan,,Almeida,4,/users/renan-almeida.a979bbce/badges
 Simon,,Nilsson,1,/users/simon-nilsson.b60a8bbf/badges
 Markus,,Andersson,1,/users/markus-andersson.bc231ccc/badges
-Carl,,Harris,0,/users/carl-harris.a210c59e/badges
+Carl,,Harris,1,/users/carl-harris.a210c59e/badges
 Gustav,,Odinger,1,/users/gustav-odinger/badges
 Mustafa Can,,Sevinc,2,/users/mcansevinc/badges
 Oscar Thomas Daniel,,Pettersson,1,/users/oscar-thomas-daniel-pettersson/badges
