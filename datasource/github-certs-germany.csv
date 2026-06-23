@@ -2,10 +2,10 @@ first_name,middle_name,last_name,badge_count,profile_url
 Daniel,Richard,Snell,11,/users/daniel-snell.f7bc4ec8/badges
 Harald,,Binkle,5,/users/harald-binkle/badges
 Sandra,,Neff,6,/users/sandra-neff.59a05583/badges
-Leon,,Sinlik,7,/users/leon-sinlik/badges
+Leon,,Sinlik,0,/users/leon-sinlik/badges
 Till,,Spindler,14,/users/till-spindler/badges
 Kevin,,Leadbeater,2,/users/kevin-leadbeater/badges
-Nico,,Orschel,12,/users/nico-orschel/badges
+Nico,,Orschel,0,/users/nico-orschel/badges
 Anirban,,Ghosh,1,/users/anirban-ghosh.22d2d490/badges
 André,,Böttcher,1,/users/andre-bottcher/badges
 Tobias,,Wittenburg,1,/users/tobias-wittenburg.0c857b00/badges
@@ -59,7 +59,7 @@ Matthias,,Lennips,1,/users/matthias-lennips/badges
 Simon,,Keßler,1,/users/simon-kessler.4331d5e5/badges
 Simon,,Pham,1,/users/simon-pham.11010294/badges
 Oliver,,Pürner,1,/users/oliver-purner/badges
-Marcus,,Fenner,2,/users/mfen/badges
+Marcus,,Fenner,0,/users/mfen/badges
 Noah,,Kleinert,1,/users/noah-kleinert.1ab1cc52/badges
 Leon,,Kling,1,/users/leon-kling/badges
 Patrick,,Parthen,1,/users/patrick-parthen/badges

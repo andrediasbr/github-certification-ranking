@@ -2,8 +2,8 @@ first_name,middle_name,last_name,badge_count,profile_url
 Rodrigo,,Barrantes,2,/users/rodrigo-barrantes/badges
 Carlos Akión,,Garro Campos,2,/users/carlos-akion-garro-campos/badges
 Carlos,,Contreras Calderón,1,/users/carlos-contreras-calderon/badges
-Denisse,,González,1,/users/denisse-gonzalez.b0d37d5a/badges
-Antony,,Mora,1,/users/antony-mora.5c44b6be/badges
+Denisse,,González,0,/users/denisse-gonzalez.b0d37d5a/badges
+Antony,,Mora,0,/users/antony-mora.5c44b6be/badges
 Andres,,Arias Corrales,1,/users/andres-arias-corrales/badges
 José David,,Camacho Vargas,4,/users/jose-david-camacho-vargas.79565850/badges
 Valmore,,Shaw,1,/users/valmore-shaw/badges
@@ -30,7 +30,7 @@ Sergio,,Montenegro,1,/users/sergio-montenegro.9b4f8fc0/badges
 Valeria,,Salas Hernández,1,/users/valeria-salas-hernandez/badges
 Nicole,,Leitón,1,/users/nicole-leiton/badges
 Santiago,,Jiménez,1,/users/santiago-jimenez.338528f9/badges
-Andrea,,Lineros,0,/users/andrea-lineros/badges
+Andrea,,Lineros,1,/users/andrea-lineros/badges
 Sebastian,,QO,1,/users/sebastian-qo/badges
 Juan Carlos,,Barboza Padilla,1,/users/juan-carlos-barboza-padilla.3c16412b/badges
 Brandon Marconi,,Loria Duran,1,/users/brandon-marconi-loria-duran/badges
@@ -38,7 +38,7 @@ Carlos,,Poltronieri,1,/users/carlos-poltronieri/badges
 Daniel,,Barrientos Salas,1,/users/daniel-barrientos-salas/badges
 Paula,,Quesada Lobo,1,/users/paula-quesada-lobo.1eac531c/badges
 Fabián Alejandro,,Sánchez Durán,1,/users/fabian-alejandro-sanchez-duran/badges
-Guillermo,,Villalobos,0,/users/guillermo-villalobos.e1565c99/badges
+Guillermo,,Villalobos,1,/users/guillermo-villalobos.e1565c99/badges
 Ricardo,,Alfaro,1,/users/ricardo-alfaro.adf72d8e/badges
 Fabricio,,Montanari Vargas,1,/users/fabricio-montanari-vargas/badges
 Andy,,Cubero Chavarría,1,/users/andy-cubero-chavarria/badges

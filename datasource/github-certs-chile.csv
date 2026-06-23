@@ -2,7 +2,7 @@ first_name,middle_name,last_name,badge_count,profile_url
 José,,Ibañez,9,/users/jose-ibanez.8df2cfd3/badges
 Benjamin,,Contreras Stoltze,1,/users/benjamin-contreras-stoltze/badges
 Cristian,,Rosas,1,/users/cristian-rosas/badges
-Edgar Moises,,Heredia Martin,1,/users/edgar-moises-heredia-martin/badges
+Edgar Moises,,Heredia Martin,0,/users/edgar-moises-heredia-martin/badges
 Nicolás Eduardo,,Flores Muñoz,1,/users/nicolas-eduardo-flores-munoz/badges
 Ruth,,Perez,1,/users/ruth-perez.1ed127e8/badges
 Jorge Luis,,Gallardo Contreras,2,/users/jorge-luis-gallardo-contreras.fe024f7e/badges
@@ -10,15 +10,15 @@ Luis,,Delgado,2,/users/luis-delgado-acevedo/badges
 Jonathan,,Mayne,2,/users/jonathan-mayne/badges
 Edgar Samuel,,Heredia Martin,1,/users/edgar-samuel-heredia-martin/badges
 Eric Marcel,,Fiegehen Gonzalez,1,/users/eric-marcel-fiegehen-gonzalez/badges
-Marcelo,,Poblete Molina,1,/users/marcelo-poblete-molina/badges
+Marcelo,,Poblete Molina,0,/users/marcelo-poblete-molina/badges
 Johnny,,Huirilef,5,/users/johnnyhuirilef/badges
-Christofer,,Allup,1,/users/christofer-allup-rodriguez/badges
+Christofer,,Allup,0,/users/christofer-allup-rodriguez/badges
 Cristobal,,Oyarzun,1,/users/cristobal-oyarzun/badges
 GONZALO ANDRES,,PALMA NUNEZ,1,/users/gonzalo-andres-palma-nunez/badges
-Camilo,,Ponce,1,/users/camilo-ponce.607a97f9/badges
-Richard,,Aninir,1,/users/richard-aninir/badges
+Camilo,,Ponce,0,/users/camilo-ponce.607a97f9/badges
+Richard,,Aninir,0,/users/richard-aninir/badges
 Jorge,Antonio,Ríos Alavarado,1,/users/jorge-rios.02d9fcc5/badges
-Luis,,Hernandez,1,/users/luis-hernandez.ccf3b86b/badges
+Luis,,Hernandez,0,/users/luis-hernandez.ccf3b86b/badges
 Diego,,Pérez,1,/users/diego-perez.4db52ca3/badges
 Jorge,,González Quintana,1,/users/jorge-gonzalez-quintana/badges
 Israel,,Arias Panez,1,/users/israel-arias-panez/badges
@@ -96,8 +96,8 @@ Treavor,,Saldias,1,/users/treavor-saldias/badges
 Julio,,Juri,1,/users/julio-juri.44d0292d/badges
 Marco,,Córdova Fredes,1,/users/marco-cordova-fredes/badges
 Rodrigo,,Hidalgo Flores,2,/users/rodrigo-hidalgo-flores/badges
-andres,,yanez,0,/users/andres-yanez.6d71b97f/badges
-Lucas,,Otarola,0,/users/lootarola/badges
+andres,,yanez,5,/users/andres-yanez.6d71b97f/badges
+Lucas,,Otarola,3,/users/lootarola/badges
 Michelle,,Alvarez,1,/users/michelle-alvarez.f9dc2913/badges
 Miguel Angel,,Leiva Martinez,1,/users/miguel-angel-leiva-martinez/badges
 Vicente Alfonso,,Zapata Concha,1,/users/vicente-alfonso-zapata-concha/badges

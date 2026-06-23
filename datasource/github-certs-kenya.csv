@@ -2,7 +2,7 @@ first_name,middle_name,last_name,badge_count,profile_url
 Wainaina,,Kasyoka,1,/users/wainaina-kasyoka/badges
 Francis,,Ishmail,1,/users/francis-ishmail/badges
 Joan,,Njeri,1,/users/joan-njeri/badges
-Virginiah,,Kengara,1,/users/virginiah-kengara/badges
+Virginiah,,Kengara,0,/users/virginiah-kengara/badges
 jonah,,ashuma,1,/users/jonah-ashuma/badges
 Alvin,,Kwanzu,1,/users/alvin-kwanzu/badges
 Stella Nicole,,Nwae,2,/users/stella-nicole-nwae/badges
@@ -38,8 +38,8 @@ Brian,,Ngetich,1,/users/brian-ngetich.4095692c/badges
 Salem,,Lumumba,1,/users/salem-lumumba/badges
 ISAAC,,DATCH,1,/users/isaac-datch/badges
 Roy,,Kimathi,1,/users/roy-kimathi.712cd359/badges
-Mureti,,Martin,2,/users/mureti-martin.fdc2f4f7/badges
-Justus,,Maundu,1,/users/justus-maundu/badges
+Mureti,,Martin,0,/users/mureti-martin.fdc2f4f7/badges
+Justus,,Maundu,0,/users/justus-maundu/badges
 Stephanie,,Makori,1,/users/stephanie-makori/badges
 EPHANTUS,,MWANGI,1,/users/ephy77/badges
 Belvah,,Shanyisa,2,/users/belvah-shanyisa.1c1e7e9a/badges
@@ -53,7 +53,7 @@ LEWIS,,SAWE,3,/users/lewisawe/badges
 Gabriel,,Mwashighadi,1,/users/gabriel-mwashighadi.554ac7ef/badges
 ALBERTO,,JUNIOR,1,/users/alberto-junior.9a762727/badges
 Ndung'u,,Kinyanjui,1,/users/ndung-u-kinyanjui/badges
-Fred,,Nyakagwa,4,/users/fred-nyakagwa/badges
+Fred,,Nyakagwa,0,/users/fred-nyakagwa/badges
 Jeffarson,,Amenya,1,/users/machoga-jeffarson/badges
 Brenda,,Mwaura,1,/users/wairimu-mwaura/badges
 Vanessa,,Kamunya,1,/users/vanessa-kamunya/badges
