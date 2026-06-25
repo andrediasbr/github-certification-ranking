@@ -1,7 +1,7 @@
 first_name,middle_name,last_name,badge_count,profile_url
 Olivier,,Delmotte,19,/users/o.delmotte/badges
 Vincent,,Marchal,19,/users/vincent-marchal.87a05753/badges
-Loïc,,Albarracin,7,/users/loic-albarracin/badges
+Loïc,,Albarracin,0,/users/loic-albarracin/badges
 Jeoffrey,,NGO,6,/users/jeoffrey-ngo/badges
 Marvin,,Pedron,1,/users/marvin-pedron/badges
 Alexis,,Perez,1,/users/alexis-perez.b84f801f/badges
@@ -210,7 +210,7 @@ Stéphane,,Cottin,1,/users/stephane-cottin.0296e0b9/badges
 Ludovic,,Toinel,1,/users/ludovic-toinel/badges
 John,,Dennison,1,/users/john-dennison.ba71b653/badges
 Arnaud,,Flaesch,5,/users/arnaud-flaesch/badges
-Samuel,,CHNIBER,0,/users/samuel-chniber/badges
+Samuel,,CHNIBER,5,/users/samuel-chniber/badges
 Vincent,,Thiébault,1,/users/vincent-thiebault/badges
 Xavier,,Mignot,2,/users/xavier-mignot.023225ed/badges
 Houssam,,Kanso,1,/users/houssam-kanso/badges
@@ -277,7 +277,7 @@ Philippe,,Armando,2,/users/philippe-armando.7c5fa0f9/badges
 Papa Issa,,DIAKHATE,2,/users/paissad/badges
 Gilles,,Martin,1,/users/gilles-martin-badges/badges
 Rémi,,Sorlin,1,/users/remi-sorlin.11c4036a/badges
-Jean-Benoit,,Paux,0,/users/jean-benoit-paux/badges
+Jean-Benoit,,Paux,3,/users/jean-benoit-paux/badges
 Kévin,,Lancien,2,/users/kevin-lancien.d5922304/badges
 Amelie,,Clouvel,1,/users/amelie-clouvel.fd22dd8b/badges
 Faisal,,Eddichari,0,/users/faisal-eddichari/badges
