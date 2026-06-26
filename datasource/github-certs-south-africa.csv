@@ -1,12 +1,12 @@
 first_name,middle_name,last_name,badge_count,profile_url
-Frederick,,Janse van Rensburg,0,/users/frederick-janse-van-rensburg/badges
+Frederick,,Janse van Rensburg,1,/users/frederick-janse-van-rensburg/badges
 John,,Wanjiku,1,/users/john-wanjiku.0234f0cb/badges
 Ilana,,De Beer,1,/users/ilana-de-beer/badges
 Mohammed,,Laher,1,/users/mohammed-laher.9c893933/badges
 Vincent,,English,1,/users/vincent-english.6ae80352/badges
 FRANK,,NDLOVU,1,/users/frank-ndlovu/badges
 Rhulani,Kgosi,Mogotsi,1,/users/rhulani-mogotsi/badges
-Nonhlanhla,,Santos,1,/users/nonhlanhla-santos/badges
+Nonhlanhla,,Santos,0,/users/nonhlanhla-santos/badges
 Nkosinathi,,Nhlapo,1,/users/nkosinathi-nhlapo/badges
 Ramono Labius,,Disemelo,1,/users/ramono-labius-disemelo/badges
 Kyle,,Marunda,1,/users/kyle-marunda/badges
@@ -27,7 +27,7 @@ Weylin,,Renison,1,/users/weylin-renison/badges
 Thato,,Mphahlele,1,/users/thato-mphahlele.4a677d6a/badges
 Stéan,,De Wit,1,/users/stean-de-wit/badges
 Koketso,,Chabalala,1,/users/koketso-chabalala/badges
-Ntokozo,,Ndlovu,1,/users/ntokozo-ndlovu.214e6f8b/badges
+Ntokozo,,Ndlovu,0,/users/ntokozo-ndlovu.214e6f8b/badges
 mahloni,,Khumbuza,1,/users/mahloni-khumbuza/badges
 Sandile,,Dhlamini,1,/users/sandile-dhlamini.9662ced3/badges
 Stefan,,Jacobs,1,/users/stefan-jacobs.cf92eb02/badges
@@ -86,7 +86,7 @@ Arther,,Magaya,1,/users/arther-magaya.0a1b1bf5/badges
 Declan,,Bux,1,/users/declan-bux/badges
 Lehlohonolo,,Mofula,1,/users/lehlohonolo-mofula/badges
 Daniel,,Benjamin,1,/users/daniel-benjamin.709d6db0/badges
-Ahmed,,Salijee,1,/users/ahmed-salijee/badges
+Ahmed,,Salijee,0,/users/ahmed-salijee/badges
 Lufuno,,Nemudzivhadi,1,/users/lufuno-nemudzivhadi/badges
 Prince,,Magutshwa,1,/users/prince-magutshwa/badges
 Marcel,,Palmer,1,/users/marcel-palmer/badges
@@ -97,7 +97,7 @@ Rudi,,Terblanche,1,/users/ruditerblanche/badges
 Malcolm,,Camelo,1,/users/malcolm-camelo.eab81397/badges
 Adrian,,Mudzwiti,2,/users/adrianmudzwiti/badges
 Ashlin,,Govindasamy,1,/users/ashlin-govindasamy/badges
-Carike,,Blignaut-Staden,4,/users/carike/badges
+Carike,,Blignaut-Staden,0,/users/carike/badges
 Siphamandla,,Zolakhe,1,/users/siphamandla-zolakhe/badges
 Mdumisi Kelvin,,Letsie,1,/users/mdumisi-kelvin-letsie/badges
 AJ,,Roos,1,/users/aj-roos/badges

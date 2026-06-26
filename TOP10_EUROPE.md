@@ -1,6 +1,6 @@
 # 🇪🇺 TOP 10 GitHub Certifications - Europe
 
-> Last updated: June 25, 2026 at 03:33 UTC
+> Last updated: June 26, 2026 at 03:42 UTC
 
 ## 🏆 Top 10 GitHub Certifications Leaders
 
@@ -13,7 +13,7 @@
 | #5 | [Raymond Splinter](https://www.credly.com/users/raymond-splinter/badges) | 15 | Xebia | Netherlands |
 | #6 | [Christos Galanopoulos](https://www.credly.com/users/christos-galanopoulos/badges)<br>[Dennis Thie](https://www.credly.com/users/dennisthie/badges)<br>[Julien Lebutte](https://www.credly.com/users/julienlebutte/badges)<br>[Till Spindler](https://www.credly.com/users/till-spindler/badges) | 14 | <br>Xebia<br>Avanade<br>Eficode | Greece<br>Netherlands<br>Belgium<br>Germany |
 | #7 | [Konrad Dunikowski](https://www.credly.com/users/konrad-dunikowski/badges)<br>[Madis Kõosaar](https://www.credly.com/users/madis-koosaar/badges)<br>[Marko Zeitlhofer](https://www.credly.com/users/marko-zeitlhofer/badges) | 13 | Transition Technologies PSC<br>Solidify AB<br> | Poland<br>Estonia<br>Austria |
-| #8 | [Fokko Veegens](https://www.credly.com/users/fokko-veegens/badges)<br>[Mark van der Burg](https://www.credly.com/users/mark-van-der-burg.22851d3e/badges)<br>[Nico Orschel](https://www.credly.com/users/nico-orschel/badges)<br>[Toni Laakso](https://www.credly.com/users/toni-laakso/badges) | 12 | Xebia<br>Delta-N<br>Xebia<br>Eficode | Netherlands<br>Netherlands<br>Germany<br>Finland |
+| #8 | [Fokko Veegens](https://www.credly.com/users/fokko-veegens/badges)<br>[Mark van der Burg](https://www.credly.com/users/mark-van-der-burg.22851d3e/badges)<br>[Toni Laakso](https://www.credly.com/users/toni-laakso/badges) | 12 | Xebia<br>Delta-N<br>Eficode | Netherlands<br>Netherlands<br>Finland |
 | #9 | [Daniel Richard Snell](https://www.credly.com/users/daniel-snell.f7bc4ec8/badges)<br>[Hendrik Bruinsma](https://www.credly.com/users/hbruinsma/badges)<br>[Magnus Timner](https://www.credly.com/users/magnus-timner.ddd6329c/badges) | 11 | Cluster Reply GmbH<br>Xebia<br>Solidify Eficode | Germany<br>Netherlands<br>Sweden |
 | #10 | [Filip Bialowas](https://www.credly.com/users/filip-bialowas/badges)<br>[Samuel Henrique van Lenthe](https://www.credly.com/users/samuel-henrique-van-lenthe/badges)<br>[Virginia Hamra](https://www.credly.com/users/virginia-hamra-2/badges) | 10 | <br>GitHub<br>Xebia | Poland<br>Netherlands<br>Netherlands |
 
@@ -23,7 +23,7 @@
 
 | Rank | Company | Total Badges | Certified Users |
 |------|---------|--------------|-----------------|
-| 🥇 #1 | Xebia | 144 | 10 |
+| 🥇 #1 | Xebia | 132 | 9 |
 | 🥈 #2 | Delta-N | 65 | 4 |
 | 🥉 #3 | Avanade | 52 | 3 |
 | #4 | Eficode | 26 | 2 |
@@ -35,19 +35,19 @@
 
 | Rank | Country | Total Badges | Certified Users |
 |------|---------|--------------|-----------------|
-| 🥇 #1 | United Kingdom | 1067 | 758 |
-| 🥈 #2 | Netherlands | 661 | 312 |
-| 🥉 #3 | Spain | 613 | 459 |
-| #4 | Germany | 484 | 347 |
-| #5 | Poland | 469 | 295 |
+| 🥇 #1 | United Kingdom | 1043 | 752 |
+| 🥈 #2 | Netherlands | 657 | 311 |
+| 🥉 #3 | Spain | 595 | 454 |
+| #4 | Poland | 466 | 293 |
+| #5 | Germany | 458 | 341 |
 
 ---
 
 ## 📊 Statistics
 
-- **Total Certified Users**: 4,146
-- **Total Badges Earned**: 6,011
-- **Average Badges per User**: 1.45
+- **Total Certified Users**: 4,095
+- **Total Badges Earned**: 5,869
+- **Average Badges per User**: 1.43
 - **Highest Badge Count**: 19
 
 ---
