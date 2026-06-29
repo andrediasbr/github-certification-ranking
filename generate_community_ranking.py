@@ -19,6 +19,7 @@ import requests
 from collections import defaultdict
 from concurrent.futures import ThreadPoolExecutor, as_completed
 from datetime import datetime
+from certifications import ALLOWED_MICROSOFT_GITHUB_CERTIFICATIONS
 
 # Community certifications allowed from GitHub org on Credly
 ALLOWED_ORG_BADGES = {
@@ -29,19 +30,6 @@ ALLOWED_ORG_BADGES = {
     'GitHub Foundations',
 }
 
-# Community certifications allowed from Microsoft (external badges)
-ALLOWED_MICROSOFT_BADGES = {
-    'GitHub Copilot',
-    'GitHub Actions',
-    'GitHub Advanced Security',
-    'GitHub Foundations',
-    'GitHub Administration',
-    'Microsoft Certified: DevOps Engineer Expert',
-    'Microsoft Applied Skills: Accelerate AI-assisted development by using GitHub Copilot',
-    'Microsoft Applied Skills: Accelerate app development by using GitHub Copilot',
-    'Microsoft Applied Skills: Automate Azure Load Testing by using GitHub Actions',
-    'Microsoft Applied Skills: Resolve GitHub issues by using GitHub Copilot',
-}
 
 GITHUB_ORG_ID = '63074953-290b-4dce-86ce-ea04b4187219'
 
@@ -114,7 +102,7 @@ def fetch_community_external_badges(user_id):
             issuer_name = external_badge.get('issuer_name', '')
             expires_at_date = badge.get('expires_at_date')
 
-            if issuer_name == 'Microsoft' and badge_name in ALLOWED_MICROSOFT_BADGES:
+            if issuer_name == 'Microsoft' and badge_name in ALLOWED_MICROSOFT_GITHUB_CERTIFICATIONS:
                 if not is_badge_expired(expires_at_date):
                     unique_badge_names.add(badge_name)
 
