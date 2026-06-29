@@ -1,6 +1,6 @@
 # 🌍 TOP 10 GitHub Certifications - Global
 
-> Last updated: June 29, 2026 at 21:02 UTC
+> Last updated: June 29, 2026 at 21:18 UTC
 
 ## 🏆 Top 10 GitHub Certifications Leaders
 
@@ -8,7 +8,7 @@
 |------|------|--------|---------|---------|
 | 🥇 #1 | [Jesse Houwing](https://www.credly.com/users/jessehouwing/badges)<br>[Joost Voskuil](https://www.credly.com/users/joost-voskuil/badges)<br>[Olivier Delmotte](https://www.credly.com/users/o.delmotte/badges)<br>[Peter Szekeli](https://www.credly.com/users/peter-szekeli/badges)<br>[Vincent Marchal](https://www.credly.com/users/vincent-marchal.87a05753/badges) | 20 | Xebia<br>Delta-N<br>Avanade<br>Xebia<br>Avanade | Netherlands<br>Netherlands<br>France<br>Netherlands<br>France |
 | 🥈 #2 | [Akshay Algeri](https://www.credly.com/users/akshay-algeri/badges)<br>[Andre Dias](https://www.credly.com/users/andredias/badges)<br>[Barnes Chism](https://www.credly.com/users/barnes-chism/badges)<br>[Joas de Groot](https://www.credly.com/users/joas707/badges)<br>[Renan Evangelista Pereira](https://www.credly.com/users/renan-evangelista-pereira/badges) | 19 | Canarys Automations Limited<br>Avanade<br>Xebia<br>Delta-N<br>Avanade | India<br>Brazil<br>United States<br>Netherlands<br>Brazil |
-| 🥉 #3 | [Diego Giglioli](https://www.credly.com/users/diego-giglioli.bb64eaa5/badges)<br>[Patrycja Kozak](https://www.credly.com/users/patrycja-kozak.2a2cf477/badges)<br>[Shankaragoud Biradar](https://www.credly.com/users/shankaragoud-biradar.23a05304/badges)<br>[Sujith Quintelier](https://www.credly.com/users/sujith/badges)<br>[Vinay C](https://www.credly.com/users/vinay-c.f7b7d8ef/badges) | 18 | Avanade<br>SoftwareOne<br>Canarys Automations Limited<br>Microsoft<br>Canarys Automations Limited | Brazil<br>Poland<br>India<br>Belgium<br>India |
+| 🥉 #3 | [Diego Giglioli](https://www.credly.com/users/diego-giglioli.bb64eaa5/badges)<br>[Felipe Augusto](https://www.credly.com/users/felipementel/badges)<br>[Patrycja Kozak](https://www.credly.com/users/patrycja-kozak.2a2cf477/badges)<br>[Shankaragoud Biradar](https://www.credly.com/users/shankaragoud-biradar.23a05304/badges)<br>[Sujith Quintelier](https://www.credly.com/users/sujith/badges)<br>[Vinay C](https://www.credly.com/users/vinay-c.f7b7d8ef/badges) | 18 | Avanade<br>Avanade<br>SoftwareOne<br>Canarys Automations Limited<br>Microsoft<br>Canarys Automations Limited | Brazil<br>Brazil<br>Poland<br>India<br>Belgium<br>India |
 | #4 | [Fabian Biesheuvel](https://www.credly.com/users/fabian-biesheuvel/badges)<br>[Naveen Kunder](https://www.credly.com/users/naveenkunder/badges)<br>[Niranjana K](https://www.credly.com/users/niranjana-koni/badges)<br>[Sandeep Doddamani](https://www.credly.com/users/sandeep-doddamani/badges) | 17 | Delta-N<br>Canarys Automations Limited<br>Canarys Automations Limited<br>Canarys Automations Limited | Netherlands<br>India<br>India<br>India |
 | #5 | [Evan Allen](https://www.credly.com/users/evan_allen/badges)<br>[Hidde de Smet](https://www.credly.com/users/hidde-de-smet/badges)<br>[Joao Pedro Alexandre Vieira](https://www.credly.com/users/joao-pedro-alexandre-vieira/badges)<br>[Kuldeep Saini](https://www.credly.com/users/kuldeep-saini.9be84ec9/badges)<br>[Matheus Barros](https://www.credly.com/users/matheus-barros.1892a132/badges)<br>[Nuthi Prathyusha](https://www.credly.com/users/nuthi-prathyusha/badges)<br>[Raghavendra Shirashyad](https://www.credly.com/users/raghavendra-shirashyad/badges)<br>[Rajesh C N](https://www.credly.com/users/rajesh-c-n/badges)<br>[Raymond Splinter](https://www.credly.com/users/raymond-splinter/badges)<br>[Rimon Oz](https://www.credly.com/users/rimon-oz/badges)<br>[Rob Bos](https://www.credly.com/users/rob-bos/badges) | 16 | Xebia<br>Xebia<br>Avanade<br>Xebia<br>Avanade<br>Canarys Automations Limited<br>Canarys Automations Limited<br>Xebia<br>Xebia<br><br>Xebia | United States<br>Netherlands<br>Brazil<br>India<br>Brazil<br>India<br>India<br>India<br>Netherlands<br>Netherlands<br>Netherlands |
 | #6 | [Adithya MS](https://www.credly.com/users/adithya-ms.f90708a6/badges)<br>[Dennis Thie](https://www.credly.com/users/dennisthie/badges)<br>[Julien Lebutte](https://www.credly.com/users/julienlebutte/badges)<br>[Kaan Turgut](https://www.credly.com/users/hkaanturgut/badges)<br>[Mihir Kulkarni](https://www.credly.com/users/mihir-kulkarni.00d25bea/badges)<br>[Narasimha Kudva](https://www.credly.com/users/narasimha-kudva.d13f4b52/badges)<br>[Prateek Rai Srivastav](https://www.credly.com/users/prateek-rai-srivastav.78e79fcf/badges)<br>[Praveen Huliyappanavar](https://www.credly.com/users/praveen-huliyappanavar/badges)<br>[rich schwarz](https://www.credly.com/users/rich-schwarz/badges) | 15 | Canarys Automations Limited<br>Xebia<br>Avanade<br>Lenovo<br>XPT Software<br>Xebia<br>Canarys Automations Limited<br>Canarys Automations Limited<br>Xebia | India<br>Netherlands<br>Belgium<br>Canada<br>India<br>India<br>India<br>India<br>United States |
@@ -25,7 +25,7 @@
 |------|---------|--------------|-----------------|
 | 🥇 #1 | Canarys Automations Limited | 355 | 25 |
 | 🥈 #2 | Xebia | 273 | 18 |
-| 🥉 #3 | Avanade | 234 | 15 |
+| 🥉 #3 | Avanade | 252 | 16 |
 | #4 | Delta-N | 68 | 4 |
 | #5 | Eficode<br>ilegra | 26 | 2<br>2 |
 
@@ -35,18 +35,18 @@
 
 | Rank | Country | Total Badges | Certified Users |
 |------|---------|--------------|-----------------|
-| 🥇 #1 | India | 12171 | 9999 |
+| 🥇 #1 | India | 12179 | 10000 |
 | 🥈 #2 | United States | 3983 | 2819 |
-| 🥉 #3 | Brazil | 2028 | 1525 |
-| #4 | United Kingdom | 1062 | 757 |
-| #5 | Canada | 731 | 551 |
+| 🥉 #3 | Brazil | 2043 | 1525 |
+| #4 | United Kingdom | 1067 | 758 |
+| #5 | Canada | 732 | 552 |
 
 ---
 
 ## 📊 Statistics
 
-- **Total Certified Users**: 24,944
-- **Total Badges Earned**: 32,076
+- **Total Certified Users**: 24,954
+- **Total Badges Earned**: 32,132
 - **Average Badges per User**: 1.29
 - **Highest Badge Count**: 20
 
