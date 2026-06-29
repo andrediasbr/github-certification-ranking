@@ -1,6 +1,6 @@
 # 🇧🇷 TOP 10 GitHub Certifications - Brazil (Community Only)
 
-> Last updated: June 28, 2026 at 03:53 UTC
+> Last updated: June 29, 2026 at 03:56 UTC
 >
 > This ranking includes only community certifications (excludes partner-exclusive badges).
 >
@@ -11,8 +11,8 @@
 
 | Rank | Name | Badges | Company |
 |------|------|--------|---------|
-| 🥇 #1 | [Andre Dias](https://www.credly.com/users/andredias/badges)<br>[Diego Giglioli](https://www.credly.com/users/diego-giglioli.bb64eaa5/badges)<br>[Felipe Augusto](https://www.credly.com/users/felipementel/badges) | 8 | Avanade<br>Avanade<br>Avanade |
-| 🥈 #2 | [Joao Pedro Alexandre Vieira](https://www.credly.com/users/joao-pedro-alexandre-vieira/badges)<br>[Renan Evangelista Pereira](https://www.credly.com/users/renan-evangelista-pereira/badges) | 7 | Avanade<br>Avanade |
+| 🥇 #1 | [Andre Dias](https://www.credly.com/users/andredias/badges)<br>[Diego Giglioli](https://www.credly.com/users/diego-giglioli.bb64eaa5/badges)<br>[Felipe Augusto](https://www.credly.com/users/felipementel/badges)<br>[Renan Evangelista Pereira](https://www.credly.com/users/renan-evangelista-pereira/badges) | 8 | Avanade<br>Avanade<br>Avanade<br>Avanade |
+| 🥈 #2 | [Joao Pedro Alexandre Vieira](https://www.credly.com/users/joao-pedro-alexandre-vieira/badges) | 7 | Avanade |
 | 🥉 #3 | [Matheus Barros](https://www.credly.com/users/matheus-barros.1892a132/badges) | 6 | Avanade |
 | #4 | [Beatriz Matsui](https://www.credly.com/users/beatriz-matsui/badges)<br>[Christiano Martins Milfont Almeida](https://www.credly.com/users/cmilfont/badges)<br>[Daniel Alonso Oliveira Soares](https://www.credly.com/users/dalonsw/badges)<br>[Danilo Perez](https://www.credly.com/users/daniloperez/badges)<br>[Ednei Monteiro](https://www.credly.com/users/ednei-monteiro/badges)<br>[Fernando Moreni](https://www.credly.com/users/fernando-moreni/badges)<br>[Jailton Santos Sales Junior](https://www.credly.com/users/jailton-santos-sales-junior/badges)<br>[Juliano Dziadzio](https://www.credly.com/users/juliano-dziadzio.5cdefb9f/badges)<br>[Lucas Ludicsa](https://www.credly.com/users/lucas-ludicsa/badges)<br>[Rafael Silva Willians](https://www.credly.com/users/rafael-silva-willians/badges)<br>[William Zonta](https://www.credly.com/users/william-zonta.d8c69de2/badges) | 5 | Microsoft<br>Accenture<br>ilegra<br><br>Microsoft<br><br>Microsoft<br><br>ilegra<br><br>Optima Latam |
 | #5 | [Andre Nunes](https://www.credly.com/users/andre-nunes.0d03ef9b/badges)<br>[Jaison Schmidt](https://www.credly.com/users/jaison-schmidt/badges)<br>[Jânio Santos](https://www.credly.com/users/janio-santos-silva/badges)<br>[Leonardo Vizagre](https://www.credly.com/users/leonardo.vizagre/badges)<br>[Renicius Pagotto Fostaini](https://www.credly.com/users/renicius-pagotto-fostaini/badges)<br>[Rodrigo Kumabe](https://www.credly.com/users/rodrigo-kumabe/badges) | 4 | Avanade<br><br>NTT DATA<br>Avanade<br><br> |
@@ -26,9 +26,9 @@
 
 | Rank | Company | Total Badges | Certified Users |
 |------|---------|--------------|-----------------|
-| 🥇 #1 | Avanade | 87 | 30 |
+| 🥇 #1 | Avanade | 88 | 30 |
 | 🥈 #2 | Microsoft | 29 | 13 |
-| 🥉 #3 | Itaú Unibanco | 18 | 13 |
+| 🥉 #3 | Itaú Unibanco | 19 | 14 |
 | #4 | Bradesco | 12 | 10 |
 | #5 | ilegra | 10 | 2 |
 
@@ -37,7 +37,7 @@
 ## 📊 Statistics
 
 - **Total Certified Users**: 1,471
-- **Total Badges Earned**: 1,709
+- **Total Badges Earned**: 1,710
 - **Average Badges per User**: 1.16
 - **Highest Badge Count**: 8
 
