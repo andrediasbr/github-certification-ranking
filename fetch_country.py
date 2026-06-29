@@ -12,7 +12,7 @@ import sys
 import requests
 from concurrent.futures import ThreadPoolExecutor, as_completed
 from datetime import datetime
-from certifications import ALLOWED_MICROSOFT_GITHUB_CERTIFICATIONS
+from certifications import ALLOWED_MICROSOFT_GITHUB_CERTIFICATIONS, normalize_badge_name
 
 EXCLUDED_BADGES = {
     'GitHub Sales Professional',
@@ -52,8 +52,8 @@ def fetch_github_external_badges(user_id):
             # Check if it's an allowed GitHub certification issued by Microsoft and not expired
             if issuer_name == 'Microsoft' and badge_name.strip() in ALLOWED_MICROSOFT_GITHUB_CERTIFICATIONS:
                 if not is_badge_expired(expires_at_date):
-                    # Only count if badge name is unique
-                    unique_badge_names.add(badge_name)
+                    # Only count if badge name is unique (normalize to handle renamed badges)
+                    unique_badge_names.add(normalize_badge_name(badge_name.strip()))
         
         return len(unique_badge_names)
     except Exception as e:
