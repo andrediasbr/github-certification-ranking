@@ -1,7 +1,7 @@
 first_name,middle_name,last_name,badge_count,profile_url
 José,,Ibañez,9,/users/jose-ibanez.8df2cfd3/badges
 Benjamin,,Contreras Stoltze,1,/users/benjamin-contreras-stoltze/badges
-Cristian,,Rosas,1,/users/cristian-rosas/badges
+Cristian,,Rosas,0,/users/cristian-rosas/badges
 Edgar Moises,,Heredia Martin,1,/users/edgar-moises-heredia-martin/badges
 Nicolás Eduardo,,Flores Muñoz,1,/users/nicolas-eduardo-flores-munoz/badges
 Ruth,,Perez,1,/users/ruth-perez.1ed127e8/badges
@@ -96,8 +96,8 @@ Treavor,,Saldias,1,/users/treavor-saldias/badges
 Julio,,Juri,1,/users/julio-juri.44d0292d/badges
 Marco,,Córdova Fredes,1,/users/marco-cordova-fredes/badges
 Rodrigo,,Hidalgo Flores,2,/users/rodrigo-hidalgo-flores/badges
-andres,,yanez,5,/users/andres-yanez.6d71b97f/badges
-Lucas,,Otarola,0,/users/lootarola/badges
+andres,,yanez,0,/users/andres-yanez.6d71b97f/badges
+Lucas,,Otarola,3,/users/lootarola/badges
 Michelle,,Alvarez,1,/users/michelle-alvarez.f9dc2913/badges
 Miguel Angel,,Leiva Martinez,1,/users/miguel-angel-leiva-martinez/badges
 Vicente Alfonso,,Zapata Concha,1,/users/vicente-alfonso-zapata-concha/badges
@@ -221,7 +221,7 @@ Rodrigo,,Álvarez,1,/users/rodrigo-alvarez.b4c46b0a/badges
 Carlos Enrique,,Carrasco Varas,1,/users/carlos-enrique-carrasco-varas/badges
 Juan Andrés,,Parra Muñoz,1,/users/juan-andres-parra-munoz/badges
 Daniel,,Bustos Valdivia,1,/users/daniel-bustos-valdivia/badges
-Roberto,,Moreno,1,/users/roberto-moreno.7916ef08/badges
+Roberto,,Moreno,1,/users/rampmaster/badges
 Lenny,,Andreu,1,/users/lenny-andreu/badges
 Sebastián,,Muñoz,1,/users/sebastian-munoz.92b75d27/badges
 Nicolás,,Chirino,1,/users/nicolas-chirino/badges
