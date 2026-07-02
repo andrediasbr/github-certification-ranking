@@ -1,10 +1,11 @@
 first_name,middle_name,last_name,badge_count,profile_url
+Igor,,Lakhtenkov,2,/users/igor-lakhtenkov.81d2dd0a/badges
 Daniel,Richard,Snell,11,/users/daniel-snell.f7bc4ec8/badges
 Harald,,Binkle,5,/users/harald-binkle/badges
 Sandra,,Neff,6,/users/sandra-neff.59a05583/badges
 Leon,,Sinlik,7,/users/leon-sinlik/badges
 Till,,Spindler,14,/users/till-spindler/badges
-Kevin,,Leadbeater,2,/users/kevin-leadbeater/badges
+Kevin,,Leadbeater,0,/users/kevin-leadbeater/badges
 Nico,,Orschel,12,/users/nico-orschel/badges
 Anirban,,Ghosh,1,/users/anirban-ghosh.22d2d490/badges
 André,,Böttcher,1,/users/andre-bottcher/badges
@@ -160,7 +161,7 @@ Zhinoo,,Zobairi,1,/users/zhinoo-zobairi/badges
 Maik,,Mursall,2,/users/maik-mursall/badges
 Razvan,,Tataru,1,/users/razvan-tataru.3565dc2a/badges
 Thomas,,Reuhl,1,/users/thomas-reuhl/badges
-Alexander,,Todorovic,3,/users/alexander-todorovic/badges
+Alexander,,Todorovic,0,/users/alexander-todorovic/badges
 Dima,,Kirichenko,1,/users/dima-kirichenko/badges
 Patrick,,Schauer,1,/users/patrick-schauer/badges
 Florian,,Sommer,1,/users/florian-sommer.3ac6a20d/badges
@@ -294,7 +295,6 @@ Carlos Tadeu,,Panato Junior,4,/users/cpanato/badges
 Christian,,Trabold,1,/users/christian-trabold/badges
 Marcel,,Müller,1,/users/marcel-muller.c402fed2/badges
 Glenn,,Verhaag,1,/users/glenn-verhaag/badges
-Igor,,Lakhtenkov,1,/users/igor-lakhtenkov.81d2dd0a/badges
 Daniel,,Fink,1,/users/daniel-fink.8aab4db2/badges
 Anupama,,Mithran,1,/users/anupama-mithran.c6fac145/badges
 Dominik,,Lesik,1,/users/klickerlebnis/badges
@@ -328,11 +328,11 @@ Kanchana,,Taggarsi,1,/users/kanchana-taggarsi/badges
 Lasse,,Haffke,2,/users/lasse-haffke/badges
 Benedikt,,Funke,1,/users/benedikt-funke/badges
 Matthias,,Wiesen,1,/users/matthias-wiesen/badges
-Tim,,Möllers,2,/users/tim-mollers.dffd0f7e/badges
+Tim,,Möllers,0,/users/tim-mollers.dffd0f7e/badges
 Heikki,,Pöntinen,0,/users/heikki-pontinen/badges
 Martin,,Stühmer,1,/users/martin-stuehmer/badges
 Michael,,Contento,1,/users/michael-contento/badges
-Clemens,,Wältken,2,/users/clemens-waltken/badges
+Clemens,,Wältken,0,/users/clemens-waltken/badges
 Igwe,,Kalu,1,/users/igwe-kalu/badges
 Markus,,Walker,1,/users/markus-walker.adb2dcf6/badges
 Valentin,,Heidelberger,0,/users/valentin-heidelberger/badges
