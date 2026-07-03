@@ -2,9 +2,9 @@ first_name,middle_name,last_name,badge_count,profile_url
 Stephen,,Barrell,1,/users/stephen-barrell/badges
 Steffy,,John,1,/users/steffy-john.472f3202/badges
 Waqas,,Naveed,2,/users/waqas-naveed.98f30518/badges
-Senthilruban,,Puvanendran,1,/users/senthilruban-puvanendran/badges
+Senthilruban,,Puvanendran,0,/users/senthilruban-puvanendran/badges
 yuan,,cui,1,/users/yuan-cui.68d090ff/badges
-Kevin,,Huang,1,/users/kevin-huang.8c5e6b55/badges
+Kevin,,Huang,0,/users/kevin-huang.8c5e6b55/badges
 SCOTT,,CONDRON,1,/users/scott-condron/badges
 Hou Ho,,Sii,1,/users/hou-ho-sii/badges
 YANG,,ZHANG,1,/users/yang-zhang.4111a5e2/badges
@@ -23,7 +23,7 @@ Yushi,,Cui,1,/users/yushi-cui.6c075737/badges
 Hao,,Chen,5,/users/hao-chen.c4b252a3/badges
 Hansi,,Wang,1,/users/hansi-wang.16af049a/badges
 Jerome,,Brown,5,/users/owretch/badges
-Roger,,Chen,2,/users/roger-chen.60d4af13/badges
+Roger,,Chen,0,/users/roger-chen.60d4af13/badges
 Iris,,Luxton,1,/users/iris-luxton/badges
 Suraj,,Patil,1,/users/suraj-patil.c24326b1/badges
 Clint,,Eccleshall,2,/users/clint-eccleshall/badges
@@ -32,7 +32,7 @@ David,Lawrence,Russell,1,/users/david_russell/badges
 Shenjian,,Li,1,/users/shenjian-li/badges
 Ben,,Hollamby,5,/users/ben-hollamby/badges
 Nicolas,,Lopez Guerra,1,/users/nicolas-lopez-guerra/badges
-Manu,,Jacob Iype,1,/users/manu-jacob-iype.19bc354e/badges
+Manu,,Jacob Iype,0,/users/manu-jacob-iype.19bc354e/badges
 Bruno,,Campidelli,1,/users/bruno-campidelli/badges
 James,,Eldridge,1,/users/james-eldridge.b4ffe22b/badges
 Jack,,Courtenay,1,/users/jack-courtenay.76af5129/badges
@@ -40,7 +40,7 @@ Kasun,Madura,Rathnayaka,1,/users/kasun-rathnayaka/badges
 Igor,Petronio,Costa Curcino,2,/users/igor-petronio-costa-curcino.d6e8281e/badges
 Qianghua,,Fu,1,/users/rickhehe/badges
 Lei,,Gao,1,/users/lei-gao.18647340/badges
-Andrei,,Mahalean,2,/users/andrei-mahalean/badges
+Andrei,,Mahalean,0,/users/andrei-mahalean/badges
 Terence,,White,1,/users/terence-white/badges
 Matthew,,Tester,2,/users/matthew-tester/badges
 Chao,,Yang,1,/users/chao-yang.1fd0c510/badges
