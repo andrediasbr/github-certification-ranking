@@ -1,4 +1,5 @@
 first_name,middle_name,last_name,badge_count,profile_url
+Marko,,Sawall,1,/users/marko-sawall/badges
 Igor,,Lakhtenkov,2,/users/igor-lakhtenkov.81d2dd0a/badges
 Daniel,Richard,Snell,11,/users/daniel-snell.f7bc4ec8/badges
 Harald,,Binkle,5,/users/harald-binkle/badges
@@ -10,7 +11,7 @@ Anirban,,Ghosh,1,/users/anirban-ghosh.22d2d490/badges
 André,,Böttcher,1,/users/andre-bottcher/badges
 Tobias,,Wittenburg,1,/users/tobias-wittenburg.0c857b00/badges
 Kevin,,Leadbeater,1,/users/kevin-leadbeater/badges
-Michael,,Kokonowskyj,7,/users/mikokono/badges
+Michael,,Kokonowskyj,2,/users/mikokono/badges
 Maik,,Müller,5,/users/aatmmr/badges
 Julian,,Sievers,1,/users/julian-sievers/badges
 Michael,,Heinen,1,/users/michael-heinen.2e087ca9/badges
@@ -78,7 +79,7 @@ Dominik,,Wombacher,1,/users/dominik-wombacher/badges
 Aimen,,Rejeb,1,/users/aimen-rejeb/badges
 Robin,,Konrad,2,/users/robin-konrad/badges
 Jörg,,Jakoby,1,/users/jorg-jakoby/badges
-Jonathan,,David,3,/users/jonathan-david.59eed3ce/badges
+Jonathan,,David,0,/users/jonathan-david.59eed3ce/badges
 Sven,,Gapski,1,/users/sven-gapski/badges
 Florian,,Richter,1,/users/florian-richter.26584944/badges
 Turgay,,Akbas,4,/users/turgay-akbas/badges

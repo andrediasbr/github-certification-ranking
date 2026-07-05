@@ -2,7 +2,7 @@ first_name,middle_name,last_name,badge_count,profile_url
 Momchil,,Marinov,1,/users/momchil-marinov.1ba48b29/badges
 yordan,,basin,1,/users/yordan-basin/badges
 Diana,,Dimitrova,1,/users/diana-dimitrova.62028ae7/badges
-Vladimir,,Gritsaev,0,/users/vladimir-gritsaev.887f92de/badges
+Vladimir,,Gritsaev,1,/users/vladimir-gritsaev.887f92de/badges
 Radi,,Bozhilov,2,/users/radi-bozhilov/badges
 Martin,,Hristov,1,/users/martin-hristov.9405c2b2/badges
 Svetoslav,,Busarov,1,/users/svetoslav-busarov/badges
@@ -33,6 +33,6 @@ Tsvetomir,,Iliev,1,/users/tsvetomir-iliev/badges
 Aleksandar,,Stanev,1,/users/aleksandar-stanev/badges
 Aleksandar,,Ivanov,1,/users/aleksandar-ivanov.26443e35/badges
 Vladislav,,Manolov,1,/users/vladislav-manolov/badges
-Atanas,,Atanasov,2,/users/atanas-atanasov.1db0edf1/badges
+Atanas,,Atanasov,0,/users/atanas-atanasov.1db0edf1/badges
 Radoslav,,Gatev,1,/users/radoslav-gatev/badges
 Yordan,,Dimov,0,/users/ysdimov/badges
