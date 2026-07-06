@@ -1,6 +1,6 @@
 # 🗽 TOP 10 GitHub Certifications - Americas
 
-> Last updated: July 05, 2026 at 03:04 UTC
+> Last updated: July 06, 2026 at 03:30 UTC
 
 ## 🏆 Top 10 GitHub Certifications Leaders
 
@@ -36,17 +36,17 @@
 | Rank | Country | Total Badges | Certified Users |
 |------|---------|--------------|-----------------|
 | 🥇 #1 | United States | 3988 | 2819 |
-| 🥈 #2 | Brazil | 2049 | 1525 |
+| 🥈 #2 | Brazil | 2047 | 1524 |
 | 🥉 #3 | Canada | 732 | 552 |
-| #4 | Mexico | 557 | 446 |
-| #5 | Peru | 497 | 416 |
+| #4 | Mexico | 562 | 447 |
+| #5 | Peru | 495 | 416 |
 
 ---
 
 ## 📊 Statistics
 
-- **Total Certified Users**: 6,866
-- **Total Badges Earned**: 9,150
+- **Total Certified Users**: 6,864
+- **Total Badges Earned**: 9,144
 - **Average Badges per User**: 1.33
 - **Highest Badge Count**: 20
 
