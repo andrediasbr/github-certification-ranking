@@ -1,6 +1,6 @@
 # � TOP 10 GitHub Certifications - Asia
 
-> Last updated: July 06, 2026 at 03:30 UTC
+> Last updated: July 07, 2026 at 03:04 UTC
 
 ## 🏆 Top 10 GitHub Certifications Leaders
 
@@ -8,8 +8,8 @@
 |------|------|--------|---------|---------|
 | 🥇 #1 | [Akshay Algeri](https://www.credly.com/users/akshay-algeri/badges) | 19 | Canarys Automations Limited | India |
 | 🥈 #2 | [Shankaragoud Biradar](https://www.credly.com/users/shankaragoud-biradar.23a05304/badges)<br>[Vinay C](https://www.credly.com/users/vinay-c.f7b7d8ef/badges) | 18 | Canarys Automations Limited<br>Canarys Automations Limited | India<br>India |
-| 🥉 #3 | [Naveen Kunder](https://www.credly.com/users/naveenkunder/badges)<br>[Niranjana K](https://www.credly.com/users/niranjana-koni/badges)<br>[Rajesh C N](https://www.credly.com/users/rajesh-c-n/badges)<br>[Sandeep Doddamani](https://www.credly.com/users/sandeep-doddamani/badges) | 17 | Canarys Automations Limited<br>Canarys Automations Limited<br>Xebia<br>Canarys Automations Limited | India<br>India<br>India<br>India |
-| #4 | [Dasari Ramesh Kumar](https://www.credly.com/users/ramesh.dasari/badges)<br>[Kuldeep Saini](https://www.credly.com/users/kuldeep-saini.9be84ec9/badges)<br>[Nuthi Prathyusha](https://www.credly.com/users/nuthi-prathyusha/badges)<br>[Raghavendra Shirashyad](https://www.credly.com/users/raghavendra-shirashyad/badges) | 16 | Xebia<br>Xebia<br>Canarys Automations Limited<br>Canarys Automations Limited | India<br>India<br>India<br>India |
+| 🥉 #3 | [Kuldeep Saini](https://www.credly.com/users/kuldeep-saini.9be84ec9/badges)<br>[Naveen Kunder](https://www.credly.com/users/naveenkunder/badges)<br>[Niranjana K](https://www.credly.com/users/niranjana-koni/badges)<br>[Rajesh C N](https://www.credly.com/users/rajesh-c-n/badges)<br>[Sandeep Doddamani](https://www.credly.com/users/sandeep-doddamani/badges) | 17 | Xebia<br>Canarys Automations Limited<br>Canarys Automations Limited<br>Xebia<br>Canarys Automations Limited | India<br>India<br>India<br>India<br>India |
+| #4 | [Dasari Ramesh Kumar](https://www.credly.com/users/ramesh.dasari/badges)<br>[Nuthi Prathyusha](https://www.credly.com/users/nuthi-prathyusha/badges)<br>[Raghavendra Shirashyad](https://www.credly.com/users/raghavendra-shirashyad/badges) | 16 | Xebia<br>Canarys Automations Limited<br>Canarys Automations Limited | India<br>India<br>India |
 | #5 | [Adithya MS](https://www.credly.com/users/adithya-ms.f90708a6/badges)<br>[Mihir Kulkarni](https://www.credly.com/users/mihir-kulkarni.00d25bea/badges)<br>[Narasimha Kudva](https://www.credly.com/users/narasimha-kudva.d13f4b52/badges)<br>[Prateek Rai Srivastav](https://www.credly.com/users/prateek-rai-srivastav.78e79fcf/badges)<br>[Praveen Huliyappanavar](https://www.credly.com/users/praveen-huliyappanavar/badges) | 15 | Canarys Automations Limited<br>XPT Software<br>Xebia<br>Canarys Automations Limited<br>Canarys Automations Limited | India<br>India<br>India<br>India<br>India |
 | #6 | [Jaina Vinod Kumar](https://www.credly.com/users/jaina-vinod-kumar/badges)<br>[KURUVA SANDEEP](https://www.credly.com/users/kuruva-sandeep.62288725/badges)<br>[NIKHIL GOWDA N](https://www.credly.com/users/nikhil-gowda-n/badges)<br>[stephie Mercy](https://www.credly.com/users/stephie-mercy/badges) | 14 | Canarys Automations Limited<br>Canarys Automations Limited<br>Canarys Automations Limited<br>Ivalue Infosolutions Limited | India<br>India<br>India<br>India |
 | #7 | [Akshay Hosur](https://www.credly.com/users/akshay-hosur/badges)<br>[Arpit Jere](https://www.credly.com/users/arpit-jere/badges)<br>[Praveen K Rugi](https://www.credly.com/users/praveen-rugi.9753a90e/badges) | 13 | Canarys Automations Limited<br>Canarys Automations Limited<br>Canarys Automations Limited | India<br>India<br>India |
@@ -24,7 +24,7 @@
 | Rank | Company | Total Badges | Certified Users |
 |------|---------|--------------|-----------------|
 | 🥇 #1 | Canarys Automations Limited | 405 | 30 |
-| 🥈 #2 | Xebia | 76 | 5 |
+| 🥈 #2 | Xebia | 77 | 5 |
 | 🥉 #3 | XPT Software | 15 | 1 |
 | #4 | Ivalue Infosolutions Limited | 14 | 1 |
 | #5 | Wipro Limited | 11 | 1 |
@@ -35,10 +35,10 @@
 
 | Rank | Country | Total Badges | Certified Users |
 |------|---------|--------------|-----------------|
-| 🥇 #1 | India | 12185 | 10000 |
+| 🥇 #1 | India | 12184 | 10000 |
 | 🥈 #2 | Japan | 535 | 383 |
 | 🥉 #3 | Sri Lanka | 299 | 283 |
-| #4 | Singapore | 298 | 251 |
+| #4 | Singapore | 296 | 250 |
 | #5 | China | 234 | 222 |
 
 ---
@@ -46,7 +46,7 @@
 ## 📊 Statistics
 
 - **Total Certified Users**: 12,188
-- **Total Badges Earned**: 14,805
+- **Total Badges Earned**: 14,803
 - **Average Badges per User**: 1.21
 - **Highest Badge Count**: 19
 

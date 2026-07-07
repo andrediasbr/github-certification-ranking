@@ -1,4 +1,5 @@
 first_name,middle_name,last_name,badge_count,profile_url
+Virginia,,Hamra,2,/users/v-hamra/badges
 pascal,,Kruijmel,1,/users/pascal-kruijmel/badges
 Raymond,,Splinter,16,/users/raymond-splinter/badges
 Hidde,,de Smet,16,/users/hidde-de-smet/badges
@@ -136,7 +137,7 @@ Joris,,Molenaar,3,/users/joris-molenaar/badges
 Daryl,,Stark,2,/users/daryl.stark/badges
 Mohammed Yahya Mohammed,,Al-eryani,1,/users/mohammed-yahya-mohammed-al-eryani/badges
 Mikka,,van der Velde,1,/users/mikka/badges
-Cuno,,Reijman,0,/users/equalizer999/badges
+Cuno,,Reijman,2,/users/equalizer999/badges
 Guillermo,,Martinez,1,/users/guillermo-martinez.98c216a2/badges
 Luiz,,Bizzio,1,/users/luizbizzio/badges
 Beerd,,Veldman,1,/users/beerd-veldman/badges
@@ -172,7 +173,6 @@ Maarten,,van Diemen,4,/users/maarten-van-diemen/badges
 Job,van,Roozendaal,1,/users/job-roozendaal/badges
 Tiago Felipe,,Gonçalves,1,/users/tfgoncalves/badges
 Jasper,,Heemskerk,1,/users/jasper-heemskerk/badges
-Virginia,,Hamra,1,/users/v-hamra/badges
 Baris,,Sonmez,1,/users/sbarissonmez/badges
 Mohamed F,,Bholai,1,/users/mohamed-f-bholai/badges
 Dimitris,,Lolis,1,/users/dimitris-lolis/badges
@@ -208,7 +208,7 @@ Bernard,,Visagie,1,/users/bernard-visagie.32376e1b/badges
 Peter,,van den Berg,1,/users/peter-van-den-berg.c2d9ca08/badges
 Patrick,,Munne,1,/users/patrick-munne.38edcf8e/badges
 Daniël,,De Roo,1,/users/hendrikus-daniel-roo/badges
-Alexandru,,Lazarescu,4,/users/alexandru-lazarescu/badges
+Alexandru,,Lazarescu,0,/users/alexandru-lazarescu/badges
 Nagarjuna,,Adapa,1,/users/nagarjuna-adapa.28e83eff/badges
 Andrii,,Bilorus,2,/users/andrii-bilorus/badges
 Stephan,,Tromer,4,/users/stephan-tromer/badges
@@ -246,7 +246,7 @@ Victor,,de Baare,1,/users/victor-de-baare/badges
 Bart,,van der Kolk,1,/users/bart-van-der-kolk/badges
 Paulien,,Leeuwenburgh,2,/users/paulien-leeuwenburgh/badges
 Sudharson,,Aravamudhan,4,/users/sudharson-aravamudhan.c2e1c70f/badges
-Maik,,van der Gaag,3,/users/maik-van-der-gaag/badges
+Maik,,van der Gaag,0,/users/maik-van-der-gaag/badges
 Mike,,Roelofsen,1,/users/mike-roelofsen/badges
 Hussam,,Hadi,1,/users/hussam-hadi/badges
 Erick,,Segaar,1,/users/erick-segaar/badges
