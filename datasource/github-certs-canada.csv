@@ -1,6 +1,6 @@
 first_name,middle_name,last_name,badge_count,profile_url
 Siddharth,,Tata,1,/users/siddharth-tata.8eb0c530/badges
-Benjamin,,Marsteau,10,/users/bmarsteau/badges
+Benjamin,,Marsteau,9,/users/bmarsteau/badges
 Shalin,,Dave,6,/users/shalin-dave.a1886fb0/badges
 Edwin,,Rodriguez,6,/users/edwin-rodriguez.0613fba4/badges
 Andy M.,,Kucuk,6,/users/andy-m-kucuk/badges
@@ -42,7 +42,7 @@ Ahmad,,El Nakib,2,/users/ahmad-el-nakib/badges
 Dinesh,,Patel,1,/users/dinesh-patel.028df9a9/badges
 Karim,,Ismail,1,/users/karim-ismail.4ea152e9/badges
 Loveneet,,Saini,2,/users/loveneet-saini.9402eae4/badges
-Eric,,Leonard,3,/users/eric-leonard.3b1ac6ab/badges
+Eric,,Leonard,0,/users/eric-leonard.3b1ac6ab/badges
 Illayaraja,,Swaminathan,1,/users/illayaraja-swaminathan.5fdc8d9e/badges
 Krishna,,Joshi,1,/users/krishna-joshi.4371baab/badges
 Aakersh,,Ganganagunta,1,/users/aakersh-ganganagunta.efc4b507/badges
@@ -87,7 +87,7 @@ Krishnaprasath,,Vasudevan,1,/users/krishnaprasath-vasudevan.e365a5d1/badges
 Inderpartap,,Cheema,1,/users/inderpartap-cheema/badges
 Rushit,,Shah,1,/users/rushit-shah.d1c69e19/badges
 Vijay Kumar,,YADAV,1,/users/vijay-kumar-yadav.d2a3445b/badges
-Jean-François,,Bilodeau,3,/users/jfbilodeau/badges
+Jean-François,,Bilodeau,0,/users/jfbilodeau/badges
 Amit,,Jain,1,/users/amit-jain.f921ef00/badges
 Om,,Patel,1,/users/om-patel.d38646c1/badges
 Robert,,Nicolas-Emmanuel,1,/users/robert-nicolas-emmanuel/badges
@@ -268,8 +268,8 @@ Jaiganesh,,Shanmugam,1,/users/jaiganesh-shanmugam/badges
 Ganesan,,Sokkalingam,1,/users/ganesan-sokkalingam/badges
 Khaled,,Ahmed,1,/users/khaled-ahmed.01548036/badges
 Nargis,,Ghiasi,1,/users/nargis-ghiasi.31c6e503/badges
-Angeles,,Banaka,1,/users/angeles-banaka/badges
-Elena,,Neroslavskaya,0,/users/elena-neroslavskaya/badges
+Angeles,,Banaka,5,/users/angeles-banaka/badges
+Elena,,Neroslavskaya,1,/users/elena-neroslavskaya/badges
 Michael,,Han,2,/users/xiangyu-han/badges
 Vishesh,,Aneja,1,/users/vishesh-aneja/badges
 Andy,,Pak,1,/users/andypak/badges
