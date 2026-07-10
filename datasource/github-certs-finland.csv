@@ -1,9 +1,9 @@
 first_name,middle_name,last_name,badge_count,profile_url
-Miska,,Braun,7,/users/miskabraun/badges
+Miska,,Braun,0,/users/miskabraun/badges
 Pekka,,Sahi,6,/users/pekka-sahi.d4158f93/badges
 Toni,,Laakso,12,/users/toni-laakso/badges
 Henry,,Luosujärvi,5,/users/henry-luosujarvi/badges
-Eero-Veikko,,Laine,0,/users/eero-veikko-laine/badges
+Eero-Veikko,,Laine,1,/users/eero-veikko-laine/badges
 Heikki,,Europaeus,3,/users/heikki-europaeus/badges
 Mika,,Tavi,3,/users/mika-tavi/badges
 Juha,,Toivonen,0,/users/juha-toivonen.73e8e085/badges
@@ -30,7 +30,7 @@ Nam,,Phan,1,/users/nam-phan.62eedd14/badges
 Jukka,,Paasonen,1,/users/jukka-paasonen/badges
 Maija,,Poppanen,2,/users/maija-poppanen/badges
 Ville,,Hokkinen,1,/users/ville-hokkinen/badges
-Antti,,Halmetoja,0,/users/antti-halmetoja/badges
+Antti,,Halmetoja,2,/users/antti-halmetoja/badges
 Hannu,,Alamäki,1,/users/hannu-alamaki/badges
 Janne,,Suominen,1,/users/janne-suominen.9ff4369e/badges
 Antti,,Humalamäki,1,/users/antti-humalamaki.6f086a5b/badges
@@ -72,7 +72,7 @@ Naga Dheeraj,,Biddala,1,/users/naga-dheeraj-biddala/badges
 Jukka,,Karjalainen,3,/users/jukka-karjalainen.4fc58ba5/badges
 Venkat,,Minchala,1,/users/venkat-minchala/badges
 Pekka,,Prökkinen,1,/users/pekka-prokkinen.5d49e8a3/badges
-Laura,,Vuorenoja,0,/users/laura-vuorenoja/badges
+Laura,,Vuorenoja,2,/users/laura-vuorenoja/badges
 JUKKA,,KOSKELIN,2,/users/jukka-koskelin/badges
 Jari,,Parviainen,1,/users/jari-parviainen.c3db1150/badges
 Toni,,Korpela,1,/users/toni-korpela/badges

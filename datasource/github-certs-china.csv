@@ -2,13 +2,13 @@ first_name,middle_name,last_name,badge_count,profile_url
 Shan,,Jiang,2,/users/shan-jiang.7f69b1ad/badges
 Yue,,Zhang,1,/users/yue-zhang.4e1e87b4/badges
 路,,周,1,/users/username.af2baa37/badges
-Fan,,Lijun,1,/users/fan-lijun/badges
+Fan,,Lijun,0,/users/fan-lijun/badges
 sha,,lei,1,/users/sha-lei.9be8018c/badges
 Ding,,Delong,1,/users/ding-delong/badges
 GAO,,TONG,1,/users/gao-tong.f68950bd/badges
 孟超,,陳,1,/users/username.073e03c3/badges
 娜,,杨,1,/users/username.c447e467/badges
-海波,,孙,0,/users/username.4b3c288b/badges
+海波,,孙,1,/users/username.4b3c288b/badges
 lin,,wang,1,/users/lin-wang.db5d911b/badges
 Yao,,姚,1,/users/yao.9c96ad39/badges
 滔,,商,1,/users/username.1f4e883e/badges
@@ -34,7 +34,7 @@ yun,,tang,1,/users/yun-tang.8b6a4b9d/badges
 Shan,,Xia,1,/users/shan-xia.823ec834/badges
 冬梅,,閻,1,/users/username.961ba3af/badges
 佩佩,,王,1,/users/username.d32151f7/badges
-杰,,徐,0,/users/username.e3923e77/badges
+杰,,徐,1,/users/username.e3923e77/badges
 丹丹,,王,1,/users/username.69140ac8/badges
 秋羽,,晁,1,/users/username.087d2a5a/badges
 peng,,wu,1,/users/peng-wu.9c11a2e9/badges
@@ -153,7 +153,7 @@ zhang,,biao,1,/users/zhang-biao.7e3cd3f7/badges
 超然,,李,1,/users/username.f5cbf897/badges
 宝华,,牛,1,/users/username.f8f7f57c/badges
 艺,,林,1,/users/username.f38e9147/badges
-Yingting,,Huang,0,/users/yingting-huang/badges
+Yingting,,Huang,1,/users/yingting-huang/badges
 Jiawei,,Xu,1,/users/jiawei-xu.b2ef2466/badges
 kang,,sun,1,/users/kang-sun.b5a28066/badges
 huang,,lixiang,1,/users/huang-lixiang/badges

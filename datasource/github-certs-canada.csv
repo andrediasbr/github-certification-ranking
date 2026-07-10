@@ -1,6 +1,6 @@
 first_name,middle_name,last_name,badge_count,profile_url
 Siddharth,,Tata,1,/users/siddharth-tata.8eb0c530/badges
-Benjamin,,Marsteau,9,/users/bmarsteau/badges
+Benjamin,,Marsteau,10,/users/bmarsteau/badges
 Shalin,,Dave,6,/users/shalin-dave.a1886fb0/badges
 Edwin,,Rodriguez,6,/users/edwin-rodriguez.0613fba4/badges
 Andy M.,,Kucuk,6,/users/andy-m-kucuk/badges
@@ -240,7 +240,7 @@ Breeze,,Patel,1,/users/breeze-patel.05e208f8/badges
 Nirajan,,Bist,1,/users/nirajan-bist/badges
 Kousik,,Das,1,/users/kousik-das.0a0d6255/badges
 Alexis,,Couvreur,1,/users/alexis-couvreur/badges
-Inder,,Mohan,5,/users/indermohanlodhi/badges
+Inder,,Mohan,0,/users/indermohanlodhi/badges
 Julien,,Yensen Martin,1,/users/julien-yensen-martin/badges
 Chandana,,Mosa,1,/users/chandana-mosa/badges
 Raghavan,,Mohan,1,/users/raghavan-mohan.4651d50b/badges
@@ -320,7 +320,7 @@ Gopala Krishna Rao,,Pulijala,1,/users/gopala-krishna-rao-pulijala/badges
 Hugo,,GARBEZ,1,/users/hugo-garbez/badges
 Luciano,,S.Mori,3,/users/luciano-s-mori/badges
 Mehmet,,Sever,1,/users/mehmet-sever/badges
-Lesley,,Chan,3,/users/lesley-chan.0dd36ac1/badges
+Lesley,,Chan,0,/users/lesley-chan.0dd36ac1/badges
 Eric,,McElroy,2,/users/eric-mcelroy/badges
 Amarbir,,Singh,1,/users/amarbirsingh/badges
 Sebastian,,Hansen,2,/users/sebastian-hansen.c219bdc6/badges
@@ -386,7 +386,7 @@ Thompson,,Ogunbiyi,1,/users/thompson-ogunbiyi/badges
 Kateryna,,Bezpalko,1,/users/kateryna-bezpalko/badges
 Emily,,Franklin,2,/users/emily-franklin.5cbf6a4b/badges
 Gurjot,,Saini,1,/users/gurjot-saini.ecf30c1e/badges
-Raymond,,Kao,3,/users/raymond-kao.12341ebc/badges
+Raymond,,Kao,0,/users/raymond-kao.12341ebc/badges
 Warren,,Blanchet,1,/users/warren-blanchet/badges
 Eileen,,Xue,1,/users/eileenxue/badges
 Neha,,Anand,1,/users/neha-anand.452afff0/badges
