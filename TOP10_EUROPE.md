@@ -1,6 +1,6 @@
 # 🇪🇺 TOP 10 GitHub Certifications - Europe
 
-> Last updated: July 12, 2026 at 02:13 UTC
+> Last updated: July 12, 2026 at 02:44 UTC
 
 ## 🏆 Top 10 GitHub Certifications Leaders
 
@@ -8,7 +8,7 @@
 |------|------|--------|---------|---------|
 | 🥇 #1 | [Jesse Houwing](https://www.credly.com/users/jessehouwing/badges)<br>[Joost Voskuil](https://www.credly.com/users/joost-voskuil/badges)<br>[Olivier Delmotte](https://www.credly.com/users/o.delmotte/badges)<br>[Peter Szekeli](https://www.credly.com/users/peter-szekeli/badges)<br>[Vincent Marchal](https://www.credly.com/users/vincent-marchal.87a05753/badges) | 20 | Xebia<br>Delta-N<br>Avanade<br>Xebia<br>Avanade | Netherlands<br>Netherlands<br>France<br>Netherlands<br>France |
 | 🥈 #2 | [Joas de Groot](https://www.credly.com/users/joas707/badges) | 19 | Delta-N | Netherlands |
-| 🥉 #3 | [Patrycja Kozak](https://www.credly.com/users/patrycja-kozak.2a2cf477/badges) | 18 | SoftwareOne | Poland |
+| 🥉 #3 | [Patrycja Kozak](https://www.credly.com/users/patrycja-kozak.2a2cf477/badges)<br>[Sujith Quintelier](https://www.credly.com/users/sujith/badges) | 18 | SoftwareOne<br>Microsoft | Poland<br>Belgium |
 | #4 | [Fabian Biesheuvel](https://www.credly.com/users/fabian-biesheuvel/badges) | 17 | Delta-N | Netherlands |
 | #5 | [Hidde de Smet](https://www.credly.com/users/hidde-de-smet/badges)<br>[Raymond Splinter](https://www.credly.com/users/raymond-splinter/badges)<br>[Rimon Oz](https://www.credly.com/users/rimon-oz/badges)<br>[Rob Bos](https://www.credly.com/users/rob-bos/badges) | 16 | Xebia<br>Xebia<br><br>Xebia | Netherlands<br>Netherlands<br>Netherlands<br>Netherlands |
 | #6 | [Dennis Thie](https://www.credly.com/users/dennisthie/badges)<br>[Julien Lebutte](https://www.credly.com/users/julienlebutte/badges) | 15 | Xebia<br>Avanade | Netherlands<br>Belgium |
@@ -27,7 +27,7 @@
 | 🥈 #2 | Delta-N | 68 | 4 |
 | 🥉 #3 | Avanade | 55 | 3 |
 | #4 | Eficode | 26 | 2 |
-| #5 | SoftwareOne | 18 | 1 |
+| #5 | Microsoft<br>SoftwareOne | 18 | 1<br>1 |
 
 ---
 
@@ -35,8 +35,8 @@
 
 | Rank | Country | Total Badges | Certified Users |
 |------|---------|--------------|-----------------|
-| 🥇 #1 | United Kingdom | 1065 | 758 |
-| 🥈 #2 | Netherlands | 670 | 313 |
+| 🥇 #1 | United Kingdom | 1064 | 757 |
+| 🥈 #2 | Netherlands | 673 | 314 |
 | 🥉 #3 | Spain | 613 | 460 |
 | #4 | Germany | 484 | 349 |
 | #5 | Poland | 479 | 296 |
@@ -45,9 +45,9 @@
 
 ## 📊 Statistics
 
-- **Total Certified Users**: 4,159
-- **Total Badges Earned**: 6,038
-- **Average Badges per User**: 1.45
+- **Total Certified Users**: 4,158
+- **Total Badges Earned**: 6,060
+- **Average Badges per User**: 1.46
 - **Highest Badge Count**: 20
 
 ---

@@ -1,6 +1,6 @@
 # 🗽 TOP 10 GitHub Certifications - Americas
 
-> Last updated: July 12, 2026 at 02:13 UTC
+> Last updated: July 12, 2026 at 02:44 UTC
 
 ## 🏆 Top 10 GitHub Certifications Leaders
 
@@ -9,7 +9,7 @@
 | 🥇 #1 | [Andre Dias](https://www.credly.com/users/andredias/badges)<br>[Barnes Chism](https://www.credly.com/users/barnes-chism/badges)<br>[Renan Evangelista Pereira](https://www.credly.com/users/renan-evangelista-pereira/badges) | 20 | Avanade<br>Xebia<br>Avanade | Brazil<br>United States<br>Brazil |
 | 🥈 #2 | [David Daniels](https://www.credly.com/users/daviddaniels/badges)<br>[Diego Giglioli](https://www.credly.com/users/diego-giglioli.bb64eaa5/badges)<br>[Felipe Augusto](https://www.credly.com/users/felipementel/badges) | 19 | <br>Avanade<br>Avanade | United States<br>Brazil<br>Brazil |
 | 🥉 #3 | [Joao Pedro Alexandre Vieira](https://www.credly.com/users/joao-pedro-alexandre-vieira/badges)<br>[Matheus Barros](https://www.credly.com/users/matheus-barros.1892a132/badges) | 17 | Avanade<br>Avanade | Brazil<br>Brazil |
-| #4 | [Clayton Rodrigues Souza](https://www.credly.com/users/clayton-souza/badges) | 16 | Avanade | Brazil |
+| #4 | [Clayton Rodrigues Souza](https://www.credly.com/users/clayton-souza/badges)<br>[Evan Allen](https://www.credly.com/users/evan_allen/badges) | 16 | Avanade<br>Xebia | Brazil<br>United States |
 | #5 | [Kaan Turgut](https://www.credly.com/users/hkaanturgut/badges)<br>[rich schwarz](https://www.credly.com/users/rich-schwarz/badges) | 15 | Lenovo<br>Xebia | Canada<br>United States |
 | #6 | [Andre Nunes](https://www.credly.com/users/andre-nunes.0d03ef9b/badges)<br>[Caio Vianna Vieira](https://www.credly.com/users/caio-vianna.b6440384/badges)<br>[Jânio Santos](https://www.credly.com/users/janio-santos-silva/badges)<br>[Lautaro Orellano](https://www.credly.com/users/lautaro-orellano/badges)<br>[Leonardo Vizagre](https://www.credly.com/users/leonardo.vizagre/badges)<br>[Luana Corrêa Vieira](https://www.credly.com/users/luana-vieira.36aca490/badges) | 14 | Avanade<br>Avanade<br>NTT DATA<br><br>Avanade<br>Avanade | Brazil<br>Brazil<br>Brazil<br>Argentina<br>Brazil<br>Brazil |
 | #7 | [Daniel Alonso Oliveira Soares](https://www.credly.com/users/dalonsw/badges)<br>[Lucas Ludicsa](https://www.credly.com/users/lucas-ludicsa/badges) | 13 | ilegra<br>ilegra | Brazil<br>Brazil |
@@ -24,7 +24,7 @@
 | Rank | Company | Total Badges | Certified Users |
 |------|---------|--------------|-----------------|
 | 🥇 #1 | Avanade | 238 | 16 |
-| 🥈 #2 | Xebia | 57 | 4 |
+| 🥈 #2 | Xebia | 73 | 5 |
 | 🥉 #3 | ilegra | 26 | 2 |
 | #4 | Lenovo | 15 | 1 |
 | #5 | NTT DATA | 14 | 1 |
@@ -35,10 +35,10 @@
 
 | Rank | Country | Total Badges | Certified Users |
 |------|---------|--------------|-----------------|
-| 🥇 #1 | United States | 3980 | 2819 |
-| 🥈 #2 | Brazil | 2054 | 1524 |
+| 🥇 #1 | United States | 3995 | 2819 |
+| 🥈 #2 | Brazil | 2059 | 1525 |
 | 🥉 #3 | Canada | 732 | 552 |
-| #4 | Mexico | 555 | 446 |
+| #4 | Mexico | 562 | 447 |
 | #5 | Peru | 494 | 415 |
 
 ---
@@ -46,8 +46,8 @@
 ## 📊 Statistics
 
 - **Total Certified Users**: 6,863
-- **Total Badges Earned**: 9,141
-- **Average Badges per User**: 1.33
+- **Total Badges Earned**: 9,164
+- **Average Badges per User**: 1.34
 - **Highest Badge Count**: 20
 
 ---
