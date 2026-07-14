@@ -15,6 +15,7 @@ ALLOWED_MICROSOFT_GITHUB_CERTIFICATIONS = {
     'Microsoft Applied Skills: Accelerate app development by using GitHub Copilot',
     'Microsoft Applied Skills: Automate Azure Load Testing by using GitHub Actions',
     'Microsoft Applied Skills: Resolve GitHub issues by using GitHub Copilot',
+    'Microsoft Applied Skills: Manage GitHub secret scanning with GitHub Copilot',
 }
 
 # Map of renamed/duplicate badges to their canonical name.
