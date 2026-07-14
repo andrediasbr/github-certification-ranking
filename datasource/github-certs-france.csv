@@ -1,5 +1,5 @@
 first_name,middle_name,last_name,badge_count,profile_url
-Olivier,,Delmotte,20,/users/o.delmotte/badges
+Olivier,,Delmotte,22,/users/o.delmotte/badges
 Vincent,,Marchal,20,/users/vincent-marchal.87a05753/badges
 Loïc,,Albarracin,7,/users/loic-albarracin/badges
 Jeoffrey,,NGO,6,/users/jeoffrey-ngo/badges
@@ -11,7 +11,7 @@ Nabil,,Chebili,1,/users/nabil-chebili/badges
 valentin,,fernandes,1,/users/valentin-fernandes/badges
 Adrien,,Blair,1,/users/adrien-blair/badges
 Matmar,,Lysa,1,/users/matmar-lysa/badges
-Santanu,,Sahu,2,/users/santanu-sahu/badges
+Santanu,,Sahu,0,/users/santanu-sahu/badges
 Reynaldo,,Quintero,1,/users/reynaldo-quintero.50801a07/badges
 Sascha,,Cauchon,1,/users/sascha-cauchon/badges
 Michel,,Hua,3,/users/michel-hua/badges
@@ -121,7 +121,7 @@ Jori,,Mathurin,1,/users/jori-mathurin/badges
 Michael,,FERY,1,/users/michael-fery/badges
 Grégory,,Ott,1,/users/gregory-ott.f7396675/badges
 guillaume,,ginguene,5,/users/guillaume-ginguene/badges
-Thibault,,Falise,3,/users/thibault-falise.d3599d00/badges
+Thibault,,Falise,0,/users/thibault-falise.d3599d00/badges
 Driss,,Amrani,1,/users/driss-amrani/badges
 MAXIME,,BENOIT,1,/users/maxime-benoit.d3be23fe/badges
 Yannick,,WILLI,2,/users/yannick-willi/badges
