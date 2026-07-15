@@ -1,15 +1,15 @@
 # 🌍 TOP 10 GitHub Certifications - Global
 
-> Last updated: July 14, 2026 at 20:09 UTC
+> Last updated: July 15, 2026 at 01:31 UTC
 
 ## 🏆 Top 10 GitHub Certifications Leaders
 
 | Rank | Name | Badges | Company | Country |
 |------|------|--------|---------|---------|
 | 🥇 #1 | [Olivier Delmotte](https://www.credly.com/users/o.delmotte/badges) | 22 | Avanade | France |
-| 🥈 #2 | [Barnes Chism](https://www.credly.com/users/barnes-chism/badges)<br>[Jesse Houwing](https://www.credly.com/users/jessehouwing/badges)<br>[Joost Voskuil](https://www.credly.com/users/joost-voskuil/badges)<br>[Peter Szekeli](https://www.credly.com/users/peter-szekeli/badges)<br>[Renan Evangelista Pereira](https://www.credly.com/users/renan-evangelista-pereira/badges)<br>[Vincent Marchal](https://www.credly.com/users/vincent-marchal.87a05753/badges) | 20 | Xebia<br>Xebia<br>Delta-N<br>Xebia<br>Avanade<br>Avanade | United States<br>Netherlands<br>Netherlands<br>Netherlands<br>Brazil<br>France |
+| 🥈 #2 | [Andre Dias](https://www.credly.com/users/andredias/badges)<br>[Barnes Chism](https://www.credly.com/users/barnes-chism/badges)<br>[Jesse Houwing](https://www.credly.com/users/jessehouwing/badges)<br>[Joost Voskuil](https://www.credly.com/users/joost-voskuil/badges)<br>[Peter Szekeli](https://www.credly.com/users/peter-szekeli/badges)<br>[Renan Evangelista Pereira](https://www.credly.com/users/renan-evangelista-pereira/badges)<br>[Vincent Marchal](https://www.credly.com/users/vincent-marchal.87a05753/badges) | 20 | Avanade<br>Xebia<br>Xebia<br>Delta-N<br>Xebia<br>Avanade<br>Avanade | Brazil<br>United States<br>Netherlands<br>Netherlands<br>Netherlands<br>Brazil<br>France |
 | 🥉 #3 | [Akshay Algeri](https://www.credly.com/users/akshay-algeri/badges)<br>[David Daniels](https://www.credly.com/users/daviddaniels/badges)<br>[Diego Giglioli](https://www.credly.com/users/diego-giglioli.bb64eaa5/badges)<br>[Felipe Augusto](https://www.credly.com/users/felipementel/badges)<br>[Joas de Groot](https://www.credly.com/users/joas707/badges) | 19 | Canarys Automations Limited<br><br>Avanade<br>Avanade<br>Delta-N | India<br>United States<br>Brazil<br>Brazil<br>Netherlands |
-| #4 | [Kuldeep Saini](https://www.credly.com/users/kuldeep-saini.9be84ec9/badges)<br>[Nuthi Prathyusha](https://www.credly.com/users/nuthi-prathyusha/badges)<br>[Patrycja Kozak](https://www.credly.com/users/patrycja-kozak.2a2cf477/badges)<br>[Rajesh C N](https://www.credly.com/users/rajesh-c-n/badges)<br>[Shankaragoud Biradar](https://www.credly.com/users/shankaragoud-biradar.23a05304/badges)<br>[Sujith Quintelier](https://www.credly.com/users/sujith/badges)<br>[Vinay C](https://www.credly.com/users/vinay-c.f7b7d8ef/badges) | 18 | Xebia<br>Canarys Automations Limited<br>SoftwareOne<br>Xebia<br>Canarys Automations Limited<br>Microsoft<br>Canarys Automations Limited | India<br>India<br>Poland<br>India<br>India<br>Belgium<br>India |
+| #4 | [Kuldeep Saini](https://www.credly.com/users/kuldeep-saini.9be84ec9/badges)<br>[Nuthi Prathyusha](https://www.credly.com/users/nuthi-prathyusha/badges)<br>[Patrycja Kozak](https://www.credly.com/users/patrycja-kozak.2a2cf477/badges)<br>[Rajesh C N](https://www.credly.com/users/rajesh-c-n/badges)<br>[Shankaragoud Biradar](https://www.credly.com/users/shankaragoud-biradar.23a05304/badges)<br>[Vinay C](https://www.credly.com/users/vinay-c.f7b7d8ef/badges) | 18 | Xebia<br>Canarys Automations Limited<br>SoftwareOne<br>Xebia<br>Canarys Automations Limited<br>Canarys Automations Limited | India<br>India<br>Poland<br>India<br>India<br>India |
 | #5 | [Fabian Biesheuvel](https://www.credly.com/users/fabian-biesheuvel/badges)<br>[Joao Pedro Alexandre Vieira](https://www.credly.com/users/joao-pedro-alexandre-vieira/badges)<br>[Matheus Barros](https://www.credly.com/users/matheus-barros.1892a132/badges)<br>[Naveen Kunder](https://www.credly.com/users/naveenkunder/badges)<br>[Niranjana K](https://www.credly.com/users/niranjana-koni/badges)<br>[Rimon Oz](https://www.credly.com/users/rimon-oz/badges)<br>[Sandeep Doddamani](https://www.credly.com/users/sandeep-doddamani/badges) | 17 | Delta-N<br>Avanade<br>Avanade<br>Canarys Automations Limited<br>Canarys Automations Limited<br><br>Canarys Automations Limited | Netherlands<br>Brazil<br>Brazil<br>India<br>India<br>Netherlands<br>India |
 | #6 | [Clayton Rodrigues Souza](https://www.credly.com/users/clayton-souza/badges)<br>[Dasari Ramesh Kumar](https://www.credly.com/users/ramesh.dasari/badges)<br>[Evan Allen](https://www.credly.com/users/evan_allen/badges)<br>[Hidde de Smet](https://www.credly.com/users/hidde-de-smet/badges)<br>[Raghavendra Shirashyad](https://www.credly.com/users/raghavendra-shirashyad/badges)<br>[Raymond Splinter](https://www.credly.com/users/raymond-splinter/badges)<br>[Rob Bos](https://www.credly.com/users/rob-bos/badges) | 16 | Avanade<br>Xebia<br>Xebia<br>Xebia<br>Canarys Automations Limited<br>Xebia<br>Xebia | Brazil<br>India<br>United States<br>Netherlands<br>India<br>Netherlands<br>Netherlands |
 | #7 | [Adithya MS](https://www.credly.com/users/adithya-ms.f90708a6/badges)<br>[Dennis Thie](https://www.credly.com/users/dennisthie/badges)<br>[Julien Lebutte](https://www.credly.com/users/julienlebutte/badges)<br>[Kaan Turgut](https://www.credly.com/users/hkaanturgut/badges)<br>[Mihir Kulkarni](https://www.credly.com/users/mihir-kulkarni.00d25bea/badges)<br>[Narasimha Kudva](https://www.credly.com/users/narasimha-kudva.d13f4b52/badges)<br>[Prateek Rai Srivastav](https://www.credly.com/users/prateek-rai-srivastav.78e79fcf/badges)<br>[Praveen Huliyappanavar](https://www.credly.com/users/praveen-huliyappanavar/badges)<br>[rich schwarz](https://www.credly.com/users/rich-schwarz/badges) | 15 | Canarys Automations Limited<br>Xebia<br>Avanade<br>Lenovo<br>XPT Software<br>Xebia<br>Canarys Automations Limited<br>Canarys Automations Limited<br>Xebia | India<br>Netherlands<br>Belgium<br>Canada<br>India<br>India<br>India<br>India<br>United States |
@@ -25,7 +25,7 @@
 |------|---------|--------------|-----------------|
 | 🥇 #1 | Canarys Automations Limited | 303 | 20 |
 | 🥈 #2 | Xebia | 269 | 17 |
-| 🥉 #3 | Avanade | 245 | 15 |
+| 🥉 #3 | Avanade | 265 | 16 |
 | #4 | Delta-N | 68 | 4 |
 | #5 | Eficode<br>ilegra | 26 | 2<br>2 |
 
@@ -35,19 +35,19 @@
 
 | Rank | Country | Total Badges | Certified Users |
 |------|---------|--------------|-----------------|
-| 🥇 #1 | India | 12181 | 10000 |
+| 🥇 #1 | India | 12191 | 10000 |
 | 🥈 #2 | United States | 3997 | 2820 |
-| 🥉 #3 | Brazil | 2034 | 1523 |
-| #4 | United Kingdom | 1056 | 756 |
-| #5 | Canada | 720 | 549 |
+| 🥉 #3 | Brazil | 2049 | 1524 |
+| #4 | United Kingdom | 1065 | 758 |
+| #5 | Canada | 729 | 551 |
 
 ---
 
 ## 📊 Statistics
 
-- **Total Certified Users**: 24,895
-- **Total Badges Earned**: 31,988
-- **Average Badges per User**: 1.28
+- **Total Certified Users**: 24,945
+- **Total Badges Earned**: 32,130
+- **Average Badges per User**: 1.29
 - **Highest Badge Count**: 22
 
 ---
