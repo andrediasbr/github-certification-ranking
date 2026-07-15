@@ -53,11 +53,11 @@ def fetch_github_external_badges(user_id):
                     # Only count if badge name is unique (normalize to handle renamed badges)
                     unique_badge_names.add(normalize_badge_name(badge_name.strip()))
         
-        return len(unique_badge_names)
+        return unique_badge_names
     except Exception as e:
-        # If external badges endpoint fails, return 0 (user may have no external badges)
+        # If external badges endpoint fails, return empty set (user may have no external badges)
         print(f"    ⚠️  Warning: Failed to fetch external badges for user {user_id}: {str(e)}")
-        return 0
+        return set()
 
 def fetch_github_org_badges(user_id):
     """Fetch GitHub badges issued directly by GitHub org, excluding expired ones and duplicates"""
@@ -104,11 +104,11 @@ def fetch_github_org_badges(user_id):
             if page > 10:
                 break
         
-        return len(unique_badge_names)
+        return unique_badge_names
     except Exception as e:
-        # If badges endpoint fails, return 0
+        # If badges endpoint fails, return empty set
         print(f"    ⚠️  Warning: Failed to fetch org badges for user {user_id}: {str(e)}")
-        return 0
+        return set()
 
 def fetch_page(country, page):
     """Fetch a single page for a country (without detailed badge fetching)"""
@@ -177,10 +177,10 @@ def fetch_country_parallel(country, max_workers=20):
         user_badge_counts = {}
         
         def fetch_all_badges(user_id):
-            """Fetch both org badges and external badges"""
-            org_count = fetch_github_org_badges(user_id)
-            external_count = fetch_github_external_badges(user_id)
-            return org_count + external_count
+            """Fetch both org badges and external badges, deduplicating by name across sources"""
+            org_names = fetch_github_org_badges(user_id)
+            external_names = fetch_github_external_badges(user_id)
+            return len(org_names | external_names)
         
         with ThreadPoolExecutor(max_workers=10) as executor:
             future_to_user = {
