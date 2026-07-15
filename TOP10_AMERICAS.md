@@ -1,6 +1,6 @@
 # 🗽 TOP 10 GitHub Certifications - Americas
 
-> Last updated: July 15, 2026 at 01:29 UTC
+> Last updated: July 15, 2026 at 02:28 UTC
 
 ## 🏆 Top 10 GitHub Certifications Leaders
 
@@ -15,7 +15,7 @@
 | #7 | [Daniel Alonso Oliveira Soares](https://www.credly.com/users/dalonsw/badges)<br>[Lucas Ludicsa](https://www.credly.com/users/lucas-ludicsa/badges) | 13 | ilegra<br>ilegra | Brazil<br>Brazil |
 | #8 | [Francisco Nascimento](https://www.credly.com/users/francisco-nascimento.f7a5a9f3/badges)<br>[John Wildes](https://www.credly.com/users/john-wildes/badges)<br>[Matt Olson](https://www.credly.com/users/molson504x/badges)<br>[🧡 Davi Santos](https://www.credly.com/users/davisantos/badges) | 12 | Avanade<br><br>Xebia<br>Avanade | Brazil<br>United States<br>United States<br>Brazil |
 | #9 | [Alexander Chorosevic](https://www.credly.com/users/alexander-chorosevic/badges)<br>[Bill Schneider](https://www.credly.com/users/bill-schneider.7f045131/badges)<br>[Daniel Koch](https://www.credly.com/users/daniel-koch.dc5d8183/badges) | 11 | <br><br>CodeCargo | United States<br>United States<br>United States |
-| #10 | [Benjamin Marsteau](https://www.credly.com/users/bmarsteau/badges)<br>[Cesar Souza](https://www.credly.com/users/cesar-souza.48cc6bb7/badges)<br>[JT Jarnegan](https://www.credly.com/users/jjarnegan/badges)<br>[Julio Cesar Barbosa da Silva](https://www.credly.com/users/juliocbsilva/badges)<br>[Parker Johnston](https://www.credly.com/users/parker-johnston/badges)<br>[Ricardo Galvão](https://www.credly.com/users/ricardo-galvao.52cfc0ae/badges)<br>[Trina Polino](https://www.credly.com/users/trina-polino/badges)<br>[William Lima Silva](https://www.credly.com/users/williamlimasilva/badges) | 10 | Wepoint<br><br>Xebia<br>Avanade<br><br>Avanade<br>GitHub<br>Avanade | Canada<br>Brazil<br>United States<br>Brazil<br>United States<br>Brazil<br>United States<br>Brazil |
+| #10 | [Benjamin Marsteau](https://www.credly.com/users/bmarsteau/badges)<br>[Cesar Souza](https://www.credly.com/users/cesar-souza.48cc6bb7/badges)<br>[Dhiego Bastelli](https://www.credly.com/users/dhiego-bastelli/badges)<br>[JT Jarnegan](https://www.credly.com/users/jjarnegan/badges)<br>[Julio Cesar Barbosa da Silva](https://www.credly.com/users/juliocbsilva/badges)<br>[Parker Johnston](https://www.credly.com/users/parker-johnston/badges)<br>[Ricardo Galvão](https://www.credly.com/users/ricardo-galvao.52cfc0ae/badges)<br>[Trina Polino](https://www.credly.com/users/trina-polino/badges)<br>[William Lima Silva](https://www.credly.com/users/williamlimasilva/badges) | 10 | Wepoint<br><br>Sensedia<br>Xebia<br>Avanade<br><br>Avanade<br>GitHub<br>Avanade | Canada<br>Brazil<br>Brazil<br>United States<br>Brazil<br>United States<br>Brazil<br>United States<br>Brazil |
 
 ---
 
@@ -36,18 +36,18 @@
 | Rank | Country | Total Badges | Certified Users |
 |------|---------|--------------|-----------------|
 | 🥇 #1 | United States | 3997 | 2820 |
-| 🥈 #2 | Brazil | 2049 | 1524 |
-| 🥉 #3 | Canada | 729 | 551 |
+| 🥈 #2 | Brazil | 2062 | 1525 |
+| 🥉 #3 | Canada | 732 | 552 |
 | #4 | Mexico | 562 | 447 |
-| #5 | Peru | 494 | 415 |
+| #5 | Peru | 490 | 413 |
 
 ---
 
 ## 📊 Statistics
 
-- **Total Certified Users**: 6,865
-- **Total Badges Earned**: 9,158
-- **Average Badges per User**: 1.33
+- **Total Certified Users**: 6,864
+- **Total Badges Earned**: 9,168
+- **Average Badges per User**: 1.34
 - **Highest Badge Count**: 20
 
 ---
