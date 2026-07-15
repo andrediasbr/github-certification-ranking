@@ -1,6 +1,6 @@
 first_name,middle_name,last_name,badge_count,profile_url
 Shan,,Jiang,2,/users/shan-jiang.7f69b1ad/badges
-Yue,,Zhang,0,/users/yue-zhang.4e1e87b4/badges
+Yue,,Zhang,1,/users/yue-zhang.4e1e87b4/badges
 路,,周,1,/users/username.af2baa37/badges
 Fan,,Lijun,1,/users/fan-lijun/badges
 sha,,lei,1,/users/sha-lei.9be8018c/badges
@@ -9,13 +9,13 @@ GAO,,TONG,1,/users/gao-tong.f68950bd/badges
 孟超,,陳,1,/users/username.073e03c3/badges
 娜,,杨,1,/users/username.c447e467/badges
 海波,,孙,1,/users/username.4b3c288b/badges
-lin,,wang,0,/users/lin-wang.db5d911b/badges
+lin,,wang,1,/users/lin-wang.db5d911b/badges
 Yao,,姚,1,/users/yao.9c96ad39/badges
 滔,,商,1,/users/username.1f4e883e/badges
 chaolong,,li,1,/users/chaolong-li.2bad46a2/badges
 YAOFENG,,GUO,1,/users/yaofeng-guo/badges
 xu,,jinglei,1,/users/xu-jinglei/badges
-宇,,任,0,/users/username.6ed29e48/badges
+宇,,任,1,/users/username.6ed29e48/badges
 Cai,,Bin,1,/users/cai-bin.96ac2bd8/badges
 海洋,,于,1,/users/username.4ad2c387/badges
 yanying,,mao,1,/users/yanying-mao/badges
@@ -153,7 +153,7 @@ zhang,,biao,1,/users/zhang-biao.7e3cd3f7/badges
 超然,,李,1,/users/username.f5cbf897/badges
 宝华,,牛,1,/users/username.f8f7f57c/badges
 艺,,林,1,/users/username.f38e9147/badges
-Yingting,,Huang,0,/users/yingting-huang/badges
+Yingting,,Huang,1,/users/yingting-huang/badges
 Jiawei,,Xu,1,/users/jiawei-xu.b2ef2466/badges
 kang,,sun,1,/users/kang-sun.b5a28066/badges
 huang,,lixiang,1,/users/huang-lixiang/badges
@@ -216,7 +216,7 @@ Yuxin,,Zhang,1,/users/yuxin-zhang.d03e747c/badges
 xiaolin,,xu,1,/users/xiaolin-xu.01f9f509/badges
 Zifan,,Zheng,1,/users/zifan-zheng/badges
 Patrick,,Yang,1,/users/patrick-yang.75612c4b/badges
-Nanxi,,Chen,0,/users/nanxi-chen.6e073e95/badges
+Nanxi,,Chen,3,/users/nanxi-chen.6e073e95/badges
 deping,,shi,1,/users/deping-shi.f09640e2/badges
 Rong,,Li,1,/users/rong-li.baf50c12/badges
 臻玮,,贾,1,/users/username.03fd062b/badges
