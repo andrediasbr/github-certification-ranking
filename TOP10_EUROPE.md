@@ -1,16 +1,16 @@
 # 🇪🇺 TOP 10 GitHub Certifications - Europe
 
-> Last updated: July 16, 2026 at 02:35 UTC
+> Last updated: July 17, 2026 at 02:38 UTC
 
 ## 🏆 Top 10 GitHub Certifications Leaders
 
 | Rank | Name | Badges | Company | Country |
 |------|------|--------|---------|---------|
-| 🥇 #1 | [Vincent Marchal](https://www.credly.com/users/vincent-marchal.87a05753/badges) | 21 | Avanade | France |
-| 🥈 #2 | [Jesse Houwing](https://www.credly.com/users/jessehouwing/badges)<br>[Joost Voskuil](https://www.credly.com/users/joost-voskuil/badges)<br>[Olivier Delmotte](https://www.credly.com/users/o.delmotte/badges)<br>[Peter Szekeli](https://www.credly.com/users/peter-szekeli/badges) | 20 | Xebia<br>Delta-N<br>Avanade<br>Xebia | Netherlands<br>Netherlands<br>France<br>Netherlands |
+| 🥇 #1 | [Joost Voskuil](https://www.credly.com/users/joost-voskuil/badges)<br>[Peter Szekeli](https://www.credly.com/users/peter-szekeli/badges)<br>[Vincent Marchal](https://www.credly.com/users/vincent-marchal.87a05753/badges) | 21 | Delta-N<br>Xebia<br>Avanade | Netherlands<br>Netherlands<br>France |
+| 🥈 #2 | [Jesse Houwing](https://www.credly.com/users/jessehouwing/badges)<br>[Olivier Delmotte](https://www.credly.com/users/o.delmotte/badges) | 20 | Xebia<br>Avanade | Netherlands<br>France |
 | 🥉 #3 | [Joas de Groot](https://www.credly.com/users/joas707/badges) | 19 | Delta-N | Netherlands |
-| #4 | [Patrycja Kozak](https://www.credly.com/users/patrycja-kozak.2a2cf477/badges)<br>[Sujith Quintelier](https://www.credly.com/users/sujith/badges) | 18 | SoftwareOne<br>Microsoft | Poland<br>Belgium |
-| #5 | [Fabian Biesheuvel](https://www.credly.com/users/fabian-biesheuvel/badges)<br>[Rimon Oz](https://www.credly.com/users/rimon-oz/badges)<br>[Rob Bos](https://www.credly.com/users/rob-bos/badges) | 17 | Delta-N<br><br>Xebia | Netherlands<br>Netherlands<br>Netherlands |
+| #4 | [Fabian Biesheuvel](https://www.credly.com/users/fabian-biesheuvel/badges)<br>[Patrycja Kozak](https://www.credly.com/users/patrycja-kozak.2a2cf477/badges)<br>[Sujith Quintelier](https://www.credly.com/users/sujith/badges) | 18 | Delta-N<br>SoftwareOne<br>Microsoft | Netherlands<br>Poland<br>Belgium |
+| #5 | [Rimon Oz](https://www.credly.com/users/rimon-oz/badges)<br>[Rob Bos](https://www.credly.com/users/rob-bos/badges) | 17 | <br>Xebia | Netherlands<br>Netherlands |
 | #6 | [Hidde de Smet](https://www.credly.com/users/hidde-de-smet/badges)<br>[Raymond Splinter](https://www.credly.com/users/raymond-splinter/badges) | 16 | Xebia<br>Xebia | Netherlands<br>Netherlands |
 | #7 | [Dennis Thie](https://www.credly.com/users/dennisthie/badges)<br>[Julien Lebutte](https://www.credly.com/users/julienlebutte/badges) | 15 | Xebia<br>Avanade | Netherlands<br>Belgium |
 | #8 | [Christos Galanopoulos](https://www.credly.com/users/christos-galanopoulos/badges)<br>[Till Spindler](https://www.credly.com/users/till-spindler/badges) | 14 | <br>Eficode | Greece<br>Germany |
@@ -23,8 +23,8 @@
 
 | Rank | Company | Total Badges | Certified Users |
 |------|---------|--------------|-----------------|
-| 🥇 #1 | Xebia | 128 | 8 |
-| 🥈 #2 | Delta-N | 68 | 4 |
+| 🥇 #1 | Xebia | 129 | 8 |
+| 🥈 #2 | Delta-N | 70 | 4 |
 | 🥉 #3 | Avanade | 56 | 3 |
 | #4 | Eficode | 26 | 2 |
 | #5 | Microsoft<br>SoftwareOne | 18 | 1<br>1 |
@@ -36,9 +36,9 @@
 | Rank | Country | Total Badges | Certified Users |
 |------|---------|--------------|-----------------|
 | 🥇 #1 | United Kingdom | 1065 | 758 |
-| 🥈 #2 | Netherlands | 675 | 314 |
-| 🥉 #3 | Spain | 612 | 460 |
-| #4 | Germany | 485 | 349 |
+| 🥈 #2 | Netherlands | 678 | 314 |
+| 🥉 #3 | Spain | 611 | 459 |
+| #4 | Germany | 486 | 350 |
 | #5 | Poland | 479 | 296 |
 
 ---
@@ -46,7 +46,7 @@
 ## 📊 Statistics
 
 - **Total Certified Users**: 4,164
-- **Total Badges Earned**: 6,071
+- **Total Badges Earned**: 6,074
 - **Average Badges per User**: 1.46
 - **Highest Badge Count**: 21
 
