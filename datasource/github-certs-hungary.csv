@@ -1,4 +1,5 @@
 first_name,middle_name,last_name,badge_count,profile_url
+Ruslan,,Gasseev,3,/users/ruslan-gasseev/badges
 Gábor,,Demjén,1,/users/gabor-demjen/badges
 Hunor,,Böröndy,1,/users/hunor-borondy/badges
 Mózes,,Szabó,1,/users/mozes-szabo/badges
@@ -35,7 +36,6 @@ Laszlo,,Stomp,1,/users/laszlo-stomp.6decac87/badges
 Gergely,,Kántor,1,/users/gergely-kantor/badges
 Marcell,,Suranyi,1,/users/marcell-suranyi/badges
 Anand,,Madan,1,/users/anand-madan/badges
-Ruslan,,Gasseev,2,/users/ruslan-gasseev/badges
 Peter,,Rakolcza,1,/users/peter-rakolcza/badges
 István,,Kovács,0,/users/istvan-kovacs.a7b45413/badges
 Tamás,,Veiland,0,/users/tamas-veiland/badges
