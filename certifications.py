@@ -70,7 +70,7 @@ ALLOWED_MICROSOFT_GITHUB_CERTIFICATIONS = {
     'GitHub Advanced Security',
     'GitHub Foundations',
     'GitHub Administration',
-    'Developing in Agentic AI Systems',
+    'GitHub Certified: Agentic AI Developer',
     'Microsoft Certified: DevOps Engineer Expert',
     'Microsoft Applied Skills: Accelerate AI-assisted development by using GitHub Copilot',
     'Microsoft Applied Skills: Accelerate app development by using GitHub Copilot',
