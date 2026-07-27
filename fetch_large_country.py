@@ -15,11 +15,8 @@ from certifications import (
     normalize_badge_name,
     request_with_retries,
     count_existing_rows,
+    EXCLUDED_BADGES,
 )
-
-EXCLUDED_BADGES = {
-    'GitHub Sales Professional',
-}
 
 def is_badge_expired(expires_at_date):
     """Check if a badge is expired based on expires_at_date"""

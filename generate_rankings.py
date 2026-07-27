@@ -18,11 +18,11 @@ from certifications import (
     ALLOWED_MICROSOFT_GITHUB_CERTIFICATIONS,
     normalize_badge_name,
     request_with_retries,
+    EXCLUDED_BADGES,
 )
 
 # --- Certification tooltip support ---
 GITHUB_ORG_ID = '63074953-290b-4dce-86ce-ea04b4187219'
-EXCLUDED_BADGES = {'GitHub Sales Professional'}
 
 # Cache of profile_url -> set of valid cert names (or None when the fetch failed).
 _USER_CERTS_CACHE = {}

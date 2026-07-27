@@ -64,6 +64,19 @@ def count_existing_rows(csv_path):
         return 0
 
 
+# Badges issued by the GitHub org on Credly that are NOT certifications
+# (community awards, recognition programs, sales-only badges). Excluded from all
+# counts even though they come from the GitHub organization.
+EXCLUDED_BADGES = {
+    'GitHub Sales Professional',
+    'All In Africa Community Champion',
+    'All In Africa Open Source Contributor',
+    'All In Africa Pioneer Award',
+    'GitHub Digital Public Goods Open Source Community Manager Program',
+    'Hubber Champion',
+}
+
+
 ALLOWED_MICROSOFT_GITHUB_CERTIFICATIONS = {
     'GitHub Copilot',
     'GitHub Actions',
