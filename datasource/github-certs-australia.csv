@@ -1,4 +1,5 @@
 first_name,middle_name,last_name,badge_count,profile_url
+Simon,,Giesemann,2,/users/simon-giesemann/badges
 Ian,,Davey,1,/users/ian-davey.c5588e47/badges
 Jamie,,Grimwood,2,/users/jamie-grimwood/badges
 Angie,,Fasciani,1,/users/angie-fasciani.fd75bdf6/badges
@@ -451,7 +452,6 @@ Samuel,,Abdelsayed,1,/users/samuel-abdelsayed/badges
 Hans Jakob,,Emmel,1,/users/hans-jakob-emmel/badges
 Jessica,,Turner,1,/users/jessica-turner.e84a12cc/badges
 Jacky,,Huang,2,/users/jacky-huang/badges
-Simon,,Giesemann,2,/users/simon-giesemann/badges
 Martin,,Montgomery,1,/users/martin-montgomery.749ce2cc/badges
 Vicki,,Turner,1,/users/vicki-turner.06a5b06f/badges
 Radhika,,Rathnagiri Narasingappa,2,/users/radhika-rathnagiri-narasingappa/badges
@@ -491,7 +491,7 @@ Emlyn,,Rice,1,/users/emlyn-rice.7bb0ba20/badges
 Md Kowser,,Hossain,1,/users/md-kowser-hossain/badges
 ANDREW,,COLE,1,/users/andrew-cole.c0a37851/badges
 Ryan,,Northam,0,/users/ryan-northam.fd1e4842/badges
-Alireza,,Radman,0,/users/aradman/badges
+Alireza,,Radman,3,/users/aradman/badges
 Hamish,,Broadhurst-Tynan,1,/users/hamish-broadhurst-tynan/badges
 Nelson,,Pui,3,/users/nelson-pui/badges
 Felix,,Salim,3,/users/felix-salim/badges
