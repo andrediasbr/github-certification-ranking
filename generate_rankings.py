@@ -18,7 +18,7 @@ from certifications import (
     ALLOWED_MICROSOFT_GITHUB_CERTIFICATIONS,
     normalize_badge_name,
     request_with_retries,
-    EXCLUDED_BADGES,
+    is_excluded_badge,
 )
 
 # --- Certification tooltip support ---
@@ -259,7 +259,7 @@ def fetch_user_certs(profile_url):
                 if any(e.get('entity', {}).get('id') == GITHUB_ORG_ID for e in entities):
                     if not _cert_is_expired(badge.get('expires_at_date')):
                         name = badge.get('badge_template', {}).get('name', '')
-                        if name and name not in EXCLUDED_BADGES:
+                        if name and not is_excluded_badge(name):
                             names.add(name)
             page += 1
             if page > 10:

@@ -69,12 +69,29 @@ def count_existing_rows(csv_path):
 # counts even though they come from the GitHub organization.
 EXCLUDED_BADGES = {
     'GitHub Sales Professional',
-    'All In Africa Community Champion',
-    'All In Africa Open Source Contributor',
-    'All In Africa Pioneer Award',
     'GitHub Digital Public Goods Open Source Community Manager Program',
     'Hubber Champion',
 }
+
+# Whole families of non-certification award badges, matched by name prefix so new
+# variants (e.g. "All In Africa <something> Award") are excluded automatically.
+EXCLUDED_BADGE_PREFIXES = (
+    'All In Africa',
+)
+
+
+def is_excluded_badge(badge_name):
+    """Return True if a badge is not a certification and must be excluded.
+
+    Matches exact names in EXCLUDED_BADGES and any name starting with one of
+    EXCLUDED_BADGE_PREFIXES (award families that keep gaining new variants).
+    """
+    if not badge_name:
+        return False
+    name = badge_name.strip()
+    if name in EXCLUDED_BADGES:
+        return True
+    return any(name.startswith(p) for p in EXCLUDED_BADGE_PREFIXES)
 
 
 ALLOWED_MICROSOFT_GITHUB_CERTIFICATIONS = {

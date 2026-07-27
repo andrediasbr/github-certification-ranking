@@ -17,7 +17,7 @@ from certifications import (
     normalize_badge_name,
     request_with_retries,
     count_existing_rows,
-    EXCLUDED_BADGES,
+    is_excluded_badge,
 )
 
 def is_badge_expired(expires_at_date):
@@ -97,7 +97,7 @@ def fetch_github_org_badges(user_id):
                         # Get badge name and only count if unique and not excluded
                         badge_template = badge.get('badge_template', {})
                         badge_name = badge_template.get('name', '')
-                        if badge_name and badge_name not in EXCLUDED_BADGES:
+                        if badge_name and not is_excluded_badge(badge_name):
                             unique_badge_names.add(badge_name)
             
             page += 1
