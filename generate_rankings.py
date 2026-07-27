@@ -11,7 +11,23 @@ import json
 import os
 import requests
 from collections import defaultdict
+from concurrent.futures import ThreadPoolExecutor, as_completed
 from datetime import datetime
+
+from certifications import (
+    ALLOWED_MICROSOFT_GITHUB_CERTIFICATIONS,
+    normalize_badge_name,
+    request_with_retries,
+)
+
+# --- Certification tooltip support ---
+GITHUB_ORG_ID = '63074953-290b-4dce-86ce-ea04b4187219'
+EXCLUDED_BADGES = {'GitHub Sales Professional'}
+
+# Cache of profile_url -> set of valid cert names (or None when the fetch failed).
+_USER_CERTS_CACHE = {}
+# Union of every valid certification held by any ranked member across all rankings.
+GLOBAL_CERT_UNIVERSE = set()
 
 # Continent mapping
 CONTINENT_MAP = {
@@ -201,24 +217,119 @@ def get_outdated_csvs():
     
     return sorted(outdated, key=lambda x: x['hours_old'], reverse=True)
 
-def generate_markdown_top10(users, title, filename, filter_func=None):
-    """Generate TOP 10 markdown file with position-based ranking (tied users on same row)"""
-    
-    # Filter users if filter function provided
-    if filter_func:
-        filtered_users = [u for u in users if filter_func(u)]
-    else:
-        filtered_users = users
-    
-    # Sort by badges (descending) then by name (alphabetically)
+def _cert_is_expired(expires_at_date):
+    """Check if a badge is expired based on expires_at_date (format YYYY-MM-DD)."""
+    if not expires_at_date:
+        return False
+    try:
+        return datetime.strptime(expires_at_date, "%Y-%m-%d").date() < datetime.now().date()
+    except Exception:
+        return False
+
+
+def fetch_user_certs(profile_url):
+    """Return the set of valid (non-expired, deduplicated) GitHub certification
+    names for a user, combining GitHub org badges and allowed Microsoft external
+    badges. Cached by profile_url. Returns None on fetch failure so callers can
+    omit tooltips instead of showing misleading data."""
+    if not profile_url:
+        return set()
+    if profile_url in _USER_CERTS_CACHE:
+        return _USER_CERTS_CACHE[profile_url]
+
+    username = profile_url.split('/')[2] if '/users/' in profile_url else ''
+    if not username:
+        _USER_CERTS_CACHE[profile_url] = set()
+        return set()
+
+    names = set()
+    try:
+        # GitHub org badges (paginated)
+        page = 1
+        while True:
+            resp = request_with_retries(
+                f"https://www.credly.com/users/{username}/badges.json?page={page}&per_page=100",
+                timeout=30,
+            )
+            badges = resp.json().get('data', [])
+            if not badges:
+                break
+            for badge in badges:
+                entities = badge.get('issuer', {}).get('entities', [])
+                if any(e.get('entity', {}).get('id') == GITHUB_ORG_ID for e in entities):
+                    if not _cert_is_expired(badge.get('expires_at_date')):
+                        name = badge.get('badge_template', {}).get('name', '')
+                        if name and name not in EXCLUDED_BADGES:
+                            names.add(name)
+            page += 1
+            if page > 10:
+                break
+
+        # Microsoft-issued external badges (allowlist only)
+        resp = request_with_retries(
+            f"https://www.credly.com/api/v1/users/{username}/external_badges/open_badges/public?page=1&page_size=48",
+            timeout=30,
+        )
+        for badge in resp.json().get('data', []):
+            eb = badge.get('external_badge', {})
+            name = eb.get('badge_name', '').strip()
+            if eb.get('issuer_name') == 'Microsoft' and name in ALLOWED_MICROSOFT_GITHUB_CERTIFICATIONS:
+                if not _cert_is_expired(badge.get('expires_at_date')):
+                    names.add(normalize_badge_name(name))
+    except Exception as e:
+        print(f"    ⚠️  Failed to fetch certs for {username}: {e}")
+        _USER_CERTS_CACHE[profile_url] = None
+        return None
+
+    _USER_CERTS_CACHE[profile_url] = names
+    return names
+
+
+def _cert_tooltip(header, items):
+    """Build an HTML title-attribute string with one certification per line.
+
+    &#10; renders as a line break inside the tooltip on GitHub; quotes are
+    escaped so they don't terminate the attribute.
+    """
+    body = '&#10;'.join(i.replace('"', '&quot;') for i in items)
+    return f"{header}&#10;{body}" if body else header
+
+
+def build_cert_emojis(profile_url_rel, profile_full_url):
+    """Return the ' 🏅 🎯' emoji suffix (with cert tooltips) for a ranked member.
+
+    🏅 lists all obtained certifications; 🎯 lists the ones missing versus the
+    global universe. Returns '' when cert data is unavailable so the name stays
+    clean. 🎯 is omitted when the member already holds every known certification.
+    """
+    certs = fetch_user_certs(profile_url_rel)
+    if not certs:
+        return ''
+
+    obtained = sorted(certs)
+    missing = sorted(GLOBAL_CERT_UNIVERSE - certs)
+
+    ob_tip = _cert_tooltip(f"🏅 Obtained ({len(obtained)}):", obtained)
+    suffix = f' [🏅]({profile_full_url} "{ob_tip}")'
+    if missing:
+        mi_tip = _cert_tooltip(f"🎯 Missing ({len(missing)}):", missing)
+        suffix += f' [🎯]({profile_full_url} "{mi_tip}")'
+    return suffix
+
+
+def _compute_positions(filtered_users):
+    """Group filtered users into ranking positions (ties share a position, top 10).
+
+    Returns (positions, all_ranked_users) where positions is a list of
+    (position_number, [users]) and all_ranked_users is the capped flat list.
+    Shared by the render step and the universe pre-pass so both stay in sync.
+    """
     sorted_users = sorted(filtered_users, key=lambda x: (-x['badges'], x['name'].lower()))
-    
-    # Group users into positions (tied users share a position)
+
     positions = []  # list of (position_number, [users])
     current_pos = 0
     prev_badges = None
-    
-    for i, user in enumerate(sorted_users):
+    for user in sorted_users:
         if user['badges'] != prev_badges:
             current_pos += 1
             prev_badges = user['badges']
@@ -228,14 +339,28 @@ def generate_markdown_top10(users, title, filename, filter_func=None):
         else:
             if current_pos <= 10:
                 positions[-1][1].append(user)
+
+    max_users_per_position = 20
+    all_ranked_users = []
+    for _pos, pos_users in positions:
+        all_ranked_users.extend(pos_users[:max_users_per_position])
+    return positions, all_ranked_users
+
+
+def generate_markdown_top10(users, title, filename, filter_func=None):
+    """Generate TOP 10 markdown file with position-based ranking (tied users on same row)"""
+    
+    # Filter users if filter function provided
+    if filter_func:
+        filtered_users = [u for u in users if filter_func(u)]
+    else:
+        filtered_users = users
+    
+    # Compute positions and capped ranked users (shared with the universe pre-pass)
+    positions, all_ranked_users = _compute_positions(filtered_users)
     
     # Cap display: if a position has too many tied users, show first N and a count
     MAX_USERS_PER_POSITION = 20
-    
-    # Collect all users across positions for company fetching (capped)
-    all_ranked_users = []
-    for pos, pos_users in positions:
-        all_ranked_users.extend(pos_users[:MAX_USERS_PER_POSITION])
     
     # Fetch company information for ranked users
     print(f"  Fetching company info for {len(all_ranked_users)} ranked users...")
@@ -272,7 +397,8 @@ def generate_markdown_top10(users, title, filename, filter_func=None):
         for user in display_users:
             if user.get('profile_url'):
                 profile_url = f"https://www.credly.com{user['profile_url']}"
-                names.append(f"[{user['name']}]({profile_url})")
+                emojis = build_cert_emojis(user['profile_url'], profile_url)
+                names.append(f"[{user['name']}]({profile_url}){emojis}")
             else:
                 names.append(user['name'])
             companies.append(user.get('company', ''))
@@ -442,65 +568,49 @@ def main():
         print("❌ No users found in CSV files!")
         return
     
+    # Ranking specs: (title, filename, filter_func)
+    ranking_specs = [
+        ("🇧🇷 TOP 10 GitHub Certifications - Brazil", "TOP10_BRAZIL.md",
+         lambda u: u['country'].lower() == 'brazil'),
+        ("🗽 TOP 10 GitHub Certifications - Americas", "TOP10_AMERICAS.md",
+         lambda u: u['continent'] == 'Americas'),
+        ("🇪🇺 TOP 10 GitHub Certifications - Europe", "TOP10_EUROPE.md",
+         lambda u: u['continent'] == 'Europe'),
+        ("� TOP 10 GitHub Certifications - Asia", "TOP10_ASIA.md",
+         lambda u: u['continent'] == 'Asia'),
+        ("🦁 TOP 10 GitHub Certifications - Africa", "TOP10_AFRICA.md",
+         lambda u: u['continent'] == 'Africa'),
+        ("🌊 TOP 10 GitHub Certifications - Oceania", "TOP10_OCEANIA.md",
+         lambda u: u['continent'] == 'Oceania'),
+        ("🌍 TOP 10 GitHub Certifications - Global", "TOP10_WORLD.md", None),
+    ]
+    
+    # Pre-pass: collect every ranked member across ALL rankings, then fetch their
+    # certifications to build the global universe used for the "missing" tooltip.
+    ranked_profiles = {}
+    for _title, _filename, filter_func in ranking_specs:
+        subset = [u for u in users if filter_func(u)] if filter_func else users
+        _positions, ranked = _compute_positions(subset)
+        for u in ranked:
+            if u.get('profile_url'):
+                ranked_profiles[u['profile_url']] = u
+    
+    print()
+    print(f"🔎 Building certification universe from {len(ranked_profiles)} ranked members...")
+    with ThreadPoolExecutor(max_workers=10) as executor:
+        futures = {executor.submit(fetch_user_certs, p): p for p in ranked_profiles}
+        for future in as_completed(futures):
+            certs = future.result()
+            if certs:
+                GLOBAL_CERT_UNIVERSE.update(certs)
+    print(f"🌐 Universe: {len(GLOBAL_CERT_UNIVERSE)} distinct certifications")
+    
     print()
     print("📝 Generating markdown files...")
     print()
     
-    # Generate TOP 10 Brazil
-    generate_markdown_top10(
-        users,
-        "🇧🇷 TOP 10 GitHub Certifications - Brazil",
-        "TOP10_BRAZIL.md",
-        lambda u: u['country'].lower() == 'brazil'
-    )
-    
-    # Generate TOP 10 Americas
-    generate_markdown_top10(
-        users,
-        "🗽 TOP 10 GitHub Certifications - Americas",
-        "TOP10_AMERICAS.md",
-        lambda u: u['continent'] == 'Americas'
-    )
-    
-    # Generate TOP 10 Europe
-    generate_markdown_top10(
-        users,
-        "🇪🇺 TOP 10 GitHub Certifications - Europe",
-        "TOP10_EUROPE.md",
-        lambda u: u['continent'] == 'Europe'
-    )
-    
-    # Generate TOP 10 Asia
-    generate_markdown_top10(
-        users,
-        "� TOP 10 GitHub Certifications - Asia",
-        "TOP10_ASIA.md",
-        lambda u: u['continent'] == 'Asia'
-    )
-    
-    # Generate TOP 10 Africa
-    generate_markdown_top10(
-        users,
-        "🦁 TOP 10 GitHub Certifications - Africa",
-        "TOP10_AFRICA.md",
-        lambda u: u['continent'] == 'Africa'
-    )
-    
-    # Generate TOP 10 Oceania
-    generate_markdown_top10(
-        users,
-        "🌊 TOP 10 GitHub Certifications - Oceania",
-        "TOP10_OCEANIA.md",
-        lambda u: u['continent'] == 'Oceania'
-    )
-    
-    # Generate TOP 10 Global
-    generate_markdown_top10(
-        users,
-        "🌍 TOP 10 GitHub Certifications - Global",
-        "TOP10_WORLD.md",
-        None  # No filter, all users
-    )
+    for title, filename, filter_func in ranking_specs:
+        generate_markdown_top10(users, title, filename, filter_func)
     
     print()
     print("=" * 80)
