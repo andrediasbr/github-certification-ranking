@@ -74,9 +74,11 @@ EXCLUDED_BADGES = {
 }
 
 # Whole families of non-certification award badges, matched by name prefix so new
-# variants (e.g. "All In Africa <something> Award") are excluded automatically.
+# variants (e.g. "All In Africa <something> Award", "RKO'27 Outstanding Team
+# Award - Support") are excluded automatically.
 EXCLUDED_BADGE_PREFIXES = (
     'All In Africa',
+    'RKO',
 )
 
 
