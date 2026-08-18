@@ -1,6 +1,6 @@
 # � TOP 10 GitHub Certifications - Asia
 
-> Last updated: August 17, 2026 at 01:15 UTC
+> Last updated: August 18, 2026 at 01:14 UTC
 
 ## 🏆 Top 10 GitHub Certifications Leaders
 
