@@ -1,6 +1,6 @@
 # 🌍 TOP 10 GitHub Certifications - Global
 
-> Last updated: August 18, 2026 at 01:16 UTC
+> Last updated: August 19, 2026 at 01:15 UTC
 
 ## 🏆 Top 10 GitHub Certifications Leaders
 
@@ -36,17 +36,17 @@
 | Rank | Country | Total Badges | Certified Users |
 |------|---------|--------------|-----------------|
 | 🥇 #1 | India | 12296 | 10000 |
-| 🥈 #2 | United States | 4027 | 2826 |
-| 🥉 #3 | Brazil | 2133 | 1527 |
-| #4 | United Kingdom | 1071 | 761 |
+| 🥈 #2 | United States | 4026 | 2826 |
+| 🥉 #3 | Brazil | 2132 | 1526 |
+| #4 | United Kingdom | 1070 | 761 |
 | #5 | Canada | 735 | 552 |
 
 ---
 
 ## 📊 Statistics
 
-- **Total Certified Users**: 24,912
-- **Total Badges Earned**: 32,396
+- **Total Certified Users**: 24,911
+- **Total Badges Earned**: 32,401
 - **Average Badges per User**: 1.30
 - **Highest Badge Count**: 23
 
