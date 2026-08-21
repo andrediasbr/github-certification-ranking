@@ -62,7 +62,7 @@ def fetch_country_data(country, metadata):
     csv_file = get_csv_filename(country)
     
     # Use parallel script for large countries (>100 pages = ~800 users)
-    large_countries = ['India', 'United States', 'Brazil', 'United Kingdom']
+    large_countries = ['India', 'United States', 'Brazil', 'United Kingdom', 'Canada']
     
     if country in large_countries:
         timeout = 1800  # 30 minutes for large countries
