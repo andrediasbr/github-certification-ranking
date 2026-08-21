@@ -20,7 +20,7 @@ applyTo: "**/*.py"
 - Keep `EXCLUDED_BADGES` and `ALLOWED_MICROSOFT_GITHUB_CERTIFICATIONS` synchronized between `fetch_country.py` and `fetch_large_country.py`
 
 ## CSV Format
-- Header: `first_name,middle_name,last_name,badge_count,profile_url`
+- Header: `first_name,middle_name,last_name,badge_count,profile_url,company`
 - File naming: `datasource/github-certs-{country-with-hyphens}.csv`
 - Use `csv.DictReader`/`csv.DictWriter` for all CSV operations
 - UTF-8 encoding always

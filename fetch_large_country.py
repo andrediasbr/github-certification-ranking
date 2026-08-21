@@ -16,6 +16,8 @@ from certifications import (
     request_with_retries,
     count_existing_rows,
     is_excluded_badge,
+    fetch_user_company,
+    configure_utf8_output,
 )
 
 def is_badge_expired(expires_at_date):
@@ -225,6 +227,22 @@ def fetch_country_parallel(country, max_workers=20):
             user_id = user.get('id')
             if user_id and user_id in user_badge_counts:
                 user['badge_count'] = user_badge_counts[user_id]
+
+        # Fetch each earner's company so the "Top Companies" totals in the
+        # rankings reflect every certified member, not just the ranked ones.
+        # Persisted to the CSV so generate_rankings.py needs no extra API calls.
+        print(f"  Fetching company info for {len(all_users)} users...")
+        with ThreadPoolExecutor(max_workers=20) as executor:
+            future_to_user = {
+                executor.submit(fetch_user_company, user.get('url', '')): user
+                for user in all_users
+            }
+            for future in as_completed(future_to_user):
+                user = future_to_user[future]
+                try:
+                    user['company'] = future.result()
+                except Exception:
+                    user['company'] = ''
     
     return all_users, failed_pages
 
@@ -256,7 +274,7 @@ def save_to_csv(country, users, output_dir='datasource', incomplete=False):
     
     with open(output_file, 'w', newline='', encoding='utf-8') as f:
         writer = csv.writer(f)
-        writer.writerow(['first_name', 'middle_name', 'last_name', 'badge_count', 'profile_url'])
+        writer.writerow(['first_name', 'middle_name', 'last_name', 'badge_count', 'profile_url', 'company'])
         
         for user in users:
             writer.writerow([
@@ -264,7 +282,8 @@ def save_to_csv(country, users, output_dir='datasource', incomplete=False):
                 user.get('middle_name', ''),
                 user.get('last_name', ''),
                 user.get('badge_count', 0),
-                user.get('url', '')
+                user.get('url', ''),
+                user.get('company', '')
             ])
     
     print(f"Saved to {output_file}")
@@ -272,6 +291,7 @@ def save_to_csv(country, users, output_dir='datasource', incomplete=False):
 
 def main():
     """Main execution"""
+    configure_utf8_output()
     if len(sys.argv) < 2:
         print("Usage: ./fetch_large_country.py <country_name>")
         print("Example: ./fetch_large_country.py India")

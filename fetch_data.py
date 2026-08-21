@@ -14,9 +14,14 @@ from datetime import datetime
 
 # Import CONTINENT_MAP from generate_rankings
 from generate_rankings import CONTINENT_MAP
+from certifications import configure_utf8_output
 
 METADATA_FILE = 'csv_metadata.json'
 DATASOURCE_DIR = 'datasource'
+
+# Child processes must emit UTF-8 so emoji logging doesn't crash under a legacy
+# Windows code page when their captured output is written to a pipe.
+CHILD_ENV = {**os.environ, 'PYTHONUTF8': '1', 'PYTHONIOENCODING': 'utf-8'}
 
 def get_ignored_countries():
     """Get list of countries to ignore based on manual trigger"""
@@ -66,7 +71,8 @@ def fetch_country_data(country, metadata):
                 ['python3', 'fetch_large_country.py', country],
                 timeout=timeout,
                 capture_output=True,
-                text=True
+                text=True,
+                env=CHILD_ENV
             )
             
             if result.returncode == 0:
@@ -83,15 +89,18 @@ def fetch_country_data(country, metadata):
         except Exception as e:
             return (country, 'failed', str(e))
     
-    # Regular countries use Python script
-    timeout = 300  # 5 minutes for all regular countries
+    # Regular countries use Python script. The per-user company lookup roughly
+    # doubles runtime, so populous mid-size countries (Germany, France, ...)
+    # need more headroom than the original 5 minutes.
+    timeout = 900  # 15 minutes for all regular countries
     
     try:
         result = subprocess.run(
             ['python3', 'fetch_country.py', country],
             timeout=timeout,
             capture_output=True,
-            text=True
+            text=True,
+            env=CHILD_ENV
         )
         
         if result.returncode == 0:
@@ -111,6 +120,7 @@ def fetch_country_data(country, metadata):
 
 def main():
     """Main execution"""
+    configure_utf8_output()
     print("=" * 80)
     print("GitHub Certifications Data Fetcher")
     print("=" * 80)

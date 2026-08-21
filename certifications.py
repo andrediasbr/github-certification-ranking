@@ -5,6 +5,7 @@ Shared certification allowlists and resilient fetch helpers.
 """
 
 import os
+import sys
 import time
 
 import requests
@@ -13,7 +14,17 @@ import requests
 RETRYABLE_STATUS = {429, 500, 502, 503, 504}
 
 
-def request_with_retries(url, timeout=30, max_retries=3, base_delay=3):
+def configure_utf8_output():
+    """Force stdout/stderr to UTF-8 so emoji logging doesn't crash on consoles or
+    pipes that default to a legacy code page (e.g. Windows cp1252)."""
+    for stream in (sys.stdout, sys.stderr):
+        try:
+            stream.reconfigure(encoding='utf-8')
+        except (AttributeError, ValueError):
+            pass
+
+
+def request_with_retries(url, timeout=30, max_retries=3, base_delay=3, headers=None):
     """GET a URL with retries and exponential backoff on transient failures.
 
     Retries on connection/timeout/SSL errors and on retryable HTTP status codes
@@ -24,7 +35,7 @@ def request_with_retries(url, timeout=30, max_retries=3, base_delay=3):
     last_exc = None
     for attempt in range(max_retries + 1):
         try:
-            response = requests.get(url, timeout=timeout)
+            response = requests.get(url, timeout=timeout, headers=headers)
             if response.status_code in RETRYABLE_STATUS:
                 raise requests.HTTPError(
                     f"{response.status_code} Server Error", response=response
@@ -62,6 +73,31 @@ def count_existing_rows(csv_path):
             return max(0, sum(1 for _ in f) - 1)
     except Exception:
         return 0
+
+
+def fetch_user_company(profile_url, timeout=10):
+    """Fetch the earner's current organization from their public Credly profile.
+
+    profile_url is the directory 'url' field, e.g. '/users/<username>/badges'.
+    Returns '' when unavailable. Pipe characters are sanitized because the value
+    is later rendered inside a markdown table.
+    """
+    if not profile_url:
+        return ''
+    parts = [p for p in profile_url.split('/') if p]
+    username = parts[1] if len(parts) >= 2 and parts[0] == 'users' else ''
+    if not username:
+        return ''
+    try:
+        response = request_with_retries(
+            f"https://www.credly.com/users/{username}",
+            timeout=timeout,
+            headers={'Accept': 'application/json'},
+        )
+        company = response.json().get('data', {}).get('current_organization_name', '') or ''
+        return company.replace('|', '/') if company else ''
+    except Exception:
+        return ''
 
 
 # Badges issued by the GitHub org on Credly that are NOT certifications

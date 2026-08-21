@@ -30,7 +30,7 @@ This project generates automated daily rankings of GitHub Certifications leaders
 - Expired certifications are always excluded from counts
 - Excluded badges (`EXCLUDED_BADGES` set) are certifications no longer available for earning (e.g., `GitHub Sales Professional`)
 - Badge deduplication by name — same badge name counts once per user
-- CSV format: `first_name,middle_name,last_name,badge_count,profile_url`
+- CSV format: `first_name,middle_name,last_name,badge_count,profile_url,company`
 - Company names with `|` are sanitized to `/` to avoid breaking markdown tables
 
 ## Ranking Rules

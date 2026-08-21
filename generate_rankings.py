@@ -19,6 +19,7 @@ from certifications import (
     normalize_badge_name,
     request_with_retries,
     is_excluded_badge,
+    configure_utf8_output,
 )
 
 # --- Certification tooltip support ---
@@ -114,32 +115,6 @@ def get_continent(country_name):
     country_lower = country_name.lower().replace('-', ' ')
     return CONTINENT_MAP.get(country_lower, 'Unknown')
 
-def fetch_user_company(profile_url):
-    """Fetch company name from user profile"""
-    if not profile_url:
-        return ''
-    
-    try:
-        # Extract username from profile_url (/users/username/badges)
-        username = profile_url.split('/')[2] if '/users/' in profile_url else ''
-        if not username:
-            return ''
-        
-        # Fetch user profile with JSON header
-        url = f"https://www.credly.com/users/{username}"
-        headers = {'Accept': 'application/json'}
-        response = requests.get(url, headers=headers, timeout=5)
-        response.raise_for_status()
-        data = response.json()
-        
-        # Extract company name and sanitize pipe characters (breaks markdown tables)
-        company = data.get('data', {}).get('current_organization_name', '')
-        if company:
-            company = company.replace('|', '/')
-        return company if company else ''
-    except:
-        return ''
-
 def load_metadata():
     """Load CSV metadata"""
     metadata_file = 'csv_metadata.json'
@@ -172,6 +147,7 @@ def read_all_csv_files(base_path):
                             middle_name = row.get('middle_name', '').strip('"').strip()
                             last_name = row.get('last_name', '').strip('"').strip()
                             profile_url = row.get('profile_url', '').strip('"').strip()
+                            company = (row.get('company') or '').strip('"').strip()
                             
                             # Build full name
                             name_parts = [first_name]
@@ -186,7 +162,8 @@ def read_all_csv_files(base_path):
                                 'badges': badge_count,
                                 'country': country_display,
                                 'continent': continent,
-                                'profile_url': profile_url
+                                'profile_url': profile_url,
+                                'company': company
                             })
                     except (ValueError, KeyError):
                         continue
@@ -362,12 +339,6 @@ def generate_markdown_top10(users, title, filename, filter_func=None):
     # Cap display: if a position has too many tied users, show first N and a count
     MAX_USERS_PER_POSITION = 20
     
-    # Fetch company information for ranked users
-    print(f"  Fetching company info for {len(all_ranked_users)} ranked users...")
-    for user in all_ranked_users:
-        company = fetch_user_company(user.get('profile_url', ''))
-        user['company'] = company
-    
     # Get outdated CSVs
     outdated = get_outdated_csvs()
     
@@ -416,9 +387,11 @@ def generate_markdown_top10(users, title, filename, filter_func=None):
         
         content += f"| {rank_display} | {name_cell} | {badge_cell} | {company_cell} | {country_cell} |\n"
     
-    # --- Company Rankings (TOP 5) --- based on ranked users' companies
+    # --- Company Rankings (TOP 5) --- based on ALL users in the region, mirroring
+    # the country ranking, so totals reflect every certified member rather than
+    # only the top-10 ranked users (company is read from the CSV).
     company_stats = defaultdict(lambda: {'badges': 0, 'users': 0})
-    for user in all_ranked_users:
+    for user in filtered_users:
         company = user.get('company', '')
         if company:
             company_stats[company]['badges'] += user['badges']
@@ -553,6 +526,7 @@ The following countries have data that was not updated in the last run:
 
 def main():
     """Main execution function"""
+    configure_utf8_output()
     print("=" * 80)
     print("GitHub Certifications Rankings Generator")
     print("=" * 80)
@@ -604,7 +578,7 @@ def main():
             if certs:
                 GLOBAL_CERT_UNIVERSE.update(certs)
     print(f"🌐 Universe: {len(GLOBAL_CERT_UNIVERSE)} distinct certifications")
-    
+
     print()
     print("📝 Generating markdown files...")
     print()
