@@ -1,4 +1,4 @@
-first_name,middle_name,last_name,badge_count,profile_url
-Madis,,Kõosaar,13,/users/madis-koosaar/badges
-Zahhar,,Kirillov,1,/users/zahhar/badges
-Martin,,Sidorov,1,/users/martin-sidorov/badges
+first_name,middle_name,last_name,badge_count,profile_url,company
+Madis,,Kõosaar,13,/users/madis-koosaar/badges,Solidify AB
+Zahhar,,Kirillov,1,/users/zahhar/badges,
+Martin,,Sidorov,1,/users/martin-sidorov/badges,Wallester AS

@@ -1,6 +1,6 @@
 # 🦁 TOP 10 GitHub Certifications - Africa
 
-> Last updated: August 22, 2026 at 01:14 UTC
+> Last updated: August 22, 2026 at 10:27 UTC
 
 ## 🏆 Top 10 GitHub Certifications Leaders
 
@@ -22,10 +22,10 @@
 | Rank | Company | Total Badges | Certified Users |
 |------|---------|--------------|-----------------|
 | 🥇 #1 | Reliance Infosystems Limited<br>Cloudware Africa | 13 | 2<br>1 |
-| 🥈 #2 | Tek Experts Nigeria Limited | 4 | 1 |
-| 🥉 #3 | ADP<br>Deloitte<br>GitHub<br>Sangndu<br>Tek Experts | 3 | 1<br>1<br>1<br>1<br>1 |
-| #4 | Aimily App<br>Andela<br>Augentic - Passcam<br>Babbangona<br>BUI<br>Ha-Shem Limited<br>Peabsmart MB, Consulting | 2 | 1<br>1<br>1<br>1<br>1<br>1<br>1 |
-| #5 | None<br>Upwork | 1 | 1<br>1 |
+| 🥈 #2 | GitHub | 8 | 4 |
+| 🥉 #3 | Tek Experts | 7 | 4 |
+| #4 | Deloitte<br>Ha-Shem Limited<br>Tek Experts Nigeria Limited | 4 | 2<br>2<br>1 |
+| #5 | Capgemini<br>Freelancer<br>N/A<br>Self Employed<br>Andela<br>DVT<br>ADP<br>Sangndu | 3 | 3<br>3<br>3<br>3<br>2<br>2<br>1<br>1 |
 
 ---
 

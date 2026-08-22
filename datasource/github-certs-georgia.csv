@@ -1,31 +1,31 @@
-first_name,middle_name,last_name,badge_count,profile_url
-Dennis,,Hylton,8,/users/dennis-hylton.46438be3/badges
-Roman,,Patutin,3,/users/patutin/badges
-Andrei,,Aliakseichuk,1,/users/andrei-aliakseichuk/badges
-Amit,,Menda,0,/users/amit-menda/badges
-Jaiganesh,,Rangaraju Gurumoorthi,1,/users/jaiganesh-rangaraju-gurumoorthi/badges
-Nur Aliya,,Battalova,1,/users/nur-aliya-battalova/badges
-Alena,,Kashayed,1,/users/alena-kashayed/badges
-Dmitrii,,Gutkovskii,1,/users/dmitrii-gutkovskii/badges
-Mikhail,,Shvaikouski,1,/users/mikhail-shvaikouski/badges
-Sergei,,Smolov,1,/users/sergei-smolov/badges
-Artur,,Kuznetsov,1,/users/artur-kuznetsov.983409e8/badges
-Ken,,Muse,1,/users/ken-muse/badges
-Davit,,Egoian,1,/users/davit-egoian/badges
-Ezhilkiruthiga,,Balakrishnan,2,/users/ezhilkiruthiga-balakrishnan/badges
-RAMESH,,JAYARAMAN,2,/users/ramesh-jayaraman.8ea472da/badges
-Chase,,Hammock,1,/users/chase-hammock.ff0076ba/badges
-Ravi,,Venkatasubbaiah,1,/users/ravi-venkatasubbaiah/badges
-Aliaksei,,Melanich,2,/users/aliaksei-melanich/badges
-SRINIVASA RAVIKANTH,,MADABHUSHI,2,/users/srinivasa-ravikanth-madabhushi/badges
-Joseph,,Brown,1,/users/joseph-brown.23695bf3/badges
-Aliaksei,,Kruk,2,/users/aliaksei.kruk/badges
-Elijah,,Chou,1,/users/elijah-chou/badges
-Eric,,Polanco,1,/users/eric-polanco/badges
-Denis,,Kasianov,1,/users/denis-kasianov/badges
-Brent,,Brewington,1,/users/brent-brewington/badges
-NATIG,,KURBANOV,1,/users/natig-kurbanov/badges
-Fouzan,,Ashraf,1,/users/fouzanashraf/badges
-Lokeshwar,Reddy,Vangala,1,/users/lokeshwar-vangala/badges
-Georgii,,Kindra,1,/users/georgii-kindra/badges
-Yung-Sheng,,Tseng,0,/users/yung-sheng-tseng/badges
+first_name,middle_name,last_name,badge_count,profile_url,company
+Dennis,,Hylton,8,/users/dennis-hylton.46438be3/badges,Xebia
+Roman,,Patutin,3,/users/patutin/badges,
+Andrei,,Aliakseichuk,1,/users/andrei-aliakseichuk/badges,
+Amit,,Menda,0,/users/amit-menda/badges,Infosys Limited
+Jaiganesh,,Rangaraju Gurumoorthi,1,/users/jaiganesh-rangaraju-gurumoorthi/badges,
+Nur Aliya,,Battalova,1,/users/nur-aliya-battalova/badges,
+Alena,,Kashayed,1,/users/alena-kashayed/badges,
+Dmitrii,,Gutkovskii,1,/users/dmitrii-gutkovskii/badges,
+Mikhail,,Shvaikouski,1,/users/mikhail-shvaikouski/badges,
+Sergei,,Smolov,1,/users/sergei-smolov/badges,
+Artur,,Kuznetsov,1,/users/artur-kuznetsov.983409e8/badges,
+Ken,,Muse,1,/users/ken-muse/badges,Wintellect LLC (An Atmosera Company)
+Davit,,Egoian,1,/users/davit-egoian/badges,
+Ezhilkiruthiga,,Balakrishnan,2,/users/ezhilkiruthiga-balakrishnan/badges,
+RAMESH,,JAYARAMAN,2,/users/ramesh-jayaraman.8ea472da/badges,
+Chase,,Hammock,1,/users/chase-hammock.ff0076ba/badges,
+Ravi,,Venkatasubbaiah,1,/users/ravi-venkatasubbaiah/badges,Navy Federal Credit Union
+Aliaksei,,Melanich,2,/users/aliaksei-melanich/badges,
+SRINIVASA RAVIKANTH,,MADABHUSHI,2,/users/srinivasa-ravikanth-madabhushi/badges,
+Joseph,,Brown,1,/users/joseph-brown.23695bf3/badges,
+Aliaksei,,Kruk,2,/users/aliaksei.kruk/badges,
+Elijah,,Chou,1,/users/elijah-chou/badges,JPMorgan Chase & Co.
+Eric,,Polanco,1,/users/eric-polanco/badges,R1 RCM
+Denis,,Kasianov,1,/users/denis-kasianov/badges,
+Brent,,Brewington,1,/users/brent-brewington/badges,Aimpoint Digital
+NATIG,,KURBANOV,1,/users/natig-kurbanov/badges,
+Fouzan,,Ashraf,1,/users/fouzanashraf/badges,UST
+Lokeshwar,Reddy,Vangala,1,/users/lokeshwar-vangala/badges,Google
+Georgii,,Kindra,1,/users/georgii-kindra/badges,
+Yung-Sheng,,Tseng,0,/users/yung-sheng-tseng/badges,Microsoft

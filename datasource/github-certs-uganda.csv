@@ -1,14 +1,14 @@
-first_name,middle_name,last_name,badge_count,profile_url
-Roger,,Okello,1,/users/roger-okello/badges
-Patrick,,Walukagga,1,/users/patrick-walukagga/badges
-Aliddeki,Mulindwa,Bryan,1,/users/aliddeki-bryan/badges
-Elijah,,Rwothoromo,1,/users/elijah-rwothoromo/badges
-Salym,,Senyonga,1,/users/salym-senyonga/badges
-Ntege,,Daniel,1,/users/ntege-daniel/badges
-Balirwa,,Alvin Daniel,1,/users/balirwa/badges
-Brenda,,Tabitha Namwone,0,/users/brenda-tabitha-namwone/badges
-Aseru,,Kevin Ziyada,0,/users/aseru-kevin-ziyada/badges
-AKANGA,,ANDREW,1,/users/akanga-andrew/badges
-Anthony,,Byansi,1,/users/byansi-anthony/badges
-Nobert,,Ayesiga,0,/users/nobert-ayesiga/badges
-Caleb,,Nkunze,0,/users/caleb-nkunze/badges
+first_name,middle_name,last_name,badge_count,profile_url,company
+Roger,,Okello,1,/users/roger-okello/badges,
+Patrick,,Walukagga,1,/users/patrick-walukagga/badges,
+Aliddeki,Mulindwa,Bryan,1,/users/aliddeki-bryan/badges,
+Elijah,,Rwothoromo,1,/users/elijah-rwothoromo/badges,
+Salym,,Senyonga,1,/users/salym-senyonga/badges,
+Ntege,,Daniel,1,/users/ntege-daniel/badges,
+Balirwa,,Alvin Daniel,1,/users/balirwa/badges,
+Brenda,,Tabitha Namwone,0,/users/brenda-tabitha-namwone/badges,
+Aseru,,Kevin Ziyada,0,/users/aseru-kevin-ziyada/badges,
+AKANGA,,ANDREW,1,/users/akanga-andrew/badges,
+Anthony,,Byansi,1,/users/byansi-anthony/badges,Microsoft Learn Student Ambassadors
+Nobert,,Ayesiga,0,/users/nobert-ayesiga/badges,
+Caleb,,Nkunze,0,/users/caleb-nkunze/badges,

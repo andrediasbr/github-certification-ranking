@@ -1,36 +1,36 @@
-first_name,middle_name,last_name,badge_count,profile_url
-Htet Aung,,Yin,1,/users/hay-pp/badges
-Aung Myint Myat,,Oo,1,/users/agmmtoo/badges
-Shan Lin,,Maung,3,/users/shan-lin-maung.bb02a5b8/badges
-kaungmyat,,thu,2,/users/kaungmyat-thu/badges
-Thu Kha,,Kyawe,3,/users/thukhakyawe/badges
-Thant,,Thiha,1,/users/thant-thiha/badges
-Aung Ko,,Ko Minn,1,/users/aung-ko-ko-minn/badges
-Sithu,,Win,1,/users/sithu-win/badges
-Zayar,,Oo,1,/users/zayar-oo.dd43d9f0/badges
-Khant,,Hmue,1,/users/khant-hmue/badges
-Sein,,Linn,1,/users/seinlinn/badges
-YE TUN,,THU,1,/users/ye-tun-thu.a09e37d8/badges
-Nang,,Mya Hmue Khin,1,/users/nang-mya-hmue-khin/badges
-Thida,,Tun,2,/users/thida-tun/badges
-Kaung Thant,,Zaw,1,/users/kaung-thant-zae/badges
-Shwe Win,,Aung,1,/users/shwe-win-aung/badges
-Ye Yint,,Thu,1,/users/ye-yint-thu.760c5fbd/badges
-Aye Chan,,Htun Naing,1,/users/ayechanhtunnaing/badges
-Hein Htet,,Thu,1,/users/hein-htet-thu/badges
-Wai Yan,,Kyaw,1,/users/wai-yan-kyaw.8d3107af/badges
-Khant Ko Ko,,Htet,1,/users/khant-ko-ko-htet/badges
-Maung,,Htet,1,/users/mg-mg-htet.ecc719dc/badges
-Soe,,Thura,1,/users/thixpin/badges
-Bo Bo,,Han,1,/users/bo-bo-han.ac19738f/badges
-Myo,,Min Soe,1,/users/myo-min-soe/badges
-Kyaw Phone,,Thu,1,/users/kyaw-phone-thu/badges
-Thiha,,Zaw,1,/users/thiha-zaw.e8ef64b4/badges
-than,,htut,1,/users/than-htut.1a5c3a94/badges
-Zaw Phyo,,Aung,1,/users/zaw-phyo-aung.b63d92f9/badges
-win ko,,ko,1,/users/win-ko-ko.64807f4d/badges
-Htoo,Myat,Aung,1,/users/htoo-myat-aung/badges
-Lin Yaung,,Oo,1,/users/linyaungoo/badges
-Yarzar,,Tin Shwe,1,/users/yarzar-tin-shwe/badges
-Phyo,,Thura,1,/users/phyo-thura.4723e313/badges
-Hein,Htet,Zan,1,/users/hein-htet-zan.7d07e1e7/badges
+first_name,middle_name,last_name,badge_count,profile_url,company
+Htet Aung,,Yin,1,/users/hay-pp/badges,
+Aung Myint Myat,,Oo,1,/users/agmmtoo/badges,
+Shan Lin,,Maung,3,/users/shan-lin-maung.bb02a5b8/badges,itGateway Technology Group
+kaungmyat,,thu,2,/users/kaungmyat-thu/badges,
+Thu Kha,,Kyawe,3,/users/thukhakyawe/badges,
+Thant,,Thiha,1,/users/thant-thiha/badges,
+Aung Ko,,Ko Minn,1,/users/aung-ko-ko-minn/badges,
+Sithu,,Win,1,/users/sithu-win/badges,
+Zayar,,Oo,1,/users/zayar-oo.dd43d9f0/badges,
+Khant,,Hmue,1,/users/khant-hmue/badges,
+Sein,,Linn,1,/users/seinlinn/badges,
+YE TUN,,THU,1,/users/ye-tun-thu.a09e37d8/badges,
+Nang,,Mya Hmue Khin,1,/users/nang-mya-hmue-khin/badges,
+Thida,,Tun,2,/users/thida-tun/badges,
+Kaung Thant,,Zaw,1,/users/kaung-thant-zae/badges,
+Shwe Win,,Aung,1,/users/shwe-win-aung/badges,
+Ye Yint,,Thu,1,/users/ye-yint-thu.760c5fbd/badges,
+Aye Chan,,Htun Naing,1,/users/ayechanhtunnaing/badges,
+Hein Htet,,Thu,1,/users/hein-htet-thu/badges,
+Wai Yan,,Kyaw,1,/users/wai-yan-kyaw.8d3107af/badges,
+Khant Ko Ko,,Htet,1,/users/khant-ko-ko-htet/badges,
+Maung,,Htet,1,/users/mg-mg-htet.ecc719dc/badges,
+Soe,,Thura,1,/users/thixpin/badges,
+Bo Bo,,Han,1,/users/bo-bo-han.ac19738f/badges,
+Myo,,Min Soe,1,/users/myo-min-soe/badges,Yoma Strategic Holdings
+Kyaw Phone,,Thu,1,/users/kyaw-phone-thu/badges,
+Thiha,,Zaw,1,/users/thiha-zaw.e8ef64b4/badges,
+than,,htut,1,/users/than-htut.1a5c3a94/badges,
+Zaw Phyo,,Aung,1,/users/zaw-phyo-aung.b63d92f9/badges,Exbrain Software Development
+win ko,,ko,1,/users/win-ko-ko.64807f4d/badges,
+Htoo,Myat,Aung,1,/users/htoo-myat-aung/badges,CHL
+Lin Yaung,,Oo,1,/users/linyaungoo/badges,
+Yarzar,,Tin Shwe,1,/users/yarzar-tin-shwe/badges,
+Phyo,,Thura,1,/users/phyo-thura.4723e313/badges,
+Hein,Htet,Zan,1,/users/hein-htet-zan.7d07e1e7/badges,Unique Training Center
