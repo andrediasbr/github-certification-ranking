@@ -208,19 +208,16 @@ def fetch_country_by_badges(country, max_workers=20):
         print("  ❌ No badge names returned; cannot enumerate users.")
         return [], True
 
-    # Only page through badges that count towards the ranking. This skips sales
-    # and award credentials, cutting the enumeration from ~50 badges to the few
-    # real certifications and excluding users who hold none of them.
-    badge_names = [
-        b for b in badge_names
-        if b.strip() in ALLOWED_MICROSOFT_GITHUB_CERTIFICATIONS
-        or normalize_badge_name(b.strip()) in ALLOWED_MICROSOFT_GITHUB_CERTIFICATIONS
-    ]
+    # Page through every valid GitHub org badge (certifications AND sales/delivery
+    # credentials), skipping only the community/award badges in EXCLUDED_BADGES.
+    # Enumerating all valid badges recovers users who hold a sales credential
+    # alongside (or instead of) a real certification, so no earner is dropped.
+    badge_names = [b for b in badge_names if not is_excluded_badge(b.strip())]
     if not badge_names:
-        print("  ❌ No allowed certification badges to enumerate.")
+        print("  ❌ No valid badges to enumerate.")
         return [], True
 
-    print(f"  Enumerating {len(badge_names)} certification badges for {country}: {', '.join(badge_names)}")
+    print(f"  Enumerating {len(badge_names)} valid badges for {country}: {', '.join(badge_names)}")
     users_by_id = {}
     incomplete = False
 
