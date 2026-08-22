@@ -107,6 +107,10 @@ EXCLUDED_BADGES = {
     'GitHub Sales Professional',
     'GitHub Digital Public Goods Open Source Community Manager Program',
     'Hubber Champion',
+    'Senior GitHub Community Leader',
+    'Manager of the Year',
+    'Credly badge test',
+    'Walmart Global Tech GitHub Copilot Champion',
 }
 
 # Whole families of non-certification award badges, matched by name prefix so new
@@ -114,7 +118,12 @@ EXCLUDED_BADGES = {
 # Award - Support") are excluded automatically.
 EXCLUDED_BADGE_PREFIXES = (
     'All In Africa',
+    'All In for Students',
     'RKO',
+    'MVP',
+    'Customer Champion',
+    'One Team Impact',
+    'CLAP',
 )
 
 
