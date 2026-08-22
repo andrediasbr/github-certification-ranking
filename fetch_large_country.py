@@ -332,7 +332,7 @@ def fetch_country_parallel(country, max_workers=20):
             external_names = fetch_github_external_badges(user_id)
             return len(org_names | external_names)
         
-        with ThreadPoolExecutor(max_workers=10) as executor:
+        with ThreadPoolExecutor(max_workers=16) as executor:
             future_to_user = {
                 executor.submit(fetch_all_badges, user.get('id')): user.get('id')
                 for user in top_candidates if user.get('id')
@@ -362,7 +362,7 @@ def fetch_country_parallel(country, max_workers=20):
         # rankings reflect every certified member, not just the ranked ones.
         # Persisted to the CSV so generate_rankings.py needs no extra API calls.
         print(f"  Fetching company info for {len(all_users)} users...")
-        with ThreadPoolExecutor(max_workers=10) as executor:
+        with ThreadPoolExecutor(max_workers=16) as executor:
             future_to_user = {
                 executor.submit(fetch_user_company, user.get('url', '')): user
                 for user in all_users
