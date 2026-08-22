@@ -208,7 +208,19 @@ def fetch_country_by_badges(country, max_workers=20):
         print("  ❌ No badge names returned; cannot enumerate users.")
         return [], True
 
-    print(f"  Enumerating {len(badge_names)} badges for {country}...")
+    # Only page through badges that count towards the ranking. This skips sales
+    # and award credentials, cutting the enumeration from ~50 badges to the few
+    # real certifications and excluding users who hold none of them.
+    badge_names = [
+        b for b in badge_names
+        if b.strip() in ALLOWED_MICROSOFT_GITHUB_CERTIFICATIONS
+        or normalize_badge_name(b.strip()) in ALLOWED_MICROSOFT_GITHUB_CERTIFICATIONS
+    ]
+    if not badge_names:
+        print("  ❌ No allowed certification badges to enumerate.")
+        return [], True
+
+    print(f"  Enumerating {len(badge_names)} certification badges for {country}: {', '.join(badge_names)}")
     users_by_id = {}
     incomplete = False
 
