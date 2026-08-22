@@ -225,7 +225,7 @@ def fetch_user_certs(profile_url):
         page = 1
         while True:
             resp = request_with_retries(
-                f"https://www.credly.com/users/{username}/badges.json?page={page}&per_page=100",
+                f"https://www.credly.com/users/{username}/badges.json?page={page}&per_page=48",
                 timeout=30,
             )
             badges = resp.json().get('data', [])
@@ -242,17 +242,25 @@ def fetch_user_certs(profile_url):
             if page > 10:
                 break
 
-        # Microsoft-issued external badges (allowlist only)
-        resp = request_with_retries(
-            f"https://www.credly.com/api/v1/users/{username}/external_badges/open_badges/public?page=1&page_size=48",
-            timeout=30,
-        )
-        for badge in resp.json().get('data', []):
-            eb = badge.get('external_badge', {})
-            name = eb.get('badge_name', '').strip()
-            if eb.get('issuer_name') == 'Microsoft' and name in ALLOWED_MICROSOFT_GITHUB_CERTIFICATIONS:
-                if not _cert_is_expired(badge.get('expires_at_date')):
-                    names.add(normalize_badge_name(name))
+        # Microsoft-issued external badges (allowlist only, paginated)
+        page = 1
+        while True:
+            resp = request_with_retries(
+                f"https://www.credly.com/api/v1/users/{username}/external_badges/open_badges/public?page={page}&page_size=100",
+                timeout=30,
+            )
+            ext_badges = resp.json().get('data', [])
+            if not ext_badges:
+                break
+            for badge in ext_badges:
+                eb = badge.get('external_badge', {})
+                name = eb.get('badge_name', '').strip()
+                if eb.get('issuer_name') == 'Microsoft' and name in ALLOWED_MICROSOFT_GITHUB_CERTIFICATIONS:
+                    if not _cert_is_expired(badge.get('expires_at_date')):
+                        names.add(normalize_badge_name(name))
+            page += 1
+            if page > 10:
+                break
     except Exception as e:
         print(f"    ⚠️  Failed to fetch certs for {username}: {e}")
         _USER_CERTS_CACHE[profile_url] = None

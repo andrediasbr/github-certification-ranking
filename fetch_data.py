@@ -62,10 +62,10 @@ def fetch_country_data(country, metadata):
     csv_file = get_csv_filename(country)
     
     # Use parallel script for large countries (>100 pages = ~800 users)
-    large_countries = ['India', 'United States', 'Brazil', 'United Kingdom', 'Canada']
+    large_countries = ['India', 'United States', 'Brazil', 'United Kingdom', 'Canada', 'Spain']
     
     if country in large_countries:
-        timeout = 1800  # 30 minutes for large countries
+        timeout = 2400  # 45 minutes for large countries
         try:
             result = subprocess.run(
                 ['python3', 'fetch_large_country.py', country],
