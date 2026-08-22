@@ -9,9 +9,20 @@ import sys
 import time
 
 import requests
+from requests.adapters import HTTPAdapter
 
 # HTTP status codes worth retrying (rate limiting + transient server errors).
 RETRYABLE_STATUS = {429, 500, 502, 503, 504}
+
+# Shared session with a connection pool so requests reuse TLS connections
+# (HTTP keep-alive) instead of doing a fresh, CPU-heavy handshake per call.
+# Without this, fetching tens of thousands of companies for large countries
+# saturates every CPU core with TLS crypto. pool_maxsize matches our worst-case
+# worker count so pooled connections aren't discarded under load.
+_SESSION = requests.Session()
+_adapter = HTTPAdapter(pool_connections=32, pool_maxsize=32)
+_SESSION.mount('https://', _adapter)
+_SESSION.mount('http://', _adapter)
 
 
 def configure_utf8_output():
@@ -35,7 +46,7 @@ def request_with_retries(url, timeout=30, max_retries=3, base_delay=3, headers=N
     last_exc = None
     for attempt in range(max_retries + 1):
         try:
-            response = requests.get(url, timeout=timeout, headers=headers)
+            response = _SESSION.get(url, timeout=timeout, headers=headers)
             if response.status_code in RETRYABLE_STATUS:
                 raise requests.HTTPError(
                     f"{response.status_code} Server Error", response=response

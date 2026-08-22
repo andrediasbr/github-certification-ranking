@@ -212,12 +212,17 @@ def fetch_country_data(country):
                 executor.submit(fetch_user_company, user.get('url', '')): user
                 for user in all_users
             }
+            total = len(future_to_user)
+            completed = 0
             for future in as_completed(future_to_user):
                 user = future_to_user[future]
                 try:
                     user['company'] = future.result()
                 except Exception:
                     user['company'] = ''
+                completed += 1
+                if completed % 500 == 0 or completed == total:
+                    print(f"    Company progress: {completed}/{total} users", flush=True)
 
     return all_users, incomplete
 
