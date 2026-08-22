@@ -19,6 +19,7 @@ from certifications import (
     normalize_badge_name,
     request_with_retries,
     is_excluded_badge,
+    configure_utf8_output,
 )
 
 # --- Certification tooltip support ---
@@ -114,32 +115,6 @@ def get_continent(country_name):
     country_lower = country_name.lower().replace('-', ' ')
     return CONTINENT_MAP.get(country_lower, 'Unknown')
 
-def fetch_user_company(profile_url):
-    """Fetch company name from user profile"""
-    if not profile_url:
-        return ''
-    
-    try:
-        # Extract username from profile_url (/users/username/badges)
-        username = profile_url.split('/')[2] if '/users/' in profile_url else ''
-        if not username:
-            return ''
-        
-        # Fetch user profile with JSON header
-        url = f"https://www.credly.com/users/{username}"
-        headers = {'Accept': 'application/json'}
-        response = requests.get(url, headers=headers, timeout=5)
-        response.raise_for_status()
-        data = response.json()
-        
-        # Extract company name and sanitize pipe characters (breaks markdown tables)
-        company = data.get('data', {}).get('current_organization_name', '')
-        if company:
-            company = company.replace('|', '/')
-        return company if company else ''
-    except:
-        return ''
-
 def load_metadata():
     """Load CSV metadata"""
     metadata_file = 'csv_metadata.json'
@@ -172,6 +147,7 @@ def read_all_csv_files(base_path):
                             middle_name = row.get('middle_name', '').strip('"').strip()
                             last_name = row.get('last_name', '').strip('"').strip()
                             profile_url = row.get('profile_url', '').strip('"').strip()
+                            company = (row.get('company') or '').strip('"').strip()
                             
                             # Build full name
                             name_parts = [first_name]
@@ -186,7 +162,8 @@ def read_all_csv_files(base_path):
                                 'badges': badge_count,
                                 'country': country_display,
                                 'continent': continent,
-                                'profile_url': profile_url
+                                'profile_url': profile_url,
+                                'company': company
                             })
                     except (ValueError, KeyError):
                         continue
@@ -248,7 +225,7 @@ def fetch_user_certs(profile_url):
         page = 1
         while True:
             resp = request_with_retries(
-                f"https://www.credly.com/users/{username}/badges.json?page={page}&per_page=100",
+                f"https://www.credly.com/users/{username}/badges.json?page={page}&per_page=48",
                 timeout=30,
             )
             badges = resp.json().get('data', [])
@@ -265,17 +242,25 @@ def fetch_user_certs(profile_url):
             if page > 10:
                 break
 
-        # Microsoft-issued external badges (allowlist only)
-        resp = request_with_retries(
-            f"https://www.credly.com/api/v1/users/{username}/external_badges/open_badges/public?page=1&page_size=48",
-            timeout=30,
-        )
-        for badge in resp.json().get('data', []):
-            eb = badge.get('external_badge', {})
-            name = eb.get('badge_name', '').strip()
-            if eb.get('issuer_name') == 'Microsoft' and name in ALLOWED_MICROSOFT_GITHUB_CERTIFICATIONS:
-                if not _cert_is_expired(badge.get('expires_at_date')):
-                    names.add(normalize_badge_name(name))
+        # Microsoft-issued external badges (allowlist only, paginated)
+        page = 1
+        while True:
+            resp = request_with_retries(
+                f"https://www.credly.com/api/v1/users/{username}/external_badges/open_badges/public?page={page}&page_size=100",
+                timeout=30,
+            )
+            ext_badges = resp.json().get('data', [])
+            if not ext_badges:
+                break
+            for badge in ext_badges:
+                eb = badge.get('external_badge', {})
+                name = eb.get('badge_name', '').strip()
+                if eb.get('issuer_name') == 'Microsoft' and name in ALLOWED_MICROSOFT_GITHUB_CERTIFICATIONS:
+                    if not _cert_is_expired(badge.get('expires_at_date')):
+                        names.add(normalize_badge_name(name))
+            page += 1
+            if page > 10:
+                break
     except Exception as e:
         print(f"    ⚠️  Failed to fetch certs for {username}: {e}")
         _USER_CERTS_CACHE[profile_url] = None
@@ -362,12 +347,6 @@ def generate_markdown_top10(users, title, filename, filter_func=None):
     # Cap display: if a position has too many tied users, show first N and a count
     MAX_USERS_PER_POSITION = 20
     
-    # Fetch company information for ranked users
-    print(f"  Fetching company info for {len(all_ranked_users)} ranked users...")
-    for user in all_ranked_users:
-        company = fetch_user_company(user.get('profile_url', ''))
-        user['company'] = company
-    
     # Get outdated CSVs
     outdated = get_outdated_csvs()
     
@@ -416,9 +395,11 @@ def generate_markdown_top10(users, title, filename, filter_func=None):
         
         content += f"| {rank_display} | {name_cell} | {badge_cell} | {company_cell} | {country_cell} |\n"
     
-    # --- Company Rankings (TOP 5) --- based on ranked users' companies
+    # --- Company Rankings (TOP 5) --- based on ALL users in the region, mirroring
+    # the country ranking, so totals reflect every certified member rather than
+    # only the top-10 ranked users (company is read from the CSV).
     company_stats = defaultdict(lambda: {'badges': 0, 'users': 0})
-    for user in all_ranked_users:
+    for user in filtered_users:
         company = user.get('company', '')
         if company:
             company_stats[company]['badges'] += user['badges']
@@ -553,6 +534,7 @@ The following countries have data that was not updated in the last run:
 
 def main():
     """Main execution function"""
+    configure_utf8_output()
     print("=" * 80)
     print("GitHub Certifications Rankings Generator")
     print("=" * 80)
@@ -604,7 +586,7 @@ def main():
             if certs:
                 GLOBAL_CERT_UNIVERSE.update(certs)
     print(f"🌐 Universe: {len(GLOBAL_CERT_UNIVERSE)} distinct certifications")
-    
+
     print()
     print("📝 Generating markdown files...")
     print()

@@ -18,6 +18,8 @@ from certifications import (
     request_with_retries,
     count_existing_rows,
     is_excluded_badge,
+    fetch_user_company,
+    configure_utf8_output,
 )
 
 def is_badge_expired(expires_at_date):
@@ -36,25 +38,37 @@ def is_badge_expired(expires_at_date):
 
 def fetch_github_external_badges(user_id):
     """Fetch GitHub external badges (Microsoft-issued) for a user, excluding expired ones and duplicates"""
-    url = f"https://www.credly.com/api/v1/users/{user_id}/external_badges/open_badges/public?page=1&page_size=48"
+    # Use set to track unique badge names and avoid duplicates
+    unique_badge_names = set()
+    page = 1
     
     try:
-        response = request_with_retries(url, timeout=30)
-        data = response.json()
-        
-        # Use set to track unique badge names and avoid duplicates
-        unique_badge_names = set()
-        for badge in data.get('data', []):
-            external_badge = badge.get('external_badge', {})
-            badge_name = external_badge.get('badge_name', '')
-            issuer_name = external_badge.get('issuer_name', '')
-            expires_at_date = badge.get('expires_at_date')
+        while True:
+            url = f"https://www.credly.com/api/v1/users/{user_id}/external_badges/open_badges/public?page={page}&page_size=100"
+            response = request_with_retries(url, timeout=30)
+            data = response.json()
             
-            # Check if it's an allowed GitHub certification issued by Microsoft and not expired
-            if issuer_name == 'Microsoft' and badge_name.strip() in ALLOWED_MICROSOFT_GITHUB_CERTIFICATIONS:
-                if not is_badge_expired(expires_at_date):
-                    # Only count if badge name is unique (normalize to handle renamed badges)
-                    unique_badge_names.add(normalize_badge_name(badge_name.strip()))
+            badges = data.get('data', [])
+            if not badges:
+                break
+            
+            for badge in badges:
+                external_badge = badge.get('external_badge', {})
+                badge_name = external_badge.get('badge_name', '')
+                issuer_name = external_badge.get('issuer_name', '')
+                expires_at_date = badge.get('expires_at_date')
+                
+                # Check if it's an allowed GitHub certification issued by Microsoft and not expired
+                if issuer_name == 'Microsoft' and badge_name.strip() in ALLOWED_MICROSOFT_GITHUB_CERTIFICATIONS:
+                    if not is_badge_expired(expires_at_date):
+                        # Only count if badge name is unique (normalize to handle renamed badges)
+                        unique_badge_names.add(normalize_badge_name(badge_name.strip()))
+            
+            page += 1
+            
+            # Safety limit to avoid infinite loops
+            if page > 10:
+                break
         
         return unique_badge_names
     except Exception as e:
@@ -70,7 +84,7 @@ def fetch_github_org_badges(user_id):
     
     try:
         while True:
-            url = f"https://www.credly.com/users/{user_id}/badges.json?page={page}&per_page=100"
+            url = f"https://www.credly.com/users/{user_id}/badges.json?page={page}&per_page=48"
             response = request_with_retries(url, timeout=30)
             data = response.json()
             
@@ -114,7 +128,7 @@ def fetch_github_org_badges(user_id):
 
 def fetch_country_data(country):
     """Fetch all data for a country"""
-    base_url = f"https://www.credly.com/api/v1/directory?organization_id=63074953-290b-4dce-86ce-ea04b4187219&sort=-total_badge_count&filter%5Blocation_name%5D={country.replace(' ', '%20')}&page="
+    base_url = f"https://www.credly.com/api/v1/directory?organization_id=63074953-290b-4dce-86ce-ea04b4187219&sort=-total_badge_count&filter%5Blocation_name%5D={country.replace(' ', '%20')}&per=50&page="
     
     all_users = []
     page = 1
@@ -188,7 +202,28 @@ def fetch_country_data(country):
             user_id = user.get('id')
             if user_id and user_id in user_badge_counts:
                 user['badge_count'] = user_badge_counts[user_id]
-    
+
+        # Fetch each earner's company so the "Top Companies" totals in the
+        # rankings reflect every certified member, not just the ranked ones.
+        # Persisted to the CSV so generate_rankings.py needs no extra API calls.
+        print(f"  Fetching company info for {len(all_users)} users...")
+        with ThreadPoolExecutor(max_workers=10) as executor:
+            future_to_user = {
+                executor.submit(fetch_user_company, user.get('url', '')): user
+                for user in all_users
+            }
+            total = len(future_to_user)
+            completed = 0
+            for future in as_completed(future_to_user):
+                user = future_to_user[future]
+                try:
+                    user['company'] = future.result()
+                except Exception:
+                    user['company'] = ''
+                completed += 1
+                if completed % 500 == 0 or completed == total:
+                    print(f"    Company progress: {completed}/{total} users", flush=True)
+
     return all_users, incomplete
 
 def save_to_csv(country, users, output_dir='datasource', incomplete=False):
@@ -218,7 +253,7 @@ def save_to_csv(country, users, output_dir='datasource', incomplete=False):
     
     with open(output_file, 'w', newline='', encoding='utf-8') as f:
         writer = csv.writer(f)
-        writer.writerow(['first_name', 'middle_name', 'last_name', 'badge_count', 'profile_url'])
+        writer.writerow(['first_name', 'middle_name', 'last_name', 'badge_count', 'profile_url', 'company'])
         
         for user in users:
             writer.writerow([
@@ -226,7 +261,8 @@ def save_to_csv(country, users, output_dir='datasource', incomplete=False):
                 user.get('middle_name', ''),
                 user.get('last_name', ''),
                 user.get('badge_count', 0),
-                user.get('url', '')
+                user.get('url', ''),
+                user.get('company', '')
             ])
     
     print(f"\nSaved to {output_file}")
@@ -234,6 +270,7 @@ def save_to_csv(country, users, output_dir='datasource', incomplete=False):
 
 def main():
     """Main execution"""
+    configure_utf8_output()
     if len(sys.argv) < 2:
         print("Usage: ./fetch_country.py <country_name>")
         print("Example: ./fetch_country.py Brazil")
