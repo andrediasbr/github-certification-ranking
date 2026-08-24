@@ -72,6 +72,8 @@ def fetch_country_data(country, metadata):
                 timeout=timeout,
                 capture_output=True,
                 text=True,
+                encoding='utf-8',
+                errors='replace',
                 env=CHILD_ENV
             )
             
@@ -100,6 +102,8 @@ def fetch_country_data(country, metadata):
             timeout=timeout,
             capture_output=True,
             text=True,
+            encoding='utf-8',
+            errors='replace',
             env=CHILD_ENV
         )
         
