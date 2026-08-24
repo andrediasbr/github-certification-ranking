@@ -56,7 +56,7 @@ def fetch_github_external_badges(user_id):
                 external_badge = badge.get('external_badge', {})
                 badge_name = external_badge.get('badge_name', '')
                 issuer_name = external_badge.get('issuer_name', '')
-                expires_at_date = badge.get('expires_at_date')
+                expires_at_date = external_badge.get('expires_at_date')
                 
                 # Check if it's an allowed GitHub certification issued by Microsoft and not expired
                 if issuer_name == 'Microsoft' and badge_name.strip() in ALLOWED_MICROSOFT_GITHUB_CERTIFICATIONS:
@@ -158,58 +158,32 @@ def fetch_country_data(country):
             incomplete = True
             break
     
-    # Optimization: Only fetch detailed badges for top candidates
-    # This reduces requests from thousands to ~50-100
+    # Fetch detailed badges AND company for every user in a single pass. We
+    # already pay one round-trip per user for the company lookup, so folding the
+    # badge fetch into the same pass adds no extra passes while counting
+    # Microsoft-issued (external) GitHub certs for everyone. A prior top-50
+    # limit undercounted earners whose certs are mostly external, because the
+    # directory badge_count only reflects verified GitHub-org badges.
     if all_users:
-        # Sort by directory badge_count (includes expired) to get top candidates
-        all_users_sorted = sorted(all_users, key=lambda x: x.get('badge_count', 0), reverse=True)
-        
-        # Take top 50 candidates (safety margin for ties, expired badges, and position-based ranking)
-        # If fewer users, take all
-        top_candidates = all_users_sorted[:min(50, len(all_users_sorted))]
-        
-        print(f"  Fetching detailed badges for top {len(top_candidates)} candidates (to check expiration)...")
-        user_badge_counts = {}
-        
-        def fetch_all_badges(user_id):
-            """Fetch both org badges and external badges, deduplicating by name across sources"""
-            org_names = fetch_github_org_badges(user_id)
-            external_names = fetch_github_external_badges(user_id)
-            return len(org_names | external_names)
-        
-        with ThreadPoolExecutor(max_workers=10) as executor:
-            future_to_user = {
-                executor.submit(fetch_all_badges, user.get('id')): user.get('id')
-                for user in top_candidates if user.get('id')
-            }
-            
-            completed = 0
-            for future in as_completed(future_to_user):
-                user_id = future_to_user[future]
-                try:
-                    badge_count = future.result()
-                    user_badge_counts[user_id] = badge_count
-                    completed += 1
-                except Exception as e:
-                    print(f"    ⚠️  Error fetching badges for user {user_id}: {str(e)}")
-                    user_badge_counts[user_id] = 0
-        
-        print(f"  Processed {len(user_badge_counts)} top candidates")
-        
-        # Update badge counts with valid (non-expired) badges only for top candidates
-        # Keep original badge_count for others (they won't be in rankings anyway)
-        for user in all_users:
+        def fetch_badges_and_company(user):
+            """Populate valid (non-expired) badge_count and company for one user."""
             user_id = user.get('id')
-            if user_id and user_id in user_badge_counts:
-                user['badge_count'] = user_badge_counts[user_id]
+            if user_id:
+                org_names = fetch_github_org_badges(user_id)
+                external_names = fetch_github_external_badges(user_id)
+                user['badge_count'] = len(org_names | external_names)
+            else:
+                user['badge_count'] = 0
+            try:
+                user['company'] = fetch_user_company(user.get('url', '')) or ''
+            except Exception:
+                user['company'] = ''
+            return user
 
-        # Fetch each earner's company so the "Top Companies" totals in the
-        # rankings reflect every certified member, not just the ranked ones.
-        # Persisted to the CSV so generate_rankings.py needs no extra API calls.
-        print(f"  Fetching company info for {len(all_users)} users...")
+        print(f"  Fetching detailed badges + company for {len(all_users)} users...")
         with ThreadPoolExecutor(max_workers=10) as executor:
             future_to_user = {
-                executor.submit(fetch_user_company, user.get('url', '')): user
+                executor.submit(fetch_badges_and_company, user): user
                 for user in all_users
             }
             total = len(future_to_user)
@@ -217,12 +191,14 @@ def fetch_country_data(country):
             for future in as_completed(future_to_user):
                 user = future_to_user[future]
                 try:
-                    user['company'] = future.result()
-                except Exception:
+                    future.result()
+                except Exception as e:
+                    print(f"    ⚠️  Error processing user {user.get('id')}: {str(e)}")
+                    user['badge_count'] = 0
                     user['company'] = ''
                 completed += 1
                 if completed % 500 == 0 or completed == total:
-                    print(f"    Company progress: {completed}/{total} users", flush=True)
+                    print(f"    Progress: {completed}/{total} users", flush=True)
 
     return all_users, incomplete
 
