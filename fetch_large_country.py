@@ -42,10 +42,12 @@ def fetch_github_external_badges(user_id):
     page = 1
     
     try:
-        while True:
+        total_pages = 1  # updated from page-1 metadata to skip a trailing empty-page fetch
+        while page <= total_pages:
             url = f"https://www.credly.com/api/v1/users/{user_id}/external_badges/open_badges/public?page={page}&page_size=100"
             response = request_with_retries(url, timeout=30)
             data = response.json()
+            total_pages = min(data.get('metadata', {}).get('total_pages', 1) or 1, 10)
             
             badges = data.get('data', [])
             if not badges:
@@ -64,10 +66,6 @@ def fetch_github_external_badges(user_id):
                         unique_badge_names.add(normalize_badge_name(badge_name.strip()))
             
             page += 1
-            
-            # Safety limit to avoid infinite loops
-            if page > 10:
-                break
         
         return unique_badge_names
     except Exception as e:
@@ -82,10 +80,12 @@ def fetch_github_org_badges(user_id):
     page = 1
     
     try:
-        while True:
+        total_pages = 1  # updated from page-1 metadata to skip a trailing empty-page fetch
+        while page <= total_pages:
             url = f"https://www.credly.com/users/{user_id}/badges.json?page={page}&per_page=48"
             response = request_with_retries(url, timeout=30)
             data = response.json()
+            total_pages = min(data.get('metadata', {}).get('total_pages', 1) or 1, 10)
             
             badges = data.get('data', [])
             if not badges:
@@ -114,10 +114,6 @@ def fetch_github_org_badges(user_id):
                             unique_badge_names.add(badge_name)
             
             page += 1
-            
-            # Safety limit to avoid infinite loops
-            if page > 10:
-                break
         
         return unique_badge_names
     except Exception as e:
