@@ -19,6 +19,8 @@ from certifications import (
     normalize_badge_name,
     request_with_retries,
     is_excluded_badge,
+    get_badge_expiry_date,
+    is_badge_expired,
     configure_utf8_output,
 )
 
@@ -194,16 +196,6 @@ def get_outdated_csvs():
     
     return sorted(outdated, key=lambda x: x['hours_old'], reverse=True)
 
-def _cert_is_expired(expires_at_date):
-    """Check if a badge is expired based on expires_at_date (format YYYY-MM-DD)."""
-    if not expires_at_date:
-        return False
-    try:
-        return datetime.strptime(expires_at_date, "%Y-%m-%d").date() < datetime.now().date()
-    except Exception:
-        return False
-
-
 def fetch_user_certs(profile_url):
     """Return the set of valid (non-expired, deduplicated) GitHub certification
     names for a user, combining GitHub org badges and allowed Microsoft external
@@ -234,7 +226,7 @@ def fetch_user_certs(profile_url):
             for badge in badges:
                 entities = badge.get('issuer', {}).get('entities', [])
                 if any(e.get('entity', {}).get('id') == GITHUB_ORG_ID for e in entities):
-                    if not _cert_is_expired(badge.get('expires_at_date')):
+                    if not is_badge_expired(get_badge_expiry_date(badge)):
                         name = badge.get('badge_template', {}).get('name', '')
                         if name and not is_excluded_badge(name):
                             names.add(name)
@@ -256,7 +248,7 @@ def fetch_user_certs(profile_url):
                 eb = badge.get('external_badge', {})
                 name = eb.get('badge_name', '').strip()
                 if eb.get('issuer_name') == 'Microsoft' and name in ALLOWED_MICROSOFT_GITHUB_CERTIFICATIONS:
-                    if not _cert_is_expired(badge.get('expires_at_date')):
+                    if not is_badge_expired(get_badge_expiry_date(badge)):
                         names.add(normalize_badge_name(name))
             page += 1
             if page > 10:

@@ -18,23 +18,11 @@ from certifications import (
     request_with_retries,
     count_existing_rows,
     is_excluded_badge,
+    get_badge_expiry_date,
+    is_badge_expired,
     fetch_user_company,
     configure_utf8_output,
 )
-
-def is_badge_expired(expires_at_date):
-    """Check if a badge is expired based on expires_at_date"""
-    if not expires_at_date:  # null = never expires
-        return False
-    
-    try:
-        # Parse date string (format: "YYYY-MM-DD")
-        expiration_date = datetime.strptime(expires_at_date, "%Y-%m-%d").date()
-        current_date = datetime.now().date()
-        return expiration_date < current_date
-    except Exception:
-        # If we can't parse the date, assume not expired to avoid false positives
-        return False
 
 def fetch_github_external_badges(user_id):
     """Fetch GitHub external badges (Microsoft-issued) for a user, excluding expired ones and duplicates"""
@@ -58,7 +46,7 @@ def fetch_github_external_badges(user_id):
                 external_badge = badge.get('external_badge', {})
                 badge_name = external_badge.get('badge_name', '')
                 issuer_name = external_badge.get('issuer_name', '')
-                expires_at_date = external_badge.get('expires_at_date')
+                expires_at_date = get_badge_expiry_date(badge)
                 
                 # Check if it's an allowed GitHub certification issued by Microsoft and not expired
                 if issuer_name == 'Microsoft' and badge_name.strip() in ALLOWED_MICROSOFT_GITHUB_CERTIFICATIONS:
