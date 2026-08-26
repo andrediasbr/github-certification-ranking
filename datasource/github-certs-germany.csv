@@ -5,7 +5,7 @@ Daniel,Richard,Snell,11,/users/daniel-snell.f7bc4ec8/badges,Cluster Reply GmbH
 Harald,,Binkle,5,/users/harald-binkle/badges,Xebia
 Sandra,,Neff,6,/users/sandra-neff.59a05583/badges,
 Leon,,Sinlik,7,/users/leon-sinlik/badges,
-Till,,Spindler,14,/users/till-spindler/badges,Eficode
+Till,,Spindler,15,/users/till-spindler/badges,Eficode
 Nico,,Orschel,13,/users/nico-orschel/badges,Xebia
 Anirban,,Ghosh,1,/users/anirban-ghosh.22d2d490/badges,
 André,,Böttcher,1,/users/andre-bottcher/badges,Avanade Deutschland GmbH
@@ -71,7 +71,7 @@ Steve,,Nessen,1,/users/steve-nessen/badges,
 Thi Song Thu,,Pham,1,/users/thi-song-thu-pham/badges,
 Philipp,,Kremling,1,/users/philipp-kremling.1372356a/badges,
 Sven,,63207@protonmail.con,1,/users/sven-63207-protonmail-con/badges,
-Swayam,,Chadha,1,/users/swayam-chadha/badges,synvert
+Swayam,,Chadha,3,/users/swayam-chadha/badges,synvert
 Enian,,Gashi,1,/users/enian-gashi/badges,Scout24
 Jonathan,,Heard,2,/users/jonathan-heard.1201cd56/badges,
 Sami,Mansoor,Alavi,1,/users/sami-alavi/badges,
@@ -84,7 +84,7 @@ Jörg,,Jakoby,1,/users/jorg-jakoby/badges,
 Jonathan,,David,3,/users/jonathan-david.59eed3ce/badges,Xebia
 Sven,,Gapski,1,/users/sven-gapski/badges,IBM Client Innovation Center Germany GmbH
 Florian,,Richter,1,/users/florian-richter.26584944/badges,
-Turgay,,Akbas,4,/users/turgay-akbas/badges,
+Turgay,,Akbas,3,/users/turgay-akbas/badges,
 Fabius,,Hobler,1,/users/fabius-hobler/badges,Accenture
 Gowrisha,,C. Vishwa Kumar,1,/users/gowrishacv/badges,Santander Consumer Bank
 Zain,,Sohail,1,/users/zain-sohail.221b5be6/badges,
@@ -108,9 +108,9 @@ Houda,,Ferchichi,1,/users/houda-ferchichi/badges,
 Jan,,Ondra,1,/users/jan-ondra/badges,
 Moritz,,Strobel,1,/users/moritz-strobel.63d19fcc/badges,
 Taofeeq Adebayo,,Ibrahim,1,/users/taofeeq-adebayo-ibrahim.cc10f801/badges,
-Kay,,Schneutzer,1,/users/kay-schneutzer.be5c2a8c/badges,SoftwareOne
+Kay,,Schneutzer,0,/users/kay-schneutzer.be5c2a8c/badges,SoftwareOne
 Ceren,,Yeni,1,/users/ceren-yeni.d0119025/badges,
-Zeeshan,,Javeed,2,/users/zeeshan-javeed/badges,GitHub
+Zeeshan,,Javeed,1,/users/zeeshan-javeed/badges,GitHub
 Yuri,,Breion,1,/users/yuri-breion/badges,Carl Zeiss AG
 Sebastian,,Semrau,1,/users/sebastian-semrau/badges,
 Tim,,van Beek,1,/users/tim-van-beek.fa3bd603/badges,
@@ -136,7 +136,7 @@ Maksim,,Kogan,1,/users/maksim-kogan/badges,
 Rene,,Bockrandt,1,/users/rene-bockrandt/badges,
 Daniel,,dlwildschut@gmail.com,1,/users/daniel-dlwildschut-gmail-com/badges,
 Pranay,,Tiwari,1,/users/pranay-tiwari.59dcc997/badges,
-Chhitiz,,Buchasia,1,/users/chhitiz-buchasia/badges,Xebia
+Chhitiz,,Buchasia,3,/users/chhitiz-buchasia/badges,Xebia
 Insa,,Belter,1,/users/insa-belter/badges,
 Mohit,,Gupta,1,/users/mohit-gupta.3cc64f69/badges,
 Florian,,Wattenbach,1,/users/florian-wattenbach/badges,
@@ -159,7 +159,7 @@ Zohaib,,Hassan,1,/users/zohaib-hassan.f13845b2/badges,
 Tobias,,Klingenberg,1,/users/tobias-klingenberg/badges,Technical University of Munich
 Marvin,,Kohlmann,1,/users/marvin-kohlmann.ddaa1b90/badges,
 Maximilian,,Schnieder,1,/users/maximilian-schnieder/badges,
-Yuriy,,Varshavskyy,4,/users/yuriy-varshavskyy/badges,Xebia
+Yuriy,,Varshavskyy,5,/users/yuriy-varshavskyy/badges,Xebia
 Zhinoo,,Zobairi,1,/users/zhinoo-zobairi/badges,
 Maik,,Mursall,2,/users/maik-mursall/badges,
 Razvan,,Tataru,1,/users/razvan-tataru.3565dc2a/badges,
@@ -183,7 +183,7 @@ Clemens,,Wimmer,1,/users/clemens-wimmer/badges,
 John,,Nguyen,2,/users/john-nguyen.b9f8e2a2/badges,
 Valeriia,,Morkhat,1,/users/valeriia-morkhat/badges,
 Luke,,Kucinski,1,/users/luke-kucinski/badges,
-Felix,,Troll,1,/users/felix-troll/badges,
+Felix,,Troll,0,/users/felix-troll/badges,
 Tobias,,Stenger,1,/users/tobias-stenger/badges,
 Andreas,,Barthel,1,/users/andreas-barthel/badges,CGI
 Robin,,Ferch,1,/users/robin-ferch/badges,
@@ -233,7 +233,7 @@ Jonas,,Wanninger,1,/users/jonas-wanninger/badges,
 Arpit,,bajpai,1,/users/arpit-bajpai.e873fea2/badges,
 Milos,,Rujevic,1,/users/milosrujevic/badges,SAP
 Gennady,,Solomennikov,2,/users/gennady-solomennikov/badges,Avanade Deutschland GmbH
-Niko,,Mix,2,/users/nikomix/badges,Microsoft
+Niko,,Mix,3,/users/nikomix/badges,Microsoft
 Florian,,Eckert,5,/users/florian-eckert.f49f0bb4/badges,Slalom GmbH
 Florian,,Stolzmann,1,/users/florian-stolzmann.45280836/badges,
 Dario,,Brozovic,1,/users/dario-brozovic.672c1d98/badges,
@@ -264,7 +264,7 @@ Julius,,Lauterbach,1,/users/julius-lauterbach/badges,NTT DATA
 Polly,,Gitau,1,/users/polly-gitau/badges,
 Ishan,,Sharma,1,/users/ishuar/badges,
 Laura,,Hörger,1,/users/laura-horger.5c06f4ea/badges,
-Nathan,,Sodja,1,/users/nathan-sodja.dd76887a/badges,
+Nathan,,Sodja,0,/users/nathan-sodja.dd76887a/badges,
 Laysa,,Uchoa,1,/users/laysa-uchoa/badges,
 Marcus,,Albert,1,/users/marcus-albert.94d4e86c/badges,
 Hazem,,Sahbani,1,/users/hazem-sahbani/badges,
@@ -331,27 +331,27 @@ Kanchana,,Taggarsi,1,/users/kanchana-taggarsi/badges,
 Lasse,,Haffke,2,/users/lasse-haffke/badges,
 Benedikt,,Funke,1,/users/benedikt-funke/badges,
 Matthias,,Wiesen,1,/users/matthias-wiesen/badges,
-Tim,,Möllers,2,/users/tim-mollers.dffd0f7e/badges,
+Tim,,Möllers,3,/users/tim-mollers.dffd0f7e/badges,
 Heikki,,Pöntinen,0,/users/heikki-pontinen/badges,
-Martin,,Stühmer,1,/users/martin-stuehmer/badges,CGI
-Michael,,Contento,0,/users/michael-contento/badges,BRITA SE
+Martin,,Stühmer,0,/users/martin-stuehmer/badges,CGI
+Michael,,Contento,1,/users/michael-contento/badges,BRITA SE
 Clemens,,Wältken,0,/users/clemens-waltken/badges,Microsoft
-Igwe,,Kalu,0,/users/igwe-kalu/badges,GitHub
+Igwe,,Kalu,1,/users/igwe-kalu/badges,GitHub
 Markus,,Walker,1,/users/markus-walker.adb2dcf6/badges,
 Valentin,,Heidelberger,0,/users/valentin-heidelberger/badges,
 Oliver,,Scheer,0,/users/oliverscheer/badges,Microsoft
-Esther Weyinmi,,Isack,1,/users/esther-weyinmi-isack.24967643/badges,
-Andreas,,Rehfeldt,1,/users/andreas-rehfeldt/badges,
-Sebastian,,Foerg,1,/users/sebastian-foerg/badges,
-Julius,,Rubbe,1,/users/julius-rubbe/badges,
-Michael,,Kenntenich,1,/users/michael-kenntenich/badges,Microsoft
-Thomas,,Tomow,1,/users/thomas-tomow/badges,Xebia Germany
-ANDRE,,BERING,0,/users/andre-bering/badges,
+Esther Weyinmi,,Isack,0,/users/esther-weyinmi-isack.24967643/badges,
+Andreas,,Rehfeldt,0,/users/andreas-rehfeldt/badges,
+Sebastian,,Foerg,0,/users/sebastian-foerg/badges,
+Julius,,Rubbe,0,/users/julius-rubbe/badges,
+Michael,,Kenntenich,0,/users/michael-kenntenich/badges,Microsoft
+Thomas,,Tomow,0,/users/thomas-tomow/badges,Xebia Germany
+ANDRE,,BERING,1,/users/andre-bering/badges,
 Heyko,,Oelrichs,0,/users/heyko-oelrichs/badges,
-René,,Schumacher,2,/users/rene-schumacher.a2d8882b/badges,
+René,,Schumacher,0,/users/rene-schumacher.a2d8882b/badges,
 Michael,,Kaufmann,0,/users/mkaufmann/badges,Xebia
-Johannes,,Nicolai,1,/users/johannes-nicolai/badges,
-Josef,,Zweck,1,/users/josef-zweck.887ca33d/badges,Microsoft
-Alexander,,Beck,2,/users/alexander-beck.20732031/badges,Microsoft Deutschland GmbH
-Carsten,,Lemm,1,/users/carsten-lemm/badges,
-Taseer,,Ahmed,2,/users/taseer-ahmed.900ae72a/badges,
+Johannes,,Nicolai,0,/users/johannes-nicolai/badges,
+Josef,,Zweck,0,/users/josef-zweck.887ca33d/badges,Microsoft
+Alexander,,Beck,0,/users/alexander-beck.20732031/badges,Microsoft Deutschland GmbH
+Carsten,,Lemm,0,/users/carsten-lemm/badges,
+Taseer,,Ahmed,0,/users/taseer-ahmed.900ae72a/badges,
