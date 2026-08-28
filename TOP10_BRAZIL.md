@@ -1,6 +1,6 @@
 # 🇧🇷 TOP 10 GitHub Certifications - Brazil
 
-> Last updated: August 27, 2026 at 02:13 UTC
+> Last updated: August 28, 2026 at 03:37 UTC
 
 ## 🏆 Top 10 GitHub Certifications Leaders
 
@@ -24,7 +24,7 @@
 | Rank | Company | Total Badges | Certified Users |
 |------|---------|--------------|-----------------|
 | 🥇 #1 | Avanade | 325 | 36 |
-| 🥈 #2 | ilegra | 34 | 4 |
+| 🥈 #2 | ilegra | 36 | 4 |
 | 🥉 #3 | Microsoft | 29 | 13 |
 | #4 | TD SYNNEX | 22 | 1 |
 | #5 | Itaú Unibanco<br>NTT DATA | 20 | 15<br>7 |
@@ -34,7 +34,7 @@
 ## 📊 Statistics
 
 - **Total Certified Users**: 1,512
-- **Total Badges Earned**: 2,118
+- **Total Badges Earned**: 2,120
 - **Average Badges per User**: 1.40
 - **Highest Badge Count**: 23
 
