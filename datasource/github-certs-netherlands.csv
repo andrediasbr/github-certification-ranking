@@ -1,4 +1,6 @@
 first_name,middle_name,last_name,badge_count,profile_url,company
+Hidde,,de Smet,17,/users/hidde-de-smet/badges,Xebia
+Victor,,de Baare,4,/users/victor-de-baare/badges,Xebia
 Brent,,Beer,0,/users/brent-beer.4ee43dc3/badges,GitHub
 Joas,,de Groot,23,/users/joas707/badges,Delta-N
 Jesse,,Houwing,23,/users/jessehouwing/badges,Xebia
@@ -9,10 +11,9 @@ Fokko,,Veegens,12,/users/fokko-veegens/badges,Xebia
 Fabian,,Biesheuvel,19,/users/fabian-biesheuvel/badges,Delta-N
 Joost,,Voskuil,23,/users/joost-voskuil/badges,Delta-N
 Peter,,Szekeli,23,/users/peter-szekeli/badges,Xebia
-Rob,,Bos,18,/users/rob-bos/badges,Xebia
+Rob,,Bos,20,/users/rob-bos/badges,Xebia
 Virginia,,Hamra,2,/users/v-hamra/badges,Xebia
 pascal,,Kruijmel,1,/users/pascal-kruijmel/badges,
-Hidde,,de Smet,16,/users/hidde-de-smet/badges,Xebia
 Dennis,,Thie,15,/users/dennisthie/badges,Xebia
 Samuel Henrique,,van Lenthe,10,/users/samuel-henrique-van-lenthe/badges,GitHub
 Rene,,van Osnabrugge,6,/users/rene-van-osnabrugge.8e35eff3/badges,Xebia
@@ -243,7 +244,6 @@ Ralph,,Thissen,1,/users/ralph-thissen.e5962fb0/badges,ThIS
 Daniel,,Paulus,1,/users/daniel-paulus/badges,Delegate
 Yulia,,Kirilova,1,/users/yulia-kirilova.919859fa/badges,
 Anne,,Meijer,6,/users/anne-meijer/badges,Xebia
-Victor,,de Baare,1,/users/victor-de-baare/badges,Xebia
 Bart,,van der Kolk,1,/users/bart-van-der-kolk/badges,
 Paulien,,Leeuwenburgh,2,/users/paulien-leeuwenburgh/badges,
 Sudharson,,Aravamudhan,4,/users/sudharson-aravamudhan.c2e1c70f/badges,
@@ -299,7 +299,7 @@ Bart,,Wesselink,0,/users/bart-wesselink.708e1e4f/badges,
 Nick,,Nagel,0,/users/nick-nagel.24fceae9/badges,
 Peter,,Kwarts,0,/users/peter-kwarts/badges,Novon Digital
 Roderick,,Bant,1,/users/roderickbant/badges,Avanade
-Sander,,Trijssenaar,0,/users/trijssenaar/badges,Xpirit
+Sander,,Trijssenaar,0,/users/trijssenaar/badges,Xebia
 Stefan,,Petrushevski,0,/users/stefan-petrushevski.5b791c22/badges,
 Tyrone,,Vriesde,0,/users/tyrone-vriesde/badges,
 Yulia,,Kriulina (van der Meijs),0,/users/yulia.kriulina/badges,
