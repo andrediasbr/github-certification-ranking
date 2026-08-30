@@ -1,0 +1,84 @@
+name: Validate PR (no ranking update)
+
+# Validation-only pipeline: runs the fetch + ranking code so we can spot
+# breakages, errors and rate-limit/timing problems WITHOUT ever committing or
+# pushing the generated rankings. Nothing is persisted back to the repo.
+
+on:
+  pull_request:
+    paths:
+      - '**.py'
+      - '.github/workflows/validate-pr.yml'
+  workflow_dispatch:
+    inputs:
+      country:
+        description: 'Country to fetch for validation'
+        required: true
+        default: 'India'
+      large:
+        description: 'Use the large-country parallel fetcher'
+        type: boolean
+        required: false
+        default: true
+
+# Read-only: no contents:write, so this pipeline cannot push anything.
+permissions:
+  contents: read
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    timeout-minutes: 180  # India is the worst-case for the all-user badge fetch; give room to measure.
+
+    steps:
+      - name: Checkout PR code
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install dependencies
+        run: |
+          pip install --upgrade pip
+          pip install requests
+
+      - name: Fetch certification data (single country)
+        env:
+          # Defaults apply when triggered by pull_request (no manual inputs).
+          COUNTRY: ${{ github.event.inputs.country || 'India' }}
+          LARGE: ${{ github.event.inputs.large || 'true' }}
+        run: |
+          mkdir -p datasource
+          echo "Validating fetch for country: $COUNTRY (large=$LARGE)"
+          start=$(date +%s)
+          if [ "$LARGE" = "true" ]; then
+            python3 fetch_large_country.py "$COUNTRY"
+          else
+            python3 fetch_country.py "$COUNTRY"
+          fi
+          end=$(date +%s)
+          echo "Fetch duration: $((end - start)) seconds"
+
+      - name: Generate rankings (validation only)
+        run: |
+          python3 generate_rankings.py
+
+      - name: Show generated changes (not committed)
+        run: |
+          echo "The following files were generated but will NOT be committed:"
+          git status --short
+          echo "---- diff summary ----"
+          git --no-pager diff --stat
+
+      - name: Upload generated output as artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: validation-output
+          path: |
+            TOP10_*.md
+            datasource/*.csv
+            csv_metadata.json
+          if-no-files-found: warn
+          retention-days: 7
