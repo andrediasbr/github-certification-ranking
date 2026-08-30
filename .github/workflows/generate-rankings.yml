@@ -2,8 +2,8 @@ name: Generate GitHub Certifications Rankings
 
 on:
   schedule:
-    # Run daily at 00:00 UTC
-    - cron: '0 0 * * *'
+    # Run at 00:00 UTC on Wednesdays and Sundays
+    - cron: '0 0 * * 3,0'
   workflow_dispatch:
     # Allow manual trigger
 

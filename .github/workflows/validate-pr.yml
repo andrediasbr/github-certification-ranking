@@ -14,7 +14,7 @@ on:
       country:
         description: 'Country to fetch for validation'
         required: true
-        default: 'India'
+        default: 'Brazil'
       large:
         description: 'Use the large-country parallel fetcher'
         type: boolean
@@ -28,7 +28,7 @@ permissions:
 jobs:
   validate:
     runs-on: ubuntu-latest
-    timeout-minutes: 180  # India is the worst-case for the all-user badge fetch; give room to measure.
+    timeout-minutes: 180  # Generous cap so even a large validation country can finish and be measured.
 
     steps:
       - name: Checkout PR code
@@ -47,7 +47,7 @@ jobs:
       - name: Fetch certification data (single country)
         env:
           # Defaults apply when triggered by pull_request (no manual inputs).
-          COUNTRY: ${{ github.event.inputs.country || 'India' }}
+          COUNTRY: ${{ github.event.inputs.country || 'Brazil' }}
           LARGE: ${{ github.event.inputs.large || 'true' }}
         run: |
           mkdir -p datasource
