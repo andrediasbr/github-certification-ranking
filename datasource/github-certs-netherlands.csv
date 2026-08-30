@@ -1,7 +1,7 @@
 first_name,middle_name,last_name,badge_count,profile_url,company
 Victor,,de Baare,12,/users/victor-de-baare/badges,Xebia
 Hidde,,de Smet,17,/users/hidde-de-smet/badges,Xebia
-Brent,,Beer,1,/users/brent-beer.4ee43dc3/badges,GitHub
+Brent,,Beer,0,/users/brent-beer.4ee43dc3/badges,GitHub
 Joas,,de Groot,23,/users/joas707/badges,Delta-N
 Jesse,,Houwing,23,/users/jessehouwing/badges,Xebia
 Raymond,,Splinter,18,/users/raymond-splinter/badges,Xebia
@@ -26,15 +26,15 @@ Liuba,,Gonta,2,/users/liuba-gonta/badges,
 Virginia,,Hamra,10,/users/virginia-hamra-2/badges,Xebia
 Florian,,Rinnofner,2,/users/florian-rinnofner/badges,
 Jasper,,Gilhuis,3,/users/jasper-gilhuis/badges,
-Max,,Verhorst,1,/users/max-verhorst/badges,
-Zen,,van Riel,1,/users/zen-van-riel/badges,
+Max,,Verhorst,0,/users/max-verhorst/badges,
+Zen,,van Riel,0,/users/zen-van-riel/badges,
 Bas,,van de Sande,6,/users/bas-van-de-sande/badges,Xebia Microsoft Services
 Remco,,Eissing,3,/users/remco-eissing/badges,Microsoft
 Jonathan,,Reid,3,/users/jonathan-reid.a8724287/badges,
 Robin,,van Rooij,1,/users/robin-van-rooij/badges,
 Pavel,,Shchetska,1,/users/pavel-shchetska/badges,
 Maya,,Elasmar,1,/users/maya-elasmar/badges,
-Gerald,,Versluis,2,/users/jfversluis/badges,Microsoft
+Gerald,,Versluis,1,/users/jfversluis/badges,Microsoft
 Kylian,,Lahaye,2,/users/kylian-lahaye/badges,
 Sonny,,Gillissen,1,/users/sonny-gillissen/badges,Rubicon Cloud Advisor
 Remco,,de Kroo,1,/users/remco-de-kroo/badges,
@@ -140,7 +140,7 @@ Daryl,,Stark,2,/users/daryl.stark/badges,Routz
 Mohammed Yahya Mohammed,,Al-eryani,1,/users/mohammed-yahya-mohammed-al-eryani/badges,
 Mikka,,van der Velde,1,/users/mikka/badges,
 Cuno,,Reijman,3,/users/equalizer999/badges,GitHub
-Guillermo,,Martinez,1,/users/guillermo-martinez.98c216a2/badges,
+Guillermo,,Martinez,0,/users/guillermo-martinez.98c216a2/badges,
 Luiz,,Bizzio,1,/users/luizbizzio/badges,
 Beerd,,Veldman,1,/users/beerd-veldman/badges,Fellowmind
 Osama,,Tahir,2,/users/osamaahmed17/badges,Eindhoven University of Technology
@@ -243,19 +243,19 @@ Miguel,,Verweij,1,/users/miguel-verweij/badges,Power Bouwer
 Ralph,,Thissen,1,/users/ralph-thissen.e5962fb0/badges,ThIS
 Daniel,,Paulus,1,/users/daniel-paulus/badges,Delegate
 Yulia,,Kirilova,1,/users/yulia-kirilova.919859fa/badges,
-Anne,,Meijer,1,/users/anne-meijer/badges,Xebia
+Anne,,Meijer,6,/users/anne-meijer/badges,Xebia
 Bart,,van der Kolk,1,/users/bart-van-der-kolk/badges,
 Paulien,,Leeuwenburgh,2,/users/paulien-leeuwenburgh/badges,
 Sudharson,,Aravamudhan,4,/users/sudharson-aravamudhan.c2e1c70f/badges,
 Maik,,van der Gaag,3,/users/maik-van-der-gaag/badges,3fifty
 Mike,,Roelofsen,1,/users/mike-roelofsen/badges,ACC ICT
 Hussam,,Hadi,1,/users/hussam-hadi/badges,
-Erick,,Segaar,1,/users/erick-segaar/badges,Xebia
+Erick,,Segaar,4,/users/erick-segaar/badges,Xebia
 Rafal,,Pieniazek,1,/users/rafal-pieniazek/badges,
 Artemiy,,Kosarev,3,/users/artemiy-kosarev.d64da769/badges,
 Rudy,,van Sloten,1,/users/rdvansloten/badges,Hyfen
 Alica,,Tuskova,1,/users/alica-tuskova/badges,Avanade
-Kenny,,White,1,/users/kenny-white/badges,KPMG
+Kenny,,White,2,/users/kenny-white/badges,KPMG
 Erik,,de Rooij,1,/users/erik-de-rooij/badges,KPMG International
 Ivo,,Beerens,1,/users/ivo-beerens/badges,Ictivity
 Hassan,,Ali,2,/users/hassan-ali.fcbe4cfe/badges,
@@ -275,7 +275,7 @@ Francois,,Potgieter,1,/users/francois-potgieter.f21fe2af/badges,
 Stef,,de Goey,1,/users/stef-de-goey/badges,
 Mats,,Valk,1,/users/mats-valk/badges,
 Timo,,Heijne,2,/users/timo-heijne/badges,Accenture
-Mark,,Foppen,3,/users/mark-foppen.91b6307a/badges,Cre8-it
+Mark,,Foppen,2,/users/mark-foppen.91b6307a/badges,Cre8-it
 Chris,,van Riel,1,/users/chris-van-riel/badges,
 Marco,,Janse,1,/users/marco-janse/badges,
 Philipp,,Gayret,1,/users/philipp-gayret/badges,Release Engineers
@@ -289,28 +289,28 @@ Dylan,,Prins,1,/users/dylan-prins.406f3945/badges,
 Rutger,,Buiteman,1,/users/rutger-buiteman/badges,Xebia
 Hugo,,ter Doest,1,/users/hugo-ter-doest/badges,
 Jesse,,Swart,1,/users/jesse-swart/badges,Xebia
-Dominik,,Bernert,1,/users/dominik-bernert/badges,
+Dominik,,Bernert,0,/users/dominik-bernert/badges,
 Jean,,Helie,1,/users/jean-helie/badges,GitHub
-Rodrigo,,Moreirao,3,/users/rodrigo-moreirao/badges,
+Rodrigo,,Moreirao,1,/users/rodrigo-moreirao/badges,
 Mark,,van Kessel,1,/users/mark-van-kessel.498a7975/badges,
-Carlos,,Pintado,3,/users/carlos-pintado/badges,
-Lucas,,Bahnmüller,3,/users/lucas-bahnmuller/badges,
-Bart,,Wesselink,3,/users/bart-wesselink.708e1e4f/badges,
-Nick,,Nagel,1,/users/nick-nagel.24fceae9/badges,
-Peter,,Kwarts,1,/users/peter-kwarts/badges,Novon Digital
-Roderick,,Bant,2,/users/roderickbant/badges,Avanade
-Sander,,Trijssenaar,1,/users/trijssenaar/badges,Xebia
-Stefan,,Petrushevski,1,/users/stefan-petrushevski.5b791c22/badges,
-Tyrone,,Vriesde,1,/users/tyrone-vriesde/badges,
-Yulia,,Kriulina (van der Meijs),1,/users/yulia.kriulina/badges,
-Leandro,,Lopez,2,/users/leandro-lopez.22c31dd0/badges,Microsoft
-Remco,,Brosky,1,/users/remco-brosky/badges,
-Stef,,Ruinard,1,/users/stef-ruinard/badges,
-Mart,,de Graaf,1,/users/martdegraaf/badges,4Dotnet
-Sunkada,,Narendra Rao,2,/users/sunkada-narendra-rao/badges,Microsoft
-MARCO,,VAN KIMMENADE,1,/users/marco-van-kimmenade.63556b9d/badges,
-Martijn,,Mulder,3,/users/martijn-mulder-sogeti/badges,
-Anton,A,Sizikov,1,/users/anton-sizikov/badges,GitHub
-Bas,,Peters,3,/users/bas-peters.f368466a/badges,
-Michiel,David Wilhelm,van Oudheusden,2,/users/michiel-van-oudheusden/badges,Xpirit BV
-Pieter,,de Bruin,1,/users/pieter-de-bruin.dd564f16/badges,
+Carlos,,Pintado,1,/users/carlos-pintado/badges,
+Lucas,,Bahnmüller,0,/users/lucas-bahnmuller/badges,
+Bart,,Wesselink,0,/users/bart-wesselink.708e1e4f/badges,
+Nick,,Nagel,0,/users/nick-nagel.24fceae9/badges,
+Peter,,Kwarts,0,/users/peter-kwarts/badges,Novon Digital
+Roderick,,Bant,1,/users/roderickbant/badges,Avanade
+Sander,,Trijssenaar,0,/users/trijssenaar/badges,Xebia
+Stefan,,Petrushevski,0,/users/stefan-petrushevski.5b791c22/badges,
+Tyrone,,Vriesde,0,/users/tyrone-vriesde/badges,
+Yulia,,Kriulina (van der Meijs),0,/users/yulia.kriulina/badges,
+Leandro,,Lopez,0,/users/leandro-lopez.22c31dd0/badges,Microsoft
+Remco,,Brosky,0,/users/remco-brosky/badges,
+Stef,,Ruinard,0,/users/stef-ruinard/badges,
+Mart,,de Graaf,0,/users/martdegraaf/badges,4Dotnet
+Sunkada,,Narendra Rao,1,/users/sunkada-narendra-rao/badges,Microsoft
+MARCO,,VAN KIMMENADE,0,/users/marco-van-kimmenade.63556b9d/badges,
+Martijn,,Mulder,1,/users/martijn-mulder-sogeti/badges,
+Anton,A,Sizikov,0,/users/anton-sizikov/badges,GitHub
+Bas,,Peters,1,/users/bas-peters.f368466a/badges,
+Michiel,David Wilhelm,van Oudheusden,1,/users/michiel-van-oudheusden/badges,Xpirit BV
+Pieter,,de Bruin,0,/users/pieter-de-bruin.dd564f16/badges,

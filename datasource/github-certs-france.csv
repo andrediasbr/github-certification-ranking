@@ -5,7 +5,7 @@ Vincent,,Marchal,23,/users/vincent-marchal.87a05753/badges,Avanade
 Loïc,,Albarracin,7,/users/loic-albarracin/badges,
 Jeoffrey,,NGO,6,/users/jeoffrey-ngo/badges,
 Marvin,,Pedron,1,/users/marvin-pedron/badges,
-Alexis,,Perez,1,/users/alexis-perez.b84f801f/badges,
+Alexis,,Perez,0,/users/alexis-perez.b84f801f/badges,
 Virgile,,Malfatti,1,/users/virgile-malfatti/badges,
 Stéphane,,Point,1,/users/stephane-point/badges,
 Nabil,,Chebili,1,/users/nabil-chebili/badges,
@@ -95,7 +95,7 @@ Sunil,,Sharma,1,/users/sunil-sharma.26a860f8/badges,
 Melaine,,Gérard,1,/users/melaine-gerard/badges,
 joseph,,rodriguez,1,/users/joseph-rodriguez.f2aae98a/badges,
 Eric,,BOUGUEN,1,/users/eric-bouguen/badges,
-Gaétan,,MORLET,1,/users/gaetan-morlet/badges,
+Gaétan,,MORLET,2,/users/gaetan-morlet/badges,
 Koussaila,,YAHI,1,/users/koussaila_yahi/badges,
 Younes,,Radi,1,/users/younes-radi.5f30e408/badges,
 Robin,,Replat,1,/users/robin-replat/badges,
@@ -229,13 +229,13 @@ ARTEM,,TARANOV,1,/users/artem-taranov/badges,
 Sigfrid,,Couto,1,/users/sigfrid-couto/badges,
 Lotfi,,Akrimi,1,/users/lotfi-akrimi.adb77a1f/badges,
 Houssem Eddine,,Azzouz,1,/users/houssem-eddine-azzouz.acf62c19/badges,
-Cédric,,Noureau,2,/users/cedric-noureau.8854af4b/badges,
+Cédric,,Noureau,1,/users/cedric-noureau.8854af4b/badges,
 Taoufik,,AIT ALLA,1,/users/taoufik-ait-alla/badges,Microsoft
 Chouaib,,Hentabli,1,/users/chouaib-hentabli/badges,
 Bruce,,LANE,1,/users/bruce-lane.d4d3da09/badges,
 Antoine,,Terdjman,1,/users/antoine-terdjman/badges,
 El Mehdi,,FETTAH,1,/users/mehdi-fettah/badges,Capgemini
-Maryna,,Kushnir,1,/users/maryna-kushnir/badges,Avanade
+Maryna,,Kushnir,4,/users/maryna-kushnir/badges,Avanade
 Simon,,Spozio,1,/users/simon-spozio/badges,
 Arnaud,,Bourda,1,/users/arnaud-bourda/badges,
 Romain,,Serre,3,/users/romain-serre/badges,PulsivIT
@@ -252,7 +252,7 @@ Matthieu,,HOMMAIS,1,/users/matthieu-hommais/badges,
 bastien,,CHASSAGNOL,1,/users/bastien-chassagnol/badges,ArData
 Gioia Mariasole,,Galiazzo,1,/users/gioia-mariasole-galiazzo/badges,
 HAMZA,,EL HANAFI,1,/users/hamza-el-hanafi/badges,Devoteam
-Abdessamad,,Touzani,1,/users/abdessamad-touzani/badges,Hirundo AI
+Abdessamad,,Touzani,0,/users/abdessamad-touzani/badges,Hirundo AI
 Jean-Baptiste,,Clément,1,/users/jean-baptiste-clement/badges,
 Julien,,Padovani,1,/users/julien-padovani/badges,Avanade
 Guillem,,Saint-Germes,1,/users/guillem-saint-germes.2d9b7109/badges,
@@ -274,27 +274,27 @@ Aubin Patrick,,TAKAM TAYO,2,/users/aubin-patrick-takam-tayo/badges,
 Albert,,Phan,1,/users/albert-phan.7c9f1326/badges,
 Jean-François,,GUEYFFIER,1,/users/jean-francois-gueyffier/badges,
 Jérôme,,Djebari,1,/users/jerome-djebari.0a9396a4/badges,
-Philippe,,Armando,2,/users/philippe-armando.7c5fa0f9/badges,
-Papa Issa,,DIAKHATE,2,/users/paissad/badges,
+Philippe,,Armando,1,/users/philippe-armando.7c5fa0f9/badges,
+Papa Issa,,DIAKHATE,3,/users/paissad/badges,
 Gilles,,Martin,1,/users/gilles-martin-badges/badges,
 Rémi,,Sorlin,1,/users/remi-sorlin.11c4036a/badges,
 Jean-Benoit,,Paux,2,/users/jean-benoit-paux/badges,Pimp My Cloud
-Kévin,,Lancien,2,/users/kevin-lancien.d5922304/badges,Talan Solution
-Amelie,,Clouvel,1,/users/amelie-clouvel.fd22dd8b/badges,Microsoft France
+Kévin,,Lancien,0,/users/kevin-lancien.d5922304/badges,Talan Solution
+Amelie,,Clouvel,0,/users/amelie-clouvel.fd22dd8b/badges,Microsoft France
 Faisal,,Eddichari,0,/users/faisal-eddichari/badges,
-Matthieu,,Anceret,1,/users/matthieu-anceret/badges,
-Timothé,,Chauvet,2,/users/timothechauvet/badges,Self-employed
-Christopher,,MANEU,1,/users/christopher-maneu/badges,Microsoft
-Simon,,Dib,1,/users/simon-dib.8b22b24a/badges,
-David,,REI,1,/users/david-rei/badges,Microsoft
-Arnaud,,Tincelin,1,/users/arnaud-tincelin.32cdf249/badges,Microsoft
-Amine,,CHAROT,1,/users/amine-charot.88022826/badges,
-Sylvain,,Martinez,1,/users/sylvain-martinez/badges,
-Lucas,,BOURGOGNE,1,/users/lucas-bourgogne/badges,
+Matthieu,,Anceret,0,/users/matthieu-anceret/badges,
+Timothé,,Chauvet,0,/users/timothechauvet/badges,Self-employed
+Christopher,,MANEU,0,/users/christopher-maneu/badges,Microsoft
+Simon,,Dib,0,/users/simon-dib.8b22b24a/badges,
+David,,REI,0,/users/david-rei/badges,Microsoft
+Arnaud,,Tincelin,0,/users/arnaud-tincelin.32cdf249/badges,Microsoft
+Amine,,CHAROT,0,/users/amine-charot.88022826/badges,
+Sylvain,,Martinez,0,/users/sylvain-martinez/badges,
+Lucas,,BOURGOGNE,0,/users/lucas-bourgogne/badges,
 Philippe,,PUSCHMANN,0,/users/philippe-puschmann/badges,
 Sébastien,,BOINOT,1,/users/sebastien-boinot/badges,
-Amin,,KHALAF,1,/users/amin-khalaf/badges,
-idir,,DJEMAOUNE,2,/users/idir-djemaoune/badges,ID EI
+Amin,,KHALAF,0,/users/amin-khalaf/badges,
+idir,,DJEMAOUNE,0,/users/idir-djemaoune/badges,ID EI
 Thibaut,,FILIPE,1,/users/thibaut-filipe/badges,
 Louis-Guillaume,,MORAND,1,/users/lgmorand/badges,Microsoft
-William,,ANSEAUME,1,/users/william-anseaume/badges,
+William,,ANSEAUME,0,/users/william-anseaume/badges,
