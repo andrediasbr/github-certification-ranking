@@ -9,6 +9,22 @@ import sys
 import time
 
 import requests
+from datetime import datetime
+
+
+def get_badge_expiry_date(badge):
+    """Return a badge expiry date from either Credly payload shape."""
+    return badge.get('expires_at_date') or badge.get('external_badge', {}).get('expires_at_date')
+
+
+def is_badge_expired(expires_at_date):
+    """Return whether an expiry date is before today."""
+    if not expires_at_date:
+        return False
+    try:
+        return datetime.strptime(expires_at_date, "%Y-%m-%d").date() < datetime.now().date()
+    except (TypeError, ValueError):
+        return False
 from requests.adapters import HTTPAdapter
 
 # HTTP status codes worth retrying (rate limiting + transient server errors).
