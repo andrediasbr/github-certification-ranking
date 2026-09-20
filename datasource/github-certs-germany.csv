@@ -1,4 +1,6 @@
 first_name,middle_name,last_name,badge_count,profile_url,company
+Nico,,Orschel,16,/users/nico-orschel/badges,Xebia
+DEEPAK,,PANDIT,3,/users/deepak-pandit.92e6b175/badges,Avanade
 Igor,,Lakhtenkov,11,/users/igor-lakhtenkov.81d2dd0a/badges,
 Marko,,Sawall,1,/users/marko-sawall/badges,
 Daniel,Richard,Snell,11,/users/daniel-snell.f7bc4ec8/badges,Cluster Reply GmbH
@@ -6,13 +8,12 @@ Harald,,Binkle,6,/users/harald-binkle/badges,Xebia
 Sandra,,Neff,6,/users/sandra-neff.59a05583/badges,
 Leon,,Sinlik,7,/users/leon-sinlik/badges,
 Till,,Spindler,15,/users/till-spindler/badges,Eficode
-Nico,,Orschel,13,/users/nico-orschel/badges,Xebia
 Anirban,,Ghosh,1,/users/anirban-ghosh.22d2d490/badges,
 André,,Böttcher,1,/users/andre-bottcher/badges,Avanade Deutschland GmbH
 Tobias,,Wittenburg,1,/users/tobias-wittenburg.0c857b00/badges,Microsoft
 Kevin,,Leadbeater,1,/users/kevin-leadbeater/badges,"NTT DATA, Inc."
 Michael,,Kokonowskyj,8,/users/mikokono/badges,Xebia
-Maik,,Müller,4,/users/aatmmr/badges,Eficode
+Maik,,Müller,5,/users/aatmmr/badges,Eficode
 Julian,,Sievers,1,/users/julian-sievers/badges,NTT DATA
 Michael,,Heinen,1,/users/michael-heinen.2e087ca9/badges,
 Sebastian,,Hinzelmann,1,/users/sebastian-hinzelmann/badges,
@@ -188,7 +189,6 @@ Tobias,,Stenger,1,/users/tobias-stenger/badges,
 Andreas,,Barthel,1,/users/andreas-barthel/badges,CGI
 Robin,,Ferch,1,/users/robin-ferch/badges,
 Tobias,,Fritz,1,/users/tobias-fritz/badges,
-DEEPAK,,PANDIT,2,/users/deepak-pandit.92e6b175/badges,Avanade
 Carl,,Hörnis,1,/users/carl-hornis/badges,
 Stasnislav,,Olshanskiy,1,/users/stasnislav-olshanskiy/badges,
 Andreas,,Buzer,1,/users/andreas-buzer/badges,
