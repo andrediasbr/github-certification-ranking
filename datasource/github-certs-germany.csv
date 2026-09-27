@@ -1,7 +1,8 @@
 first_name,middle_name,last_name,badge_count,profile_url,company
+Maik,,Müller,9,/users/aatmmr/badges,Eficode
+Igor,,Lakhtenkov,12,/users/igor-lakhtenkov.81d2dd0a/badges,
 Nico,,Orschel,19,/users/nico-orschel/badges,Xebia
 DEEPAK,,PANDIT,3,/users/deepak-pandit.92e6b175/badges,Avanade
-Igor,,Lakhtenkov,11,/users/igor-lakhtenkov.81d2dd0a/badges,
 Marko,,Sawall,1,/users/marko-sawall/badges,
 Daniel,Richard,Snell,11,/users/daniel-snell.f7bc4ec8/badges,Cluster Reply GmbH
 Harald,,Binkle,6,/users/harald-binkle/badges,Xebia
@@ -13,7 +14,6 @@ André,,Böttcher,1,/users/andre-bottcher/badges,Avanade Deutschland GmbH
 Tobias,,Wittenburg,1,/users/tobias-wittenburg.0c857b00/badges,Microsoft
 Kevin,,Leadbeater,1,/users/kevin-leadbeater/badges,"NTT DATA, Inc."
 Michael,,Kokonowskyj,8,/users/mikokono/badges,Xebia
-Maik,,Müller,5,/users/aatmmr/badges,Eficode
 Julian,,Sievers,1,/users/julian-sievers/badges,NTT DATA
 Michael,,Heinen,1,/users/michael-heinen.2e087ca9/badges,
 Sebastian,,Hinzelmann,1,/users/sebastian-hinzelmann/badges,
