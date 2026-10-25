@@ -1,4 +1,6 @@
 first_name,middle_name,last_name,badge_count,profile_url,company
+Jorge,,Arias,2,/users/jorge-arias.9a16e7f2/badges,
+Shawn,,St Mart,2,/users/shawn-st-mart/badges,
 Chris,,Cooke,1,/users/chris-cooke.ed28873d/badges,
 Hung,,Dinh,1,/users/hungo/badges,Furō
 Diego,,Cruz,1,/users/diego-cruz-ti/badges,Ingram Micro Cloud
@@ -440,7 +442,7 @@ Nelson,,Cruz Guzman,1,/users/nelson-cruz-guzman/badges,
 Adrian,,Watson,1,/users/adrian-watson.722971b7/badges,
 Joshin,,John,1,/users/joshin-john.69d2817b/badges,
 Ji,,Tran,2,/users/ji-tran/badges,
-Andrew,,Souvleris,1,/users/andrew-souvleris.6ee21c08/badges,
+Andrew,,Souvleris,0,/users/andrew-souvleris.6ee21c08/badges,
 Jeb,,Williams,1,/users/jeb-williams.05675c10/badges,TAE Aerospace
 mark,,cooper,1,/users/mark-cooper.32b08f49/badges,
 Eric,,Chapman,2,/users/eric-chapman.f4b5f5c7/badges,
@@ -519,7 +521,6 @@ Ahmed,,Elsayed,0,/users/ahmedig/badges,Insight Enterprises
 Leigh,,Shayler,0,/users/expertdeveloper/badges,Arkahna
 Stephanie,,Swenson,0,/users/stephanie-swenson.a2ac34d4/badges,
 Paul,,Smithdale,0,/users/paul-smithdale/badges,
-Jorge,,Arias,1,/users/jorge-arias.9a16e7f2/badges,
 Cyril,,Gagnaire,0,/users/cyril-gagnaire/badges,Arkahna
 Nicolas,,Broca,0,/users/nicolas-broca/badges,
 Scott,,Aquilina,0,/users/scott-aquilina.37b6d438/badges,
