@@ -40,7 +40,7 @@ The rankings are automatically updated daily via GitHub Actions:
 
 1. **Data Collection**: Fetches certification data from Credly API for all countries worldwide
    - Collects GitHub certifications from official GitHub organization badges
-   - Includes Microsoft-issued GitHub certifications (migrated from GitHub in 2024)
+   - Includes Microsoft-issued GitHub certifications and proficiency badges
    - Uses parallel processing for fast data retrieval
    - Optimized handling for large countries (India, USA, Brazil, UK)
    
