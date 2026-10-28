@@ -16,7 +16,7 @@ applyTo: "**/*.py"
 - Excluded badges (`EXCLUDED_BADGES` set) are certifications no longer available — excluded even if issued by GitHub org
 - Deduplicate badges by name per user (use `set`)
 - Microsoft-issued GitHub certs are defined in `ALLOWED_MICROSOFT_GITHUB_CERTIFICATIONS`
-- Two badge sources: GitHub org badges + Microsoft external badges
+- Two badge sources: GitHub org badges + Microsoft-issued badges (both external badges and native Credly badges from the Microsoft org, filtered by the allowlist via `is_allowed_organization_badge`)
 - Keep `EXCLUDED_BADGES` and `ALLOWED_MICROSOFT_GITHUB_CERTIFICATIONS` synchronized between `fetch_country.py` and `fetch_large_country.py`
 
 ## CSV Format

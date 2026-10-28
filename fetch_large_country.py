@@ -17,6 +17,7 @@ from certifications import (
     request_with_retries,
     count_existing_rows,
     is_excluded_badge,
+    is_allowed_organization_badge,
     get_badge_expiry_date,
     is_badge_expired,
     fetch_user_company,
@@ -62,7 +63,7 @@ def fetch_github_external_badges(user_id):
         return set()
 
 def fetch_github_org_badges(user_id):
-    """Fetch GitHub badges issued directly by GitHub org, excluding expired ones and duplicates"""
+    """Fetch native Credly badges issued by the GitHub org (plus allowlisted Microsoft-issued ones), excluding expired ones and duplicates"""
     # Use set to track unique badge names and avoid duplicates
     unique_badge_names = set()
     page = 1
@@ -79,27 +80,15 @@ def fetch_github_org_badges(user_id):
             if not badges:
                 break
             
-            # Count only non-expired badges from GitHub organization
+            # Count non-expired GitHub org badges and allowlisted Microsoft-issued badges
             for badge in badges:
-                # Check if badge is from GitHub organization
-                issuer = badge.get('issuer', {})
-                entities = issuer.get('entities', [])
-                is_github_org = False
-                
-                for entity in entities:
-                    org_data = entity.get('entity', {})
-                    if org_data.get('id') == '63074953-290b-4dce-86ce-ea04b4187219':  # GitHub org ID
-                        is_github_org = True
-                        break
-                
-                if is_github_org:
+                if is_allowed_organization_badge(badge):
                     expires_at_date = badge.get('expires_at_date')
                     if not is_badge_expired(expires_at_date):
                         # Get badge name and only count if unique and not excluded
-                        badge_template = badge.get('badge_template', {})
-                        badge_name = badge_template.get('name', '')
+                        badge_name = badge.get('badge_template', {}).get('name', '').strip()
                         if badge_name and not is_excluded_badge(badge_name):
-                            unique_badge_names.add(badge_name)
+                            unique_badge_names.add(normalize_badge_name(badge_name))
             
             page += 1
         

@@ -127,6 +127,10 @@ def fetch_user_company(profile_url, timeout=10):
         return ''
 
 
+GITHUB_ORG_ID = '63074953-290b-4dce-86ce-ea04b4187219'
+MICROSOFT_ORG_ID = '1392f199-abe0-4698-92b5-834610af6baf'
+
+
 # Badges issued by the GitHub org on Credly that are NOT certifications
 # (community awards, recognition programs, sales-only badges). Excluded from all
 # counts even though they come from the GitHub organization.
@@ -183,6 +187,23 @@ ALLOWED_MICROSOFT_GITHUB_CERTIFICATIONS = {
     'Microsoft Applied Skills: Manage GitHub secret scanning by using GitHub Copilot',
     'Microsoft Pro Badge: GitHub Copilot - Proficient',
 }
+
+
+def is_allowed_organization_badge(badge):
+    """Return True if a native Credly badge (badges.json) should be considered.
+
+    Accepts any badge issued by the GitHub org, plus badges issued natively on
+    Credly by the Microsoft org whose name is in
+    ALLOWED_MICROSOFT_GITHUB_CERTIFICATIONS (e.g. Microsoft Pro Badges).
+    """
+    issuer_ids = {
+        entity.get('entity', {}).get('id')
+        for entity in badge.get('issuer', {}).get('entities', [])
+    }
+    if GITHUB_ORG_ID in issuer_ids:
+        return True
+    name = badge.get('badge_template', {}).get('name', '').strip()
+    return MICROSOFT_ORG_ID in issuer_ids and name in ALLOWED_MICROSOFT_GITHUB_CERTIFICATIONS
 
 # Map of renamed/duplicate badges to their canonical name.
 # When Microsoft renames a badge, add the old name as key and the current name as value.

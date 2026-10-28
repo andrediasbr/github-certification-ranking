@@ -19,14 +19,13 @@ from certifications import (
     normalize_badge_name,
     request_with_retries,
     is_excluded_badge,
+    is_allowed_organization_badge,
     get_badge_expiry_date,
     is_badge_expired,
     configure_utf8_output,
 )
 
 # --- Certification tooltip support ---
-GITHUB_ORG_ID = '63074953-290b-4dce-86ce-ea04b4187219'
-
 # Cache of profile_url -> set of valid cert names (or None when the fetch failed).
 _USER_CERTS_CACHE = {}
 # Union of every valid certification held by any ranked member across all rankings.
@@ -213,7 +212,7 @@ def fetch_user_certs(profile_url):
 
     names = set()
     try:
-        # GitHub org badges (paginated)
+        # GitHub org badges and allowlisted Microsoft-issued badges (paginated)
         page = 1
         while True:
             resp = request_with_retries(
@@ -224,12 +223,11 @@ def fetch_user_certs(profile_url):
             if not badges:
                 break
             for badge in badges:
-                entities = badge.get('issuer', {}).get('entities', [])
-                if any(e.get('entity', {}).get('id') == GITHUB_ORG_ID for e in entities):
+                if is_allowed_organization_badge(badge):
                     if not is_badge_expired(get_badge_expiry_date(badge)):
-                        name = badge.get('badge_template', {}).get('name', '')
+                        name = badge.get('badge_template', {}).get('name', '').strip()
                         if name and not is_excluded_badge(name):
-                            names.add(name)
+                            names.add(normalize_badge_name(name))
             page += 1
             if page > 10:
                 break
