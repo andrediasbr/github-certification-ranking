@@ -77,6 +77,7 @@ This project tracks GitHub certifications from two sources:
    - GitHub Foundations, Actions, Advanced Security, Administration, Copilot (Microsoft Certified)
    - Microsoft Certified: DevOps Engineer Expert
    - Microsoft Applied Skills related to GitHub
+   - Microsoft Pro Badge: GitHub Copilot - Proficient
 
 > **Note**: As of 2024, GitHub migrated some certification issuance to Microsoft Learn. Certifications that can no longer be earned (e.g., `GitHub Sales Professional`) are excluded from rankings to ensure fair competition.
 
