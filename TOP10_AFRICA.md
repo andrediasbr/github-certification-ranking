@@ -1,6 +1,6 @@
 # 🦁 TOP 10 GitHub Certifications - Africa
 
-> Last updated: November 01, 2026 at 04:24 UTC
+> Last updated: November 04, 2026 at 05:02 UTC
 
 ## 🏆 Top 10 GitHub Certifications Leaders
 
@@ -55,8 +55,8 @@ The following countries have data that was not updated in the last run:
 
 | Country | Last Updated | Hours Old |
 |---------|--------------|-----------|
-| Belarus | 2026-09-06 02:35 UTC | 1345h |
-| Cuba | 2026-09-06 02:35 UTC | 1345h |
+| Belarus | 2026-09-06 02:35 UTC | 1418h |
+| Cuba | 2026-09-06 02:35 UTC | 1418h |
 
 ---
 

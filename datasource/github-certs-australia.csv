@@ -1,4 +1,5 @@
 first_name,middle_name,last_name,badge_count,profile_url,company
+Martin,,Leung,1,/users/martin-leung.f8966d54/badges,
 Jorge,,Arias,2,/users/jorge-arias.9a16e7f2/badges,
 Shawn,,St Mart,2,/users/shawn-st-mart/badges,
 Chris,,Cooke,1,/users/chris-cooke.ed28873d/badges,
@@ -11,7 +12,7 @@ Catherine,,King,1,/users/catherine-king.04454e18/badges,
 Sneha,,Chow,1,/users/sneha-chow/badges,
 Amit,,Alon,0,/users/amit-alon/badges,
 Heidi,,Pilypas,0,/users/heidi-pilypas/badges,
-Simon,,Giesemann,1,/users/simon-giesemann/badges,GitHub
+Simon,,Giesemann,2,/users/simon-giesemann/badges,GitHub
 Ian,,Davey,1,/users/ian-davey.c5588e47/badges,
 Angie,,Fasciani,1,/users/angie-fasciani.fd75bdf6/badges,
 Anthony,,Borton,0,/users/anthony-borton/badges,Microsoft
@@ -464,7 +465,7 @@ Jessica,,Turner,1,/users/jessica-turner.e84a12cc/badges,
 Jacky,,Huang,2,/users/jacky-huang/badges,
 Martin,,Montgomery,1,/users/martin-montgomery.749ce2cc/badges,
 Vicki,,Turner,1,/users/vicki-turner.06a5b06f/badges,
-Radhika,,Rathnagiri Narasingappa,1,/users/radhika-rathnagiri-narasingappa/badges,
+Radhika,,Rathnagiri Narasingappa,0,/users/radhika-rathnagiri-narasingappa/badges,
 Vikas,,Vaidya,2,/users/codespry/badges,CV
 Hooman,,Broujerdi,0,/users/hooman-broujerdi/badges,
 Rohit,,Shangle,0,/users/rohit-shangle.668a27cf/badges,

@@ -1,10 +1,10 @@
 first_name,middle_name,last_name,badge_count,profile_url,company
 Marko,,Sawall,2,/users/marko-sawall/badges,
-Till,,Spindler,22,/users/till-spindler/badges,Eficode
+Till,,Spindler,23,/users/till-spindler/badges,Eficode
 Borzenko,,Olena,5,/users/borzenko-olena/badges,Xebia
-Maik,,Müller,13,/users/aatmmr/badges,Eficode
+Maik,,Müller,14,/users/aatmmr/badges,Eficode
 Igor,,Lakhtenkov,12,/users/igor-lakhtenkov.81d2dd0a/badges,
-Nico,,Orschel,22,/users/nico-orschel/badges,Xebia
+Nico,,Orschel,23,/users/nico-orschel/badges,Xebia
 DEEPAK,,PANDIT,3,/users/deepak-pandit.92e6b175/badges,Avanade
 Daniel,Richard,Snell,11,/users/daniel-snell.f7bc4ec8/badges,Cluster Reply GmbH
 Harald,,Binkle,7,/users/harald-binkle/badges,Xebia
@@ -198,7 +198,7 @@ Werner,,Kramer,1,/users/werner-kramer/badges,SVA GmbH
 Florian,,Wurzel,1,/users/florian-wurzel/badges,CGI Deutschland B.V. & Co. KG
 Benedikt,,Schleibinger,1,/users/benedikt-schleibinger/badges,Avanade
 Marco,,Schmidl,1,/users/marco-schmidl/badges,
-Markus,,Meyer,1,/users/markus-meyer.0941f693/badges,PlanB. GmbH
+Markus,,Meyer,2,/users/markus-meyer.0941f693/badges,PlanB. GmbH
 Rateb,,Ben Moussa,1,/users/rateb-ben-moussa/badges,
 Ranim,,Shikho,1,/users/ranim-shikho.2aae0732/badges,Syriatel Mobile Telecom
 Markus,,Weber,1,/users/markus-weber.e34f4263/badges,
@@ -260,7 +260,7 @@ Arun,,Arun,1,/users/arun-arun.ed9fe47d/badges,
 Dariusz,,Parys,1,/users/dariusz-parys.a4480efe/badges,
 Valentina,,Hermann,1,/users/valentina-hermann/badges,
 Alexander,,Thoma,1,/users/alexander-thoma-sw-engineer/badges,novaCapta GmbH
-Julius,,Lauterbach,1,/users/julius-lauterbach/badges,NTT DATA
+Julius,,Lauterbach,2,/users/julius-lauterbach/badges,NTT DATA
 Polly,,Gitau,1,/users/polly-gitau/badges,
 Ishan,,Sharma,1,/users/ishuar/badges,
 Laura,,Hörger,1,/users/laura-horger.5c06f4ea/badges,
