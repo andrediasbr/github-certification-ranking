@@ -76,6 +76,7 @@ This project tracks GitHub certifications from two sources:
 2. **Microsoft-Issued Badges** - GitHub certifications transitioned to Microsoft Learn
    - GitHub Foundations, Actions, Advanced Security, Administration, Copilot (Microsoft Certified)
    - Microsoft Certified: DevOps Engineer Expert
+- Microsoft Certified: Agentic DevOps Engineer Expert (AZ-401)
    - Microsoft Applied Skills related to GitHub
    - Microsoft Pro Badge: GitHub Copilot - Proficient
 
