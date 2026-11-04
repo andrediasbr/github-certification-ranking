@@ -224,8 +224,8 @@ def fetch_user_certs(profile_url):
                 break
             for badge in badges:
                 if is_allowed_organization_badge(badge):
-                    if not is_badge_expired(get_badge_expiry_date(badge)):
-                        name = badge.get('badge_template', {}).get('name', '').strip()
+                    name = badge.get('badge_template', {}).get('name', '').strip()
+                    if not is_badge_expired(get_badge_expiry_date(badge), name):
                         if name and not is_excluded_badge(name):
                             names.add(normalize_badge_name(name))
             page += 1
@@ -246,7 +246,7 @@ def fetch_user_certs(profile_url):
                 eb = badge.get('external_badge', {})
                 name = eb.get('badge_name', '').strip()
                 if eb.get('issuer_name') == 'Microsoft' and name in ALLOWED_MICROSOFT_GITHUB_CERTIFICATIONS:
-                    if not is_badge_expired(get_badge_expiry_date(badge)):
+                    if not                     is_badge_expired(get_badge_expiry_date(badge), name):
                         names.add(normalize_badge_name(name))
             page += 1
             if page > 10:

@@ -17,8 +17,14 @@ def get_badge_expiry_date(badge):
     return badge.get('expires_at_date') or badge.get('external_badge', {}).get('expires_at_date')
 
 
-def is_badge_expired(expires_at_date):
-    """Return whether an expiry date is before today."""
+# Certifications that no longer require renewal; their expiry date is ignored.
+NON_EXPIRING_BADGES = {'GitHub Foundations'}
+
+
+def is_badge_expired(expires_at_date, badge_name=None):
+    """Return whether an expiry date is before today (never for non-expiring badges)."""
+    if badge_name and badge_name.strip() in NON_EXPIRING_BADGES:
+        return False
     if not expires_at_date:
         return False
     try:
