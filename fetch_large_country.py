@@ -24,6 +24,9 @@ from certifications import (
     configure_utf8_output,
 )
 
+# User ids whose badge lookup failed after retries (list.append is thread-safe).
+LOOKUP_FAILURES = []
+
 def fetch_github_external_badges(user_id):
     """Fetch GitHub external badges (Microsoft-issued) for a user, excluding expired ones and duplicates"""
     # Use set to track unique badge names and avoid duplicates
@@ -60,6 +63,7 @@ def fetch_github_external_badges(user_id):
     except Exception as e:
         # If external badges endpoint fails, return empty set (user may have no external badges)
         print(f"    ⚠️  Warning: Failed to fetch external badges for user {user_id}: {str(e)}")
+        LOOKUP_FAILURES.append(user_id)
         return set()
 
 def fetch_github_org_badges(user_id):
@@ -96,6 +100,7 @@ def fetch_github_org_badges(user_id):
     except Exception as e:
         # If badges endpoint fails, return empty set
         print(f"    ⚠️  Warning: Failed to fetch org badges for user {user_id}: {str(e)}")
+        LOOKUP_FAILURES.append(user_id)
         return set()
 
 def fetch_page(country, page):
@@ -284,6 +289,9 @@ def fetch_country_parallel(country, max_workers=20):
         
         if failed_pages:
             print(f"  ⚠️  {len(failed_pages)} page(s) failed after retries: {sorted(failed_pages)[:10]}")
+        elif len(all_users) < total_count:
+            print(f"  ⚠️  Retrieved {len(all_users)} of {total_count} reported users")
+            failed_pages.append('count-mismatch')
         print(f"✓ Completed: {len(all_users)} users from {total_pages} pages")
     
     # Fetch detailed badges AND company for every user in a single pass. We
@@ -328,15 +336,19 @@ def fetch_country_parallel(country, max_workers=20):
                 if completed % 500 == 0 or completed == total:
                     print(f"    Progress: {completed}/{total} users", flush=True)
     
+    if len(LOOKUP_FAILURES) > 0.01 * max(len(all_users), 1):
+        print(f"  ⚠️  {len(LOOKUP_FAILURES)} badge lookup(s) failed; marking run incomplete")
+        failed_pages.append('badge-lookups')
+    
     return all_users, failed_pages
 
 def save_to_csv(country, users, output_dir='datasource', incomplete=False):
     """Save users to CSV file.
 
     Safeguard: never overwrite an existing CSV with a degraded dataset. If the
-    run was incomplete (a page failed after retries) or the new dataset is
-    substantially smaller than what is already on disk, keep the previous file
-    so users are not silently dropped from the ranking. Returns the output path
+    run was incomplete (a page or badge lookup failed, or the collected count
+    doesn't match the total Credly reported), keep the previous file. A complete
+    run is trusted even when smaller. Returns the output path
     on success, or None when the write was skipped to preserve good data.
     """
     import os
@@ -348,7 +360,7 @@ def save_to_csv(country, users, output_dir='datasource', incomplete=False):
     existing_count = count_existing_rows(output_file)
     new_count = len(users)
     
-    if existing_count > 0 and (incomplete or new_count < existing_count * 0.9):
+    if existing_count > 0 and incomplete:
         print(
             f"🛑 Refusing to overwrite {output_file}: existing={existing_count}, "
             f"new={new_count}, incomplete={incomplete}. Keeping previous data "
