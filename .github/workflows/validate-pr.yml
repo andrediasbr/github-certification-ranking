@@ -32,10 +32,10 @@ jobs:
 
     steps:
       - name: Checkout PR code
-        uses: actions/checkout@v4
+        uses: actions/checkout@v7.0.1
 
       - name: Set up Python
-        uses: actions/setup-python@v5
+        uses: actions/setup-python@v7.1.0
         with:
           python-version: '3.11'
 
@@ -73,7 +73,7 @@ jobs:
           git --no-pager diff --stat
 
       - name: Upload generated output as artifact
-        uses: actions/upload-artifact@v4
+        uses: actions/upload-artifact@v7.0.2
         with:
           name: validation-output
           path: |
