@@ -153,7 +153,7 @@ def fetch_badge_page(country, badge_name, page):
 
     Sorting by -activity_date keeps the most recently active earners first, so if
     a badge ever did exceed the cap the freshest data is retained. Returns
-    (page, users, total_pages, ok).
+    (page, users, total_pages, total_count, ok).
     """
     url = (
         "https://www.credly.com/api/v1/directory"
@@ -165,11 +165,11 @@ def fetch_badge_page(country, badge_name, page):
     try:
         response = request_with_retries(url, timeout=30)
         data = response.json()
-        total_pages = data.get('metadata', {}).get('total_pages', 0)
-        return (page, data.get('data', []), total_pages, True)
+        metadata = data.get('metadata', {})
+        return (page, data.get('data', []), metadata.get('total_pages', 0), metadata.get('total_count', 0), True)
     except Exception as e:
         print(f"    ❌ Error on '{badge_name}' page {page} after retries: {e}")
-        return (page, [], 0, False)
+        return (page, [], 0, 0, False)
 
 
 def fetch_country_by_badges(country, max_workers=20):
@@ -201,15 +201,19 @@ def fetch_country_by_badges(country, max_workers=20):
 
     # Phase 1: first page of each badge to learn its page count (and collect page-1 users).
     badge_total_pages = {}
+    badge_expected = {}
+    badge_seen = {}
     with ThreadPoolExecutor(max_workers=max_workers) as executor:
         futures = {executor.submit(fetch_badge_page, country, b, 1): b for b in badge_names}
         for future in as_completed(futures):
             badge_name = futures[future]
-            _page, users, total_pages, ok = future.result()
+            _page, users, total_pages, total_count, ok = future.result()
             if not ok:
                 incomplete = True
                 continue
             badge_total_pages[badge_name] = total_pages
+            badge_expected[badge_name] = total_count
+            badge_seen[badge_name] = {u.get('id') for u in users if u.get('id')}
             for u in users:
                 uid = u.get('id')
                 if uid and uid not in users_by_id:
@@ -219,13 +223,14 @@ def fetch_country_by_badges(country, max_workers=20):
     tasks = [(b, p) for b, tp in badge_total_pages.items() for p in range(2, tp + 1)]
     if tasks:
         with ThreadPoolExecutor(max_workers=max_workers) as executor:
-            futures = {executor.submit(fetch_badge_page, country, b, p): (b, p) for b, p in tasks}
+            futures = {executor.submit(fetch_badge_page, country, b, p): b for b, p in tasks}
             completed = 0
             for future in as_completed(futures):
-                _page, users, _tp, ok = future.result()
+                _page, users, _tp, _tc, ok = future.result()
                 if not ok:
                     incomplete = True
                 else:
+                    badge_seen[futures[future]].update(u.get('id') for u in users if u.get('id'))
                     for u in users:
                         uid = u.get('id')
                         if uid and uid not in users_by_id:
@@ -233,6 +238,12 @@ def fetch_country_by_badges(country, max_workers=20):
                 completed += 1
                 if completed % 200 == 0:
                     print(f"  Progress: {completed}/{len(tasks)} badge-pages ({len(users_by_id)} unique users)")
+
+    # A successful but truncated listing must not overwrite the previous CSV.
+    for b, expected in badge_expected.items():
+        if len(badge_seen[b]) < expected:
+            print(f"  ⚠️  Badge '{b}': retrieved {len(badge_seen[b])} of {expected} reported users")
+            incomplete = True
 
     print(f"  ✓ Enumerated {len(users_by_id)} unique users across {len(badge_names)} badges")
     return list(users_by_id.values()), incomplete
@@ -336,8 +347,9 @@ def fetch_country_parallel(country, max_workers=20):
                 if completed % 500 == 0 or completed == total:
                     print(f"    Progress: {completed}/{total} users", flush=True)
     
-    if len(LOOKUP_FAILURES) > 0.01 * max(len(all_users), 1):
-        print(f"  ⚠️  {len(LOOKUP_FAILURES)} badge lookup(s) failed; marking run incomplete")
+    failed_users = len(set(LOOKUP_FAILURES))
+    if failed_users > 0.01 * max(len(all_users), 1):
+        print(f"  ⚠️  {failed_users} badge lookup(s) failed; marking run incomplete")
         failed_pages.append('badge-lookups')
     
     return all_users, failed_pages

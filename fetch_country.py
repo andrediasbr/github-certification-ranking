@@ -188,7 +188,7 @@ def fetch_country_data(country):
                     print(f"    Progress: {completed}/{total} users", flush=True)
 
     # Undercounted users (failed badge lookups) would silently lower rankings.
-    failed_lookups = len(LOOKUP_FAILURES)
+    failed_lookups = len(set(LOOKUP_FAILURES))
     if failed_lookups > 0.01 * max(len(all_users), 1):
         print(f"  ⚠️  {failed_lookups} badge lookup(s) failed; marking run incomplete")
         incomplete = True
