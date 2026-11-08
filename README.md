@@ -2,8 +2,8 @@
 
 [![Generate GitHub Certifications Rankings](https://github.com/andrediasbr/github-certification-ranking/actions/workflows/generate-rankings.yml/badge.svg)](https://github.com/andrediasbr/github-certification-ranking/actions/workflows/generate-rankings.yml)
 
-> Automated daily rankings of GitHub Certifications leaders across different regions worldwide.
-> Rankings by **professionals**, **companies**, and **countries** — updated daily.
+> Automated rankings of GitHub Certifications leaders across different regions worldwide.
+> Rankings by **professionals**, **companies**, and **countries** — updated twice a week (Wednesdays and Sundays).
 
 <img src="images/github-octocat.jpg" alt="GitHub Octocat" width="120"/>
 
@@ -13,8 +13,10 @@
 
 Each ranking page includes:
 - 🏆 **Top 10 Positions** — Professionals ranked by number of certifications (tied users share the same position)
-- 🏢 **Top 5 Companies** — Companies with the most certified professionals
-- 🌐 **Top 5 Countries** — Countries leading in certifications (regional rankings only)
+  - 🏅 hover tooltip listing the certifications each professional holds
+  - 🎯 hover tooltip listing the certifications they are still missing (compared to every certification held by any ranked professional)
+- 🏢 **Top 5 Companies** — Companies with the most certifications among their certified professionals
+- 🌐 **Top 5 Countries** — Countries leading in certifications (multi-country rankings only)
 
 ### 🌎 Regional Rankings
 
@@ -36,24 +38,24 @@ Each ranking page includes:
 
 ## 🔄 How It Works
 
-The rankings are automatically updated daily via GitHub Actions:
+The rankings are automatically updated via GitHub Actions every **Wednesday and Sunday at 00:00 UTC** (and on demand):
 
 1. **Data Collection**: Fetches certification data from Credly API for all countries worldwide
    - Collects GitHub certifications from official GitHub organization badges
    - Includes Microsoft-issued GitHub certifications (migrated from GitHub in 2024) and proficiency badges
+   - Validates the badges of **every** certified user in each country (not just the top candidates)
    - Uses parallel processing for fast data retrieval
-   - Optimized handling for large countries (India, USA, Brazil, UK)
+   - Optimized handling for large countries (India, United States, Brazil, United Kingdom, Canada, Spain)
    
 2. **Fair Ranking Criteria**: Ensures an equitable competition
    - **Position-based ranking**: The ranking shows 10 positions, not 10 users — professionals with the same number of certifications share the same position
-   - **Expired certifications are excluded**: Only active, valid certifications count
-   - **Excluded certifications**: Badges that can no longer be earned (e.g., `GitHub Sales Professional`) are excluded to keep the competition fair
-   - **Duplicate prevention**: Same badge name counts only once per user
-   - Top 50 candidates per country are validated for accurate results
+   - **Expired certifications are excluded**: Only active, valid certifications count (`GitHub Foundations` no longer expires, so its expiration date is ignored)
+   - **Excluded badges**: Badges that can no longer be earned (e.g., `GitHub Sales Professional`) and non-certification awards (community, recognition and MVP badges) are excluded to keep the competition fair
+   - **Duplicate prevention**: Same badge name counts only once per user, including badges renamed by Microsoft
    
 3. **Multi-dimensional Rankings**: Each regional ranking includes
    - 🏆 **Top 10 Professionals** — Individual ranking by certification count
-   - 🏢 **Top 5 Companies** — Companies with the most certified professionals in the region
+   - 🏢 **Top 5 Companies** — Companies ranked by total certifications of all their certified professionals in the region
    - 🌐 **Top 5 Countries** — Countries leading in certifications (excluded for single-country rankings)
    
 4. **Company Information**: Enriches rankings with professional context
@@ -62,7 +64,11 @@ The rankings are automatically updated daily via GitHub Actions:
    
 5. **Data Storage**: All certification data in the `datasource/` directory
    - Individual CSV files per country (e.g., `github-certs-brazil.csv`)
-   - Metadata tracking for update timestamps and optimization
+   - `csv_metadata.json` tracks the last update of each country; rankings show a **Data Freshness Warning** for countries that could not be refreshed
+
+6. **Data Integrity**: A country's CSV is only replaced by a complete fetch
+   - Failed requests are retried with backoff
+   - If any page fails, fewer unique users than Credly reports are collected, or more than 1% of badge lookups fail, the run is marked incomplete and the previous CSV is kept
 
 ### ℹ️ GitHub Certifications Sources
 
@@ -71,12 +77,13 @@ This project tracks GitHub certifications from two sources:
 1. **GitHub Organization Badges** - Certifications issued directly by GitHub on Credly
    - **Core Certifications**: Foundations, Actions, Advanced Security, Administration, Copilot
    - **Partner Credentials**: Migrations, AzureDevOps Migrations, Advanced Security Partner Delivery
-   - **Any other active badge** issued by the GitHub organization
+   - **Any other active badge** issued by the GitHub organization, except non-certification awards listed in `certifications.py`
    
 2. **Microsoft-Issued Badges** - GitHub certifications transitioned to Microsoft Learn
    - GitHub Foundations, Actions, Advanced Security, Administration, Copilot (Microsoft Certified)
+   - GitHub Certified: Agentic AI Developer
    - Microsoft Certified: DevOps Engineer Expert
-- Microsoft Certified: Agentic DevOps Engineer Expert (AZ-401)
+   - Microsoft Certified: Agentic DevOps Engineer Expert (AZ-401)
    - Microsoft Applied Skills related to GitHub
    - Microsoft Pro Badge: GitHub Copilot - Proficient
 
@@ -87,7 +94,7 @@ This project tracks GitHub certifications from two sources:
 - **Position-based**: 10 positions shown — tied professionals share the same rank
 - **Active only**: Expired certifications are automatically excluded
 - **Excluded badges**: Certifications no longer available for earning are not counted
-- **Daily Updates**: Rankings refresh daily to reflect newly issued and expired certifications
+- **Regular Updates**: Rankings refresh twice a week to reflect newly issued and expired certifications
 
 ### ⚠️ Known Limitations
 
@@ -101,7 +108,15 @@ You can manually trigger the rankings generation:
 2. Select "Generate GitHub Certifications Rankings"
 3. Click "Run workflow"
 
+Pull requests that change Python code run the **Validate PR** workflow, which fetches a single country and generates the rankings without committing anything (the output is uploaded as an artifact). It can also be triggered manually with a chosen country.
+
 ## 💻 Local Execution
+
+### Install Dependencies
+
+```bash
+pip install requests
+```
 
 ### Fetch Data for a Specific Country
 
@@ -138,15 +153,21 @@ python3 generate_rankings.py
 ```
 .
 ├── .github/
+│   ├── copilot-instructions.md        # Copilot project guidelines
+│   ├── instructions/                  # Copilot coding instructions
+│   ├── prompts/                       # Reusable Copilot prompts
 │   └── workflows/
-│       └── generate-rankings.yml      # GitHub Actions workflow
+│       ├── generate-rankings.yml      # Scheduled rankings workflow
+│       ├── validate-pr.yml            # PR validation (no commit)
+│       └── actions.lock               # Pinned action versions
 ├── datasource/                        # Directory with all country CSVs
 │   ├── github-certs-brazil.csv
 │   ├── github-certs-united-states.csv
 │   ├── github-certs-india.csv
-│   └── ... (190+ country files)
+│   └── ... (198 country files)
 ├── images/
 │   └── github-octocat.jpg             # Project image
+├── certifications.py                  # Shared badge rules and HTTP helpers
 ├── fetch_country.py                   # Single country data fetcher
 ├── fetch_data.py                      # Parallel fetcher for all countries
 ├── fetch_large_country.py             # Optimized fetcher for large countries
@@ -162,28 +183,27 @@ python3 generate_rankings.py
 Data is sourced from the [Credly API](https://www.credly.com/api/v1/directory) for GitHub certifications.
 
 ### Performance Optimizations
-- **Intelligent Candidate Selection**: Fetches detailed badge data only for top 50 candidates per country
-  - Reduces API requests by ~95% for large countries
-- **Parallel Processing**: Fetches multiple countries simultaneously using ThreadPoolExecutor
-- **Metadata Tracking**: Skips recently updated countries to reduce unnecessary API calls
-- **Specialized Handlers**: Large countries use optimized parallel page fetching
-- **Smart Caching**: CSV files stored with timestamps for efficient updates
+- **Parallel Processing**: Fetches multiple countries simultaneously using ThreadPoolExecutor, and each user's badges and company in parallel
+- **Single Pass per User**: Badges and company are fetched in the same pass for every user
+- **Connection Reuse**: A shared HTTP session reuses TLS connections across requests
+- **Resilient Requests**: Rate limits and transient server errors (429/5xx) are retried with backoff
+- **Specialized Handlers**: Large countries use parallel page fetching; when Credly caps the directory listing (10,000 users), users are collected per badge instead
 
 ### Certification Validation
-- **Expiration Checking**: Each badge's `expires_at_date` is validated against current date
-- **Dual Source Tracking**: Combines GitHub org badges + Microsoft external badges
-- **Excluded Badges**: Certifications no longer available (e.g., `GitHub Sales Professional`) are excluded via `EXCLUDED_BADGES`
-- **Duplicate Prevention**: Only unique badge names are counted (no duplicates)
-- **Top Performer Focus**: Detailed validation applied to top 50 candidates per country
+- **Expiration Checking**: Each badge's `expires_at_date` is validated against current date (except non-expiring badges such as `GitHub Foundations`)
+- **Dual Source Tracking**: Combines GitHub org badges + Microsoft-issued badges (filtered by `ALLOWED_MICROSOFT_GITHUB_CERTIFICATIONS`)
+- **Excluded Badges**: Certifications no longer available and non-certification awards are excluded via `EXCLUDED_BADGES` and `EXCLUDED_BADGE_PREFIXES`
+- **Duplicate Prevention**: Only unique badge names are counted, with renamed badges normalized via `BADGE_NAME_ALIASES`
+- **Single Source of Truth**: All badge rules live in `certifications.py`
 
 ### Regional Coverage
-- **Americas**: 30+ countries including Brazil, USA, Canada, Argentina, Mexico, etc.
-- **Europe**: 45+ countries including UK, Germany, France, Spain, Italy, etc.
-- **Asia**: 45+ countries including India, China, Japan, South Korea, Singapore, etc.
-- **Oceania**: 15+ countries including Australia, New Zealand, Fiji, etc.
-- **Africa**: 50+ countries including South Africa, Nigeria, Egypt, Kenya, etc.
+- **Americas**: 35 countries including Brazil, USA, Canada, Argentina, Mexico, etc.
+- **Europe**: 49 countries including UK, Germany, France, Spain, Italy, etc.
+- **Asia**: 46 countries including India, China, Japan, South Korea, Singapore, etc.
+- **Oceania**: 14 countries including Australia, New Zealand, Fiji, etc.
+- **Africa**: 54 countries including South Africa, Nigeria, Egypt, Kenya, etc.
 
-**Total: 190+ countries tracked globally**
+**Total: 198 countries tracked globally**
 
 ## 📝 License
 
