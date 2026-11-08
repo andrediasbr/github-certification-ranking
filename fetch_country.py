@@ -25,6 +25,9 @@ from certifications import (
     configure_utf8_output,
 )
 
+# User ids whose badge lookup failed after retries (list.append is thread-safe).
+LOOKUP_FAILURES = []
+
 def fetch_github_external_badges(user_id):
     """Fetch GitHub external badges (Microsoft-issued) for a user, excluding expired ones and duplicates"""
     # Use set to track unique badge names and avoid duplicates
@@ -61,6 +64,7 @@ def fetch_github_external_badges(user_id):
     except Exception as e:
         # If external badges endpoint fails, return empty set (user may have no external badges)
         print(f"    ⚠️  Warning: Failed to fetch external badges for user {user_id}: {str(e)}")
+        LOOKUP_FAILURES.append(user_id)
         return set()
 
 def fetch_github_org_badges(user_id):
@@ -97,6 +101,7 @@ def fetch_github_org_badges(user_id):
     except Exception as e:
         # If badges endpoint fails, return empty set
         print(f"    ⚠️  Warning: Failed to fetch org badges for user {user_id}: {str(e)}")
+        LOOKUP_FAILURES.append(user_id)
         return set()
 
 def fetch_country_data(country):
@@ -106,6 +111,7 @@ def fetch_country_data(country):
     all_users = []
     page = 1
     incomplete = False
+    reported_total = None
     
     print(f"Fetching data for {country}...")
     
@@ -117,6 +123,8 @@ def fetch_country_data(country):
             data = response.json()
             
             users = data.get('data', [])
+            if page == 1:
+                reported_total = data.get('metadata', {}).get('total_count')
             if not users:
                 break
             
@@ -131,6 +139,14 @@ def fetch_country_data(country):
             incomplete = True
             break
     
+    # The loop stops at the first empty page, so cross-check against the total
+    # Credly reports to catch a silently truncated listing.
+    # Count unique, non-empty IDs so overlapping pages cannot mask a shortfall.
+    unique_ids = {u.get('id') for u in all_users if u.get('id')}
+    if not incomplete and reported_total is not None and len(unique_ids) < reported_total:
+        print(f"  ⚠️  Retrieved {len(unique_ids)} unique of {reported_total} reported users; marking run incomplete")
+        incomplete = True
+
     # Fetch detailed badges AND company for every user in a single pass. We
     # already pay one round-trip per user for the company lookup, so folding the
     # badge fetch into the same pass adds no extra passes while counting
@@ -173,15 +189,21 @@ def fetch_country_data(country):
                 if completed % 500 == 0 or completed == total:
                     print(f"    Progress: {completed}/{total} users", flush=True)
 
+    # Undercounted users (failed badge lookups) would silently lower rankings.
+    failed_lookups = len(set(LOOKUP_FAILURES))
+    if failed_lookups > 0.01 * max(len(all_users), 1):
+        print(f"  ⚠️  {failed_lookups} badge lookup(s) failed; marking run incomplete")
+        incomplete = True
+
     return all_users, incomplete
 
 def save_to_csv(country, users, output_dir='datasource', incomplete=False):
     """Save users to CSV file.
 
     Safeguard: never overwrite an existing CSV with a degraded dataset. If the
-    run was incomplete (a page failed after retries) or the new dataset is
-    substantially smaller than what is already on disk, keep the previous file
-    so users are not silently dropped from the ranking. Returns the output path
+    run was incomplete (a page or badge lookup failed, or the collected count
+    doesn't match the total Credly reported), keep the previous file. A complete
+    run is trusted even when smaller. Returns the output path
     on success, or None when the write was skipped to preserve good data.
     """
     os.makedirs(output_dir, exist_ok=True)
@@ -192,7 +214,7 @@ def save_to_csv(country, users, output_dir='datasource', incomplete=False):
     existing_count = count_existing_rows(output_file)
     new_count = len(users)
     
-    if existing_count > 0 and (incomplete or new_count < existing_count * 0.9):
+    if existing_count > 0 and incomplete:
         print(
             f"🛑 Refusing to overwrite {output_file}: existing={existing_count}, "
             f"new={new_count}, incomplete={incomplete}. Keeping previous data "
