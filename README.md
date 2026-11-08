@@ -89,6 +89,10 @@ This project tracks GitHub certifications from two sources:
 - **Excluded badges**: Certifications no longer available for earning are not counted
 - **Daily Updates**: Rankings refresh daily to reflect newly issued and expired certifications
 
+### ⚠️ Known Limitations
+
+- **Stale expiration dates for renewed Microsoft certifications**: Badge counts rely on the expiration dates reported by the Credly API. Credly may not refresh synced Microsoft credentials after a renewal, so a recently renewed certification can be counted as expired. If your count looks wrong, check your badge data at `https://www.credly.com/api/v1/users/<your-username>/external_badges/open_badges/public?page=1&page_size=100` and look for badges whose `expires_at_date` is in the past but are still **Active** on Microsoft Learn. The fix has to happen on Credly: add the credential again with a new share link from Microsoft Learn (then hide the old badge), or [contact Credly support](https://support.credly.com/hc/en-us/requests/new). See [#30](../../issues/30) for details.
+
 ## 🚀 Manual Execution
 
 You can manually trigger the rankings generation:
