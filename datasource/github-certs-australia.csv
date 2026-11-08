@@ -1,10 +1,12 @@
 first_name,middle_name,last_name,badge_count,profile_url,company
+Ayobami,,Adebayo,1,/users/bammy/badges,Eficode
+Ben,,Leane,4,/users/ben-leane/badges,
+Shawn,,St Mart,3,/users/shawn-st-mart/badges,
 Martin,,Leung,1,/users/martin-leung.f8966d54/badges,
 Jorge,,Arias,2,/users/jorge-arias.9a16e7f2/badges,
-Shawn,,St Mart,2,/users/shawn-st-mart/badges,
 Chris,,Cooke,1,/users/chris-cooke.ed28873d/badges,
 Hung,,Dinh,1,/users/hungo/badges,Furō
-Diego,,Cruz,1,/users/diego-cruz-ti/badges,Ingram Micro Cloud
+Diego,,Cruz,2,/users/diego-cruz-ti/badges,Ingram Micro Cloud
 Nathan,,Chau,3,/users/nathanchau/badges,
 Jamie,,Grimwood,3,/users/jamie-grimwood/badges,
 Marco,,Celon,13,/users/marco-celon.53bc8019/badges,GitHub
@@ -214,7 +216,6 @@ Shahil,,Prasad,1,/users/shahil-prasad.64368532/badges,
 Jing,,LEI,0,/users/jing-lei.8a6f4693/badges,
 Paul,,Caon,0,/users/paul-caon/badges,
 Patrick,,Tsang,0,/users/patrick-tsang.0bfc29cd/badges,
-Ben,,Leane,2,/users/ben-leane/badges,
 Mojtaba,,Shafaghi,1,/users/mojtaba-shafaghi/badges,
 Yun,,Shi,1,/users/yun-shi.87b879b9/badges,
 Omri,,Bornstein,1,/users/omri-bornstein/badges,
@@ -227,7 +228,7 @@ Sriram,,Ramani,1,/users/sriram-ramani/badges,Commonwealth Bank of Australia
 Zeyu,,Chen,1,/users/zeyu-chen.c85947b2/badges,
 Roshan,,Wosti,1,/users/roshan-wosti/badges,Academy IT
 Lucian,,Maly,1,/users/lucian-maly/badges,Red Hat
-Kitty,,Chiu,2,/users/kittychiu/badges,
+Kitty,,Chiu,3,/users/kittychiu/badges,
 Michael,John Timpoc,Peña,1,/users/michael-john-pena/badges,Datachain Consulting
 Mehakdeep,,Singh,1,/users/mehakdeep-singh.cf006b42/badges,
 YI-FAN,,YU,1,/users/yi-fan-yu.7eb7a48a/badges,
@@ -464,7 +465,7 @@ Hans Jakob,,Emmel,1,/users/hans-jakob-emmel/badges,
 Jessica,,Turner,1,/users/jessica-turner.e84a12cc/badges,
 Jacky,,Huang,2,/users/jacky-huang/badges,
 Martin,,Montgomery,1,/users/martin-montgomery.749ce2cc/badges,
-Vicki,,Turner,1,/users/vicki-turner.06a5b06f/badges,
+Vicki,,Turner,0,/users/vicki-turner.06a5b06f/badges,
 Radhika,,Rathnagiri Narasingappa,0,/users/radhika-rathnagiri-narasingappa/badges,
 Vikas,,Vaidya,2,/users/codespry/badges,CV
 Hooman,,Broujerdi,0,/users/hooman-broujerdi/badges,

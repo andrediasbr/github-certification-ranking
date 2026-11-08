@@ -1,10 +1,11 @@
 first_name,middle_name,last_name,badge_count,profile_url,company
-Marko,,Sawall,2,/users/marko-sawall/badges,
-Till,,Spindler,23,/users/till-spindler/badges,Eficode
-Borzenko,,Olena,5,/users/borzenko-olena/badges,Xebia
+Florian,,Assmus,6,/users/florian-assmus/badges,
+Borzenko,,Olena,6,/users/borzenko-olena/badges,Xebia
+Marko,,Sawall,3,/users/marko-sawall/badges,Xebia
+Nico,,Orschel,25,/users/nico-orschel/badges,Xebia
+Till,,Spindler,25,/users/till-spindler/badges,Eficode
+Igor,,Lakhtenkov,13,/users/igor-lakhtenkov.81d2dd0a/badges,
 Maik,,Müller,14,/users/aatmmr/badges,Eficode
-Igor,,Lakhtenkov,12,/users/igor-lakhtenkov.81d2dd0a/badges,
-Nico,,Orschel,23,/users/nico-orschel/badges,Xebia
 DEEPAK,,PANDIT,3,/users/deepak-pandit.92e6b175/badges,Avanade
 Daniel,Richard,Snell,11,/users/daniel-snell.f7bc4ec8/badges,Cluster Reply GmbH
 Harald,,Binkle,7,/users/harald-binkle/badges,Xebia
@@ -90,7 +91,7 @@ Fabius,,Hobler,1,/users/fabius-hobler/badges,
 Gowrisha,,C. Vishwa Kumar,1,/users/gowrishacv/badges,Santander Consumer Bank
 Zain,,Sohail,1,/users/zain-sohail.221b5be6/badges,
 Sven,,Kölpin,1,/users/sven-kolpin/badges,
-Marius,,Boden,4,/users/marius-boden/badges,Xebia
+Marius,,Boden,5,/users/marius-boden/badges,Xebia
 Kevin Franz,,Pauer,1,/users/kevin-franz-pauer/badges,
 René,,Klemm,1,/users/rene-klemm/badges,
 Julian,,Kasimir,1,/users/julian-kasimir/badges,Atos
@@ -137,7 +138,7 @@ Maksim,,Kogan,1,/users/maksim-kogan/badges,
 Rene,,Bockrandt,1,/users/rene-bockrandt/badges,
 Daniel,,dlwildschut@gmail.com,1,/users/daniel-dlwildschut-gmail-com/badges,
 Pranay,,Tiwari,1,/users/pranay-tiwari.59dcc997/badges,
-Chhitiz,,Buchasia,5,/users/chhitiz-buchasia/badges,Xebia
+Chhitiz,,Buchasia,6,/users/chhitiz-buchasia/badges,Xebia
 Insa,,Belter,1,/users/insa-belter/badges,
 Mohit,,Gupta,1,/users/mohit-gupta.3cc64f69/badges,
 Florian,,Wattenbach,1,/users/florian-wattenbach/badges,
@@ -175,7 +176,7 @@ Mohamed Islem,,Ayari,1,/users/mohamed-islem-ayari/badges,
 Arunkumar,,Krishnakumar,1,/users/arunkrish/badges,Qualcomm Germany Gmbh
 Sridhar,,Shanmugham,1,/users/sridhar-shanmugham/badges,Deutsche Börse
 Sophie,,Keil,1,/users/sophie-keil.22324c21/badges,
-Torben,,Haack,1,/users/torben-haack/badges,
+Torben,,Haack,2,/users/torben-haack/badges,
 Guilherme,,Teixeira,3,/users/guilherme-teixeira.5de592b6/badges,
 Artur,,Kordowski,4,/users/artur-kordowski/badges,Xebia
 Tom,,Kaleße,1,/users/tom-kalesse/badges,
@@ -318,7 +319,7 @@ Alexej,,Disterhoft,1,/users/alexej-disterhoft/badges,Redcare Pharmacy
 Alexander,,Turiak,1,/users/alexander-turiak/badges,
 Gabriel,,Machado Santos,1,/users/gmsantos/badges,Palo Alto Networks
 Jonas,,Kwiedor,1,/users/jonas-kwiedor/badges,J&J Ideenschmiede GmbH
-Giacomo,,Lovat,1,/users/giacomo-lovat.8ea5216c/badges,IBM
+Giacomo,,Lovat,1,/users/giacomo-lovat/badges,IBM
 Davaadorj,,Tsendragchaa,1,/users/davaadorj-tsendragchaa/badges,
 Thomas,,Kamann,1,/users/thomas-kamann/badges,Lekkerland SE
 Tim Satrya,,Funk,1,/users/tim-satrya-funk/badges,
@@ -351,7 +352,7 @@ Heyko,,Oelrichs,0,/users/heyko-oelrichs/badges,
 René,,Schumacher,0,/users/rene-schumacher.a2d8882b/badges,
 Michael,,Kaufmann,0,/users/mkaufmann/badges,Xebia
 Johannes,,Nicolai,0,/users/johannes-nicolai/badges,
-Josef,,Zweck,0,/users/josef-zweck.887ca33d/badges,Microsoft
+Josef,,Zweck,1,/users/josef-zweck.887ca33d/badges,Microsoft
 Alexander,,Beck,0,/users/alexander-beck.20732031/badges,Microsoft Deutschland GmbH
 Carsten,,Lemm,0,/users/carsten-lemm/badges,
 Taseer,,Ahmed,0,/users/taseer-ahmed.900ae72a/badges,

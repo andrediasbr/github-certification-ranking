@@ -1,11 +1,11 @@
 first_name,middle_name,last_name,badge_count,profile_url,company
-Therese,,Berge,7,/users/therese-berge.8333c957/badges,Eficode
+Therese,,Berge,8,/users/therese-berge.8333c957/badges,Eficode
+Magnus,,Timner,14,/users/magnus-timner.ddd6329c/badges,Eficode
+Eric,,Söderqvist,9,/users/eric-soderqvist/badges,Eficode
 Patrik,,Polyak,7,/users/patrik-polyak/badges,Eficode
 Jorge,,Montero,2,/users/jorge-montero.d6ffec73/badges,
 Heidi,,Housten,6,/users/heidi-housten/badges,Eficode
 Mathias,,Olausson,14,/users/mathias-olausson/badges,Eficode
-Eric,,Söderqvist,8,/users/eric-soderqvist/badges,Eficode
-Magnus,,Timner,13,/users/magnus-timner.ddd6329c/badges,Solidify Eficode
 Simon,,Liolios,2,/users/simon-liolios/badges,
 Jessica,,Chavez Ruiz,4,/users/jessica-chavez-ruiz.1bf5de96/badges,
 Suhas,,Patil,3,/users/suhas-patil.73d23ddf/badges,
@@ -75,7 +75,7 @@ Anas,,Mofleh,2,/users/anas-mofleh/badges,Region skåne
 Stefan,,Petrovic,2,/users/stefan-petrovic.0e0ca725/badges,
 Andreas,,Kahlroth,3,/users/andreas-kahlroth/badges,
 Evelina,,Johansson,1,/users/evelina-johansson/badges,
-Johan,,Nordberg,5,/users/johan-nordberg/badges,Microsoft
+Johan,,Nordberg,6,/users/johan-nordberg/badges,Microsoft
 Denys,,Lashchevskyi,5,/users/denys-lashchevskyi/badges,
 Michel,,Antonio,2,/users/michel-antonio/badges,Living IT
 Mattias,,Fjellström,2,/users/mattias-fjellstrom/badges,Accelerate Sverige
@@ -89,7 +89,7 @@ Aleksandr,,Khorev,1,/users/aleksandr-khorev/badges,
 Sevil,,Guler,1,/users/sevil-guler/badges,
 Stefan,,Olivebring,1,/users/stefan-olivebring/badges,Eficode
 Stefan,,Lisper,2,/users/stefan-lisper/badges,
-Emanuel,,Palm,2,/users/emanuel-palm/badges,
+Emanuel,,Palm,3,/users/emanuel-palm/badges,
 Benjamin,,Jönsson,1,/users/benjamin-jonsson/badges,
 Nikolay,,Sandt,1,/users/sandt/badges,Self
 Pierre,,Thoor,3,/users/pierre-thoor/badges,Onevinn AB
