@@ -50,7 +50,7 @@ def fetch_github_external_badges(user_id):
                 
                 # Check if it's an allowed GitHub certification issued by Microsoft and not expired
                 if issuer_name == 'Microsoft' and badge_name.strip() in ALLOWED_MICROSOFT_GITHUB_CERTIFICATIONS:
-                    if not is_badge_expired(expires_at_date):
+                    if not is_badge_expired(expires_at_date, badge_name):
                         # Only count if badge name is unique (normalize to handle renamed badges)
                         unique_badge_names.add(normalize_badge_name(badge_name.strip()))
             
@@ -84,9 +84,9 @@ def fetch_github_org_badges(user_id):
             for badge in badges:
                 if is_allowed_organization_badge(badge):
                     expires_at_date = badge.get('expires_at_date')
-                    if not is_badge_expired(expires_at_date):
-                        # Get badge name and only count if unique and not excluded
-                        badge_name = badge.get('badge_template', {}).get('name', '').strip()
+                    badge_name = badge.get('badge_template', {}).get('name', '').strip()
+                    if not is_badge_expired(expires_at_date, badge_name):
+                        # Only count if unique and not excluded
                         if badge_name and not is_excluded_badge(badge_name):
                             unique_badge_names.add(normalize_badge_name(badge_name))
             
