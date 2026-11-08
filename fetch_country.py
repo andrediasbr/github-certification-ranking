@@ -141,8 +141,10 @@ def fetch_country_data(country):
     
     # The loop stops at the first empty page, so cross-check against the total
     # Credly reports to catch a silently truncated listing.
-    if not incomplete and reported_total is not None and len(all_users) < reported_total:
-        print(f"  ⚠️  Retrieved {len(all_users)} of {reported_total} reported users; marking run incomplete")
+    # Count unique, non-empty IDs so overlapping pages cannot mask a shortfall.
+    unique_ids = {u.get('id') for u in all_users if u.get('id')}
+    if not incomplete and reported_total is not None and len(unique_ids) < reported_total:
+        print(f"  ⚠️  Retrieved {len(unique_ids)} unique of {reported_total} reported users; marking run incomplete")
         incomplete = True
 
     # Fetch detailed badges AND company for every user in a single pass. We

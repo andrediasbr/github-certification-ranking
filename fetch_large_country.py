@@ -300,9 +300,12 @@ def fetch_country_parallel(country, max_workers=20):
         
         if failed_pages:
             print(f"  ⚠️  {len(failed_pages)} page(s) failed after retries: {sorted(failed_pages)[:10]}")
-        elif len(all_users) < total_count:
-            print(f"  ⚠️  Retrieved {len(all_users)} of {total_count} reported users")
-            failed_pages.append('count-mismatch')
+        else:
+            # Count unique, non-empty IDs so overlapping pages cannot mask a shortfall.
+            unique_ids = {u.get('id') for u in all_users if u.get('id')}
+            if len(unique_ids) < total_count:
+                print(f"  ⚠️  Retrieved {len(unique_ids)} unique of {total_count} reported users")
+                failed_pages.append('count-mismatch')
         print(f"✓ Completed: {len(all_users)} users from {total_pages} pages")
     
     # Fetch detailed badges AND company for every user in a single pass. We
