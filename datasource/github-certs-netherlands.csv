@@ -1,4 +1,7 @@
 first_name,middle_name,last_name,badge_count,profile_url,company
+Erik,,Oppedijk,1,/users/erik-oppedijk/badges,Xebia
+Alexandru,,Lazarescu,8,/users/alexandru-lazarescu/badges,Xebia
+Victor,,de Baare,20,/users/victor-de-baare/badges,Xebia
 Justin,,Bonefaas,8,/users/justin-bonefaas.66bf6b76/badges,
 Gerrit Johannes,,de Graaf,3,/users/gerrit-johannes-de-graaf/badges,Microsoft
 Raymond,,Splinter,20,/users/raymond-splinter/badges,Xebia
@@ -8,10 +11,9 @@ Joost,,Voskuil,25,/users/joost-voskuil/badges,Delta-N
 Rob,,Bos,22,/users/rob-bos/badges,Xebia
 Fokko,,Veegens,16,/users/fokko-veegens/badges,Xebia
 Jesse,,Houwing,25,/users/jessehouwing/badges,Xebia
-Victor,,de Baare,18,/users/victor-de-baare/badges,Xebia
 Hidde,,de Smet,18,/users/hidde-de-smet/badges,Xebia
 Brent,,Beer,0,/users/brent-beer.4ee43dc3/badges,GitHub
-Joas,,de Groot,23,/users/joas707/badges,Xebia
+Joas,,de Groot,24,/users/joas707/badges,Xebia
 Hendrik,,Bruinsma,14,/users/hbruinsma/badges,Xebia
 Rimon,,Oz,19,/users/rimon-oz/badges,
 Peter,,Szekeli,23,/users/peter-szekeli/badges,Xebia
@@ -30,7 +32,7 @@ Florian,,Rinnofner,2,/users/florian-rinnofner/badges,
 Jasper,,Gilhuis,3,/users/jasper-gilhuis/badges,
 Max,,Verhorst,0,/users/max-verhorst/badges,
 Zen,,van Riel,0,/users/zen-van-riel/badges,
-Bas,,van de Sande,6,/users/bas-van-de-sande/badges,Xebia Microsoft Services
+Bas,,van de Sande,8,/users/bas-van-de-sande/badges,Xebia Microsoft Services
 Remco,,Eissing,3,/users/remco-eissing/badges,Microsoft
 Jonathan,,Reid,3,/users/jonathan-reid.a8724287/badges,
 Robin,,van Rooij,1,/users/robin-van-rooij/badges,
@@ -214,7 +216,6 @@ Bernard,,Visagie,1,/users/bernard-visagie.32376e1b/badges,
 Peter,,van den Berg,1,/users/peter-van-den-berg.c2d9ca08/badges,
 Patrick,,Munne,1,/users/patrick-munne.38edcf8e/badges,
 Daniël,,De Roo,1,/users/hendrikus-daniel-roo/badges,
-Alexandru,,Lazarescu,4,/users/alexandru-lazarescu/badges,Xebia
 Nagarjuna,,Adapa,1,/users/nagarjuna-adapa.28e83eff/badges,
 Andrii,,Bilorus,2,/users/andrii-bilorus/badges,
 Stephan,,Tromer,4,/users/stephan-tromer/badges,
@@ -247,7 +248,7 @@ Miguel,,Verweij,1,/users/miguel-verweij/badges,Power Bouwer
 Ralph,,Thissen,1,/users/ralph-thissen.e5962fb0/badges,ThIS
 Daniel,,Paulus,1,/users/daniel-paulus/badges,Delegate
 Yulia,,Kirilova,1,/users/yulia-kirilova.919859fa/badges,
-Anne,,Meijer,6,/users/anne-meijer/badges,Xebia
+Anne,,Meijer,9,/users/anne-meijer/badges,Xebia
 Bart,,van der Kolk,1,/users/bart-van-der-kolk/badges,
 Paulien,,Leeuwenburgh,2,/users/paulien-leeuwenburgh/badges,
 Sudharson,,Aravamudhan,4,/users/sudharson-aravamudhan.c2e1c70f/badges,

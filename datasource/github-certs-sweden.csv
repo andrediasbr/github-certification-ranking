@@ -1,4 +1,5 @@
 first_name,middle_name,last_name,badge_count,profile_url,company
+Susanna,,Persson,8,/users/susanna-persson/badges,
 Therese,,Berge,8,/users/therese-berge.8333c957/badges,Eficode
 Magnus,,Timner,15,/users/magnus-timner.ddd6329c/badges,Eficode
 Eric,,Söderqvist,9,/users/eric-soderqvist/badges,Eficode
@@ -12,7 +13,6 @@ Suhas,,Patil,3,/users/suhas-patil.73d23ddf/badges,
 Erik,,Hjalmarsson,5,/users/erik-hjalmarsson/badges,
 Tobias,,Persson,4,/users/tobias-persson.f7d26f37/badges,
 Ellen,,Egeld,7,/users/ellen-egeld.0508fffc/badges,
-Susanna,,Persson,6,/users/susanna-persson/badges,
 Emil,,Sjölander,5,/users/emil-sjolander/badges,
 Erik,,Olsson,2,/users/erik-olsson.18a2c39e/badges,
 Jakob,,Johansson,7,/users/jakob-johansson.9602948e/badges,
@@ -110,7 +110,7 @@ Martin,,Juslenius,1,/users/martin-juslenius.6283fd51/badges,
 Frej,,Fredholm,1,/users/frej-fredholm/badges,
 Ivan,,Martinez,1,/users/ivan-martinez.b5c94237/badges,
 Jonathan,,Rengius Persson,1,/users/jonathan-rengius-persson/badges,
-Andreas,,Olsson,1,/users/andreas-olsson.adc7fee7/badges,
+Andreas,,Olsson,0,/users/andreas-olsson.adc7fee7/badges,
 David,,Ndirangu,4,/users/david-ndirangu/badges,
 Fredrik,,Holm,0,/users/fredrik-holm.1c1c0771/badges,
 Vivek,,Dhami,0,/users/vivek-dhami.9f681d3f/badges,

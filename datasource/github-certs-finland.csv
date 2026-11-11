@@ -1,4 +1,5 @@
 first_name,middle_name,last_name,badge_count,profile_url,company
+Joni,,Lahtinen,2,/users/joni-lahtinen/badges,
 Henry,,Luosujärvi,7,/users/henry-luosujarvi/badges,
 Heidi,,Koivisto,20,/users/heidi-koivisto.dd513e2c/badges,Eficode
 Jarmo,,Koivusaari,5,/users/jarmo-koivusaari/badges,Eficode Oy
@@ -88,7 +89,6 @@ Juho,,Saarinen,1,/users/juho-saarinen.5fc95ae6/badges,Mavericks Software Oy
 Ari,,Palo,2,/users/aripalo/badges,
 Evgenii,,Smirnov,1,/users/evgenii-smirnov.eb138467/badges,
 Heikki,,Poikolainen,3,/users/heikki-poikolainen/badges,
-Joni,,Lahtinen,1,/users/joni-lahtinen/badges,
 Daniel,,Kaluski,0,/users/daniel-kaluski/badges,
 Heikki-Jussi,,Niemi,0,/users/heikki-jussi-niemi/badges,Mallow
 Gleb,,Tishchenko,1,/users/gleb-tishchenko/badges,Eficode
