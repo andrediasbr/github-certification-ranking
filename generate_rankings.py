@@ -10,7 +10,7 @@ import glob
 import json
 import os
 import requests
-from collections import defaultdict
+from collections import Counter, defaultdict
 from concurrent.futures import ThreadPoolExecutor, as_completed
 from datetime import datetime
 
@@ -388,12 +388,21 @@ def generate_markdown_top10(users, title, filename, filter_func=None):
     # --- Company Rankings (TOP 5) --- based on ALL users in the region, mirroring
     # the country ranking, so totals reflect every certified member rather than
     # only the top-10 ranked users (company is read from the CSV).
-    company_stats = defaultdict(lambda: {'badges': 0, 'users': 0})
+    # Tally case-insensitively, then display the most common casing.
+    folded_stats = defaultdict(lambda: {'badges': 0, 'users': 0})
+    casings = defaultdict(Counter)
     for user in filtered_users:
         company = user.get('company', '')
         if company:
-            company_stats[company]['badges'] += user['badges']
-            company_stats[company]['users'] += 1
+            key = company.casefold()
+            folded_stats[key]['badges'] += user['badges']
+            folded_stats[key]['users'] += 1
+            casings[key][company] += 1
+    company_stats = {}
+    for key, stats in folded_stats.items():
+        # Ties on count resolve deterministically by casing string
+        display = min(casings[key].items(), key=lambda c: (-c[1], c[0]))[0]
+        company_stats[display] = stats
     
     if company_stats:
         sorted_companies = sorted(company_stats.items(), key=lambda x: (-x[1]['badges'], -x[1]['users'], x[0].lower()))
