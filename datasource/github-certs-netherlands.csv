@@ -1,6 +1,10 @@
 first_name,middle_name,last_name,badge_count,profile_url,company
-Erik,,Oppedijk,1,/users/erik-oppedijk/badges,Xebia
-Alexandru,,Lazarescu,8,/users/alexandru-lazarescu/badges,Xebia
+Anne,,Meijer,19,/users/anne-meijer/badges,Xebia
+Elisavet,,Kyritsi,9,/users/elisavet-kyritsi/badges,
+Alexandru,,Lazarescu,12,/users/alexandru-lazarescu/badges,Xebia
+Erik,,Oppedijk,7,/users/erik-oppedijk/badges,Xebia
+Robert,,de Veen,6,/users/robert-de-veen/badges,Xebia
+Matthijs,,van der Veer,3,/users/matthijsvdveer/badges,Xebia
 Victor,,de Baare,20,/users/victor-de-baare/badges,Xebia
 Justin,,Bonefaas,8,/users/justin-bonefaas.66bf6b76/badges,
 Gerrit Johannes,,de Graaf,3,/users/gerrit-johannes-de-graaf/badges,Microsoft
@@ -22,7 +26,6 @@ pascal,,Kruijmel,1,/users/pascal-kruijmel/badges,
 Samuel Henrique,,van Lenthe,11,/users/samuel-henrique-van-lenthe/badges,GitHub
 Rene,,van Osnabrugge,6,/users/rene-van-osnabrugge.8e35eff3/badges,Xebia
 Johan,,van der Hoeven,6,/users/johan-van-der-hoeven/badges,Delta-N
-Elisavet,,Kyritsi,5,/users/elisavet-kyritsi/badges,
 Mark,van der,Burg,13,/users/mark-van-der-burg.22851d3e/badges,Revoltaged
 Roderick,,Schoon,2,/users/roderick-schoon/badges,Delta-N
 Marcel,,Groennou,1,/users/marcel-groennou/badges,Delta-N
@@ -32,7 +35,7 @@ Florian,,Rinnofner,2,/users/florian-rinnofner/badges,
 Jasper,,Gilhuis,3,/users/jasper-gilhuis/badges,
 Max,,Verhorst,0,/users/max-verhorst/badges,
 Zen,,van Riel,0,/users/zen-van-riel/badges,
-Bas,,van de Sande,8,/users/bas-van-de-sande/badges,Xebia Microsoft Services
+Bas,,van de Sande,8,/users/bas-van-de-sande/badges,Xebia
 Remco,,Eissing,3,/users/remco-eissing/badges,Microsoft
 Jonathan,,Reid,3,/users/jonathan-reid.a8724287/badges,
 Robin,,van Rooij,1,/users/robin-van-rooij/badges,
@@ -114,7 +117,7 @@ Mark,,Ulanovskyi,1,/users/mark-ulanovskyi/badges,
 Danny,,Toorop,1,/users/danny-toorop/badges,
 Sebastian,,Orellana,1,/users/sebastian-orellana.5dfbbeea/badges,
 Roel,,Traag,2,/users/roel-traag/badges,
-Albert,,Tanure,4,/users/albert-tanure/badges,Microsoft
+Albert,,Tanure,5,/users/albert-tanure/badges,Microsoft
 Eric,,Elzinga,1,/users/eric-elzinga.b3e6652e/badges,
 Sigrid,,Brouwer-Paarlberg,1,/users/sigrid-brouwer-paarlberg/badges,
 Bas,,Klein,1,/users/bas-klein/badges,
@@ -165,7 +168,6 @@ Marjet,,Bosma,1,/users/marjet-bosma/badges,
 Martijn,,van Citteren,1,/users/martijn-van-citteren/badges,Sogeti
 Tihomir,,Nikolov,1,/users/tihomir-nikolov.2df669a4/badges,
 Roeland,,Douma,3,/users/roeland-douma/badges,
-Matthijs,,van der Veer,2,/users/matthijsvdveer/badges,Xebia
 Freerk,,Wielstra,1,/users/freerk-wielstra/badges,
 Roël,,Donk,1,/users/roel-donk.ecd69abc/badges,
 Wessel,,Turk,1,/users/wessel-turk/badges,Navara
@@ -176,7 +178,7 @@ Peter,,Rombouts,1,/users/peter-rombouts/badges,
 Jaap,,Slootbeek,1,/users/jaap-slootbeek/badges,
 Clemens,,Clemens.Reijnen@Sogeti.com,1,/users/clemens-clemens-reijnen-sogeti-com/badges,
 Martijn,,Wiekens,2,/users/martijn-wiekens/badges,TotalPunch Development
-Maarten,,van Diemen,4,/users/maarten-van-diemen/badges,Info Support
+Maarten,,van Diemen,4,/users/maarten-van-diemen/badges,Arcady
 Job,van,Roozendaal,1,/users/job-roozendaal/badges,
 Tiago Felipe,,Gonçalves,1,/users/tfgoncalves/badges,Booking.com
 Pinaki,,Ghatak,3,/users/pinaki-ghatak/badges,Microsoft
@@ -248,7 +250,6 @@ Miguel,,Verweij,1,/users/miguel-verweij/badges,Power Bouwer
 Ralph,,Thissen,1,/users/ralph-thissen.e5962fb0/badges,ThIS
 Daniel,,Paulus,1,/users/daniel-paulus/badges,Delegate
 Yulia,,Kirilova,1,/users/yulia-kirilova.919859fa/badges,
-Anne,,Meijer,9,/users/anne-meijer/badges,Xebia
 Bart,,van der Kolk,1,/users/bart-van-der-kolk/badges,
 Paulien,,Leeuwenburgh,2,/users/paulien-leeuwenburgh/badges,
 Sudharson,,Aravamudhan,4,/users/sudharson-aravamudhan.c2e1c70f/badges,

@@ -1,6 +1,7 @@
 first_name,middle_name,last_name,badge_count,profile_url,company
-Borzenko,,Olena,8,/users/borzenko-olena/badges,Xebia
-Marko,,Sawall,6,/users/marko-sawall/badges,Xebia
+Christian,,Twilfer,5,/users/christian-twilfer/badges,
+Marko,,Sawall,7,/users/marko-sawall/badges,Xebia
+Borzenko,,Olena,10,/users/borzenko-olena/badges,Xebia
 Magnus,,Gielessen,3,/users/magnus-gielessen/badges,
 Florian,,Assmus,6,/users/florian-assmus/badges,
 Nico,,Orschel,25,/users/nico-orschel/badges,Xebia
@@ -309,7 +310,7 @@ Ali Sina,,Bayat,1,/users/ali-sina-bayat/badges,
 Christine,,Nagadya,1,/users/christine-nagadya/badges,
 Luis Felipe,,Galindo Lopez,2,/users/luis-felipe-galindo-lopez/badges,
 Faizudeen Olanrewaju,,Kajogbola,1,/users/faizudeen-olanrewaju-kajogbola.9c20d2c8/badges,Cloudreach GmbH
-Patrick,,Cassel,3,/users/patrick-cassel/badges,
+Patrick,,Cassel,2,/users/patrick-cassel/badges,
 Hendrik,,Peters,1,/users/hendrik-peters.8d4d0211/badges,
 Matthias,,Wimmer,2,/users/matthias-wimmer.a7f6cece/badges,Emagine Flexwork GmbH
 Husain,,Yusuf,1,/users/husain-yusuf.dc35d683/badges,
@@ -336,7 +337,7 @@ Matthias,,Wiesen,1,/users/matthias-wiesen/badges,
 Tim,,Möllers,3,/users/tim-mollers.dffd0f7e/badges,
 Heikki,,Pöntinen,0,/users/heikki-pontinen/badges,
 Martin,,Stühmer,1,/users/martin-stuehmer/badges,CGI
-Michael,,Contento,2,/users/michael-contento/badges,BRITA SE
+Michael,,Contento,3,/users/michael-contento/badges,BRITA SE
 Clemens,,Wältken,1,/users/clemens-waltken/badges,Microsoft
 Igwe,,Kalu,1,/users/igwe-kalu/badges,GitHub
 Markus,,Walker,1,/users/markus-walker.adb2dcf6/badges,
