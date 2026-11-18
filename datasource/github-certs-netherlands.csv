@@ -1,7 +1,8 @@
 first_name,middle_name,last_name,badge_count,profile_url,company
+Joas,,de Groot,25,/users/joas707/badges,Xebia
+Alexandru,,Lazarescu,16,/users/alexandru-lazarescu/badges,Xebia
 Anne,,Meijer,19,/users/anne-meijer/badges,Xebia
 Elisavet,,Kyritsi,9,/users/elisavet-kyritsi/badges,
-Alexandru,,Lazarescu,12,/users/alexandru-lazarescu/badges,Xebia
 Erik,,Oppedijk,7,/users/erik-oppedijk/badges,Xebia
 Robert,,de Veen,6,/users/robert-de-veen/badges,Xebia
 Matthijs,,van der Veer,3,/users/matthijsvdveer/badges,Xebia
@@ -17,7 +18,6 @@ Fokko,,Veegens,16,/users/fokko-veegens/badges,Xebia
 Jesse,,Houwing,25,/users/jessehouwing/badges,Xebia
 Hidde,,de Smet,18,/users/hidde-de-smet/badges,Xebia
 Brent,,Beer,0,/users/brent-beer.4ee43dc3/badges,GitHub
-Joas,,de Groot,24,/users/joas707/badges,Xebia
 Hendrik,,Bruinsma,14,/users/hbruinsma/badges,Xebia
 Rimon,,Oz,19,/users/rimon-oz/badges,
 Peter,,Szekeli,23,/users/peter-szekeli/badges,Xebia
@@ -90,12 +90,12 @@ Leo,,Visser,3,/users/leo-visser.e11bc143/badges,OGD ict-diensten
 Rayen,,Oaf,1,/users/rayen-oaf/badges,
 Kees,,Voorintholt,1,/users/kees-voorintholt/badges,
 Patrick,,Bloemhof,1,/users/patrick-bloemhof/badges,
-Albert-Jan,,Schot,3,/users/albert-jan-schot/badges,BLIS.digital
+Albert-Jan,,Schot,4,/users/albert-jan-schot/badges,BLIS.digital
 Max,,Simon,1,/users/max-simon.47202fb7/badges,
 Shatabdi,,Barua,1,/users/shatabdi-barua.5991f918/badges,
 Calvin,,Vriends,1,/users/calvin-vriends/badges,GustoMSC / NOV
 Dennis,,Schouwenaars,1,/users/dennis-schouwenaars/badges,
-Almar,,Gemmel,1,/users/almar-gemmel/badges,Sogeti
+Almar,,Gemmel,1,/users/almar-gemmel/badges,TrueFullstaq
 Cas,,Olischläger,1,/users/cas-olischlager/badges,
 Jesse,,Lootsma,2,/users/jesse-lootsma/badges,
 John,de,Keijzer,1,/users/jdekeijzer/badges,SSC-ICT
@@ -107,7 +107,6 @@ Rick,,Margés,1,/users/rick-marges.83ec00ac/badges,
 Lars,,Betting,2,/users/lars-betting/badges,
 levi,,Kingma,1,/users/levi-kingma.9cbb83c8/badges,
 Wilco,,Kasteleijn,1,/users/wilco-kasteleijn.80dab8e6/badges,
-Tessa,,Vos,3,/users/tessavos/badges,
 Timmy,,Weerwag,1,/users/timmy-weerwag/badges,
 Abdulaziz,,Aldous,2,/users/abdulaziz-aldous.c14b1c56/badges,
 Patrick,,Roubos,1,/users/patrick-roubos/badges,
@@ -292,7 +291,7 @@ Thijs,,limmenthijs@gmail.com,1,/users/thijs-limmenthijs-gmail-com/badges,
 Nitin,,Bhushan,1,/users/nitin-bhushan.6ec7d2df/badges,
 Paul,,van der Ende,1,/users/paul-van-der-ende/badges,
 Dylan,,Prins,1,/users/dylan-prins.406f3945/badges,
-Rutger,,Buiteman,1,/users/rutger-buiteman/badges,Xebia
+Rutger,,Buiteman,2,/users/rutger-buiteman/badges,Xebia
 Hugo,,ter Doest,1,/users/hugo-ter-doest/badges,
 Jesse,,Swart,1,/users/jesse-swart/badges,Xebia
 Dominik,,Bernert,0,/users/dominik-bernert/badges,

@@ -1,6 +1,6 @@
 # 🗽 TOP 10 GitHub Certifications - Americas
 
-> Last updated: November 15, 2026 at 04:56 UTC
+> Last updated: November 18, 2026 at 06:10 UTC
 
 ## 🏆 Top 10 GitHub Certifications Leaders
 
@@ -24,10 +24,10 @@
 | Rank | Company | Total Badges | Certified Users |
 |------|---------|--------------|-----------------|
 | 🥇 #1 | Avanade | 352 | 42 |
-| 🥈 #2 | Microsoft | 153 | 79 |
+| 🥈 #2 | Microsoft | 154 | 79 |
 | 🥉 #3 | Xebia | 149 | 17 |
-| #4 | GitHub | 56 | 21 |
-| #5 | Tata Consultancy Services | 54 | 30 |
+| #4 | GitHub | 57 | 21 |
+| #5 | Tata Consultancy Services | 55 | 31 |
 
 ---
 
@@ -35,8 +35,8 @@
 
 | Rank | Country | Total Badges | Certified Users |
 |------|---------|--------------|-----------------|
-| 🥇 #1 | United States | 3598 | 2516 |
-| 🥈 #2 | Brazil | 2153 | 1513 |
+| 🥇 #1 | United States | 3602 | 2516 |
+| 🥈 #2 | Brazil | 2157 | 1514 |
 | 🥉 #3 | Canada | 733 | 544 |
 | #4 | Mexico | 587 | 444 |
 | #5 | Peru | 503 | 414 |
@@ -45,9 +45,9 @@
 
 ## 📊 Statistics
 
-- **Total Certified Users**: 6,529
-- **Total Badges Earned**: 8,908
-- **Average Badges per User**: 1.36
+- **Total Certified Users**: 6,530
+- **Total Badges Earned**: 8,915
+- **Average Badges per User**: 1.37
 - **Highest Badge Count**: 25
 
 ---

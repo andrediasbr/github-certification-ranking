@@ -1,6 +1,6 @@
 # 🌊 TOP 10 GitHub Certifications - Oceania
 
-> Last updated: November 15, 2026 at 04:56 UTC
+> Last updated: November 18, 2026 at 06:10 UTC
 
 ## 🏆 Top 10 GitHub Certifications Leaders
 
@@ -22,9 +22,9 @@
 |------|---------|--------------|-----------------|
 | 🥇 #1 | GitHub | 18 | 3 |
 | 🥈 #2 | Avanade<br>Microsoft | 12 | 8<br>7 |
-| 🥉 #3 | Tata Consultancy Services<br>Mantel Group | 7 | 3<br>2 |
+| 🥉 #3 | LAB3<br>Tata Consultancy Services<br>Mantel Group | 7 | 4<br>3<br>2 |
 | #4 | Versent | 6 | 4 |
-| #5 | Commonwealth Bank of Australia<br>Lab3<br>Self<br>WiseTech Global | 5 | 4<br>2<br>1<br>1 |
+| #5 | Commonwealth Bank of Australia<br>Self<br>WiseTech Global | 5 | 4<br>1<br>1 |
 
 ---
 
