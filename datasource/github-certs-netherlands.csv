@@ -1,6 +1,6 @@
 first_name,middle_name,last_name,badge_count,profile_url,company
 Joas,,de Groot,25,/users/joas707/badges,Xebia
-Alexandru,,Lazarescu,16,/users/alexandru-lazarescu/badges,Xebia
+Alexandru,,Lazarescu,17,/users/alexandru-lazarescu/badges,Xebia
 Anne,,Meijer,19,/users/anne-meijer/badges,Xebia
 Elisavet,,Kyritsi,9,/users/elisavet-kyritsi/badges,
 Erik,,Oppedijk,7,/users/erik-oppedijk/badges,Xebia
@@ -11,7 +11,7 @@ Justin,,Bonefaas,8,/users/justin-bonefaas.66bf6b76/badges,
 Gerrit Johannes,,de Graaf,3,/users/gerrit-johannes-de-graaf/badges,Microsoft
 Raymond,,Splinter,20,/users/raymond-splinter/badges,Xebia
 Dennis,,Thie,18,/users/dennisthie/badges,Xebia
-Fabian,,Biesheuvel,20,/users/fabian-biesheuvel/badges,Delta-N
+Fabian,,Biesheuvel,21,/users/fabian-biesheuvel/badges,Delta-N
 Joost,,Voskuil,25,/users/joost-voskuil/badges,Delta-N
 Rob,,Bos,22,/users/rob-bos/badges,Xebia
 Fokko,,Veegens,16,/users/fokko-veegens/badges,Xebia
@@ -169,7 +169,7 @@ Tihomir,,Nikolov,1,/users/tihomir-nikolov.2df669a4/badges,
 Roeland,,Douma,3,/users/roeland-douma/badges,
 Freerk,,Wielstra,1,/users/freerk-wielstra/badges,
 Roël,,Donk,1,/users/roel-donk.ecd69abc/badges,
-Wessel,,Turk,1,/users/wessel-turk/badges,Navara
+Wessel,,Turk,1,/users/wessel-turk/badges,Noviq
 Ivo,,Pauly,1,/users/ivo-pauly/badges,
 David,,Humme,1,/users/david-humme/badges,
 Braam,,Botha,1,/users/braam-botha.8ca42aa4/badges,Revix

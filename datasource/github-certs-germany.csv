@@ -1,7 +1,7 @@
 first_name,middle_name,last_name,badge_count,profile_url,company
-Marko,,Sawall,9,/users/marko-sawall/badges,Xebia
-Christian,,Twilfer,8,/users/christian-twilfer/badges,Xebia
-Marius,,Boden,13,/users/marius-boden/badges,Xebia
+Christian,,Twilfer,11,/users/christian-twilfer/badges,Xebia
+Marius,,Boden,16,/users/marius-boden/badges,Xebia
+Marko,,Sawall,8,/users/marko-sawall/badges,Xebia
 Borzenko,,Olena,10,/users/borzenko-olena/badges,Xebia
 Magnus,,Gielessen,3,/users/magnus-gielessen/badges,
 Florian,,Assmus,6,/users/florian-assmus/badges,
@@ -17,7 +17,7 @@ Leon,,Sinlik,7,/users/leon-sinlik/badges,
 Anirban,,Ghosh,1,/users/anirban-ghosh.22d2d490/badges,
 André,,Böttcher,1,/users/andre-bottcher/badges,Avanade Deutschland GmbH
 Tobias,,Wittenburg,1,/users/tobias-wittenburg.0c857b00/badges,Microsoft
-Michael,,Kokonowskyj,8,/users/mikokono/badges,Xebia
+Michael,,Kokonowskyj,8,/users/mikokono/badges,D ONE
 Julian,,Sievers,1,/users/julian-sievers/badges,NTT DATA
 Michael,,Heinen,1,/users/michael-heinen.2e087ca9/badges,
 Sebastian,,Hinzelmann,1,/users/sebastian-hinzelmann/badges,
@@ -244,7 +244,7 @@ uttam,,asodariya,1,/users/uttam-asodariya.93b1d0aa/badges,
 Fabian,,Schächter,1,/users/fabian-schachter.f64f8d6a/badges,Accenture
 Zhyldyz,,Anarkul kyzy,1,/users/zhyldyz-anarkul-kyzy/badges,
 Hamza,,Mehmood,1,/users/hamza.mehmood/badges,
-Vincent,,Hettel,1,/users/vincent-hettel/badges,
+Vincent,,Hettel,2,/users/vincent-hettel/badges,
 Julia,,Unger,1,/users/julia-unger/badges,
 Philipp,,Westermann,1,/users/philipp-westermann/badges,Accenture
 Lucian,,Hanga,1,/users/lucian-hanga/badges,XALT
@@ -297,7 +297,7 @@ Arjun,,Maryankandy Rajendran,1,/users/arjun-maryankandy-rajendran/badges,
 Richard,,Z.,2,/users/richard-z/badges,
 Florian,,Kraning,1,/users/florian-kraning/badges,
 Stephanie Marisa,,Lanius,1,/users/stephanie-marisa-lanius/badges,
-Carlos Tadeu,,Panato Junior,4,/users/cpanato/badges,Chainguard
+Carlos Tadeu,,Panato Junior,5,/users/cpanato/badges,Chainguard
 Christian,,Trabold,1,/users/christian-trabold/badges,
 Marcel,,Müller,1,/users/marcel-muller.c402fed2/badges,
 Glenn,,Verhaag,1,/users/glenn-verhaag/badges,
