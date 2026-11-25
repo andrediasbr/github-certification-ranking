@@ -1,4 +1,9 @@
 first_name,middle_name,last_name,badge_count,profile_url,company
+Brooke,,Martin,1,/users/brooke-todd-maddix/badges,Arinco
+Tanguy,,Fornier Le Ray,1,/users/tanguy-fornier-le-ray/badges,
+Lyndon,,Lyndon,1,/users/lyndon-lyndon/badges,
+Jing,,LEI,1,/users/jing-lei.8a6f4693/badges,
+Ivan,,Maclaine,1,/users/ivan-maclaine/badges,
 Tom,,Kavanagh,3,/users/tkav/badges,
 Ayobami,,Adebayo,1,/users/bammy/badges,Eficode
 Ben,,Leane,4,/users/ben-leane/badges,
@@ -24,7 +29,6 @@ Shawn,,St Mart,1,/users/shawn-st-mart.3e5becd9/badges,
 Chris,,Plewa,1,/users/chris-plewa/badges,
 Alex,,Vaziri,0,/users/alex-vaziri/badges,
 Ben,,Smillie,0,/users/ben-smillie/badges,
-Ivan,,Maclaine,0,/users/ivan-maclaine/badges,
 Kara,,Jennison,1,/users/kara-jennison/badges,
 L,,Bailey,1,/users/l-bailey/badges,
 Prakash kumar,,Indorkar,1,/users/prakash-kumar-indorkar/badges,Avanade
@@ -214,7 +218,6 @@ Jesse,,Loudon,3,/users/jesseloudon/badges,Microsoft
 Adam,,Simmonds,1,/users/adam-simmonds.4f5e4169/badges,
 Jaisree,,Subramanian,1,/users/jaisree-subramanian.e1d226d0/badges,
 Shahil,,Prasad,1,/users/shahil-prasad.64368532/badges,
-Jing,,LEI,0,/users/jing-lei.8a6f4693/badges,
 Paul,,Caon,0,/users/paul-caon/badges,
 Patrick,,Tsang,0,/users/patrick-tsang.0bfc29cd/badges,
 Mojtaba,,Shafaghi,1,/users/mojtaba-shafaghi/badges,
